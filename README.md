@@ -31,7 +31,12 @@ data_NYC/
     other/                 street shapefile, Vision Zero speed limits, old bike lane shapefile
   citibike/
     raw/                   YYYY-citibike-tripdata.zip (to 2023), YYYYMM-citibike-tripdata.zip (2024 onward)
-    stations/              station lists
+                           Format up to 2021-01: bikeid, usertype, birth year, gender (only source for these).
+                           From 2021-02: ride_id, rideable_type, member_casual; no rider demographics.
+    raw_monthly_original/  YYYYMM-citibike-tripdata(.csv).zip, 2014-01 to 2019-12: original monthly releases as
+                           downloaded at the time (from z_published/Gender and Cycling), before Citi Bike
+                           repackaged them into yearly zips in 2024. Keep: original record for the gender paper.
+    stations/              station snapshots, citibikestationsNYC_YYYYMMDD_HHMM.json
     manifest.csv
   migration_log_other.csv
 ```

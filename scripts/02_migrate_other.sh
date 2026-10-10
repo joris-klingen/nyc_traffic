@@ -23,7 +23,16 @@ mdate () { date -r "$1" +%Y%m%d; }
 copy_one () {
   local src=$1 dest=$2
   if [ -e "$dest" ]; then echo "$src,$dest,skipped_exists" >> "$LOG"; return; fi
-  if cp -r --preserve=timestamps "$src" "$dest.part" && mv "$dest.part" "$dest"; then
+  # directories are copied in place: Dropbox locks new folders while syncing, so renaming fails
+  if [ -d "$src" ]; then
+    if robocopy "$(cygpath -w "$src")" "$(cygpath -w "$dest")" //E //COPY:DAT //DCOPY:T //R:3 //W:5 //NFL //NDL //NJH //NJS //NP > /dev/null; [ $? -lt 8 ]; then
+      echo "$src,$dest,copied" >> "$LOG"
+    else
+      echo "$src,$dest,FAILED" >> "$LOG"
+    fi
+    return
+  fi
+  if cp --preserve=timestamps "$src" "$dest.part" && mv "$dest.part" "$dest"; then
     echo "$src,$dest,copied" >> "$LOG"
   else
     rm -rf "$dest.part"; echo "$src,$dest,FAILED" >> "$LOG"
