@@ -1,13 +1,16 @@
-# Shared configuration for the NYC TLC data store
+# Shared configuration for the NYC data store
 #
-# The data directory is taken from the environment variable NYC_TLC_DATA
-# (set it in ~/.Renviron), falling back to the shared Dropbox folder.
+# The root is taken from the environment variable NYC_DATA (set it in
+# ~/.Renviron), falling back to the shared Dropbox folder. Subfolders:
+# taxi/, crashes/, streets/, citibike/.
 
-tlc_data_dir <- function() {
-  d <- Sys.getenv("NYC_TLC_DATA", unset = "")
-  if (d == "") d <- file.path(Sys.getenv("USERPROFILE"), "Dropbox/1_research/data_NYC/taxi")
+nyc_data_root <- function() {
+  d <- Sys.getenv("NYC_DATA", unset = "")
+  if (d == "") d <- file.path(Sys.getenv("USERPROFILE"), "Dropbox/1_research/data_NYC")
   normalizePath(d, winslash = "/", mustWork = FALSE)
 }
+
+tlc_data_dir <- function() file.path(nyc_data_root(), "taxi")
 
 tlc_url_base <- "https://d37ci6vzurychx.cloudfront.net/trip-data/"
 
