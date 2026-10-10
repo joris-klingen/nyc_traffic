@@ -7,7 +7,12 @@
 # TLC column names differ between types (e.g. tpep_/lpep_ prefixes, trip_distance
 # vs trip_miles) and across years within a type; harmonize after selecting.
 
-source(file.path(dirname(sys.frame(1)$ofile %||% "R/nyc_data.R"), "config.R"))
+# locate this file among (possibly nested) source() calls to find config.R next to it
+local({
+  ofiles <- unlist(lapply(sys.frames(), function(f) if (is.character(f$ofile)) f$ofile))
+  this <- tail(ofiles[grepl("nyc_data\\.R$", ofiles)], 1)
+  source(file.path(if (length(this)) dirname(this) else "R", "config.R"), local = FALSE)
+})
 
 # TLC trips ----
 tlc_files <- function(type, years = NULL) {
@@ -26,20 +31,19 @@ tlc_open <- function(type, years = NULL) {
 }
 
 # Dated snapshots (crashes, bike routes, LION) ----
-nyc_snapshots <- c(
-  crashes     = "crashes/raw/Motor_Vehicle_Collisions_-_Crashes_(\\d{8})\\.csv$",
-  persons     = "crashes/raw/Motor_Vehicle_Collisions_-_Person_(\\d{8})\\.csv$",
-  bike_routes = "streets/bike_routes/New York City Bike Routes_(\\d{8})\\.geojson$",
-  lion        = "streets/lion/nyclion_(\\d{8})\\.zip$"
+nyc_snapshots <- list(
+  crashes     = c("crashes/raw",         "^Motor_Vehicle_Collisions_-_Crashes_(\\d{8})\\.csv$"),
+  persons     = c("crashes/raw",         "^Motor_Vehicle_Collisions_-_Person_(\\d{8})\\.csv$"),
+  bike_routes = c("streets/bike_routes", "^New York City Bike Routes_(\\d{8})\\.geojson$"),
+  lion        = c("streets/lion",        "^nyclion_(\\d{8})\\.zip$")
 )
 
 # all snapshots of a dataset, oldest first, named by snapshot date
 nyc_snapshot_files <- function(name) {
-  p <- nyc_snapshots[[name]]
-  dir <- file.path(nyc_data_root(), dirname(p))
-  f <- list.files(dir, pattern = basename(p), full.names = TRUE)
-  d <- sub(paste0(".*", basename(p)), "\\1", f)
-  setNames(f, d)[order(d)]
+  s <- nyc_snapshots[[name]]
+  f <- list.files(file.path(nyc_data_root(), s[1]), pattern = s[2])
+  d <- sub(s[2], "\\1", f)
+  setNames(file.path(nyc_data_root(), s[1], f), d)[order(d)]
 }
 
 # newest snapshot, or the newest one on or before `as_of` (YYYYMMDD), for reproducibility
