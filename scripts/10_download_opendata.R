@@ -9,18 +9,20 @@
 library(data.table)
 source("R/config.R")
 
-datasets <- data.table(
-  name   = c("crashes", "persons", "bike_routes", "lion"),
-  id     = c("h9gi-nx95", "f55k-p6yu", "mzxg-pwib", "2v4z-66xt"),
-  dir    = c("crashes/raw", "crashes/raw", "streets/bike_routes", "streets/lion"),
-  prefix = c("Motor_Vehicle_Collisions_-_Crashes", "Motor_Vehicle_Collisions_-_Person",
-             "New York City Bike Routes", "nyclion"),
-  ext    = c("csv", "csv", "geojson", "zip"),
-  url    = c("https://data.cityofnewyork.us/api/views/%s/rows.csv?accessType=DOWNLOAD",
-             "https://data.cityofnewyork.us/api/views/%s/rows.csv?accessType=DOWNLOAD",
-             "https://data.cityofnewyork.us/api/geospatial/%s?method=export&format=GeoJSON",
-             "https://data.cityofnewyork.us/download/%s/application/zip")
-)
+url_csv     <- "https://data.cityofnewyork.us/api/views/%s/rows.csv?accessType=DOWNLOAD"
+url_geojson <- "https://data.cityofnewyork.us/api/geospatial/%s?method=export&format=GeoJSON"
+url_zip     <- "https://data.cityofnewyork.us/download/%s/application/zip"
+
+datasets <- rbindlist(list(
+  list("crashes",          "h9gi-nx95", "crashes/raw",              "Motor_Vehicle_Collisions_-_Crashes",  "csv",     url_csv),
+  list("persons",          "f55k-p6yu", "crashes/raw",              "Motor_Vehicle_Collisions_-_Person",   "csv",     url_csv),
+  list("bike_routes",      "mzxg-pwib", "streets/bike_routes",      "New York City Bike Routes",           "geojson", url_geojson),
+  list("lion",             "2v4z-66xt", "streets/lion",             "nyclion",                             "zip",     url_zip),
+  list("traffic_counts",   "7ym2-wayt", "traffic_counts/automated", "Automated_Traffic_Volume_Counts",     "csv",     url_csv),
+  list("bike_ped_counts",  "ct66-47at", "traffic_counts/bicycle",   "Bicycle_and_Pedestrian_Counts",       "csv",     url_csv),
+  list("bike_ped_sensors", "6up2-gnw8", "traffic_counts/bicycle",   "Bicycle_and_Pedestrian_Count_Sensors", "csv",    url_csv)
+))
+setnames(datasets, c("name", "id", "dir", "prefix", "ext", "url"))
 
 args <- commandArgs(trailingOnly = TRUE)
 if (length(args) >= 1) datasets <- datasets[name %in% strsplit(args[1], ",")[[1]]]

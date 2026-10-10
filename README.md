@@ -1,6 +1,6 @@
 # nyc_data
 
-Shared download and access code for NYC raw data: TLC taxi and ride-hail trip records,
+Shared download and access code for NYC raw data: TLC taxi and ride-hail trip records, traffic and bicycle counts,
 NYPD motor vehicle collisions, LION streets and DOT bike routes, and Citi Bike trips.
 Used by `5_NYC_bikelanes` and `6_NYC_CC/NYC_CC_analysis`. The data itself lives outside this
 repo.
@@ -29,6 +29,12 @@ data_NYC/
                            lion_16d, lion_201911 (probably 19d), nyclion_19d.zip, nyclion_YYYYMMDD.zip (current)
     bike_routes/           DOT bike routes: archived 2019/2020 shapefiles, New York City Bike Routes_YYYYMMDD.geojson
     other/                 street shapefile, Vision Zero speed limits, old bike lane shapefile
+  traffic_counts/
+    automated/             Automated_Traffic_Volume_Counts_YYYYMMDD.csv (DOT ATR counts, dated snapshots)
+    legacy/                older DOT volume and vehicle classification counts (2011-2018), Midtown 2018
+    bicycle/               Bicycle_and_Pedestrian_Counts(_Sensors)_YYYYMMDD.csv (current DOT counters),
+                           Bicycle_Count(er)s_20200204.csv (historical version), DCP Manhattan and
+                           East River bridge counts
   citibike/
     raw/                   YYYY-citibike-tripdata.zip (to 2023), YYYYMM-citibike-tripdata.zip (2024 onward)
                            Format up to 2021-01: bikeid, usertype, birth year, gender (only source for these).
@@ -53,7 +59,8 @@ Run from the repo root.
 | `scripts/00_migrate_existing.sh` | One-time copy of TLC files previously downloaded inside the project repos |
 | `scripts/02_migrate_other.sh` | One-time copy of crash, street, bike-route and station files from the project repos |
 | `scripts/01_download_tlc.R` | Download new TLC months (and re-check the most recent ones); writes `taxi/manifest.csv` |
-| `scripts/10_download_opendata.R` | New dated snapshots of crashes, persons, bike routes and LION, when NYC Open Data has updated them |
+| `scripts/03_migrate_traffic.sh` | One-time copy of traffic and bicycle counts from the bike lanes repo |
+| `scripts/10_download_opendata.R` | New dated snapshots of crashes, persons, bike routes, LION, traffic counts and bicycle/pedestrian counts, when NYC Open Data has updated them |
 | `scripts/20_download_citibike.R` | Download Citi Bike trip zips not yet present; writes `citibike/manifest.csv` |
 
 ```bash

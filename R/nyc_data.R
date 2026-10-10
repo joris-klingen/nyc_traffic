@@ -35,7 +35,10 @@ nyc_snapshots <- list(
   crashes     = c("crashes/raw",         "^Motor_Vehicle_Collisions_-_Crashes_(\\d{8})\\.csv$"),
   persons     = c("crashes/raw",         "^Motor_Vehicle_Collisions_-_Person_(\\d{8})\\.csv$"),
   bike_routes = c("streets/bike_routes", "^New York City Bike Routes_(\\d{8})\\.geojson$"),
-  lion        = c("streets/lion",        "^nyclion_(\\d{8})\\.zip$")
+  lion        = c("streets/lion",        "^nyclion_(\\d{8})\\.zip$"),
+  traffic_counts   = c("traffic_counts/automated", "^Automated_Traffic_Volume_Counts_(\\d{8})\\.csv$"),
+  bike_ped_counts  = c("traffic_counts/bicycle",   "^Bicycle_and_Pedestrian_Counts_(\\d{8})\\.csv$"),
+  bike_ped_sensors = c("traffic_counts/bicycle",   "^Bicycle_and_Pedestrian_Count_Sensors_(\\d{8})\\.csv$")
 )
 
 # all snapshots of a dataset, oldest first, named by snapshot date
