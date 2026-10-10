@@ -1,4 +1,4 @@
-# nyc_tlc_data
+# nyc_data
 
 Shared download and access code for NYC raw data: TLC taxi and ride-hail trip records,
 NYPD motor vehicle collisions, LION streets and DOT bike routes, and Citi Bike trips.
@@ -60,9 +60,9 @@ Rscript scripts/20_download_citibike.R
 ## Use from a project
 
 ```r
-source("../nyc_tlc_data/R/tlc_open.R")          # path relative to the project root
+source("../nyc_data/R/nyc_data.R")               # path relative to the project root
 ds <- tlc_open("yellow", years = 2019:2026)       # lazy arrow dataset
-file.path(nyc_data_root(), "crashes", "raw")      # other sources: read directly
+crashes <- data.table::fread(nyc_latest("crashes"))   # or nyc_latest("crashes", as_of = "20250924")
 ```
 
 Each project keeps its own cleaning filters and spatial aggregation.
