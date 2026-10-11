@@ -7,4 +7,5 @@ Rplots.pdf
 *.csv
 *.part
 config.local
+output/
 migration_logs/

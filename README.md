@@ -27,7 +27,10 @@ data_NYC/
     reference/             NYC_vehicle_lookup_table.csv (hand-made vehicle type classification)
   streets/
     lion/                  LION releases: nyc_lion12a.zip ... nyc_lion16d.zip, lion_2012a ... lion_2016d,
-                           lion_16d, lion_201911 (probably 19d), nyclion_19d.zip, nyclion_YYYYMMDD.zip (current)
+                           lion_16d, lion_201911 (probably 19d), nyclion_19d.zip, nyclion_YYYYMMDD.zip (current);
+                           quarterly releases nyc_lion12a.zip ... nyc_lion16d.zip and nyclion_17a.zip ... nyclion_26c.zip
+                           (57 releases; 12d and 22d are not in the DCP archive)
+    address_points/        AddressPoint_YYYYMMDD.csv (DCP/OTI address points: one point per building address)
     bike_routes/           DOT bike routes: archived 2019/2020 shapefiles, New York City Bike Routes_YYYYMMDD.geojson
     other/                 street shapefile, Vision Zero speed limits, old bike lane shapefile
   traffic_counts/
@@ -60,7 +63,8 @@ Run from the repo root.
 | `scripts/02_migrate_other.sh` | One-time copy of crash, street, bike-route and station files from the project repos |
 | `scripts/01_download_tlc.R` | Download new TLC months (and re-check the most recent ones); writes `taxi/manifest.csv` |
 | `scripts/03_migrate_traffic.sh` | One-time copy of traffic and bicycle counts from the bike lanes repo |
-| `scripts/10_download_opendata.R` | New dated snapshots of crashes, persons, bike routes, LION, traffic counts and bicycle/pedestrian counts, when NYC Open Data has updated them |
+| `scripts/10_download_opendata.R` | New dated snapshots of crashes, persons, bike routes, LION, address points, traffic counts and bicycle/pedestrian counts, when NYC Open Data has updated them |
+| `scripts/11_download_lion_releases.R` | Quarterly LION releases from the DCP archive (`nyclion_<release>.zip`; 2017a onward, earlier ones as `nyc_lion<release>.zip`) |
 | `scripts/20_download_citibike.R` | Download Citi Bike trip zips not yet present; writes `citibike/manifest.csv` |
 
 ```bash
@@ -74,7 +78,22 @@ Rscript scripts/20_download_citibike.R
 ```r
 source("path/to/nyc_data/R/nyc_data.R")
 ds <- tlc_open("yellow", years = 2019:2026)       # lazy arrow dataset
-crashes <- data.table::fread(nyc_latest("crashes"))   # or nyc_latest("crashes", as_of = "20250924")
+crashes <- crashes_read()                         # or crashes_read(nyc_latest("crashes", as_of = "20250924"))
+crashes <- crashes_relocate(crashes)              # adds longitude_ap, latitude_ap, loc_method, snap_ft, moved_ft
 ```
+
+`crashes_read()` harmonizes the snapshots: snake_case names, squished text, numeric coordinates
+(the 2026-02 to 2026-05 snapshots write `40,717175` and pad text fields), 0/0 coordinates as NA,
+`crash_date` as IDate.
+
+Crashes reported at a house number (`off_street_name`, about 18% of all crashes) are
+geocoded by interpolating along LION's address range. Where LION pads a block's range to xx98,
+points pile toward the low-number end of the block; about 10% land on another block of the same
+street. `crashes_relocate()` moves them to the building's address point, matching the street by
+street code so alternate names work (8 AVENUE / FREDERICK DOUGLASS BLVD). About 95% are
+relocated. The building point is then projected orthogonally onto the LION centerline of the same
+street (`snap_ft`, median about 50 ft), so the crash sits on the street beside the building; the
+median total move is about 50 ft. `checks/crash_geocoding.R` shows the problem and the fix for
+Manhattan.
 
 Each project keeps its own cleaning filters and spatial aggregation.

@@ -18,6 +18,7 @@ datasets <- rbindlist(list(
   list("persons",          "f55k-p6yu", "crashes/raw",              "Motor_Vehicle_Collisions_-_Person",   "csv",     url_csv),
   list("bike_routes",      "mzxg-pwib", "streets/bike_routes",      "New York City Bike Routes",           "geojson", url_geojson),
   list("lion",             "2v4z-66xt", "streets/lion",             "nyclion",                             "zip",     url_zip),
+  list("address_points",   "uf93-f8nk", "streets/address_points",   "AddressPoint",                        "csv",     url_csv),
   list("traffic_counts",   "7ym2-wayt", "traffic_counts/automated", "Automated_Traffic_Volume_Counts",     "csv",     url_csv),
   list("bike_ped_counts",  "ct66-47at", "traffic_counts/bicycle",   "Bicycle_and_Pedestrian_Counts",       "csv",     url_csv),
   list("bike_ped_sensors", "6up2-gnw8", "traffic_counts/bicycle",   "Bicycle_and_Pedestrian_Count_Sensors", "csv",    url_csv)
