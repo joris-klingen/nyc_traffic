@@ -13,7 +13,7 @@
 
 library(data.table)
 library(sf)
-source("R/nyc_data.R")
+source("R/nyc_traffic.R")
 
 problems <- character()
 flag <- function(...) problems <<- c(problems, paste0(...))
@@ -39,7 +39,7 @@ if (file.exists(log_file)) {
 } else flag("no Open Data download log yet (run scripts/10_download_opendata.R)")
 
 # TLC ----
-for (t in names(tlc_start)[names(tlc_start) %in% list.files(file.path(tlc_data_dir(), "raw"))]) {
+for (t in names(tlc_start)[names(tlc_start) %in% list.files(tlc_data_dir())]) {
   f <- tlc_files(t)
   ym <- regmatches(basename(f), regexpr("\\d{4}-\\d{2}", basename(f)))
   exp <- tlc_months(tlc_start[[t]], max(ym))

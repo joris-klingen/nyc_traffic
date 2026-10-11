@@ -15,7 +15,8 @@ types <- if (length(args) >= 1) strsplit(args[1], ",")[[1]] else c("yellow", "gr
 recheck_months <- if (length(args) >= 2) as.integer(args[2]) else 3
 
 data_dir <- tlc_data_dir()
-raw_dir <- file.path(data_dir, "raw")
+# trip files sit in one folder per type: taxi/yellow, taxi/green, ...
+raw_dir <- data_dir
 log_file <- file.path(data_dir, "download_log.csv")
 
 options(timeout = 3600)
@@ -91,8 +92,7 @@ for (z in c("taxi_zones.zip", "taxi_zone_lookup.csv")) {
 }
 
 # Manifest of everything on disk ----
-files <- list.files(raw_dir, recursive = TRUE, full.names = TRUE)
-files <- files[!grepl("\\.part$", files)]
+files <- list.files(raw_dir, pattern = "_tripdata_\\d{4}-\\d{2}\\.(parquet|csv)$", recursive = TRUE, full.names = TRUE)
 manifest <- data.table(
   file  = sub(paste0(raw_dir, "/"), "", files, fixed = TRUE),
   size  = file.size(files),

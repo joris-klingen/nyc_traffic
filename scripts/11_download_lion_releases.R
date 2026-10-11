@@ -1,4 +1,4 @@
-# Download quarterly LION releases (DCP BYTES of the Big Apple archive) into data_NYC/streets/lion
+# Download quarterly LION releases (DCP BYTES of the Big Apple archive) into nyc_traffic_data/streets/lion
 #
 # Usage (from repo root):  Rscript scripts/11_download_lion_releases.R [first] [last]
 #   first, last  release labels, default 17a and the newest published (probed up to 29d)

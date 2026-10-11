@@ -1,8 +1,9 @@
-# Shared configuration for the NYC data store
+# Shared configuration for the NYC traffic data store
 #
-# The root is taken from the environment variable NYC_DATA, or else from
-# NYC_DATA in config.local at the repo root (copy config.example). Subfolders:
-# taxi/, crashes/, streets/, traffic_counts/, citibike/.
+# The root is taken from the environment variable NYC_TRAFFIC_DATA, or else from
+# NYC_TRAFFIC_DATA in config.local at the repo root (copy config.example). The old name
+# NYC_DATA is still read as a fallback. Subfolders: taxi/, crashes/, streets/, boundaries/,
+# traffic_counts/, citibike/, documents/, derived/.
 
 # config.local sits one level above this file
 nyc_config_file <- local({
@@ -13,12 +14,13 @@ nyc_config_file <- local({
 })
 
 nyc_data_root <- function() {
-  d <- Sys.getenv("NYC_DATA", unset = "")
+  d <- Sys.getenv("NYC_TRAFFIC_DATA", unset = "")
   if (d == "" && file.exists(nyc_config_file)) {
     readRenviron(nyc_config_file)
-    d <- Sys.getenv("NYC_DATA", unset = "")
+    d <- Sys.getenv("NYC_TRAFFIC_DATA", unset = "")
   }
-  if (d == "") stop("NYC_DATA not set: copy config.example to ", nyc_config_file, " and edit it")
+  if (d == "") d <- Sys.getenv("NYC_DATA", unset = "")
+  if (d == "") stop("NYC_TRAFFIC_DATA not set: copy config.example to ", nyc_config_file, " and edit it")
   normalizePath(d, winslash = "/", mustWork = FALSE)
 }
 

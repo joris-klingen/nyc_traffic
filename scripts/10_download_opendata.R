@@ -1,4 +1,4 @@
-# Download dated snapshots of NYC Open Data datasets into data_NYC
+# Download dated snapshots of NYC Open Data datasets into nyc_traffic_data
 #
 # Usage (from repo root):  Rscript scripts/10_download_opendata.R [names]
 #   names  comma-separated subset of the datasets below, default all
@@ -15,9 +15,9 @@ url_geojson <- "https://data.cityofnewyork.us/api/geospatial/%s?method=export&fo
 url_zip     <- "https://data.cityofnewyork.us/download/%s/application/zip"
 
 datasets <- rbindlist(list(
-  list("crashes",             "h9gi-nx95", "crashes/raw",              "Motor_Vehicle_Collisions_-_Crashes",   "csv",     url_csv),
-  list("persons",             "f55k-p6yu", "crashes/raw",              "Motor_Vehicle_Collisions_-_Person",    "csv",     url_csv),
-  list("vehicles",            "bm4k-52h4", "crashes/raw",              "Motor_Vehicle_Collisions_-_Vehicles",  "csv",     url_csv),
+  list("crashes",             "h9gi-nx95", "crashes",                  "Motor_Vehicle_Collisions_-_Crashes",   "csv",     url_csv),
+  list("persons",             "f55k-p6yu", "crashes",                  "Motor_Vehicle_Collisions_-_Person",    "csv",     url_csv),
+  list("vehicles",            "bm4k-52h4", "crashes",                  "Motor_Vehicle_Collisions_-_Vehicles",  "csv",     url_csv),
   list("bike_routes",         "mzxg-pwib", "streets/bike_routes",      "New York City Bike Routes",            "geojson", url_geojson),
   list("lion",                "2v4z-66xt", "streets/lion",             "nyclion",                              "zip",     url_zip),
   list("address_points",      "uf93-f8nk", "streets/address_points",   "AddressPoint",                         "csv",     url_csv),

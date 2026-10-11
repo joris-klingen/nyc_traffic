@@ -1,8 +1,5 @@
-# Copy to config.local (not tracked by git) and set your own paths.
-# Read by R/config.R and the migration scripts; an NYC_DATA environment variable takes precedence in R.
+# Copy to config.local (not tracked by git) and set your own path.
+# Read by R/config.R; an NYC_TRAFFIC_DATA environment variable takes precedence.
 
-# root of the data store (taxi/, crashes/, streets/, traffic_counts/, citibike/)
-NYC_DATA=/path/to/data_NYC
-
-# parent folder of the project repos the data was migrated from (only for the one-time scripts/0*_migrate_*.sh)
-NYC_RESEARCH=/path/to/research
+# root of the data store (taxi/, crashes/, streets/, boundaries/, traffic_counts/, citibike/, ...)
+NYC_TRAFFIC_DATA=/path/to/nyc_traffic_data

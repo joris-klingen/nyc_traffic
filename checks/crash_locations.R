@@ -12,7 +12,7 @@
 
 library(data.table)
 library(sf)
-source("R/nyc_data.R")
+source("R/nyc_traffic.R")
 
 # Crashes ----
 cr <- crashes_read()

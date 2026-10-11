@@ -1,6 +1,6 @@
-# Access helpers for the shared NYC data store
+# Access helpers for the shared NYC traffic data store (nyc_traffic_data)
 #
-# source("../nyc_data/R/nyc_data.R")             # path relative to the project root
+# source("../nyc_traffic/R/nyc_traffic.R")       # path relative to the project root
 # ds <- tlc_open("fhvhv", years = 2019:2020)      # lazy arrow dataset
 # f  <- nyc_latest("crashes")                     # newest crash snapshot
 #
@@ -10,13 +10,13 @@
 # locate this file among (possibly nested) source() calls to find config.R next to it
 local({
   ofiles <- unlist(lapply(sys.frames(), function(f) if (is.character(f$ofile)) f$ofile))
-  this <- tail(ofiles[grepl("nyc_data\\.R$", ofiles)], 1)
+  this <- tail(ofiles[grepl("nyc_traffic\\.R$", ofiles)], 1)
   source(file.path(if (length(this)) dirname(this) else "R", "config.R"), local = FALSE)
 })
 
 # TLC trips ----
 tlc_files <- function(type, years = NULL) {
-  f <- list.files(file.path(tlc_data_dir(), "raw", type),
+  f <- list.files(file.path(tlc_data_dir(), type),
                   pattern = paste0("^", type, "_tripdata_\\d{4}-\\d{2}\\.parquet$"),
                   full.names = TRUE)
   if (!is.null(years)) f <- f[as.integer(substr(basename(f), nchar(type) + 11, nchar(type) + 14)) %in% years]
@@ -32,9 +32,9 @@ tlc_open <- function(type, years = NULL) {
 
 # Dated snapshots ----
 nyc_snapshots <- list(
-  crashes     = c("crashes/raw",         "^Motor_Vehicle_Collisions_-_Crashes_(\\d{8})\\.csv$"),
-  persons     = c("crashes/raw",         "^Motor_Vehicle_Collisions_-_Person_(\\d{8})\\.csv$"),
-  vehicles    = c("crashes/raw",         "^Motor_Vehicle_Collisions_-_Vehicles_(\\d{8})\\.csv$"),
+  crashes     = c("crashes",             "^Motor_Vehicle_Collisions_-_Crashes_(\\d{8})\\.csv$"),
+  persons     = c("crashes",             "^Motor_Vehicle_Collisions_-_Person_(\\d{8})\\.csv$"),
+  vehicles    = c("crashes",             "^Motor_Vehicle_Collisions_-_Vehicles_(\\d{8})\\.csv$"),
   bike_routes = c("streets/bike_routes", "^New York City Bike Routes_(\\d{8})\\.geojson$"),
   lion        = c("streets/lion",        "^nyclion_(\\d{8})\\.zip$"),
   address_points = c("streets/address_points", "^AddressPoint_(\\d{8})\\.csv$"),
@@ -434,7 +434,7 @@ taxi_zones_read <- function() {
 
 # Citi Bike ----
 citibike_files <- function() {
-  list.files(file.path(nyc_data_root(), "citibike", "raw"),
+  list.files(file.path(nyc_data_root(), "citibike", "trips"),
              pattern = "citibike-tripdata\\.zip$", full.names = TRUE)
 }
 
@@ -499,6 +499,62 @@ traffic_counts_read <- function(file = nyc_latest("traffic_counts")) {
   tc <- xy[tc, on = "WktGeom"]
   tc[, SegmentID := as.integer(SegmentID)]
   tc[]
+}
+
+# DOT bicycle and pedestrian counters, one row per sensor: name, lon/lat, x/y in nyc_crs, first and
+# last data, travel modes, number of devices, and the nearest LION centerline segment_id with its
+# distance (bridge paths can sit some way from a centerline). The source table has one row per
+# device: a sensor gets a new device row when its counter is replaced.
+bike_count_sensors <- function(file = nyc_latest("bike_ped_sensors")) {
+  stopifnot(requireNamespace("data.table", quietly = TRUE), requireNamespace("sf", quietly = TRUE))
+  s <- data.table::fread(file)
+  fmt <- "%m/%d/%Y %I:%M:%S %p"
+  first <- function(v) v[!is.na(v)][1]
+  out <- s[, .(name = name[1], longitude = first(lon), latitude = first(lat),
+               first_data = data.table::as.IDate(min(as.POSIXct(firstData, format = fmt, tz = "America/New_York"), na.rm = TRUE)),
+               last_data = data.table::as.IDate(max(as.POSIXct(lastData, format = fmt, tz = "America/New_York"), na.rm = TRUE)),
+               travel_modes = travelModes[1], devices = data.table::uniqueN(counters_id[!is.na(counters_id)])), .(sensor_id = id)]
+  out[, `:=`(x = NA_real_, y = NA_real_, segment_id = NA_integer_, segment_ft = NA_real_)]
+  ok <- out[, which(nyc_in_bbox(longitude, latitude))]
+  p <- sf::st_transform(sf::st_as_sf(as.data.frame(out[ok]), coords = c("longitude", "latitude"), crs = 4326), nyc_crs)
+  xy <- sf::st_coordinates(p)
+  lines <- nyc_street_lines()
+  k <- sf::st_nearest_feature(p, lines)
+  out[ok, `:=`(x = xy[, 1], y = xy[, 2], segment_id = lines[["segment_id"]][k],
+               segment_ft = as.numeric(sf::st_distance(p, lines[k, ], by_element = TRUE)))]
+  out[]
+}
+
+# DOT bicycle and pedestrian counts: one row per sensor, flow (direction) and 15 minutes.
+#   time        start of the interval, NYC local time. The source says EST, but the data follow
+#               daylight saving: the 02:00 hour is missing on spring-forward days.
+#   counter_id  the device mounted at that time (counters are replaced now and then; check
+#               for a level shift at a swap)
+# Rows DOT marked "deleted" are dropped unless keep_deleted = TRUE; status "modified" means DOT
+# corrected the raw count. Sensor name and location come from bike_count_sensors(). `modes`
+# keeps only some travel modes ("bike", "pedestrian", "scooter").
+bike_counts_read <- function(file = nyc_latest("bike_ped_counts"), sensors_file = nyc_latest("bike_ped_sensors"),
+                             modes = NULL, keep_deleted = FALSE) {
+  stopifnot(requireNamespace("data.table", quietly = TRUE))
+  x <- data.table::fread(file, colClasses = list(character = c("timestamp", "flowName")))
+  data.table::setnames(x, c("travelMode", "flowID", "flowName"), c("travel_mode", "flow_id", "flow_name"))
+  if (!keep_deleted) x <- x[status != "deleted"]
+  if (!is.null(modes)) x <- x[travel_mode %in% modes]
+  x[, time := as.POSIXct(timestamp, format = "%m/%d/%Y %I:%M:%S %p", tz = "America/New_York")]
+  x[, c("timestamp", "granularity") := NULL]
+  # device in place at the time of the count
+  dev <- data.table::fread(sensors_file)[!is.na(counters_id)]
+  fmt <- "%m/%d/%Y %I:%M:%S %p"
+  dev <- dev[, .(sensor_id = id, counter_id = counters_id,
+                 from = as.POSIXct(counters_installationDate, format = fmt, tz = "America/New_York"),
+                 to = as.POSIXct(counters_detachmentDate, format = fmt, tz = "America/New_York"))]
+  dev[is.na(to), to := as.POSIXct("2100-01-01", tz = "America/New_York")]
+  x[, counter_id := NA_integer_]
+  x[dev, on = .(sensor_id, time >= from, time < to), counter_id := i.counter_id]
+  s <- bike_count_sensors(sensors_file)
+  x <- s[, .(sensor_id, name, longitude, latitude, x, y, segment_id)][x, on = "sensor_id"]
+  data.table::setcolorder(x, c("sensor_id", "name", "travel_mode", "direction", "flow_id", "flow_name", "time", "counts", "status", "counter_id"))
+  x[]
 }
 
 # DOT bike routes as sf in nyc_crs, with segmentid as an integer LION SegmentID

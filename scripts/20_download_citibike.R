@@ -1,4 +1,4 @@
-# Download Citi Bike (NYC, not Jersey City) trip data zips into data_NYC/citibike/raw
+# Download Citi Bike (NYC, not Jersey City) trip data zips into nyc_traffic_data/citibike/trips
 #
 # Usage (from repo root):  Rscript scripts/20_download_citibike.R
 #
@@ -9,7 +9,7 @@ library(data.table)
 source("R/config.R")
 
 bucket <- "https://s3.amazonaws.com/tripdata"
-raw_dir <- file.path(nyc_data_root(), "citibike", "raw")
+raw_dir <- file.path(nyc_data_root(), "citibike", "trips")
 dir.create(raw_dir, recursive = TRUE, showWarnings = FALSE)
 options(timeout = 7200)
 

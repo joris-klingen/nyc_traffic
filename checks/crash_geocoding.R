@@ -18,7 +18,7 @@
 library(data.table)
 library(sf)
 library(ggplot2)
-source("R/nyc_data.R")
+source("R/nyc_traffic.R")
 
 boro <- toupper(paste(commandArgs(trailingOnly = TRUE), collapse = " "))
 if (boro == "") boro <- "MANHATTAN"

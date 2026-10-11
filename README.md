@@ -1,17 +1,18 @@
-# nyc_data
+# nyc_traffic
 
 Shared download and access code for NYC data: TLC taxi and ride-hail trips, NYPD motor vehicle
 collisions, LION streets, address points, DOT bike routes, traffic and bicycle counts, Citi Bike
 trips, and boundary layers (boroughs, community districts, NTAs, census tracts and blocks,
-precincts, taxi zones). The data itself lives outside this repo.
+precincts, taxi zones). The data itself lives outside this repo, in `nyc_traffic_data/`.
 
 ## Setup
 
-Copy `config.example` to `config.local` (not tracked) and set `NYC_DATA` to the root of the data
-store. An `NYC_DATA` environment variable takes precedence. In R:
+Copy `config.example` to `config.local` (not tracked) and set `NYC_TRAFFIC_DATA` to the root of
+the data store. An `NYC_TRAFFIC_DATA` environment variable takes precedence (the old name
+`NYC_DATA` still works as a fallback). In R:
 
 ```r
-source("path/to/nyc_data/R/nyc_data.R")   # all helpers below; needs data.table, arrow, sf
+source("path/to/nyc_traffic/R/nyc_traffic.R")   # all helpers below; needs data.table, arrow, sf
 ```
 
 ## Sources
@@ -51,7 +52,7 @@ Coverage is checked by `checks/store.R`.
 
 ```r
 library(data.table); library(sf)
-source("path/to/nyc_data/R/nyc_data.R")
+source("path/to/nyc_traffic/R/nyc_traffic.R")
 
 cr  <- crashes_relocate(crashes_read())                   # best location per crash
 pts <- nyc_points_sf(cr, "longitude_ap", "latitude_ap")   # sf points, EPSG 2263
@@ -114,17 +115,16 @@ month twice (whole and split); the reader uses one copy.
 ## Data layout
 
 ```
-data_NYC/
+nyc_traffic_data/
   taxi/
-    raw/yellow/            yellow_tripdata_YYYY-MM.parquet   2012-01 onward
-    raw/green/             green_tripdata_YYYY-MM.parquet    2014-01 onward
-    raw/fhvhv/             fhvhv_tripdata_YYYY-MM.parquet    2019-02 onward
-    raw/yellow_csv_legacy/ yellow_tripdata_YYYY-MM.csv       2012-01 to 2016-06, with pickup/dropoff
+    yellow/                yellow_tripdata_YYYY-MM.parquet   2012-01 onward
+    green/                 green_tripdata_YYYY-MM.parquet    2014-01 onward
+    fhvhv/                 fhvhv_tripdata_YYYY-MM.parquet    2019-02 onward
+    yellow_csv_legacy/     yellow_tripdata_YYYY-MM.csv       2012-01 to 2016-06, with pickup/dropoff
                                                              coordinates; no longer published this way, keep
     zones/                 taxi_zones_YYYYMMDD.zip (shapefile), taxi_zone_lookup_YYYYMMDD.csv
     manifest.csv, download_log.csv
-  crashes/
-    raw/                   Motor_Vehicle_Collisions_-_{Crashes,Person,Vehicles}_YYYYMMDD.csv (dated snapshots)
+  crashes/                 Motor_Vehicle_Collisions_-_{Crashes,Person,Vehicles}_YYYYMMDD.csv (dated snapshots)
                            NYPD_Motor_Vehicle_Collisions_YYYYMMDD.csv (pre-2020 version of the crash table)
     reference/             NYC_vehicle_lookup_table.csv (hand-made vehicle type classification)
   streets/
@@ -148,14 +148,15 @@ data_NYC/
                            Bicycle_Count(er)s_20200204.csv (historical version), DCP Manhattan and
                            East River bridge counts
   citibike/
-    raw/                   YYYY-citibike-tripdata.zip (2013-2023), YYYYMM-citibike-tripdata.zip (2024 onward);
+    trips/                 YYYY-citibike-tripdata.zip (2013-2023), YYYYMM-citibike-tripdata.zip (2024 onward);
                            old format with rider demographics to 2019-12, new format from 2020
-    raw_monthly_original/  YYYYMM-citibike-tripdata(.csv).zip, 2014-01 to 2019-12: original monthly releases,
+    trips_monthly_original/ YYYYMM-citibike-tripdata(.csv).zip, 2014-01 to 2019-12: original monthly releases,
                            before Citi Bike repackaged them into yearly zips in 2024. Keep: original record
                            for the gender paper.
     stations/              station snapshots citibikestationsNYC_YYYYMMDD_HHMM.json (2019)
     manifest.csv
-  dot_presentations/       DOT project presentations and street design checklists (PDF), downloaded by
+  documents/
+    dot_presentations/     DOT project presentations and street design checklists (PDF), downloaded by
                            nyc_bikelane_history/dot_projects/03_fetch_extract.py
   derived/                 made from the raw data, can be rebuilt:
     crashes_parquet/       parquet copies of the crash snapshots (scripts/30_crashes_parquet.R)
@@ -163,7 +164,8 @@ data_NYC/
   opendata_download_log.csv
 ```
 
-Raw files are never edited. Snapshots of updating datasets carry their download date. Files the
+Everything outside `derived/` is raw data as published, and never edited. Snapshots of updating
+datasets carry their download date. Files the
 publisher replaced are kept as `*.superseded_YYYYMMDD.*`, damaged downloads as
 `*.corrupt_YYYYMMDD.*`. Anything computed from the raw data goes to `derived/`.
 
@@ -178,7 +180,6 @@ Run from the repo root.
 | `scripts/11_download_lion_releases.R` | Quarterly LION releases from the DCP archive |
 | `scripts/20_download_citibike.R` | Citi Bike trip zips not yet present; writes `citibike/manifest.csv` |
 | `scripts/30_crashes_parquet.R` | Parquet copies of the crash snapshots in `derived/crashes_parquet/` |
-| `scripts/0*_migrate_*.sh` | One-time copies from the project repos the data was first downloaded into (need `NYC_RESEARCH`; logs in `migration_logs/`, not tracked) |
 
 ```bash
 Rscript scripts/01_download_tlc.R yellow,green,fhvhv 3
