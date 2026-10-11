@@ -9,7 +9,9 @@
 
 source("R/config.R")
 
-url_base <- "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/lion/nyclion_%s.zip"
+# the archive uses nyclion_<release>.zip for recent releases and nyc_lion<release>.zip for older ones
+url_base <- c("https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/lion/nyclion_%s.zip",
+              "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/lion/nyc_lion%s.zip")
 out_dir <- file.path(nyc_data_root(), "streets", "lion")
 options(timeout = 3600)
 
@@ -26,9 +28,15 @@ for (r in releases) {
   old <- file.path(out_dir, sprintf("nyc_lion%s.zip", r))
   if (file.exists(dest) || file.exists(old)) next
   part <- paste0(dest, ".part")
-  ok <- tryCatch(download.file(sprintf(url_base, r), part, mode = "wb", quiet = TRUE) == 0,
-                 error = function(e) FALSE, warning = function(w) FALSE)
-  if (ok && file.size(part) > 1e6) {
+  ok <- FALSE
+  for (u in url_base) {
+    ok <- tryCatch(download.file(sprintf(u, r), part, mode = "wb", quiet = TRUE) == 0,
+                   error = function(e) FALSE, warning = function(w) FALSE)
+    if (ok) break
+  }
+  # a complete zip lists its contents; a truncated one does not
+  if (ok) ok <- file.size(part) > 1e6 && !inherits(tryCatch(unzip(part, list = TRUE), error = function(e) e), "error")
+  if (ok) {
     file.rename(part, dest)
     message(r, ": ", round(file.size(dest) / 1e6), " MB")
   } else {
