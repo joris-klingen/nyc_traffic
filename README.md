@@ -86,15 +86,31 @@ crashes <- crashes_relocate(crashes)              # adds longitude_ap, latitude_
 (the 2026-02 to 2026-05 snapshots write `40,717175` and pad text fields), 0/0 coordinates as NA,
 `crash_date` as IDate.
 
-Crashes reported at a house number (`off_street_name`, about 18% of all crashes) were
-geocoded by interpolating along LION's address range until October 2024; from November 2024 the
-published coordinates are the building's address point, about 45 ft beside the centerline.
-Before that, where LION pads a block's range to xx98, points pile toward the low-number end of the
-block, and about 10% land on another block of the same street. `crashes_relocate()` moves them to the building's address point, matching the street by
-street code so alternate names work (8 AVENUE / FREDERICK DOUGLASS BLVD). About 95% are
-relocated. The building point is then projected orthogonally onto the LION centerline of the same
-street (`snap_ft`, median about 50 ft), so the crash sits on the street beside the building; the
-median total move is about 50 ft. `Rscript checks/crash_geocoding.R <borough>` shows the problem
-and the fix (padded ranges: 25% of Brooklyn segments, 64% of Queens).
+`crashes_relocate()` returns the best available location in `longitude_ap`, `latitude_ap`, with
+`loc_method` saying where it comes from:
+
+- `address point`, `nearest address point`: crashes reported at a house number (`off_street_name`,
+  about 18% of crashes). Until October 2024 these were geocoded by interpolating along LION's
+  address range; where LION pads a block's range to xx98 they pile toward the low-number end of the
+  block, and about 10% land on another block. From November 2024 the published coordinates are
+  already the building's address point. They are moved to the building's address point (about 95%
+  match), projected orthogonally onto the LION centerline of the same street (`snap_ft`, median
+  about 50 ft); median total move about 50 ft.
+- `intersection node`: intersection crashes without coordinates (about 10% of them) get the LION
+  node where the two streets meet, when that is unambiguous. Against crashes with coordinates:
+  median error 2 ft with a borough, 99% within 150 ft (83% without a borough).
+- `original`: everything else, including street-only crashes (mostly highways, placed along the
+  highway; on surface streets at a node of the named street).
+
+Streets are matched by street code, so alternate and former names work (8 AVENUE / FREDERICK
+DOUGLASS BLVD, STONE AVE / MOTHER GASTON BLVD). Coordinates are missing for 11.0% of crashes in the
+data and 6.1% after `crashes_relocate()`.
+
+Checks, run from the repo root:
+
+- `Rscript checks/crash_geocoding.R <borough>`: position of house-number crashes along their block,
+  original vs relocated (padded ranges: 25% of Brooklyn segments, 64% of Queens).
+- `Rscript checks/crash_locations.R`: missing coordinates, placement of intersection and
+  street-only crashes, accuracy of the intersection nodes.
 
 Each project keeps its own cleaning filters and spatial aggregation.

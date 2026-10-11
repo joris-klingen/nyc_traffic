@@ -137,13 +137,24 @@ nyc_street_codes <- function(ap = address_points_read(), lion_file = tryCatch(ny
     ln <- unique(tab(query = "SELECT Street, LBoro, StreetCode, Join_ID FROM lion"))
     ln <- ln[grepl("^[1-5][0-9]{5}$", StreetCode)]
     ln[, borough := unname(borough_codes[as.character(LBoro)])]
+    d <- c(d, list(unique(ln[, .(borough, street = Street, b5sc = StreetCode)])))
+    # alternate names (renamed streets: STONE AVE is MOTHER GASTON BLVD). Join_ID groups segments
+    # of several streets, so an alternate name is only used when it is not the name of another
+    # street in the borough and its segments all belong to one street.
     al <- unique(tab(layer = "altnames")[, .(Street, Join_ID)])
     al <- unique(ln[, .(Join_ID, borough, b5sc = StreetCode)])[al, on = "Join_ID", nomatch = 0L]
-    d <- c(d, list(unique(ln[, .(borough, street = Street, b5sc = StreetCode)]), al[, .(borough, street = Street, b5sc)]))
+    al[, key := nyc_street_key(Street)]
+    al <- unique(al[, .(borough, key, b5sc)])
   }
   d <- unique(data.table::rbindlist(d, use.names = TRUE))
   d[, key := nyc_street_key(street)]
-  unique(d[, .(borough, key, b5sc)])
+  d <- unique(d[, .(borough, key, b5sc)])
+  if (exists("al", inherits = FALSE)) {
+    al <- al[!d, on = .(borough, key)]
+    al <- al[, if (data.table::uniqueN(b5sc) == 1L) .SD, .(borough, key)]
+    d <- rbind(d, al)
+  }
+  d
 }
 
 # LION street centerlines (generic and both-roadbed layers, not the separate roadbeds of divided
@@ -182,12 +193,53 @@ nyc_snap_to_street <- function(lon, lat, b5sc, lines = nyc_street_lines()) {
   list(longitude = ll[, 1], latitude = ll[, 2], snap_ft = snap_ft)
 }
 
+# LION intersection nodes with the street codes of the segments that meet there, and node
+# coordinates (longitude, latitude)
+nyc_street_nodes <- function(lion_file = nyc_latest("lion")) {
+  stopifnot(requireNamespace("sf", quietly = TRUE), requireNamespace("data.table", quietly = TRUE))
+  gdb <- paste0("/vsizip/", lion_file, "/lion/lion.gdb")
+  seg <- data.table::as.data.table(sf::st_drop_geometry(sf::st_read(gdb, quiet = TRUE, query =
+    "SELECT NodeIDFrom, NodeIDTo, LBoro, StreetCode FROM lion WHERE FeatureTyp IN ('0','6','A','C')")))
+  seg <- seg[grepl("^[1-5][0-9]{5}$", StreetCode)]
+  ns <- unique(data.table::rbindlist(list(seg[, .(node = as.integer(NodeIDFrom), b5sc = StreetCode)],
+                                          seg[, .(node = as.integer(NodeIDTo), b5sc = StreetCode)])))
+  nd <- sf::st_transform(sf::st_read(gdb, layer = "node", quiet = TRUE), 4326)
+  xy <- sf::st_coordinates(nd)
+  nd <- data.table::data.table(node = nd[["NODEID"]], longitude = xy[, 1], latitude = xy[, 2])
+  nd[ns, on = "node", nomatch = 0L]
+}
+
+# Coordinates for intersection crashes (on_street_name and cross_street_name, no address) from the
+# LION node where both streets meet. Streets are matched by street code, as in crashes_relocate().
+# All candidate nodes must lie within `max_spread_ft` of each other (divided roads have several
+# nodes per intersection); the node nearest their centroid is used. Otherwise the crash is left
+# out: the two names meet at more than one place (often a crash without a borough).
+# Returns collision_id, longitude, latitude, n_nodes.
+crashes_intersection_nodes <- function(cr, streets = nyc_street_codes(), nodes = nyc_street_nodes(), max_spread_ft = 500) {
+  stopifnot(requireNamespace("data.table", quietly = TRUE))
+  a <- cr[is.na(off_street_name) & !is.na(on_street_name) & !is.na(cross_street_name),
+          .(collision_id, borough, k1 = nyc_street_key(on_street_name), k2 = nyc_street_key(cross_street_name))]
+  codes <- function(k) {
+    x <- streets[a, on = c(key = k), nomatch = 0L, allow.cartesian = TRUE, .(collision_id, cb = i.borough, sb = x.borough, b5sc)]
+    unique(x[is.na(cb) | cb == sb, .(collision_id, b5sc)])
+  }
+  n1 <- unique(nodes[codes("k1"), on = "b5sc", nomatch = 0L, allow.cartesian = TRUE, .(collision_id, node, longitude, latitude)])
+  n2 <- unique(nodes[codes("k2"), on = "b5sc", nomatch = 0L, allow.cartesian = TRUE, .(collision_id, node)])
+  cand <- unique(n1[n2, on = .(collision_id, node), nomatch = 0L])
+  cand[, `:=`(cx = mean(longitude), cy = mean(latitude)), collision_id]
+  cand[, d_ft := sqrt(((longitude - cx) * 276500)^2 + ((latitude - cy) * 364000)^2)]
+  ok <- cand[, .(spread = 2 * max(d_ft)), collision_id][spread <= max_spread_ft, collision_id]
+  cand <- cand[collision_id %in% ok]
+  data.table::setorder(cand, collision_id, d_ft)
+  cand[, .(longitude = longitude[1], latitude = latitude[1], n_nodes = .N), collision_id]
+}
+
 # Relocate crashes geocoded from a house number (off_street_name) to the address point of that
 # building. LION interpolation pulls these toward the low-number end of blocks with padded
 # address ranges; address points are the building itself. Takes crashes_read() output and adds
 #   longitude_ap, latitude_ap  relocated coordinates (original ones for all other crashes)
 #   loc_method                 "address point", "nearest address point" (same street and side,
-#                              house number within `max_hn_gap`), or "original"
+#                              house number within `max_hn_gap`), "intersection node", or "original"
 #   snap_ft                    distance from the building to its street centerline
 #   moved_ft                   distance between original and relocated point
 # With snap = TRUE (default) the building point is projected orthogonally onto the nearest LION
@@ -198,9 +250,13 @@ nyc_snap_to_street <- function(lon, lat, b5sc, lines = nyc_street_lines()) {
 # the crash has an original point, candidates beyond `max_move_ft` are discarded: the original
 # geocode is on the right street, so a far candidate means the name matched a different street
 # (two "37 AVE" in Queens, an alternate name shared by several streets).
+# With fill_intersections = TRUE (default) intersection crashes without coordinates get the LION
+# node where the two streets meet (crashes_intersection_nodes()). Tested on crashes that have
+# coordinates: with a borough the node is within 150 ft for 99%, without one for 83%.
 crashes_relocate <- function(cr, ap = address_points_read(), streets = nyc_street_codes(ap),
                              max_hn_gap = 10, max_move_ft = 1000,
-                             snap = TRUE, max_snap_ft = 500, lines = if (snap) nyc_street_lines() else NULL) {
+                             snap = TRUE, max_snap_ft = 500, lines = if (snap) nyc_street_lines() else NULL,
+                             fill_intersections = TRUE, nodes = if (fill_intersections) nyc_street_nodes() else NULL) {
   stopifnot(requireNamespace("data.table", quietly = TRUE))
   a <- cr[!is.na(off_street_name) & grepl("^[0-9]", off_street_name),
           .(collision_id, borough, lon0 = longitude, lat0 = latitude,
@@ -240,6 +296,10 @@ crashes_relocate <- function(cr, ap = address_points_read(), streets = nyc_stree
   out[, `:=`(longitude_ap = longitude, latitude_ap = latitude, loc_method = "original", snap_ft = NA_real_, moved_ft = NA_real_)]
   out[best, on = "collision_id", `:=`(longitude_ap = i.longitude, latitude_ap = i.latitude, snap_ft = i.snap_ft, moved_ft = i.moved_ft,
                                       loc_method = data.table::fifelse(i.gap == 0, "address point", "nearest address point"))]
+  if (fill_intersections) {
+    g <- crashes_intersection_nodes(out[is.na(longitude)], streets, nodes)
+    out[g, on = "collision_id", `:=`(longitude_ap = i.longitude, latitude_ap = i.latitude, loc_method = "intersection node")]
+  }
   out[]
 }
 
