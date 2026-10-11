@@ -6,3 +6,4 @@ Rplots.pdf
 *.parquet
 *.csv
 *.part
+config.local

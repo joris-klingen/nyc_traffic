@@ -2,13 +2,13 @@
 
 Shared download and access code for NYC raw data: TLC taxi and ride-hail trip records, traffic and bicycle counts,
 NYPD motor vehicle collisions, LION streets and DOT bike routes, and Citi Bike trips.
-Used by `5_NYC_bikelanes` and `6_NYC_CC/NYC_CC_analysis`. The data itself lives outside this
-repo.
+The data itself lives outside this repo.
 
 ## Data location
 
-`Dropbox/1_research/data_NYC/`, overridable with the `NYC_DATA` environment variable
-(in `~/.Renviron`).
+Copy `config.example` to `config.local` (not tracked) and set `NYC_DATA` to the root of the data
+store. An `NYC_DATA` environment variable takes precedence. The one-time migration scripts also
+need `NYC_RESEARCH`, the folder holding the project repos the data was first downloaded into.
 
 ```
 data_NYC/
@@ -40,8 +40,8 @@ data_NYC/
                            Format up to 2021-01: bikeid, usertype, birth year, gender (only source for these).
                            From 2021-02: ride_id, rideable_type, member_casual; no rider demographics.
     raw_monthly_original/  YYYYMM-citibike-tripdata(.csv).zip, 2014-01 to 2019-12: original monthly releases as
-                           downloaded at the time (from z_published/Gender and Cycling), before Citi Bike
-                           repackaged them into yearly zips in 2024. Keep: original record for the gender paper.
+                           downloaded at the time, before Citi Bike repackaged them into yearly
+                           zips in 2024. Keep: original record for the gender paper.
     stations/              station snapshots, citibikestationsNYC_YYYYMMDD_HHMM.json
     manifest.csv
   migration_log_other.csv
@@ -72,7 +72,7 @@ Rscript scripts/20_download_citibike.R
 ## Use from a project
 
 ```r
-source("../nyc_data/R/nyc_data.R")               # path relative to the project root
+source("path/to/nyc_data/R/nyc_data.R")
 ds <- tlc_open("yellow", years = 2019:2026)       # lazy arrow dataset
 crashes <- data.table::fread(nyc_latest("crashes"))   # or nyc_latest("crashes", as_of = "20250924")
 ```

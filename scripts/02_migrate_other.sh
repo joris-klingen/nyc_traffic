@@ -7,8 +7,12 @@
 
 set -u
 
-RESEARCH=/c/Users/admin/Dropbox/1_research
-ROOT=${1:-$RESEARCH/data_NYC}
+CONFIG=$(dirname "$0")/../config.local
+[ -f "$CONFIG" ] && . "$CONFIG"
+: "${NYC_DATA:?set NYC_DATA in config.local (see config.example)}"
+: "${NYC_RESEARCH:?set NYC_RESEARCH in config.local (see config.example)}"
+RESEARCH=$NYC_RESEARCH
+ROOT=${1:-$NYC_DATA}
 LOG=$ROOT/migration_log_other.csv
 
 BL=$RESEARCH/5_NYC_bikelanes/data/raw

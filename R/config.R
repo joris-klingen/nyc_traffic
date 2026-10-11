@@ -1,12 +1,24 @@
 # Shared configuration for the NYC data store
 #
-# The root is taken from the environment variable NYC_DATA (set it in
-# ~/.Renviron), falling back to the shared Dropbox folder. Subfolders:
-# taxi/, crashes/, streets/, citibike/.
+# The root is taken from the environment variable NYC_DATA, or else from
+# NYC_DATA in config.local at the repo root (copy config.example). Subfolders:
+# taxi/, crashes/, streets/, traffic_counts/, citibike/.
+
+# config.local sits one level above this file
+nyc_config_file <- local({
+  ofiles <- unlist(lapply(sys.frames(), function(f) if (is.character(f$ofile)) f$ofile))
+  this <- tail(ofiles[grepl("config\\.R$", ofiles)], 1)
+  normalizePath(file.path(dirname(if (length(this)) dirname(this) else "R"), "config.local"),
+                winslash = "/", mustWork = FALSE)
+})
 
 nyc_data_root <- function() {
   d <- Sys.getenv("NYC_DATA", unset = "")
-  if (d == "") d <- file.path(Sys.getenv("USERPROFILE"), "Dropbox/1_research/data_NYC")
+  if (d == "" && file.exists(nyc_config_file)) {
+    readRenviron(nyc_config_file)
+    d <- Sys.getenv("NYC_DATA", unset = "")
+  }
+  if (d == "") stop("NYC_DATA not set: copy config.example to ", nyc_config_file, " and edit it")
   normalizePath(d, winslash = "/", mustWork = FALSE)
 }
 
