@@ -86,14 +86,15 @@ crashes <- crashes_relocate(crashes)              # adds longitude_ap, latitude_
 (the 2026-02 to 2026-05 snapshots write `40,717175` and pad text fields), 0/0 coordinates as NA,
 `crash_date` as IDate.
 
-Crashes reported at a house number (`off_street_name`, about 18% of all crashes) are
-geocoded by interpolating along LION's address range. Where LION pads a block's range to xx98,
-points pile toward the low-number end of the block; about 10% land on another block of the same
-street. `crashes_relocate()` moves them to the building's address point, matching the street by
+Crashes reported at a house number (`off_street_name`, about 18% of all crashes) were
+geocoded by interpolating along LION's address range until October 2024; from November 2024 the
+published coordinates are the building's address point, about 45 ft beside the centerline.
+Before that, where LION pads a block's range to xx98, points pile toward the low-number end of the
+block, and about 10% land on another block of the same street. `crashes_relocate()` moves them to the building's address point, matching the street by
 street code so alternate names work (8 AVENUE / FREDERICK DOUGLASS BLVD). About 95% are
 relocated. The building point is then projected orthogonally onto the LION centerline of the same
 street (`snap_ft`, median about 50 ft), so the crash sits on the street beside the building; the
-median total move is about 50 ft. `checks/crash_geocoding.R` shows the problem and the fix for
-Manhattan.
+median total move is about 50 ft. `Rscript checks/crash_geocoding.R <borough>` shows the problem
+and the fix (padded ranges: 25% of Brooklyn segments, 64% of Queens).
 
 Each project keeps its own cleaning filters and spatial aggregation.
