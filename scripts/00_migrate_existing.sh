@@ -14,12 +14,14 @@ CONFIG=$(dirname "$0")/../config.local
 RESEARCH=$NYC_RESEARCH
 DATA_DIR=${1:-$NYC_DATA/taxi}
 RAW=$DATA_DIR/raw
-LOG=$DATA_DIR/migration_log.csv
+LOG_DIR=$(dirname "$0")/../migration_logs
+LOG=$LOG_DIR/migration_log_taxi.csv
 
 BL=$RESEARCH/5_NYC_bikelanes/data/raw/taxi
 CC=$RESEARCH/6_NYC_CC/NYC_CC_analysis/data/raw/taxi
 
 mkdir -p "$RAW"/{yellow,green,fhvhv,yellow_csv_legacy}
+mkdir -p "$LOG_DIR"
 [ -f "$LOG" ] || echo "source,dest,size,status" > "$LOG"
 
 copy_one () {

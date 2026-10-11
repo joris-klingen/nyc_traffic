@@ -8,7 +8,8 @@ The data itself lives outside this repo.
 
 Copy `config.example` to `config.local` (not tracked) and set `NYC_DATA` to the root of the data
 store. An `NYC_DATA` environment variable takes precedence. The one-time migration scripts also
-need `NYC_RESEARCH`, the folder holding the project repos the data was first downloaded into.
+need `NYC_RESEARCH`, the folder holding the project repos the data was first downloaded into, and
+write their logs to `migration_logs/` in this repo (not tracked).
 
 ```
 data_NYC/
@@ -19,7 +20,7 @@ data_NYC/
       fhvhv/               fhvhv_tripdata_YYYY-MM.parquet    2019-02 onward (Uber, Lyft, ...)
       yellow_csv_legacy/   yellow_tripdata_YYYY-MM.csv       2012-01 to 2016-06, with pickup/dropoff
                                                              coordinates; no longer published this way, keep
-    manifest.csv, download_log.csv, migration_log.csv
+    manifest.csv, download_log.csv
   crashes/
     raw/                   Motor_Vehicle_Collisions_-_{Crashes,Person,Vehicles}_YYYYMMDD.csv (dated snapshots)
                            NYPD_Motor_Vehicle_Collisions_YYYYMMDD.csv (pre-2020 version of the crash table)
@@ -44,7 +45,6 @@ data_NYC/
                            zips in 2024. Keep: original record for the gender paper.
     stations/              station snapshots, citibikestationsNYC_YYYYMMDD_HHMM.json
     manifest.csv
-  migration_log_other.csv
 ```
 
 Raw files are never edited. Snapshots of updating datasets carry their download date. Files the

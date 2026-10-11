@@ -13,10 +13,12 @@ CONFIG=$(dirname "$0")/../config.local
 : "${NYC_RESEARCH:?set NYC_RESEARCH in config.local (see config.example)}"
 RESEARCH=$NYC_RESEARCH
 ROOT=${1:-$NYC_DATA}
-LOG=$ROOT/migration_log_other.csv
+LOG_DIR=$(dirname "$0")/../migration_logs
+LOG=$LOG_DIR/migration_log_other.csv
 SRC=$RESEARCH/5_NYC_bikelanes/data/raw/NYC_traffic
 
 mkdir -p "$ROOT"/traffic_counts/{automated,legacy,bicycle} "$ROOT"/streets/other
+mkdir -p "$LOG_DIR"
 [ -f "$LOG" ] || echo "source,dest,status" > "$LOG"
 
 mdate () { date -r "$1" +%Y%m%d; }
