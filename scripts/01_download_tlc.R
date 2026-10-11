@@ -74,6 +74,22 @@ for (type in types) {
   }
 }
 
+# Taxi zones ----
+# zone shapefile and lookup (LocationID -> borough, zone): the only location in trips from 2016-07.
+# Dated copies in taxi/zones/, a new one only when TLC changes the file.
+zone_dir <- file.path(data_dir, "zones")
+dir.create(zone_dir, showWarnings = FALSE)
+for (z in c("taxi_zones.zip", "taxi_zone_lookup.csv")) {
+  rs <- remote_size(paste0(tlc_url_base, "../misc/", z))
+  stem <- tools::file_path_sans_ext(z); ext <- tools::file_ext(z)
+  local <- sort(list.files(zone_dir, pattern = paste0("^", stem, "_\\d{8}\\.", ext, "$"), full.names = TRUE))
+  if (is.na(rs) || (length(local) && file.size(tail(local, 1)) == rs)) next
+  dest <- file.path(zone_dir, paste0(stem, "_", format(Sys.Date(), "%Y%m%d"), ".", ext))
+  ok <- download_one(paste0(tlc_url_base, "../misc/", z), dest)
+  log_row("zones", stem, if (ok) "downloaded" else "FAILED", rs)
+  message("zones ", z, ": ", if (ok) "downloaded" else "FAILED")
+}
+
 # Manifest of everything on disk ----
 files <- list.files(raw_dir, recursive = TRUE, full.names = TRUE)
 files <- files[!grepl("\\.part$", files)]

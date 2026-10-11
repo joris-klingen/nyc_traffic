@@ -30,16 +30,26 @@ tlc_open <- function(type, years = NULL) {
   arrow::open_dataset(f, unify_schemas = TRUE)
 }
 
-# Dated snapshots (crashes, bike routes, LION) ----
+# Dated snapshots ----
 nyc_snapshots <- list(
   crashes     = c("crashes/raw",         "^Motor_Vehicle_Collisions_-_Crashes_(\\d{8})\\.csv$"),
   persons     = c("crashes/raw",         "^Motor_Vehicle_Collisions_-_Person_(\\d{8})\\.csv$"),
+  vehicles    = c("crashes/raw",         "^Motor_Vehicle_Collisions_-_Vehicles_(\\d{8})\\.csv$"),
   bike_routes = c("streets/bike_routes", "^New York City Bike Routes_(\\d{8})\\.geojson$"),
   lion        = c("streets/lion",        "^nyclion_(\\d{8})\\.zip$"),
   address_points = c("streets/address_points", "^AddressPoint_(\\d{8})\\.csv$"),
   traffic_counts   = c("traffic_counts/automated", "^Automated_Traffic_Volume_Counts_(\\d{8})\\.csv$"),
   bike_ped_counts  = c("traffic_counts/bicycle",   "^Bicycle_and_Pedestrian_Counts_(\\d{8})\\.csv$"),
-  bike_ped_sensors = c("traffic_counts/bicycle",   "^Bicycle_and_Pedestrian_Count_Sensors_(\\d{8})\\.csv$")
+  bike_ped_sensors = c("traffic_counts/bicycle",   "^Bicycle_and_Pedestrian_Count_Sensors_(\\d{8})\\.csv$"),
+  taxi_zones       = c("taxi/zones",               "^taxi_zones_(\\d{8})\\.zip$"),
+  taxi_zone_lookup = c("taxi/zones",               "^taxi_zone_lookup_(\\d{8})\\.csv$"),
+  boroughs            = c("boundaries", "^borough_boundaries_(\\d{8})\\.geojson$"),
+  community_districts = c("boundaries", "^community_districts_(\\d{8})\\.geojson$"),
+  ntas                = c("boundaries", "^nta_2020_(\\d{8})\\.geojson$"),
+  tracts              = c("boundaries", "^census_tracts_2020_(\\d{8})\\.geojson$"),
+  blocks              = c("boundaries", "^census_blocks_2020_(\\d{8})\\.geojson$"),
+  precincts           = c("boundaries", "^police_precincts_(\\d{8})\\.geojson$"),
+  tract_nta           = c("boundaries", "^census_tract_2020_to_nta_cdta_(\\d{8})\\.csv$")
 )
 
 # all snapshots of a dataset, oldest first, named by snapshot date
@@ -59,20 +69,32 @@ nyc_latest <- function(name, as_of = NULL) {
 }
 
 # Crashes ----
+crashes_parquet_dir <- function() file.path(nyc_data_root(), "derived", "crashes_parquet")
+
 # Read a crash snapshot with harmonized columns: snake_case names, squished text, numeric
-# coordinates (some 2026 snapshots write "40,717175" and pad text fields), 0/0 coordinates as
-# NA, crash_date as IDate. `select` takes the original column names.
-crashes_read <- function(file = nyc_latest("crashes"), select = NULL) {
+# coordinates (some 2026 snapshots write "40,717175" and pad text fields), coordinates at 0/0 or
+# outside NYC as NA, crash_date as IDate. `select` takes the original column names. Uses the
+# parquet copy from scripts/30_crashes_parquet.R when there is one (much faster).
+crashes_read <- function(file = nyc_latest("crashes"), select = NULL, use_parquet = TRUE) {
   stopifnot(requireNamespace("data.table", quietly = TRUE))
+  snake <- function(x) gsub("^_|_$", "", gsub("[^a-z0-9]+", "_", tolower(x)))
+  pq <- file.path(crashes_parquet_dir(), sub("\\.csv$", ".parquet", basename(file)))
+  if (use_parquet && file.exists(pq) && file.mtime(pq) > file.mtime(file)) {
+    # col_select is evaluated by tidyselect, so pass the names with all_of()
+    cols <- snake(select)
+    cr <- data.table::as.data.table(if (is.null(select)) arrow::read_parquet(pq)
+                                    else arrow::read_parquet(pq, col_select = tidyselect::all_of(cols)))
+    return(cr[])
+  }
   chr <- intersect(c("LATITUDE", "LONGITUDE", "ZIP CODE"), if (is.null(select)) c("LATITUDE", "LONGITUDE", "ZIP CODE") else select)
   cr <- data.table::fread(file, select = select, colClasses = list(character = chr), na.strings = "")
-  data.table::setnames(cr, gsub("^_|_$", "", gsub("[^a-z0-9]+", "_", tolower(names(cr)))))
+  data.table::setnames(cr, snake(names(cr)))
   for (v in names(cr)[vapply(cr, is.character, logical(1))])
     data.table::set(cr, j = v, value = gsub(" {2,}", " ", trimws(cr[[v]])))
   for (v in intersect(c("latitude", "longitude"), names(cr)))
     data.table::set(cr, j = v, value = as.numeric(sub(",", ".", cr[[v]], fixed = TRUE)))
   if (all(c("latitude", "longitude") %in% names(cr)))
-    cr[latitude == 0 | longitude == 0, `:=`(latitude = NA_real_, longitude = NA_real_)]
+    cr[!nyc_in_bbox(longitude, latitude), `:=`(latitude = NA_real_, longitude = NA_real_)]
   if ("crash_date" %in% names(cr)) cr[, crash_date := data.table::as.IDate(crash_date, format = "%m/%d/%Y")]
   cr[]
 }
@@ -158,23 +180,26 @@ nyc_street_codes <- function(ap = address_points_read(), lion_file = tryCatch(ny
 }
 
 # LION street centerlines (generic and both-roadbed layers, not the separate roadbeds of divided
-# streets) with their street code, in NY State Plane feet (EPSG 2263)
+# streets) with their street code and SegmentID, in NY State Plane feet (EPSG 2263)
 nyc_street_lines <- function(lion_file = nyc_latest("lion")) {
   stopifnot(requireNamespace("sf", quietly = TRUE))
   # type = 5 linearizes the curved segments, which GEOS cannot handle
-  ln <- sf::st_read(paste0("/vsizip/", lion_file, "/lion/lion.gdb"), quiet = TRUE, type = 5, query =
-    "SELECT StreetCode FROM lion WHERE FeatureTyp IN ('0','6','A','C') AND RB_Layer IN ('G','B')")
+  ln <- sf::st_read(lion_gdb(lion_file), quiet = TRUE, type = 5, query =
+    "SELECT SegmentID, StreetCode FROM lion WHERE FeatureTyp IN ('0','6','A','C') AND RB_Layer IN ('G','B')")
   ln <- sf::st_zm(ln[grepl("^[1-5][0-9]{5}$", ln[["StreetCode"]]), ])
   names(ln)[names(ln) == "StreetCode"] <- "b5sc"
-  ln
+  ln$segment_id <- as.integer(ln$SegmentID)
+  ln[, c("b5sc", "segment_id")]
 }
 
 # Orthogonal projection of points onto the nearest centerline of their own street (b5sc).
-# Returns longitude/latitude of the snapped points and snap_ft; NA where the street has no line.
+# Returns longitude/latitude of the snapped points, snap_ft and the LION segment_id snapped to;
+# NA where the street has no line.
 nyc_snap_to_street <- function(lon, lat, b5sc, lines = nyc_street_lines()) {
   stopifnot(requireNamespace("sf", quietly = TRUE))
   pts <- sf::st_transform(sf::st_as_sf(data.frame(lon, lat), coords = c("lon", "lat"), crs = 4326), 2263)
   xy <- matrix(NA_real_, length(lon), 2)
+  seg <- rep(NA_integer_, length(lon))
   by_street <- split(seq_along(lon), b5sc)
   by_street <- by_street[names(by_street) %in% lines[["b5sc"]]]
   line_idx <- split(seq_len(nrow(lines)), lines[["b5sc"]])
@@ -182,7 +207,9 @@ nyc_snap_to_street <- function(lon, lat, b5sc, lines = nyc_street_lines()) {
     i <- by_street[[s]]
     l <- sf::st_geometry(lines)[line_idx[[s]]]
     p <- sf::st_geometry(pts)[i]
-    np <- sf::st_nearest_points(p, l[sf::st_nearest_feature(p, l)], pairwise = TRUE)
+    k <- sf::st_nearest_feature(p, l)
+    seg[i] <- lines[["segment_id"]][line_idx[[s]][k]]
+    np <- sf::st_nearest_points(p, l[k], pairwise = TRUE)
     # each connector runs from the point to its foot on the line
     xy[i, ] <- sf::st_coordinates(np)[c(FALSE, TRUE), 1:2, drop = FALSE]
   }
@@ -190,14 +217,14 @@ nyc_snap_to_street <- function(lon, lat, b5sc, lines = nyc_street_lines()) {
   ok <- !is.na(xy[, 1])
   ll <- matrix(NA_real_, length(lon), 2)
   if (any(ok)) ll[ok, ] <- sf::st_coordinates(sf::st_transform(sf::st_as_sf(data.frame(x = xy[ok, 1], y = xy[ok, 2]), coords = c("x", "y"), crs = 2263), 4326))
-  list(longitude = ll[, 1], latitude = ll[, 2], snap_ft = snap_ft)
+  list(longitude = ll[, 1], latitude = ll[, 2], snap_ft = snap_ft, segment_id = seg)
 }
 
 # LION intersection nodes with the street codes of the segments that meet there, and node
 # coordinates (longitude, latitude)
 nyc_street_nodes <- function(lion_file = nyc_latest("lion")) {
   stopifnot(requireNamespace("sf", quietly = TRUE), requireNamespace("data.table", quietly = TRUE))
-  gdb <- paste0("/vsizip/", lion_file, "/lion/lion.gdb")
+  gdb <- lion_gdb(lion_file)
   seg <- data.table::as.data.table(sf::st_drop_geometry(sf::st_read(gdb, quiet = TRUE, query =
     "SELECT NodeIDFrom, NodeIDTo, LBoro, StreetCode FROM lion WHERE FeatureTyp IN ('0','6','A','C')")))
   seg <- seg[grepl("^[1-5][0-9]{5}$", StreetCode)]
@@ -214,7 +241,7 @@ nyc_street_nodes <- function(lion_file = nyc_latest("lion")) {
 # All candidate nodes must lie within `max_spread_ft` of each other (divided roads have several
 # nodes per intersection); the node nearest their centroid is used. Otherwise the crash is left
 # out: the two names meet at more than one place (often a crash without a borough).
-# Returns collision_id, longitude, latitude, n_nodes.
+# Returns collision_id, node (LION NODEID), longitude, latitude, n_nodes.
 crashes_intersection_nodes <- function(cr, streets = nyc_street_codes(), nodes = nyc_street_nodes(), max_spread_ft = 500) {
   stopifnot(requireNamespace("data.table", quietly = TRUE))
   a <- cr[is.na(off_street_name) & !is.na(on_street_name) & !is.na(cross_street_name),
@@ -231,7 +258,7 @@ crashes_intersection_nodes <- function(cr, streets = nyc_street_codes(), nodes =
   ok <- cand[, .(spread = 2 * max(d_ft)), collision_id][spread <= max_spread_ft, collision_id]
   cand <- cand[collision_id %in% ok]
   data.table::setorder(cand, collision_id, d_ft)
-  cand[, .(longitude = longitude[1], latitude = latitude[1], n_nodes = .N), collision_id]
+  cand[, .(node = node[1], longitude = longitude[1], latitude = latitude[1], n_nodes = .N), collision_id]
 }
 
 # Relocate crashes geocoded from a house number (off_street_name) to the address point of that
@@ -242,6 +269,9 @@ crashes_intersection_nodes <- function(cr, streets = nyc_street_codes(), nodes =
 #                              house number within `max_hn_gap`), "intersection node", or "original"
 #   snap_ft                    distance from the building to its street centerline
 #   moved_ft                   distance between original and relocated point
+#   segment_id                 LION SegmentID the crash was snapped to (relocated crashes)
+#   node_id                    LION NODEID of intersection crashes: the node filled in, or the node
+#                              within 10 ft of the original point (~96% of intersection crashes)
 # With snap = TRUE (default) the building point is projected orthogonally onto the nearest LION
 # centerline of the same street, so crashes sit on the street beside the building. Buildings on
 # a street without a centerline, or farther than `max_snap_ft` from it (large complexes, streets
@@ -284,23 +314,122 @@ crashes_relocate <- function(cr, ap = address_points_read(), streets = nyc_stree
   data.table::setorder(cand, collision_id, gap, moved_ft, na.last = TRUE)
   best <- cand[, .SD[1], collision_id]
 
-  best[, snap_ft := NA_real_]
+  best[, `:=`(snap_ft = NA_real_, segment_id = NA_integer_)]
   if (snap && nrow(best)) {
     s <- nyc_snap_to_street(best[, longitude], best[, latitude], best[, b5sc], lines)
     ok <- !is.na(s$longitude) & s$snap_ft <= max_snap_ft
-    best[ok, `:=`(longitude = s$longitude[ok], latitude = s$latitude[ok], snap_ft = s$snap_ft[ok])]
+    best[ok, `:=`(longitude = s$longitude[ok], latitude = s$latitude[ok], snap_ft = s$snap_ft[ok], segment_id = s$segment_id[ok])]
     best[, moved_ft := sqrt(((longitude - lon0) * 276500)^2 + ((latitude - lat0) * 364000)^2)]
   }
 
   out <- data.table::copy(cr)
-  out[, `:=`(longitude_ap = longitude, latitude_ap = latitude, loc_method = "original", snap_ft = NA_real_, moved_ft = NA_real_)]
+  out[, `:=`(longitude_ap = longitude, latitude_ap = latitude, loc_method = "original", snap_ft = NA_real_, moved_ft = NA_real_,
+             segment_id = NA_integer_, node_id = NA_integer_)]
   out[best, on = "collision_id", `:=`(longitude_ap = i.longitude, latitude_ap = i.latitude, snap_ft = i.snap_ft, moved_ft = i.moved_ft,
+                                      segment_id = i.segment_id,
                                       loc_method = data.table::fifelse(i.gap == 0, "address point", "nearest address point"))]
   if (fill_intersections) {
     g <- crashes_intersection_nodes(out[is.na(longitude)], streets, nodes)
-    out[g, on = "collision_id", `:=`(longitude_ap = i.longitude, latitude_ap = i.latitude, loc_method = "intersection node")]
+    out[g, on = "collision_id", `:=`(longitude_ap = i.longitude, latitude_ap = i.latitude, node_id = i.node, loc_method = "intersection node")]
+    # intersection crashes with coordinates: the node they sit on
+    it <- out[is.na(off_street_name) & !is.na(cross_street_name) & !is.na(longitude), .(collision_id, longitude, latitude)]
+    if (nrow(it) && requireNamespace("sf", quietly = TRUE)) {
+      nd <- unique(nodes[, .(node, longitude, latitude)], by = "node")
+      to_sf <- function(d) sf::st_transform(sf::st_as_sf(as.data.frame(d), coords = c("longitude", "latitude"), crs = 4326), nyc_crs)
+      p <- to_sf(it); q <- to_sf(nd)
+      k <- sf::st_nearest_feature(p, q)
+      d <- sqrt(rowSums((sf::st_coordinates(p) - sf::st_coordinates(q)[k, , drop = FALSE])^2))
+      it[, `:=`(node = nd[["node"]][k], d = d)]
+      out[it[d <= 10], on = "collision_id", node_id := i.node]
+    }
   }
   out[]
+}
+
+# Spatial conventions ----
+# Joins and distances in NY State Plane Long Island, US feet (EPSG 2263): the CRS of LION and
+# the traffic counts. Lon/lat sources (crashes, Citi Bike, address points, bike routes,
+# boundaries) are converted with nyc_points_sf() or sf::st_transform(x, nyc_crs).
+nyc_crs <- 2263
+
+nyc_in_bbox <- function(lon, lat) !is.na(lon) & !is.na(lat) & lon > -74.27 & lon < -73.68 & lat > 40.49 & lat < 40.92
+
+# sf points in nyc_crs from a table with lon/lat columns; rows without coordinates or outside
+# NYC are dropped (with a message)
+nyc_points_sf <- function(dt, lon = "longitude", lat = "latitude", crs = nyc_crs) {
+  stopifnot(requireNamespace("sf", quietly = TRUE))
+  ok <- nyc_in_bbox(dt[[lon]], dt[[lat]])
+  if (any(!ok)) message("nyc_points_sf: dropped ", sum(!ok), " of ", length(ok), " rows without coordinates in NYC")
+  sf::st_transform(sf::st_as_sf(as.data.frame(dt)[ok, , drop = FALSE], coords = c(lon, lat), crs = 4326), crs)
+}
+
+# LION ----
+# path of the file geodatabase inside a LION zip (lion/lion.gdb, or lion.gdb in 2015b)
+lion_gdb <- function(zip = nyc_latest("lion")) {
+  n <- utils::unzip(zip, list = TRUE)$Name
+  paste0("/vsizip/", zip, "/", sub("(\\.gdb)/.*", "\\1", n[grepl("\\.gdb/", n)][1]))
+}
+
+# Quarterly LION releases on disk with their release date (newest file date inside the zip)
+lion_releases <- function() {
+  stopifnot(requireNamespace("data.table", quietly = TRUE))
+  dir <- file.path(nyc_data_root(), "streets", "lion")
+  f <- list.files(dir, pattern = "^(nyc_lion|nyclion_)[0-9]{2}[a-d]\\.zip$", full.names = TRUE)
+  r <- data.table::data.table(release = sub("^(nyc_lion|nyclion_)([0-9]{2}[a-d])\\.zip$", "\\2", basename(f)), file = f)
+  r[, release_date := as.Date(vapply(file, function(z) format(max(utils::unzip(z, list = TRUE)$Date)), character(1)))]
+  r[order(release_date)]
+}
+
+# The LION release in force on a date (the last one released on or before it)
+nyc_lion_for_date <- function(date, releases = lion_releases()) {
+  date <- as.Date(date)
+  i <- findInterval(as.numeric(date), as.numeric(releases[["release_date"]]))
+  if (any(i == 0)) warning("dates before the first release (", releases[["release"]][1], ") get that release")
+  releases[["file"]][pmax(i, 1)]
+}
+
+# LION segments as sf in nyc_crs. what = "centerline": street features (FeatureTyp 0, 6, A, C) on
+# the generic and both-roadbed layers (one line per street, the usual choice); "all": every
+# feature. RW_TYPE is trimmed (stored as " 1"), SegmentID and LBoro become integers, curved
+# segments are linearized. Columns missing in older releases are skipped.
+lion_read <- function(file = nyc_latest("lion"), boro = NULL, what = c("centerline", "all"),
+                      columns = c("SegmentID", "Street", "StreetCode", "LBoro", "FeatureTyp", "RB_Layer", "RW_TYPE",
+                                  "TrafDir", "NodeIDFrom", "NodeIDTo", "Number_Travel_Lanes", "StreetWidth_Min",
+                                  "BikeLane", "POSTED_SPEED", "LLo_Hyphen", "LHi_Hyphen", "RLo_Hyphen", "RHi_Hyphen")) {
+  stopifnot(requireNamespace("sf", quietly = TRUE))
+  what <- match.arg(what)
+  gdb <- lion_gdb(file)
+  have <- names(sf::st_read(gdb, quiet = TRUE, query = "SELECT * FROM lion WHERE 1 = 0"))
+  where <- c(if (what == "centerline") "FeatureTyp IN ('0','6','A','C') AND RB_Layer IN ('G','B')",
+             if (!is.null(boro)) sprintf("LBoro IN (%s)", paste(as.integer(boro), collapse = ",")))
+  q <- paste("SELECT", paste(intersect(columns, have), collapse = ", "), "FROM lion",
+             if (length(where)) paste("WHERE", paste(where, collapse = " AND ")))
+  ln <- sf::st_zm(sf::st_read(gdb, quiet = TRUE, type = 5, query = q))
+  if ("RW_TYPE" %in% names(ln)) ln$RW_TYPE <- trimws(ln$RW_TYPE)
+  for (v in intersect(c("SegmentID", "LBoro"), names(ln))) ln[[v]] <- as.integer(ln[[v]])
+  sf::st_transform(ln, nyc_crs)
+}
+
+# Boundaries ----
+# Borough, community district, NTA, census tract/block and precinct polygons as sf in nyc_crs
+boundaries_read <- function(name = c("boroughs", "community_districts", "ntas", "tracts", "blocks", "precincts"), as_of = NULL) {
+  stopifnot(requireNamespace("sf", quietly = TRUE))
+  x <- sf::st_transform(sf::st_read(nyc_latest(match.arg(name), as_of), quiet = TRUE), nyc_crs)
+  # a few census blocks have self-intersections
+  if (!all(sf::st_is_valid(x))) x <- sf::st_make_valid(x)
+  x
+}
+
+# TLC taxi zones (LocationID, borough, zone, service_zone) as sf in nyc_crs; the location in all
+# TLC parquet trips (PULocationID, DOLocationID). Zones 264/265 are unknown and have no polygon.
+taxi_zones_read <- function() {
+  stopifnot(requireNamespace("sf", quietly = TRUE))
+  z <- nyc_latest("taxi_zones")
+  shp <- grep("\\.shp$", utils::unzip(z, list = TRUE)$Name, value = TRUE)[1]
+  zones <- sf::st_read(paste0("/vsizip/", z, "/", shp), quiet = TRUE)
+  lk <- data.table::fread(nyc_latest("taxi_zone_lookup"))
+  zones <- merge(zones[, c("LocationID", "geometry")], lk, by = "LocationID", all.x = TRUE)
+  sf::st_transform(zones, nyc_crs)
 }
 
 # Citi Bike ----
@@ -308,3 +437,76 @@ citibike_files <- function() {
   list.files(file.path(nyc_data_root(), "citibike", "raw"),
              pattern = "citibike-tripdata\\.zip$", full.names = TRUE)
 }
+
+# Trips of one month ("2016-07") in one schema across the format change:
+#   started_at, ended_at (POSIXct, NYC time), start/end_station_id, _name, _lat, _lng,
+#   member (TRUE for members/subscribers), rideable_type and ride_id (from 2020),
+#   bikeid, birth_year, gender (to 2019-12: the 2024 repackaging converted 2020 to the new format).
+# Handles the three archive layouts: month folders in yearly zips (to 2019), monthly zips inside
+# yearly zips (2020-2023), monthly zips split into several CSVs (2024 on).
+citibike_read <- function(ym, nrows = Inf) {
+  stopifnot(requireNamespace("data.table", quietly = TRUE))
+  yyyymm <- gsub("-", "", ym)
+  f <- citibike_files()
+  outer <- f[basename(f) == paste0(yyyymm, "-citibike-tripdata.zip")]
+  if (!length(outer)) outer <- f[basename(f) == paste0(substr(yyyymm, 1, 4), "-citibike-tripdata.zip")]
+  if (!length(outer)) stop("no Citi Bike archive for ", ym)
+  tmp <- tempfile("citibike"); dir.create(tmp); on.exit(unlink(tmp, recursive = TRUE))
+  # the 2013 archive has each month twice: whole (201309-...csv) and split (201309-..._1.csv, _2)
+  one_copy <- function(csv) if (any(grepl("_[0-9]+\\.csv$", csv))) csv[grepl("_[0-9]+\\.csv$", csv)] else csv
+  n <- utils::unzip(outer, list = TRUE)$Name
+  n <- n[!grepl("__MACOSX|/\\.", n) & grepl(yyyymm, basename(n))]
+  inner_zip <- n[grepl("\\.zip$", n)]
+  if (length(inner_zip)) {
+    utils::unzip(outer, files = inner_zip, exdir = tmp, junkpaths = TRUE)
+    z <- file.path(tmp, basename(inner_zip))
+    n <- utils::unzip(z, list = TRUE)$Name
+    n <- one_copy(n[!grepl("__MACOSX|/\\.", n) & grepl("\\.csv$", n)])
+    utils::unzip(z, files = n, exdir = tmp, junkpaths = TRUE)
+  } else {
+    n <- one_copy(n[grepl("\\.csv$", n)])
+    utils::unzip(outer, files = n, exdir = tmp, junkpaths = TRUE)
+  }
+  parts <- lapply(file.path(tmp, basename(n)), data.table::fread, nrows = nrows, colClasses = "character")
+  x <- data.table::rbindlist(parts, use.names = TRUE, fill = TRUE)
+  data.table::setnames(x, gsub("[^a-z0-9]+", "_", tolower(names(x))))
+  if ("starttime" %in% names(x)) {
+    data.table::setnames(x, c("starttime", "stoptime", "start_station_latitude", "start_station_longitude",
+                              "end_station_latitude", "end_station_longitude", "birth_year"),
+                         c("started_at", "ended_at", "start_lat", "start_lng", "end_lat", "end_lng", "birth_year"), skip_absent = TRUE)
+    x[, member := usertype == "Subscriber"]
+  } else {
+    x[, member := member_casual == "member"]
+  }
+  fmt <- c("%Y-%m-%d %H:%M:%OS", "%m/%d/%Y %H:%M:%OS", "%m/%d/%Y %H:%M")
+  for (v in c("started_at", "ended_at")) data.table::set(x, j = v, value = as.POSIXct(x[[v]], tz = "America/New_York", tryFormats = fmt))
+  for (v in c("start_lat", "start_lng", "end_lat", "end_lng")) data.table::set(x, j = v, value = as.numeric(x[[v]]))
+  keep <- c("started_at", "ended_at", "start_station_id", "start_station_name", "start_lat", "start_lng",
+            "end_station_id", "end_station_name", "end_lat", "end_lng", "member", "rideable_type", "ride_id",
+            "bikeid", "birth_year", "gender")
+  x[, intersect(keep, names(x)), with = FALSE]
+}
+
+# Counts ----
+# DOT automated traffic counts (ATR): one row per 15 minutes and direction, with time as POSIXct,
+# the LION SegmentID and x, y in nyc_crs (from WktGeom)
+traffic_counts_read <- function(file = nyc_latest("traffic_counts")) {
+  stopifnot(requireNamespace("data.table", quietly = TRUE))
+  tc <- data.table::fread(file)
+  tc[, time := as.POSIXct(sprintf("%d-%02d-%02d %02d:%02d", Yr, M, D, HH, MM), tz = "America/New_York")]
+  xy <- unique(tc[, .(WktGeom)])
+  xy[, `:=`(x = as.numeric(sub("POINT \\(([0-9.]+) .*", "\\1", WktGeom)), y = as.numeric(sub("POINT \\([0-9.]+ ([0-9.]+)\\)", "\\1", WktGeom)))]
+  tc <- xy[tc, on = "WktGeom"]
+  tc[, SegmentID := as.integer(SegmentID)]
+  tc[]
+}
+
+# DOT bike routes as sf in nyc_crs, with segmentid as an integer LION SegmentID
+bike_routes_read <- function(file = nyc_latest("bike_routes")) {
+  stopifnot(requireNamespace("sf", quietly = TRUE))
+  br <- sf::st_read(file, quiet = TRUE)
+  br <- br[!sf::st_is_empty(br), ]
+  br$segmentid <- as.integer(br$segmentid)
+  sf::st_transform(br, nyc_crs)
+}
+

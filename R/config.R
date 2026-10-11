@@ -29,7 +29,7 @@ tlc_url_base <- "https://d37ci6vzurychx.cloudfront.net/trip-data/"
 # first month each trip type is published as parquet and used by our projects
 tlc_start <- c(
   yellow = "2012-01",
-  green  = "2013-08",
+  green  = "2014-01",  # 2013-08..12 are not published as parquet
   fhvhv  = "2019-02",
   fhv    = "2015-01"
 )
