@@ -9,8 +9,8 @@ renamed to `Dropbox/1_research/nyc_traffic_data` with the flat layout, all three
 - [x] Folder rename verified 2026-10-13 (`nyc_data_root()` and 176 yellow months; `NYC_DATA` unset).
 - [x] `5_NYC_bikelanes/scripts/000_project_init.R` and `nyc_bikelane_history/checks/01_dot_release_quality.R`
       run against the new paths.
-- [ ] Run `Rscript checks/store.R` on the new layout and fix what it flags (up to Citi Bike clean on
-      2026-10-13; the date warning is fixed; traffic counts and boundaries still to check).
+- [x] `checks/store.R` run on the new layout 2026-10-13: only flags the real COVID drops (2020-04 to
+      2020-06); the IDate warning is fixed. 85% of traffic count SegmentIDs are in current LION.
 
 ## Bicycle and pedestrian counts
 
@@ -31,8 +31,7 @@ renamed to `Dropbox/1_research/nyc_traffic_data` with the flat layout, all three
 
 ## Smaller items
 
-- [ ] `nyc_bikelane_history` writes `derived/lion_panel`; re-run `lanes/01_lion_panel.R` once to
-      confirm it works through `nyc_data_root()`.
+- [x] `lanes/01_lion_panel.R` re-run through `nyc_data_root()` 2026-10-13; output identical.
 - [ ] `5_NYC_bikelanes/notes/*.md` still mention `data_NYC` and `nyc_data` (dated planning notes,
       left as they were; update if wanted).
 - [ ] Optionally drop the `NYC_DATA` fallback in `R/config.R` once nothing uses it.
