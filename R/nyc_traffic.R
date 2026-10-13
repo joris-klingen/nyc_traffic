@@ -527,11 +527,14 @@ bike_count_sensors <- function(file = nyc_latest("bike_ped_sensors")) {
 
 # DOT bicycle and pedestrian counts: one row per sensor, flow (direction) and 15 minutes.
 #   time        start of the interval, NYC local time. The source says EST, but the data follow
-#               daylight saving: the 02:00 hour is missing on spring-forward days.
+#               daylight saving: the 02:00 hour is missing on spring-forward days, and fall-back
+#               days have a single 01:00 hour (the repeated hour is not in the data).
 #   counter_id  the device mounted at that time (counters are replaced now and then; check
 #               for a level shift at a swap)
 # Rows DOT marked "deleted" are dropped unless keep_deleted = TRUE; status "modified" means DOT
-# corrected the raw count. Sensor name and location come from bike_count_sensors(). `modes`
+# corrected the raw count (216 sensor-flow-times have both a deleted and a modified row; after
+# dropping deleted rows the key sensor_id x flow_id x time is unique). Reading the full file takes
+# ~17 minutes and ~2 GB (21.4M rows); filter with `modes` or read once and save to parquet. Sensor name and location come from bike_count_sensors(). `modes`
 # keeps only some travel modes ("bike", "pedestrian", "scooter").
 bike_counts_read <- function(file = nyc_latest("bike_ped_counts"), sensors_file = nyc_latest("bike_ped_sensors"),
                              modes = NULL, keep_deleted = FALSE) {

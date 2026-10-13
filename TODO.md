@@ -6,25 +6,26 @@ renamed to `Dropbox/1_research/nyc_traffic_data` with the flat layout, all three
 
 ## After the rename
 
-- [ ] Verify the local folder rename: `git status` clean, `git remote -v` shows
-      `github.com/joris-klingen/nyc_traffic.git`, and a temp script sourcing `R/nyc_traffic.R`
-      prints `.../nyc_traffic_data` for `nyc_data_root()` and 176 for `length(tlc_files("yellow"))`
-      (never `Rscript -e` on this machine).
-- [ ] Run one script in each project against the new paths: `5_NYC_bikelanes/scripts/000_project_init.R`
-      and e.g. `nyc_bikelane_history/checks/01_dot_release_quality.R` (both from their repo root).
-- [ ] Run `Rscript checks/store.R` on the new layout and fix what it flags.
+- [x] Folder rename verified 2026-10-13 (`nyc_data_root()` and 176 yellow months; `NYC_DATA` unset).
+- [x] `5_NYC_bikelanes/scripts/000_project_init.R` and `nyc_bikelane_history/checks/01_dot_release_quality.R`
+      run against the new paths.
+- [ ] Run `Rscript checks/store.R` on the new layout and fix what it flags (up to Citi Bike clean on
+      2026-10-13; the date warning is fixed; traffic counts and boundaries still to check).
 
 ## Bicycle and pedestrian counts
 
-- [ ] Test `bike_count_sensors()` and `bike_counts_read()` on the full files
-      (`traffic_counts/bicycle/Bicycle_and_Pedestrian_Counts_20261011.csv`, 1.9 GB, ~21.4M rows).
-      The last sample test was cut off right after fixing sensors without coordinates. Check:
-  - every count gets a sensor name; `counter_id` (device in place) is filled where devices have dates
-  - the duplicate sensor-flow-time rows (40 in a 3M sample) are the repeated 01:00 hour on
-    fall-back days; decide whether to keep both
-  - time is NYC local time (the 02:00 hour is missing on spring-forward days; morning peak at 8
-    in January and July), even though the source says EST
-  - `segment_ft` for bridge paths (nearest LION centerline may be far)
+- [x] Readers tested on the full file 2026-10-13 (17 min, 21.4M rows, 41 sensors with counts):
+  - every count has a sensor name; no unparsed times
+  - no duplicate sensor-flow-time keys once deleted rows are dropped: the duplicates of the sample
+    were 216 deleted + modified pairs, not daylight saving
+  - local time confirmed: 02:00 missing on spring-forward Sundays, fall-back Sundays have a single
+    01:00 hour, weekday morning peak at 8 in summer
+- [ ] `counter_id` is empty for 10% of rows, mostly two sensors whose device dates do not cover their
+      data: Comprehensive Brooklyn Bridge Counter (2013-12 to 2022-03, 543k rows) and 1st Avenue -
+      26th St N - Interference testing (2013-09 to 2018-04, 321k rows).
+- [ ] Off-street sensors snap to a far LION centerline: Concrete Plant Park (165 ft), High Bridge
+      (136 ft), Hunts Point Ave (89 ft). Set `segment_id` to NA beyond some distance, or flag
+      off-street paths. One sensor has no coordinates (Manhattan Bridge Interference Calibration 2018).
 - [ ] Add the counts to the README source table and `checks/store.R` (sensors still reporting,
       gaps per sensor, level shifts at device swaps).
 
@@ -38,4 +39,4 @@ renamed to `Dropbox/1_research/nyc_traffic_data` with the flat layout, all three
 - [ ] Citi Bike: the original 2020-01 to 2021-01 releases with rider demographics are not in the
       store (the 2024 repackaging converted 2020 to the new format). Check whether they can still be
       found anywhere if the gender work needs them.
-- [ ] `output/` and `migration_logs/` in the repo folder are untracked leftovers; delete if not needed.
+- [x] `output/` and `migration_logs/` deleted 2026-10-13.
