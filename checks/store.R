@@ -25,7 +25,7 @@ snap <- rbindlist(lapply(names(nyc_snapshots), function(n) {
   data.table(dataset = n, snapshots = length(f), latest = as.IDate(names(f)[length(f)], format = "%Y%m%d"),
              MB = round(file.size(f[length(f)]) / 1e6))
 }), fill = TRUE)
-snap[, age_days := as.integer(Sys.Date() - latest)]
+snap[, age_days := as.integer(as.IDate(Sys.Date()) - latest)]
 print(snap)
 for (n in snap[snapshots == 0, dataset]) flag("no snapshot of ", n)
 

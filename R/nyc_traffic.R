@@ -557,6 +557,15 @@ bike_counts_read <- function(file = nyc_latest("bike_ped_counts"), sensors_file 
   x[]
 }
 
+# Manhattan bike lane history built by nyc_bikelane_history/scripts/03_time_windows.R: one row per
+# SegmentID x time_window with date_from, date_to and tf_facilit / ft_facilit (Protected, Standard,
+# Sharrows; NA = no lane in that direction)
+bikelane_windows_read <- function() {
+  f <- file.path(nyc_data_root(), "derived", "bikelane_history", "bike_lanes_time_windows.RDS")
+  if (!file.exists(f)) stop(f, " not found: run scripts/03_time_windows.R in nyc_bikelane_history")
+  readRDS(f)
+}
+
 # DOT bike routes as sf in nyc_crs, with segmentid as an integer LION SegmentID
 bike_routes_read <- function(file = nyc_latest("bike_routes")) {
   stopifnot(requireNamespace("sf", quietly = TRUE))

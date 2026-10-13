@@ -122,7 +122,9 @@ nyc_traffic_data/
     fhvhv/                 fhvhv_tripdata_YYYY-MM.parquet    2019-02 onward
     yellow_csv_legacy/     yellow_tripdata_YYYY-MM.csv       2012-01 to 2016-06, with pickup/dropoff
                                                              coordinates; no longer published this way, keep
-    zones/                 taxi_zones_YYYYMMDD.zip (shapefile), taxi_zone_lookup_YYYYMMDD.csv
+    zones/                 taxi_zones_YYYYMMDD.zip (shapefile), taxi_zone_lookup_YYYYMMDD.csv;
+                           taxi_zones_20250923.zip is the 2025 version used by 5_NYC_bikelanes (other
+                           Manhattan LocationIDs, 3 duplicate ids)
     manifest.csv, download_log.csv
   crashes/                 Motor_Vehicle_Collisions_-_{Crashes,Person,Vehicles}_YYYYMMDD.csv (dated snapshots)
                            NYPD_Motor_Vehicle_Collisions_YYYYMMDD.csv (pre-2020 version of the crash table)
@@ -161,6 +163,8 @@ nyc_traffic_data/
   derived/                 made from the raw data, can be rebuilt:
     crashes_parquet/       parquet copies of the crash snapshots (scripts/30_crashes_parquet.R)
     lion_panel/            LION lane panels (nyc_bikelane_history/lanes/)
+    bikelane_history/      Manhattan bike lane time windows (nyc_bikelane_history/scripts/03_time_windows.R),
+                           read with bikelane_windows_read()
   opendata_download_log.csv
 ```
 
