@@ -549,11 +549,15 @@ bike_counts_read <- function(file = nyc_latest("bike_ped_counts"), sensors_file 
   x[]
 }
 
-# Manhattan bike lane history built by nyc_streets/layers/bike_lanes/scripts/03_time_windows.R: one row
-# per SegmentID x time_window with date_from, date_to and tf_facilit / ft_facilit (Protected, Standard,
-# Sharrows; NA = no lane in that direction)
-bikelane_windows_read <- function() {
-  f <- file.path(nyc_data_root(), "derived", "streets", "bike_lanes", "bike_lanes_time_windows.RDS")
+# Bike lane history built by nyc_streets/layers/bike_lanes/scripts/03_time_windows.R: one row per
+# SegmentID x time_window with date_from, date_to and tf_facilit / ft_facilit (Protected, Standard,
+# Sharrows; NA = no lane in that direction). version "dot2026": all boroughs from the DOT 2026 version
+# history (since 2026-10-14); "dot2020": the earlier build from the DOT 2020 release plus the
+# Manhattan 2025 updates (no changes after 2020 outside Manhattan)
+bikelane_windows_read <- function(version = c("dot2026", "dot2020")) {
+  version <- match.arg(version)
+  f <- file.path(nyc_data_root(), "derived", "streets", "bike_lanes",
+                 if (version == "dot2026") "bike_lanes_time_windows.RDS" else "bike_lanes_time_windows_dot2020.RDS")
   if (!file.exists(f)) stop(f, " not found: run layers/bike_lanes/scripts/03_time_windows.R in nyc_streets")
   readRDS(f)
 }
