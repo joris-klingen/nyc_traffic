@@ -133,9 +133,10 @@ nyc_traffic_data/
     reference/             NYC_vehicle_lookup_table.csv (hand-made vehicle type classification)
   streets/
     lion/                  quarterly releases nyc_lion12a.zip ... nyc_lion16d.zip, nyclion_17a.zip ...
-                           nyclion_26c.zip; current snapshot nyclion_YYYYMMDD.zip; older extracted
-                           copies lion_2012a ... lion_2016d, lion_16d, lion_201911 (probably 19d);
-                           nyc_lion15b.corrupt_20200630.zip (a damaged download, kept)
+                           nyclion_26c.zip; current snapshot nyclion_YYYYMMDD.zip;
+                           nyc_lion15b.corrupt_20200630.zip (a damaged download, kept). Read the zips
+                           directly with lion_gdb() / lion_read(); the extracted copies of 12a-15a, 16d
+                           and 19d that used to sit here were deleted 2026-10-14
     address_points/        AddressPoint_YYYYMMDD.csv (one point per building address)
     bike_routes/           New York City Bike Routes_YYYYMMDD.geojson; archived 2019/2020 shapefiles;
                            2017 route tables and earlier DOT exports
