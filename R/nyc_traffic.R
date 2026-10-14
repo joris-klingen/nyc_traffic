@@ -31,25 +31,14 @@ tlc_open <- function(type, years = NULL) {
 }
 
 # Dated snapshots ----
-nyc_snapshots <- list(
-  crashes     = c("crashes",             "^Motor_Vehicle_Collisions_-_Crashes_(\\d{8})\\.csv$"),
-  persons     = c("crashes",             "^Motor_Vehicle_Collisions_-_Person_(\\d{8})\\.csv$"),
-  vehicles    = c("crashes",             "^Motor_Vehicle_Collisions_-_Vehicles_(\\d{8})\\.csv$"),
-  bike_routes = c("streets/bike_routes", "^New York City Bike Routes_(\\d{8})\\.geojson$"),
-  lion        = c("streets/lion",        "^nyclion_(\\d{8})\\.zip$"),
-  address_points = c("streets/address_points", "^AddressPoint_(\\d{8})\\.csv$"),
-  traffic_counts   = c("traffic_counts/automated", "^Automated_Traffic_Volume_Counts_(\\d{8})\\.csv$"),
-  bike_ped_counts  = c("traffic_counts/bicycle",   "^Bicycle_and_Pedestrian_Counts_(\\d{8})\\.csv$"),
-  bike_ped_sensors = c("traffic_counts/bicycle",   "^Bicycle_and_Pedestrian_Count_Sensors_(\\d{8})\\.csv$"),
-  taxi_zones       = c("taxi/zones",               "^taxi_zones_(\\d{8})\\.zip$"),
-  taxi_zone_lookup = c("taxi/zones",               "^taxi_zone_lookup_(\\d{8})\\.csv$"),
-  boroughs            = c("boundaries", "^borough_boundaries_(\\d{8})\\.geojson$"),
-  community_districts = c("boundaries", "^community_districts_(\\d{8})\\.geojson$"),
-  ntas                = c("boundaries", "^nta_2020_(\\d{8})\\.geojson$"),
-  tracts              = c("boundaries", "^census_tracts_2020_(\\d{8})\\.geojson$"),
-  blocks              = c("boundaries", "^census_blocks_2020_(\\d{8})\\.geojson$"),
-  precincts           = c("boundaries", "^police_precincts_(\\d{8})\\.geojson$"),
-  tract_nta           = c("boundaries", "^census_tract_2020_to_nta_cdta_(\\d{8})\\.csv$")
+nyc_snapshots <- c(
+  setNames(lapply(seq_len(nrow(nyc_opendata)), function(i)
+    nyc_opendata[i, c(dir, nyc_snapshot_pattern(prefix, ext))]), nyc_opendata[, name]),
+  list(
+    taxi_zones        = c("taxi/zones",        "^taxi_zones_(\\d{8})\\.zip$"),
+    taxi_zone_lookup  = c("taxi/zones",        "^taxi_zone_lookup_(\\d{8})\\.csv$"),
+    citibike_stations = c("citibike/stations", "^station_information_(\\d{8})\\.json$")
+  )
 )
 
 # all snapshots of a dataset, oldest first, named by snapshot date

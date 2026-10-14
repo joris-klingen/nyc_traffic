@@ -31,6 +31,8 @@ source("path/to/nyc_traffic/R/nyc_traffic.R")   # all helpers below; needs data.
 | Automated traffic counts | 2000 to latest, 15 min | `SegmentID` (85% in current LION, rest in older releases) | 2263 (`WktGeom`) | `traffic_counts_read()` | |
 | Bicycle/pedestrian counts | DOT counters | sensor `id` | 4326 | `fread(nyc_latest("bike_ped_counts"))` | 10 of 66 counters in the 2020 version sit at 0,0 |
 | Citi Bike | 2013-06 to latest month | station lon/lat | 4326 | `citibike_read("2016-07")` | rider demographics only to 2019-12 (see below); 3 archive layouts |
+| Street layout (parking signs and meters, bus lanes, speed limits, slow zones, truck routes, speed humps and SRTS, LPI and Barnes dance signals, open streets, plazas, bike parking, pavement ratings, construction closures) | current state, dated snapshots from 2026-10-14 (SRTS, closures also 2020-02) | mostly LION `segmentid` or street + from/to street; signs and meters as points | 4326 | `nyc_latest("bus_lanes")` etc., names in `nyc_opendata` (`R/config.R`) | published as current state only: history exists only from the first snapshot, except fields with install dates (speed humps, LPI, bike racks, bus lane `year1`, signs `order_completed_on_date`) and `street_network_changes` (one-way conversions) |
+| Citi Bike stations | GBFS snapshots from 2026-10-14; 2019 snapshots | station lon/lat | 4326 | `jsonlite::fromJSON(nyc_latest("citibike_stations"))` | before 2026: first and last trip per station in the trip data |
 | Boundaries | 2020 census geographies, current admin areas | polygons | 4326 on disk | `boundaries_read("tracts")` | 4 census blocks have invalid geometry (repaired by the reader) |
 | Taxi zones | current | `LocationID` | 2263 | `taxi_zones_read()` | zones 264/265 are "unknown", no polygon |
 
@@ -137,9 +139,19 @@ nyc_traffic_data/
     address_points/        AddressPoint_YYYYMMDD.csv (one point per building address)
     bike_routes/           New York City Bike Routes_YYYYMMDD.geojson; archived 2019/2020 shapefiles;
                            2017 route tables and earlier DOT exports
-    other/                 NYC_streets shapefile and csv, NYC_bikelanes shapefile, Vision Zero speed limits
-                           (2020-06), Speed Reducer Tracking System (2020-02), street closures for
-                           construction by block (2020-02)
+    bus_lanes/             Bus_Lanes_Local_Streets_YYYYMMDD.geojson
+    parking/               Parking_Regulation_Locations_and_Signs, Parking_Meters_Locations_and_Status (csv);
+                           Parking_Meters_ParkNYC_Block_Faces, Parking_Meters_Citywide_Rate_Zones (geojson)
+    traffic_rules/         VZV_Speed_Limits, VZV_Arterial_Slow_Zones, VZV_Neighborhood_Slow_Zones,
+                           New_York_City_Truck_Routes (geojson); Street_Network_Changes_Historical.csv;
+                           dot_VZV_Speed_Limits (2020-06 shapefile and csv)
+    calming/               VZV_Speed_Humps.geojson; Speed_Reducer_Tracking_System__SRTS_.csv (from 2020-02)
+    signals/               VZV_Leading_Pedestrian_Interval_Signals, Exclusive_Pedestrian_Signal_Locations (csv)
+    public_space/          Open_Streets_Locations, NYC_DOT_Pedestrian_Plazas (geojson); Pedestrian_Space_Added.csv
+    bike_parking/          Bicycle_Parking, Bicycle_Parking_Shelters (csv)
+    pavement/              Street_Pavement_Ratings.csv (geometry as WKT)
+    closures/              Street_Closures_due_to_construction_activities_by_Block.csv (from 2020-02)
+    other/                 NYC_streets shapefile and csv, NYC_bikelanes shapefile
   boundaries/              borough_boundaries, community_districts, nta_2020, census_tracts_2020,
                            census_blocks_2020, police_precincts (_YYYYMMDD.geojson);
                            census_tract_2020_to_nta_cdta_YYYYMMDD.csv
@@ -155,7 +167,8 @@ nyc_traffic_data/
     trips_monthly_original/ YYYYMM-citibike-tripdata(.csv).zip, 2014-01 to 2019-12: original monthly releases,
                            before Citi Bike repackaged them into yearly zips in 2024. Keep: original record
                            for the gender paper.
-    stations/              station snapshots citibikestationsNYC_YYYYMMDD_HHMM.json (2019)
+    stations/              station_information_YYYYMMDD.json (GBFS, from 2026-10-14);
+                           citibikestationsNYC_YYYYMMDD_HHMM.json (2019)
     manifest.csv
   documents/
     dot_presentations/     DOT project presentations and street design checklists (PDF), downloaded by
@@ -180,7 +193,8 @@ Run from the repo root.
 | Script | Purpose |
 |---|---|
 | `scripts/01_download_tlc.R` | New TLC months (and re-check the most recent ones), taxi zones; writes `taxi/manifest.csv` |
-| `scripts/10_download_opendata.R` | New dated snapshots of the NYC Open Data sets (crashes, persons, vehicles, bike routes, LION, address points, counts, boundaries) when they were updated; logs to `opendata_download_log.csv` |
+| `scripts/10_download_opendata.R` | New dated snapshots of the NYC Open Data sets listed in `nyc_opendata` (`R/config.R`: crashes, LION, bike routes, street layout sets, counts, boundaries, ...) when they were updated; a download identical to the latest snapshot is dropped; logs to `opendata_download_log.csv` |
+| `scripts/21_snapshot_citibike_stations.R` | Citi Bike station list (GBFS) when it changed |
 | `scripts/11_download_lion_releases.R` | Quarterly LION releases from the DCP archive |
 | `scripts/20_download_citibike.R` | Citi Bike trip zips not yet present; writes `citibike/manifest.csv` |
 | `scripts/30_crashes_parquet.R` | Parquet copies of the crash snapshots in `derived/crashes_parquet/` |
@@ -189,6 +203,7 @@ Run from the repo root.
 Rscript scripts/01_download_tlc.R yellow,green,fhvhv 3
 Rscript scripts/10_download_opendata.R
 Rscript scripts/20_download_citibike.R
+Rscript scripts/21_snapshot_citibike_stations.R
 Rscript scripts/30_crashes_parquet.R
 ```
 
