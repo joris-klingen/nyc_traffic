@@ -172,12 +172,13 @@ nyc_traffic_data/
     manifest.csv
   documents/
     dot_presentations/     DOT project presentations and street design checklists (PDF), downloaded by
-                           nyc_bikelane_history/dot_projects/03_fetch_extract.py
+                           nyc_streets/evidence/dot_projects/03_fetch_extract.py
   derived/                 made from the raw data, can be rebuilt:
     crashes_parquet/       parquet copies of the crash snapshots (scripts/30_crashes_parquet.R)
-    lion_panel/            LION lane panels (nyc_bikelane_history/lanes/)
-    bikelane_history/      Manhattan bike lane time windows (nyc_bikelane_history/scripts/03_time_windows.R),
+    streets/               street network history, built by the nyc_streets repo, one folder per layer:
+      bike_lanes/          Manhattan bike lane time windows (layers/bike_lanes/scripts/03_time_windows.R),
                            read with bikelane_windows_read()
+      travel_lanes/        LION lane panels (layers/travel_lanes/)
   opendata_download_log.csv
 ```
 
