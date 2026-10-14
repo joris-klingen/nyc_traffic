@@ -567,3 +567,19 @@ bike_routes_read <- function(file = nyc_latest("bike_routes")) {
   sf::st_transform(br, nyc_crs)
 }
 
+
+# Air pollution ----
+# EPA AQS monitor data for the NYC area (scripts/40_download_epa_aqs.R, scripts/41_air_pollution_nyc.R).
+# param: "44201" ozone, "42602" NO2, "NONOxNOy", "42101" CO, "42401" SO2, "88101" PM2.5 FRM/FEM,
+# "88502" PM2.5 non-FRM, "81102" PM10, "WIND", "TEMP". freq "hourly" (sample_measurement per
+# local hour) or "daily" (arithmetic_mean, aqi, by pollutant standard). nyc_only keeps the five boroughs.
+air_pollution_read <- function(param, freq = c("hourly", "daily"), years = NULL, nyc_only = FALSE) {
+  freq <- match.arg(freq)
+  f <- file.path(nyc_data_root(), "derived", "air_pollution", paste0(freq, "_", param, ".parquet"))
+  if (!file.exists(f)) stop(f, " not found: run scripts/41_air_pollution_nyc.R")
+  ds <- arrow::open_dataset(f)
+  if (nyc_only) ds <- dplyr::filter(ds, nyc)
+  x <- data.table::setDT(dplyr::collect(ds))
+  if (!is.null(years)) x <- x[data.table::year(date_local) %in% years]
+  x[]
+}

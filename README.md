@@ -2,8 +2,8 @@
 
 Shared download and access code for NYC data: TLC taxi and ride-hail trips, NYPD motor vehicle
 collisions, LION streets, address points, DOT bike routes, traffic and bicycle counts, Citi Bike
-trips, and boundary layers (boroughs, community districts, NTAs, census tracts and blocks,
-precincts, taxi zones). The data itself lives outside this repo, in `nyc_traffic_data/`.
+trips, street layout snapshots, EPA air pollution monitors, and boundary layers (boroughs,
+community districts, NTAs, census tracts and blocks, precincts, taxi zones). The data itself lives outside this repo, in `nyc_traffic_data/`.
 
 ## Setup
 
@@ -33,6 +33,7 @@ source("path/to/nyc_traffic/R/nyc_traffic.R")   # all helpers below; needs data.
 | Citi Bike | 2013-06 to latest month | station lon/lat | 4326 | `citibike_read("2016-07")` | rider demographics only to 2019-12 (see below); 3 archive layouts |
 | Street layout (parking signs and meters, bus lanes, speed limits, slow zones, truck routes, speed humps and SRTS, LPI and Barnes dance signals, open streets, plazas, bike parking, pavement ratings, construction closures) | current state, dated snapshots from 2026-10-14 (SRTS, closures also 2020-02) | mostly LION `segmentid` or street + from/to street; signs and meters as points | 4326 | `nyc_latest("bus_lanes")` etc., names in `nyc_opendata` (`R/config.R`) | published as current state only: history exists only from the first snapshot, except fields with install dates (speed humps, LPI, bike racks, bus lane `year1`, signs `order_completed_on_date`) and `street_network_changes` (one-way conversions) |
 | Citi Bike stations | GBFS snapshots from 2026-10-14; 2019 snapshots | station lon/lat | 4326 | `jsonlite::fromJSON(nyc_latest("citibike_stations"))` | before 2026: first and last trip per station in the trip data |
+| Air pollution (EPA AQS) | 2012 to latest release (revised twice a year), hourly and daily | monitor `site_id` (state-county-site), lon/lat | 4326 (NAD83 or WGS84 per record, `datum`) | `air_pollution_read("42602", "hourly")` | national files kept as published; the NYC-area extract (box around the five boroughs, `nyc` flags them) is in `derived/air_pollution/`; PM2.5 filter samplers (`88101`, 1-in-3 days) appear only in the daily files |
 | Boundaries | 2020 census geographies, current admin areas | polygons | 4326 on disk | `boundaries_read("tracts")` | 4 census blocks have invalid geometry (repaired by the reader) |
 | Taxi zones | current | `LocationID` | 2263 | `taxi_zones_read()` | zones 264/265 are "unknown", no polygon |
 
@@ -171,11 +172,19 @@ nyc_traffic_data/
     stations/              station_information_YYYYMMDD.json (GBFS, from 2026-10-14);
                            citibikestationsNYC_YYYYMMDD_HHMM.json (2019)
     manifest.csv
+  air_pollution/
+    epa_aqs/
+      hourly/              hourly_<param>_YYYY.zip, national, 2012 onward: 44201 ozone, 42602 NO2, NONOxNOy,
+                           42101 CO, 42401 SO2, 88101 PM2.5 FRM/FEM, 88502 PM2.5 non-FRM, 81102 PM10, WIND, TEMP
+      daily/               daily_<param>_YYYY.zip, same parameters (daily means, AQI)
+      sites/               aqs_sites_YYYYMMDD.zip, aqs_monitors_YYYYMMDD.zip (site and monitor lists)
+      manifest.csv         Last-Modified and size per file; revised files are kept as *.superseded_YYYYMMDD.zip
   documents/
     dot_presentations/     DOT project presentations and street design checklists (PDF), downloaded by
                            nyc_streets/evidence/dot_projects/03_fetch_extract.py
   derived/                 made from the raw data, can be rebuilt:
     crashes_parquet/       parquet copies of the crash snapshots (scripts/30_crashes_parquet.R)
+    air_pollution/         {hourly,daily}_<param>.parquet: NYC-area monitors (scripts/41_air_pollution_nyc.R)
     streets/               street network history, built by the nyc_streets repo, one folder per layer:
       bike_lanes/          Manhattan bike lane time windows (layers/bike_lanes/scripts/03_time_windows.R),
                            read with bikelane_windows_read()
@@ -199,6 +208,8 @@ Run from the repo root.
 | `scripts/21_snapshot_citibike_stations.R` | Citi Bike station list (GBFS) when it changed |
 | `scripts/11_download_lion_releases.R` | Quarterly LION releases from the DCP archive |
 | `scripts/20_download_citibike.R` | Citi Bike trip zips not yet present; writes `citibike/manifest.csv` |
+| `scripts/40_download_epa_aqs.R` | EPA AQS hourly and daily files from 2012 that are new or revised, site and monitor lists; writes `air_pollution/epa_aqs/manifest.csv` |
+| `scripts/41_air_pollution_nyc.R` | NYC-area monitor extract per parameter in `derived/air_pollution/` |
 | `scripts/30_crashes_parquet.R` | Parquet copies of the crash snapshots in `derived/crashes_parquet/` |
 
 ```bash
@@ -207,6 +218,8 @@ Rscript scripts/10_download_opendata.R
 Rscript scripts/20_download_citibike.R
 Rscript scripts/21_snapshot_citibike_stations.R
 Rscript scripts/30_crashes_parquet.R
+Rscript scripts/40_download_epa_aqs.R
+Rscript scripts/41_air_pollution_nyc.R
 ```
 
 ## Checks
