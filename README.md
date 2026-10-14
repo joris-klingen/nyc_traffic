@@ -139,21 +139,25 @@ nyc_traffic_data/
                            directly with lion_gdb() / lion_read(); the extracted copies of 12a-15a, 16d
                            and 19d that used to sit here were deleted 2026-10-14
     address_points/        AddressPoint_YYYYMMDD.csv (one point per building address)
-    bike_routes/           New York City Bike Routes_YYYYMMDD.geojson; archived 2019/2020 shapefiles;
-                           2017 route tables and earlier DOT exports
+    bike_routes/           New York City Bike Routes_YYYYMMDD.geojson; DOT archive zips
+                           Archived_nyc_bike_routes_2019.zip, _2020.zip (shapefile, csv, metadata; read
+                           with /vsizip/), nyc-bike-routes.zip (2017 release), 20190110__NYCDOT_BICYCLE_NETWORK.zip
+                           (the 2019 release as first published); nyc_bike_routes_2017.csv (despite the
+                           name the 2019 release, 16,672 rows) and nyc_bike_routes_2017_v2020.csv (the
+                           2020 release, 18,730 rows), used by the gender paper
     bus_lanes/             Bus_Lanes_Local_Streets_YYYYMMDD.geojson
     parking/               Parking_Regulation_Locations_and_Signs, Parking_Meters_Locations_and_Status (csv);
                            Parking_Meters_ParkNYC_Block_Faces, Parking_Meters_Citywide_Rate_Zones (geojson)
     traffic_rules/         VZV_Speed_Limits, VZV_Arterial_Slow_Zones, VZV_Neighborhood_Slow_Zones,
                            New_York_City_Truck_Routes (geojson); Street_Network_Changes_Historical.csv;
-                           dot_VZV_Speed_Limits (2020-06 shapefile and csv)
+                           dot_VZV_Speed_Limits.zip and _20200626.csv (2020-06)
     calming/               VZV_Speed_Humps.geojson; Speed_Reducer_Tracking_System__SRTS_.csv (from 2020-02)
     signals/               VZV_Leading_Pedestrian_Interval_Signals, Exclusive_Pedestrian_Signal_Locations (csv)
     public_space/          Open_Streets_Locations, NYC_DOT_Pedestrian_Plazas (geojson); Pedestrian_Space_Added.csv
     bike_parking/          Bicycle_Parking, Bicycle_Parking_Shelters (csv)
     pavement/              Street_Pavement_Ratings.csv (geometry as WKT)
     closures/              Street_Closures_due_to_construction_activities_by_Block.csv (from 2020-02)
-    other/                 NYC_streets shapefile and csv, NYC_bikelanes shapefile
+    other/                 NYC_streets_shape.zip and NYC_Streets.csv (street centerline export, 2020-01)
   boundaries/              borough_boundaries, community_districts, nta_2020, census_tracts_2020,
                            census_blocks_2020, police_precincts (_YYYYMMDD.geojson);
                            census_tract_2020_to_nta_cdta_YYYYMMDD.csv
@@ -192,7 +196,8 @@ nyc_traffic_data/
   opendata_download_log.csv
 ```
 
-Everything outside `derived/` is raw data as published, and never edited. Snapshots of updating
+Everything outside `derived/` is raw data as published, and never edited. Each file is kept once:
+read zips directly (`/vsizip/`) instead of keeping unzipped copies (removed 2026-10-14). Snapshots of updating
 datasets carry their download date. Files the
 publisher replaced are kept as `*.superseded_YYYYMMDD.*`, damaged downloads as
 `*.corrupt_YYYYMMDD.*`. Anything computed from the raw data goes to `derived/`.
