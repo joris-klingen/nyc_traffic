@@ -2,12 +2,12 @@
 
 State on 2026-10-11: repo renamed to `nyc_traffic` (GitHub `joris-klingen/nyc_traffic`), data store
 renamed to `Dropbox/1_research/nyc_traffic_data` with the flat layout, all three repos pushed
-(`nyc_traffic` 3982288, `nyc_bikelane_history` 96717c8, `5_NYC_bikelanes` a2cd41f).
+(`nyc_traffic` 3982288, `nyc_bikelane_history` 96717c8, `nyc_res_bikelanes` a2cd41f).
 
 ## After the rename
 
 - [x] Folder rename verified 2026-10-13 (`nyc_data_root()` and 176 yellow months; `NYC_DATA` unset).
-- [x] `5_NYC_bikelanes/scripts/000_project_init.R` and `nyc_bikelane_history/checks/01_dot_release_quality.R`
+- [x] `nyc_res_bikelanes/scripts/000_project_init.R` and `nyc_bikelane_history/checks/01_dot_release_quality.R`
       run against the new paths.
 - [x] `checks/store.R` run on the new layout 2026-10-13: only flags the real COVID drops (2020-04 to
       2020-06); the IDate warning is fixed. 85% of traffic count SegmentIDs are in current LION.
@@ -32,8 +32,8 @@ renamed to `Dropbox/1_research/nyc_traffic_data` with the flat layout, all three
 ## Smaller items
 
 - [x] `lanes/01_lion_panel.R` re-run through `nyc_data_root()` 2026-10-13; output identical.
-- [ ] `5_NYC_bikelanes/notes/*.md` still mention `data_NYC` and `nyc_data` (dated planning notes,
-      left as they were; update if wanted).
+- [x] `nyc_res_bikelanes/notes/*.md` point to the current repos and data store (2026-10-16; a
+      header line in each note says the paths were updated).
 - [ ] Optionally drop the `NYC_DATA` fallback in `R/config.R` once nothing uses it.
 - [ ] Citi Bike: the original 2020-01 to 2021-01 releases with rider demographics are not in the
       store (the 2024 repackaging converted 2020 to the new format). Check whether they can still be

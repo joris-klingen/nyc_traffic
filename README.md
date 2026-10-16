@@ -126,7 +126,7 @@ nyc_traffic_data/
     yellow_csv_legacy/     yellow_tripdata_YYYY-MM.csv       2012-01 to 2016-06, with pickup/dropoff
                                                              coordinates; no longer published this way, keep
     zones/                 taxi_zones_YYYYMMDD.zip (shapefile), taxi_zone_lookup_YYYYMMDD.csv;
-                           taxi_zones_20250923.zip is the 2025 version used by 5_NYC_bikelanes (other
+                           taxi_zones_20250923.zip is the 2025 version used by nyc_res_bikelanes (other
                            Manhattan LocationIDs, 3 duplicate ids)
     manifest.csv, download_log.csv
   crashes/                 Motor_Vehicle_Collisions_-_{Crashes,Person,Vehicles}_YYYYMMDD.csv (dated snapshots)
