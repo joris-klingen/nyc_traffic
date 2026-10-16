@@ -9,3 +9,4 @@ Rplots.pdf
 config.local
 output/
 migration_logs/
+.claude/
