@@ -47,3 +47,12 @@ renamed to `Dropbox/1_research/nyc_traffic_data` with the flat layout, all three
       that the profiles and reference tables follow the data.
 - [ ] Optional: `sim_store(dir)` writing a fake data store in the real file formats (parquet months,
       crash CSV, ...), so that the readers and project pipelines run unchanged on simulated data.
+
+## Crash vehicle types
+
+- [x] `crashes/reference/NYC_vehicle_lookup_table.csv` extended to all 3,148 codes (2026-10-16,
+      `scripts/31_vehicle_lookup.R`): e-bikes (12k vehicles, from 2020) and NYPD's 2026 four-letter
+      codes were unclassified, so bike crashes were undercounted by 13-33% a year from 2020.
+- [ ] Re-run `scripts/31_vehicle_lookup.R --write` after each new crash snapshot (new codes).
+- [ ] Decide whether e-scooters / standing scooters should be their own class instead of Motorcycle
+      (the 2020 table's choice, kept for now): they ride in bike lanes.

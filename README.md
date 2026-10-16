@@ -172,7 +172,9 @@ nyc_traffic_data/
     manifest.csv, download_log.csv
   crashes/                 Motor_Vehicle_Collisions_-_{Crashes,Person,Vehicles}_YYYYMMDD.csv (dated snapshots)
                            NYPD_Motor_Vehicle_Collisions_YYYYMMDD.csv (pre-2020 version of the crash table)
-    reference/             NYC_vehicle_lookup_table.csv (hand-made vehicle type classification)
+    reference/             NYC_vehicle_lookup_table.csv: vehicle type code -> class (Car, SUV, Taxi, Van, Truck,
+                           Bus, Motorcycle, Bike, Other, Unknown) for every code in the data; Source hand (2020)
+                           or rule (scripts/31_vehicle_lookup.R); the 2020 table as *.superseded_20261016.csv
   streets/
     lion/                  quarterly releases nyc_lion12a.zip ... nyc_lion16d.zip, nyclion_17a.zip ...
                            nyclion_26c.zip; current snapshot nyclion_YYYYMMDD.zip;
@@ -261,6 +263,7 @@ Run from the repo root.
 | `scripts/40_download_epa_aqs.R` | EPA AQS hourly and daily files from 2012 that are new or revised, site and monitor lists; writes `air_pollution/epa_aqs/manifest.csv` |
 | `scripts/41_air_pollution_nyc.R` | NYC-area monitor extract per parameter in `derived/air_pollution/` |
 | `scripts/30_crashes_parquet.R` | Parquet copies of the crash snapshots in `derived/crashes_parquet/` |
+| `scripts/31_vehicle_lookup.R` | Classify vehicle type codes not yet in `crashes/reference/NYC_vehicle_lookup_table.csv` (review without `--write`); re-run after a new crash snapshot. E-bikes are Bike, (e-)scooters and mopeds Motorcycle, as in the 2020 hand-made table |
 
 ```bash
 Rscript scripts/01_download_tlc.R yellow,green,fhvhv 3
