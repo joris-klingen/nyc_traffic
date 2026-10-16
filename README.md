@@ -189,12 +189,13 @@ nyc_traffic_data/
   derived/                 made from the raw data, can be rebuilt:
     crashes_parquet/       parquet copies of the crash snapshots (scripts/30_crashes_parquet.R)
     air_pollution/         {hourly,daily}_<param>.parquet: NYC-area monitors (scripts/41_air_pollution_nyc.R)
-    streets/               street network history, built by the nyc_streets repo, one folder per layer:
-      bike_lanes/          Manhattan bike lane time windows (layers/bike_lanes/scripts/03_time_windows.R),
-                           read with bikelane_windows_read()
-      travel_lanes/        LION lane panels (layers/travel_lanes/)
   opendata_download_log.csv
 ```
+
+The street network history built by the nyc_streets repo (segment key, spells, bike lane windows,
+travel lane panels) has its own store, `nyc_streets_data/` next to this one (moved out of
+`derived/streets/` on 2026-10-16). `nyc_streets_data_root()` finds it: `NYC_STREETS_DATA` in the
+environment or `config.local`, else the sibling folder. `bikelane_windows_read()` reads from it.
 
 Everything outside `derived/` is raw data as published, and never edited. Each file is kept once:
 read zips directly (`/vsizip/`) instead of keeping unzipped copies (removed 2026-10-14). Snapshots of updating

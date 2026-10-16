@@ -24,6 +24,18 @@ nyc_data_root <- function() {
   normalizePath(d, winslash = "/", mustWork = FALSE)
 }
 
+# Street network history built by the nyc_streets repo (spine/, spells/, bike_lanes/, travel_lanes/).
+# NYC_STREETS_DATA in the environment or config.local; by default nyc_streets_data next to the store.
+nyc_streets_data_root <- function() {
+  d <- Sys.getenv("NYC_STREETS_DATA", unset = "")
+  if (d == "" && file.exists(nyc_config_file)) {
+    readRenviron(nyc_config_file)
+    d <- Sys.getenv("NYC_STREETS_DATA", unset = "")
+  }
+  if (d == "") d <- file.path(dirname(nyc_data_root()), "nyc_streets_data")
+  normalizePath(d, winslash = "/", mustWork = FALSE)
+}
+
 tlc_data_dir <- function() file.path(nyc_data_root(), "taxi")
 
 tlc_url_base <- "https://d37ci6vzurychx.cloudfront.net/trip-data/"

@@ -3,3 +3,6 @@
 
 # root of the data store (taxi/, crashes/, streets/, boundaries/, traffic_counts/, citibike/, ...)
 NYC_TRAFFIC_DATA=/path/to/nyc_traffic_data
+
+# street network history built by nyc_streets (default: nyc_streets_data next to the store)
+NYC_STREETS_DATA=/path/to/nyc_streets_data

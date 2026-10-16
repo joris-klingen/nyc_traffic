@@ -1,6 +1,6 @@
 # Access helpers for the shared NYC traffic data store (nyc_traffic_data)
 #
-# source("../nyc_traffic/R/nyc_traffic.R")       # path relative to the project root
+# source("../nyc_traffic_repo/R/nyc_traffic.R")       # path relative to the project root
 # ds <- tlc_open("fhvhv", years = 2019:2020)      # lazy arrow dataset
 # f  <- nyc_latest("crashes")                     # newest crash snapshot
 #
@@ -556,7 +556,7 @@ bike_counts_read <- function(file = nyc_latest("bike_ped_counts"), sensors_file 
 # Manhattan 2025 updates (no changes after 2020 outside Manhattan)
 bikelane_windows_read <- function(version = c("dot2026", "dot2020")) {
   version <- match.arg(version)
-  f <- file.path(nyc_data_root(), "derived", "streets", "bike_lanes",
+  f <- file.path(nyc_streets_data_root(), "bike_lanes",
                  if (version == "dot2026") "bike_lanes_time_windows.RDS" else "bike_lanes_time_windows_dot2020.RDS")
   if (!file.exists(f)) stop(f, " not found: run layers/bike_lanes/scripts/03_time_windows.R in nyc_streets")
   readRDS(f)
