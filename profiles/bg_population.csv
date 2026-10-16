@@ -1,0 +1,6 @@
+column,kind,class,n,na_share,n_distinct,nchar_min,nchar_max,id_pattern,example,values_kept,values_share
+P1_001N,character,character,6807,0,1999,1,4,digits,3772,400,0.452182
+state,character,character,6807,0,1,2,2,digits,36,1,1
+county,character,character,6807,0,5,3,3,digits,005,5,1
+tract,character,character,6807,0,1530,6,6,digits,000100,400,0.539885
+block group,character,character,6807,0,10,1,1,digits,1,10,1

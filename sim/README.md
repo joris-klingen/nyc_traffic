@@ -18,12 +18,14 @@ This index is made from those headers.
 | [sim_bike_shelters.R](sim_bike_shelters.R) | Simulated bike shelters | `data.table::fread(nyc_latest('bike_shelters'))` | `x <- sim_bike_shelters(500)` |
 | [sim_boundaries.R](sim_boundaries.R) | Simulated administrative boundaries | `boundaries_read(name)` | `nta <- sim_boundaries("ntas")` |
 | [sim_bus_lanes.R](sim_bus_lanes.R) | Simulated bus lanes | `sf::st_read(nyc_latest('bus_lanes'))` | `x <- sim_bus_lanes(500)` |
+| [sim_census_block_groups.R](sim_census_block_groups.R) | Simulated 2020 census block groups and their population | `census_block_groups_read()` | `bg <- sim_census_block_groups(500); pop <- sim_bg_population(bg)` |
 | [sim_citibike_stations.R](sim_citibike_stations.R) | Simulated Citi Bike station list (GBFS) | `jsonlite::fromJSON(nyc_latest("citibike_stations"))[["data"]][["stations"]]` | `st <- sim_citibike_stations()` |
 | [sim_citibike_trips.R](sim_citibike_trips.R) | Simulated Citi Bike trips | `citibike_read("YYYY-MM")` | `cb <- sim_citibike_trips(20000, month = "2019-06")` |
 | [sim_counts_legacy.R](sim_counts_legacy.R) | Simulated historical count files (no longer updated) | `data.table::fread(file.path(nyc_data_root(), <file>))` | `sim_counts_legacy()                                  # names of the files` |
 | [sim_crash_persons.R](sim_crash_persons.R) | Simulated crash persons | `data.table::fread(nyc_latest("persons"))` | `cr <- sim_crashes(2000); veh <- sim_crash_vehicles(cr); per <- sim_crash_persons(cr, veh)` |
 | [sim_crash_vehicles.R](sim_crash_vehicles.R) | Simulated crash vehicles | `data.table::fread(nyc_latest("vehicles"))` | `cr <- sim_crashes(2000); veh <- sim_crash_vehicles(cr)` |
 | [sim_crashes.R](sim_crashes.R) | Simulated NYPD motor vehicle crashes | `crashes_read()` | `cr <- sim_crashes(5000, from = "2018-01-01", to = "2019-12-31")` |
+| [sim_crz_entries.R](sim_crz_entries.R) | Simulated MTA congestion relief zone entries | `data.table::fread(nyc_latest("crz_entries"))` | `crz <- sim_crz_entries(from = "2025-01-05", to = "2025-01-11")` |
 | [sim_lion.R](sim_lion.R) | Simulated LION street centerlines | `lion_read()` | `lion <- sim_lion()                               # 12 x 60 grid, ~1,400 segments` |
 | [sim_lpi_signals.R](sim_lpi_signals.R) | Simulated lpi signals | `data.table::fread(nyc_latest('lpi_signals'))` | `x <- sim_lpi_signals(500)` |
 | [sim_meter_blockfaces.R](sim_meter_blockfaces.R) | Simulated meter blockfaces | `sf::st_read(nyc_latest('meter_blockfaces'))` | `x <- sim_meter_blockfaces(500)` |

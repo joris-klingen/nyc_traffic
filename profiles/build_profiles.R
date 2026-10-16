@@ -266,6 +266,23 @@ for (nm in c("boroughs", "community_districts", "ntas", "tracts", "blocks", "pre
   }
 })
 
+sources$census_block_groups <- function() {
+  x <- census_block_groups_read()
+  run_profile("census_block_groups", x, reader = "census_block_groups_read()",
+              files = "boundaries/census_block_groups_2020/tl_2020_36_bg.shp",
+              notes = "TIGER/Line 2020 block groups of New York State as published (EPSG 4269); NYC counties 005, 047, 061, 081, 085")
+  p <- jsonlite::fromJSON(nyc_latest("bg_population"))
+  pop <- setnames(as.data.table(p[-1, , drop = FALSE]), p[1, ])
+  run_profile("bg_population", pop, reader = "jsonlite::fromJSON(nyc_latest('bg_population')) (first row holds the names)",
+              files = rel(nyc_latest("bg_population")), notes = "2020 census population P1_001N per block group (state, county, tract, block group), all text", raw = TRUE)
+}
+sources$crz_entries <- function() {
+  x <- fread(nyc_latest("crz_entries"), na.strings = "")
+  run_profile("crz_entries", sample_rows(x), reader = "data.table::fread(nyc_latest('crz_entries'))", files = rel(nyc_latest("crz_entries")),
+              rows_total = nrow(x), sample = if (nrow(x) > max_rows) "1,000,000 random rows" else "all rows",
+              notes = "MTA congestion relief zone entries per 10-minute block, vehicle class and detection group from 2025-01-05", raw = TRUE)
+}
+
 # Air pollution (NYC-area extract; the national files are not profiled)
 for (fq in c("hourly", "daily")) local({
   f <- fq

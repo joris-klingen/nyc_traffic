@@ -1,0 +1,72 @@
+column,rank,value,share
+Minute of Hour,1,50,0.16741
+Minute of Hour,2,30,0.166866
+Minute of Hour,3,0,0.166648
+Minute of Hour,4,40,0.166537
+Minute of Hour,5,20,0.166407
+Minute of Hour,6,10,0.166132
+Hour of Day,1,22,0.041961
+Hour of Day,2,19,0.041893
+Hour of Day,3,11,0.04189
+Hour of Day,4,3,0.041889
+Hour of Day,5,20,0.041855
+Hour of Day,6,12,0.0418
+Hour of Day,7,10,0.041728
+Hour of Day,8,1,0.041721
+Hour of Day,9,14,0.041682
+Hour of Day,10,5,0.041669
+Hour of Day,11,16,0.041668
+Hour of Day,12,23,0.041665
+Hour of Day,13,0,0.041639
+Hour of Day,14,21,0.041635
+Hour of Day,15,7,0.041625
+Hour of Day,16,8,0.041604
+Hour of Day,17,18,0.041579
+Hour of Day,18,15,0.04157
+Hour of Day,19,4,0.041556
+Hour of Day,20,17,0.041528
+Hour of Day,21,13,0.041488
+Hour of Day,22,9,0.041475
+Hour of Day,23,2,0.041445
+Hour of Day,24,6,0.041435
+Day of Week Int,1,7,0.143366
+Day of Week Int,2,4,0.14298
+Day of Week Int,3,2,0.142809
+Day of Week Int,4,3,0.142768
+Day of Week Int,5,6,0.142767
+Day of Week Int,6,5,0.142669
+Day of Week Int,7,1,0.142641
+Day of Week,1,Saturday,0.143366
+Day of Week,2,Wednesday,0.14298
+Day of Week,3,Monday,0.142809
+Day of Week,4,Tuesday,0.142768
+Day of Week,5,Friday,0.142767
+Day of Week,6,Thursday,0.142669
+Day of Week,7,Sunday,0.142641
+Time Period,1,Peak,0.619177
+Time Period,2,Overnight,0.380823
+Vehicle Class,1,TLC Taxi/FHV,0.167024
+Vehicle Class,2,3 - Multi-Unit Trucks,0.166923
+Vehicle Class,3,4 - Buses,0.166797
+Vehicle Class,4,5 - Motorcycles,0.166601
+Vehicle Class,5,2 - Single-Unit Trucks,0.16646
+Vehicle Class,6,"1 - Cars, Pickups and Vans",0.166195
+Detection Group,1,East 60th St,0.08379
+Detection Group,2,Holland Tunnel,0.083716
+Detection Group,3,Manhattan Bridge,0.083662
+Detection Group,4,FDR Drive at 60th St,0.083658
+Detection Group,5,Queens Midtown Tunnel,0.083536
+Detection Group,6,Queensboro Bridge,0.08352
+Detection Group,7,Brooklyn Bridge,0.08333
+Detection Group,8,West Side Highway at 60th St,0.083114
+Detection Group,9,Hugh L. Carey Tunnel,0.083022
+Detection Group,10,West 60th St,0.082902
+Detection Group,11,Lincoln Tunnel,0.082886
+Detection Group,12,Williamsburg Bridge,0.082864
+Detection Region,1,Brooklyn,0.332878
+Detection Region,2,Queens,0.167056
+Detection Region,3,New Jersey,0.166602
+Detection Region,4,East 60th St,0.08379
+Detection Region,5,FDR Drive,0.083658
+Detection Region,6,West Side Highway,0.083114
+Detection Region,7,West 60th St,0.082902

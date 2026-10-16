@@ -37,7 +37,11 @@ nyc_snapshots <- c(
   list(
     taxi_zones        = c("taxi/zones",        "^taxi_zones_(\\d{8})\\.zip$"),
     taxi_zone_lookup  = c("taxi/zones",        "^taxi_zone_lookup_(\\d{8})\\.csv$"),
-    citibike_stations = c("citibike/stations", "^station_information_(\\d{8})\\.json$")
+    citibike_stations = c("citibike/stations", "^station_information_(\\d{8})\\.json$"),
+    # MTA congestion relief zone entries (data.ny.gov t2rz-wjj6), 10-minute blocks from 2025-01-05
+    crz_entries       = c("congestion_pricing", "^MTA_Congestion_Relief_Zone_Vehicle_Entries__Beginning_2025_(\\d{8})\\.csv$"),
+    # 2020 census population (P1_001N) per block group, from the Census API
+    bg_population     = c("boundaries/census_block_groups_2020", "^nyc_bg_population_2020_(\\d{8})\\.json$")
   )
 )
 
@@ -407,6 +411,14 @@ boundaries_read <- function(name = c("boroughs", "community_districts", "ntas", 
   # a few census blocks have self-intersections
   if (!all(sf::st_is_valid(x))) x <- sf::st_make_valid(x)
   x
+}
+
+# 2020 census block groups of New York State (TIGER/Line tl_2020_36_bg) as published (NAD83,
+# EPSG 4269), with GEOID, STATEFP, COUNTYFP, TRACTCE, BLKGRPCE, ALAND, ... NYC: COUNTYFP 005, 047,
+# 061, 081, 085. Population per block group: nyc_latest("bg_population") (Census API JSON).
+census_block_groups_read <- function() {
+  stopifnot(requireNamespace("sf", quietly = TRUE))
+  sf::st_read(file.path(nyc_data_root(), "boundaries", "census_block_groups_2020", "tl_2020_36_bg.shp"), quiet = TRUE)
 }
 
 # TLC taxi zones (LocationID, borough, zone, service_zone) as sf in nyc_crs; the location in all

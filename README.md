@@ -75,6 +75,8 @@ The street network history of nyc_streets has the same in that repo (`sim/sim.R`
 | Air pollution (EPA AQS) | 2012 to latest release (revised twice a year), hourly and daily | monitor `site_id` (state-county-site), lon/lat | 4326 (NAD83 or WGS84 per record, `datum`) | `air_pollution_read("42602", "hourly")` | national files kept as published; the NYC-area extract (box around the five boroughs, `nyc` flags them) is in `derived/air_pollution/`; PM2.5 filter samplers (`88101`, 1-in-3 days) appear only in the daily files |
 | Boundaries | 2020 census geographies, current admin areas | polygons | 4326 on disk | `boundaries_read("tracts")` | 4 census blocks have invalid geometry (repaired by the reader) |
 | Taxi zones | current | `LocationID` | 2263 | `taxi_zones_read()` | zones 264/265 are "unknown", no polygon |
+| Census block groups 2020 | TIGER/Line 2020, New York State; population per block group (Census API) | `GEOID` | 4269 | `census_block_groups_read()`, `nyc_latest("bg_population")` | population JSON has the names in its first row |
+| Congestion relief zone entries (MTA) | 2025-01-05 to snapshot | detection group (crossing), 10-minute block | - | `fread(nyc_latest("crz_entries"))` | times as text MM/DD/YYYY HH:MM:SS AM |
 
 Coverage is checked by `checks/store.R`.
 
@@ -200,6 +202,9 @@ nyc_traffic_data/
   boundaries/              borough_boundaries, community_districts, nta_2020, census_tracts_2020,
                            census_blocks_2020, police_precincts (_YYYYMMDD.geojson);
                            census_tract_2020_to_nta_cdta_YYYYMMDD.csv
+    census_block_groups_2020/ tl_2020_36_bg.* (TIGER/Line block groups, New York State) and
+                           nyc_bg_population_2020_YYYYMMDD.json (P1_001N per block group); from nyc_res_cc
+  congestion_pricing/      MTA_Congestion_Relief_Zone_Vehicle_Entries__Beginning_2025_YYYYMMDD.csv (data.ny.gov t2rz-wjj6)
   traffic_counts/
     automated/             Automated_Traffic_Volume_Counts_YYYYMMDD.csv (DOT ATR counts)
     legacy/                DOT volume and vehicle classification counts 2011-2018, Midtown 2018
