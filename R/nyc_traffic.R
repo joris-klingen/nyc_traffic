@@ -467,8 +467,14 @@ citibike_read <- function(ym, nrows = Inf) {
   } else {
     x[, member := member_casual == "member"]
   }
+  # the format is picked from the first value and applied to all, so that a time in the
+  # spring-forward gap becomes NA instead of failing the whole parse (tryFormats needs every value to parse)
   fmt <- c("%Y-%m-%d %H:%M:%OS", "%m/%d/%Y %H:%M:%OS", "%m/%d/%Y %H:%M")
-  for (v in c("started_at", "ended_at")) data.table::set(x, j = v, value = as.POSIXct(x[[v]], tz = "America/New_York", tryFormats = fmt))
+  for (v in c("started_at", "ended_at")) {
+    first <- x[[v]][!is.na(x[[v]])][1]
+    f <- fmt[!is.na(vapply(fmt, function(ff) as.numeric(as.POSIXct(first, format = ff, tz = "UTC")), numeric(1)))][1]
+    data.table::set(x, j = v, value = as.POSIXct(x[[v]], format = f, tz = "America/New_York"))
+  }
   for (v in c("start_lat", "start_lng", "end_lat", "end_lng")) data.table::set(x, j = v, value = as.numeric(x[[v]]))
   keep <- c("started_at", "ended_at", "start_station_id", "start_station_name", "start_lat", "start_lng",
             "end_station_id", "end_station_name", "end_lat", "end_lng", "member", "rideable_type", "ride_id",
@@ -482,7 +488,9 @@ citibike_read <- function(ym, nrows = Inf) {
 traffic_counts_read <- function(file = nyc_latest("traffic_counts")) {
   stopifnot(requireNamespace("data.table", quietly = TRUE))
   tc <- data.table::fread(file)
-  tc[, time := as.POSIXct(sprintf("%d-%02d-%02d %02d:%02d", Yr, M, D, HH, MM), tz = "America/New_York")]
+  # explicit format: without it as.POSIXct() falls back to the date alone as soon as one time is in
+  # the spring-forward gap (02:00-02:59), which made every time midnight; those times are NA now
+  tc[, time := as.POSIXct(sprintf("%d-%02d-%02d %02d:%02d", Yr, M, D, HH, MM), format = "%Y-%m-%d %H:%M", tz = "America/New_York")]
   xy <- unique(tc[, .(WktGeom)])
   xy[, `:=`(x = as.numeric(sub("POINT \\(([0-9.]+) .*", "\\1", WktGeom)), y = as.numeric(sub("POINT \\([0-9.]+ ([0-9.]+)\\)", "\\1", WktGeom)))]
   tc <- xy[tc, on = "WktGeom"]
