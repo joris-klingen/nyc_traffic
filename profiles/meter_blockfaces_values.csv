@@ -1,0 +1,2079 @@
+column,rank,value,share
+on_street,1,Broadway,0.0365668
+on_street,2,3 Avenue,0.0219043
+on_street,3,5 Avenue,0.0181493
+on_street,4,2 Avenue,0.0131426
+on_street,5,Jamaica Avenue,0.012338
+on_street,6,Northern Boulevard,0.0110863
+on_street,7,Queens Boulevard,0.0101028
+on_street,8,8 Avenue,0.0098346
+on_street,9,Lexington Avenue,0.00974519
+on_street,10,7 Avenue,0.00956638
+on_street,11,Madison Avenue,0.00956638
+on_street,12,Amsterdam Avenue,0.00938757
+on_street,13,1 Avenue,0.00894055
+on_street,14,Nostrand Avenue,0.00894055
+on_street,15,Flatbush Avenue,0.0082253
+on_street,16,Liberty Avenue,0.00777827
+on_street,17,Myrtle Avenue,0.00742065
+on_street,18,4 Avenue,0.00715244
+on_street,19,White Plains Road,0.00706303
+on_street,20,Avenue U,0.00697363
+on_street,21,Columbus Avenue,0.00643719
+on_street,22,18 Avenue,0.00643719
+on_street,23,Roosevelt Avenue,0.00643719
+on_street,24,East Tremont Avenue,0.00634779
+on_street,25,Fulton Street,0.00607957
+on_street,26,13 Avenue,0.00599017
+on_street,27,Coney Island Avenue,0.00563254
+on_street,28,86 Street,0.00563254
+on_street,29,9 Avenue,0.00554314
+on_street,30,Hillside Avenue,0.00536433
+on_street,31,Westchester Avenue,0.00527492
+on_street,32,Church Avenue,0.00527492
+on_street,33,101 Avenue,0.00518552
+on_street,34,Kings Highway,0.00482789
+on_street,35,37 Avenue,0.00473849
+on_street,36,10 Avenue,0.00455968
+on_street,37,Metropolitan Avenue,0.00411265
+on_street,38,6 Avenue,0.00402325
+on_street,39,New Utrecht Avenue,0.00402325
+on_street,40,Union Turnpike,0.00402325
+on_street,41,Grand Street,0.00366562
+on_street,42,Court Street,0.00366562
+on_street,43,Utica Avenue,0.00366562
+on_street,44,Park Avenue,0.00357622
+on_street,45,Main Street,0.00348681
+on_street,46,30 Avenue,0.00348681
+on_street,47,St. Nicholas Avenue,0.00339741
+on_street,48,Rockaway Boulevard,0.003308
+on_street,49,Jerome Avenue,0.00312919
+on_street,50,McDonald Avenue,0.00312919
+on_street,51,Graham Avenue,0.00303979
+on_street,52,Avenue of the Americas,0.00286097
+on_street,53,East 16 Street,0.00286097
+on_street,54,11 Avenue,0.00286097
+on_street,55,Canal Street,0.00268216
+on_street,56,East Gunhill Road,0.00268216
+on_street,57,East 17 Street,0.00259276
+on_street,58,Morris Park Avenue,0.00259276
+on_street,59,York Avenue,0.00250335
+on_street,60,East 18 Street,0.00250335
+on_street,61,Lenox Avenue,0.00250335
+on_street,62,41 Avenue,0.00250335
+on_street,63,Smith Street,0.00241395
+on_street,64,Manhattan Avenue,0.00241395
+on_street,65,Avenue N,0.00241395
+on_street,66,31 Street,0.00241395
+on_street,67,Hudson Street,0.00232454
+on_street,68,Park Avenue South,0.00232454
+on_street,69,Adam C Powell Jr. Boulevard,0.00232454
+on_street,70,20 Avenue,0.00223514
+on_street,71,Pitkin Avenue,0.00223514
+on_street,72,Forest Avenue,0.00223514
+on_street,73,Fresh Pond Road,0.00223514
+on_street,74,Francis Lewis Boulevard,0.00223514
+on_street,75,Bell Boulevard,0.00223514
+on_street,76,East 14 Street,0.00214573
+on_street,77,Ft. Hamilton Parkway,0.00214573
+on_street,78,Avenue M,0.00214573
+on_street,79,Merrick Boulevard,0.00214573
+on_street,80,Greenpoint Avenue,0.00205633
+on_street,81,Steinway Street,0.00205633
+on_street,82,East 15 Street,0.00196692
+on_street,83,East 19 Street,0.00196692
+on_street,84,Brighton Beach Avenue,0.00196692
+on_street,85,Bath Avenue,0.00196692
+on_street,86,33 Street,0.00196692
+on_street,87,Bowery,0.00187751
+on_street,88,Grand Concourse,0.00187751
+on_street,89,Grand Avenue,0.00187751
+on_street,90,Atlantic Avenue,0.00187751
+on_street,91,14 Avenue,0.00187751
+on_street,92,43 Avenue,0.00187751
+on_street,93,Frederick Douglass Boulevard,0.00178811
+on_street,94,Williamsbridge Road,0.00178811
+on_street,95,Bedford Avenue,0.00178811
+on_street,96,Avenue P,0.00178811
+on_street,97,31 Avenue,0.00178811
+on_street,98,47 Avenue,0.00178811
+on_street,99,Cross Bay Boulevard,0.00178811
+on_street,100,Church Street,0.0016987
+on_street,101,Avenue L,0.0016987
+on_street,102,16 Avenue,0.0016987
+on_street,103,Bay Parkway,0.0016987
+on_street,104,108 Street,0.0016987
+on_street,105,39 Avenue,0.0016987
+on_street,106,Skillman Avenue,0.0016987
+on_street,107,West Broadway,0.0016093
+on_street,108,East 21 Street,0.0016093
+on_street,109,East 13 Street,0.0016093
+on_street,110,Avenue D,0.0016093
+on_street,111,Castle Hill Avenue,0.0016093
+on_street,112,Union Street,0.0016093
+on_street,113,Avenue X,0.0016093
+on_street,114,Austin Street,0.0016093
+on_street,115,Astoria Boulevard,0.0016093
+on_street,116,Ditmars Boulevard,0.0016093
+on_street,117,150 Street,0.0016093
+on_street,118,Avenue A,0.00151989
+on_street,119,East 12 Street,0.00151989
+on_street,120,East 167 Street,0.00151989
+on_street,121,Boston Road,0.00151989
+on_street,122,41 Street,0.00151989
+on_street,123,65 Street,0.00151989
+on_street,124,38 Street,0.00151989
+on_street,125,Woodhaven Boulevard,0.00151989
+on_street,126,College Point Boulevard,0.00151989
+on_street,127,Jackson Avenue,0.00151989
+on_street,128,St Nicholas Avenue,0.00143049
+on_street,129,Allerton Avenue,0.00143049
+on_street,130,36 Avenue,0.00143049
+on_street,131,Vernon Boulevard,0.00143049
+on_street,132,Allen Street,0.00134108
+on_street,133,Varick Street,0.00134108
+on_street,134,East 23 Street,0.00134108
+on_street,135,East 28 Street,0.00134108
+on_street,136,East 149 Street,0.00134108
+on_street,137,Belmont Avenue,0.00134108
+on_street,138,Webster Avenue,0.00134108
+on_street,139,East 187 Street,0.00134108
+on_street,140,Lee Avenue,0.00134108
+on_street,141,Kingston Avenue,0.00134108
+on_street,142,Lefferts Boulevard,0.00134108
+on_street,143,45 Avenue,0.00134108
+on_street,144,Junction Boulevard,0.00134108
+on_street,145,Port Richmond Avenue,0.00134108
+on_street,146,7 Avenue South,0.00125168
+on_street,147,Knickerbocker Avenue,0.00125168
+on_street,148,61 Street,0.00125168
+on_street,149,Flatlands Avenue,0.00125168
+on_street,150,Rockaway Parkway,0.00125168
+on_street,151,35 Street,0.00125168
+on_street,152,63 Drive,0.00125168
+on_street,153,32 Street,0.00125168
+on_street,154,Kissena Boulevard,0.00125168
+on_street,155,Hylan Boulevard,0.00125168
+on_street,156,Pearl Street,0.00116227
+on_street,157,Hester Street,0.00116227
+on_street,158,East 48 Street,0.00116227
+on_street,159,East 27 Street,0.00116227
+on_street,160,East 55 Street,0.00116227
+on_street,161,West 231 Street,0.00116227
+on_street,162,East 188 Street,0.00116227
+on_street,163,45 Street,0.00116227
+on_street,164,Ocean Avenue,0.00116227
+on_street,165,50 Street,0.00116227
+on_street,166,23 Avenue,0.00116227
+on_street,167,164 Street,0.00116227
+on_street,168,Parsons Boulevard,0.00116227
+on_street,169,Crescent Street,0.00116227
+on_street,170,East 49 Street,0.00107287
+on_street,171,East 10 Street,0.00107287
+on_street,172,West 8 Street,0.00107287
+on_street,173,Vanderbilt Avenue,0.00107287
+on_street,174,West 125 Street,0.00107287
+on_street,175,East Fordham Road,0.00107287
+on_street,176,Lydig Avenue,0.00107287
+on_street,177,Dekalb Avenue,0.00107287
+on_street,178,Ditmas Avenue,0.00107287
+on_street,179,East 2 Street,0.00107287
+on_street,180,Campus Road,0.00107287
+on_street,181,Avenue J,0.00107287
+on_street,182,51 Street,0.00107287
+on_street,183,84 Street,0.00107287
+on_street,184,89 Avenue,0.00107287
+on_street,185,35 Avenue,0.00107287
+on_street,186,148 Street,0.00107287
+on_street,187,Corona Avenue,0.00107287
+on_street,188,48 Avenue,0.00107287
+on_street,189,Castleton Avenue,0.00107287
+on_street,190,Water Street,0.00098346
+on_street,191,East 30 Street,0.00098346
+on_street,192,East 54 Street,0.00098346
+on_street,193,West 42 Street,0.00098346
+on_street,194,West 14 Street,0.00098346
+on_street,195,Washington Street,0.00098346
+on_street,196,East 33 Street,0.00098346
+on_street,197,East 9 Street,0.00098346
+on_street,198,East 26 Street,0.00098346
+on_street,199,East 32 Street,0.00098346
+on_street,200,Walton Avenue,0.00098346
+on_street,201,Arthur Avenue,0.00098346
+on_street,202,Cortelyou Road,0.00098346
+on_street,203,43 Street,0.00098346
+on_street,204,Havemeyer Street,0.00098346
+on_street,205,Quentin Road,0.00098346
+on_street,206,53 Street,0.00098346
+on_street,207,Avenue Z,0.00098346
+on_street,208,66 Street,0.00098346
+on_street,209,46 Street,0.00098346
+on_street,210,72 Street,0.00098346
+on_street,211,104 Street,0.00098346
+on_street,212,Woodside Avenue,0.00098346
+on_street,213,34 Avenue,0.00098346
+on_street,214,36 Street,0.00098346
+on_street,215,37 Street,0.00098346
+on_street,216,29 Street,0.00098346
+on_street,217,New Dorp Lane,0.00098346
+on_street,218,Victory Boulevard,0.00098346
+on_street,219,East Broadway,0.000894055
+on_street,220,East 31 Street,0.000894055
+on_street,221,MulBerry Street,0.000894055
+on_street,222,Essex Street,0.000894055
+on_street,223,East 35 Street,0.000894055
+on_street,224,East 20 Street,0.000894055
+on_street,225,East 24 Street,0.000894055
+on_street,226,East 8 Street,0.000894055
+on_street,227,East 29 Street,0.000894055
+on_street,228,West 57 Street,0.000894055
+on_street,229,West 19 Street,0.000894055
+on_street,230,East 52 Street,0.000894055
+on_street,231,East 45 Street,0.000894055
+on_street,232,East 51 Street,0.000894055
+on_street,233,East 4 Street,0.000894055
+on_street,234,West 56 Street,0.000894055
+on_street,235,Greenwich Avenue,0.000894055
+on_street,236,West 181 Street,0.000894055
+on_street,237,East 86 Street,0.000894055
+on_street,238,West Kingsbridge Road,0.000894055
+on_street,239,Washington Avenue,0.000894055
+on_street,240,52 Street,0.000894055
+on_street,241,Bay Ridge Avenue,0.000894055
+on_street,242,54 Street,0.000894055
+on_street,243,85 Street,0.000894055
+on_street,244,Sheepshead Bay Road,0.000894055
+on_street,245,60 Street,0.000894055
+on_street,246,West 6 Street,0.000894055
+on_street,247,East 3 Street,0.000894055
+on_street,248,Rutland Road,0.000894055
+on_street,249,Ralph Avenue,0.000894055
+on_street,250,Eliot Avenue,0.000894055
+on_street,251,162 Street,0.000894055
+on_street,252,21 Street,0.000894055
+on_street,253,West 38 Street,0.000804649
+on_street,254,West 36 Street,0.000804649
+on_street,255,Irving Place,0.000804649
+on_street,256,West 39 Street,0.000804649
+on_street,257,West 49 Street,0.000804649
+on_street,258,West 52 Street,0.000804649
+on_street,259,East 41 Street,0.000804649
+on_street,260,Delancey Street,0.000804649
+on_street,261,East 70 Street,0.000804649
+on_street,262,East 64 Street,0.000804649
+on_street,263,East 56 Street,0.000804649
+on_street,264,West 51 Street,0.000804649
+on_street,265,West 53 Street,0.000804649
+on_street,266,East 22 Street,0.000804649
+on_street,267,Broome Street,0.000804649
+on_street,268,West 207 Street,0.000804649
+on_street,269,East 96 Street,0.000804649
+on_street,270,Eastchester Road,0.000804649
+on_street,271,Riverdale Avenue,0.000804649
+on_street,272,Burke Avenue,0.000804649
+on_street,273,Bruckner Boulevard,0.000804649
+on_street,274,44 Street,0.000804649
+on_street,275,83 Street,0.000804649
+on_street,276,Linden Boulevard,0.000804649
+on_street,277,Meeker Avenue,0.000804649
+on_street,278,90 Street,0.000804649
+on_street,279,94 Street,0.000804649
+on_street,280,Sutphin Boulevard,0.000804649
+on_street,281,34 Street,0.000804649
+on_street,282,New Dorp Plaza,0.000804649
+on_street,283,Mott Street,0.000715244
+on_street,284,West 30 Street,0.000715244
+on_street,285,West 58 Street,0.000715244
+on_street,286,West 37 Street,0.000715244
+on_street,287,East 47 Street,0.000715244
+on_street,288,East 58 Street,0.000715244
+on_street,289,East 60 Street,0.000715244
+on_street,290,West 55 Street,0.000715244
+on_street,291,West 50 Street,0.000715244
+on_street,292,West 29 Street,0.000715244
+on_street,293,West 4 Street,0.000715244
+on_street,294,Walker Street,0.000715244
+on_street,295,West 23 Street,0.000715244
+on_street,296,West 28 Street,0.000715244
+on_street,297,East 46 Street,0.000715244
+on_street,298,East 7 Street,0.000715244
+on_street,299,Clinton Street,0.000715244
+on_street,300,East 59 Street,0.000715244
+on_street,301,West 180 Street,0.000715244
+on_street,302,East 80 Street,0.000715244
+on_street,303,Morris Avenue,0.000715244
+on_street,304,East Kingsbridge Road,0.000715244
+on_street,305,East 204 Street,0.000715244
+on_street,306,Hughes Avenue,0.000715244
+on_street,307,Cruger Avenue,0.000715244
+on_street,308,East Burnside Avenue,0.000715244
+on_street,309,Unionport Road,0.000715244
+on_street,310,Schermerhorn Street,0.000715244
+on_street,311,Prospect Park West,0.000715244
+on_street,312,42 Street,0.000715244
+on_street,313,Franklin Avenue,0.000715244
+on_street,314,Gravensend Neck Road,0.000715244
+on_street,315,Avenue K,0.000715244
+on_street,316,48 Street,0.000715244
+on_street,317,24 Avenue,0.000715244
+on_street,318,21 Avenue,0.000715244
+on_street,319,West 7 Street,0.000715244
+on_street,320,97 Street,0.000715244
+on_street,321,71 Avenue,0.000715244
+on_street,322,64 Road,0.000715244
+on_street,323,42 Avenue,0.000715244
+on_street,324,National Street,0.000715244
+on_street,325,63 Road,0.000715244
+on_street,326,Baxter Avenue,0.000715244
+on_street,327,Mott Avenue,0.000715244
+on_street,328,95 Street,0.000715244
+on_street,329,Bay Street,0.000715244
+on_street,330,Front Street,0.000625838
+on_street,331,John Street,0.000625838
+on_street,332,East 25 Street,0.000625838
+on_street,333,Orchard Street,0.000625838
+on_street,334,East 57 Street,0.000625838
+on_street,335,West 21 Street,0.000625838
+on_street,336,West 13 Street,0.000625838
+on_street,337,East 40 Street,0.000625838
+on_street,338,West 26 Street,0.000625838
+on_street,339,Centre Street,0.000625838
+on_street,340,West Street,0.000625838
+on_street,341,East 53 Street,0.000625838
+on_street,342,East 71 Street,0.000625838
+on_street,343,West 40 Street,0.000625838
+on_street,344,Lafayette Street,0.000625838
+on_street,345,East 50 Street,0.000625838
+on_street,346,East 42 Street,0.000625838
+on_street,347,West 33 Street,0.000625838
+on_street,348,West 54 Street,0.000625838
+on_street,349,West 48 Street,0.000625838
+on_street,350,West 183 Street,0.000625838
+on_street,351,Audubon Avenue,0.000625838
+on_street,352,East 73 Street,0.000625838
+on_street,353,East 116 Street,0.000625838
+on_street,354,Dyckman Street,0.000625838
+on_street,355,East 170 Street,0.000625838
+on_street,356,Middletown Road,0.000625838
+on_street,357,Katonah Avenue,0.000625838
+on_street,358,Bedford Park Boulevard,0.000625838
+on_street,359,East 183 Street,0.000625838
+on_street,360,Holland Avenue,0.000625838
+on_street,361,Edward L Grant Highway,0.000625838
+on_street,362,Livingston Street,0.000625838
+on_street,363,Henry Street,0.000625838
+on_street,364,Emmons Avenue,0.000625838
+on_street,365,70 Street,0.000625838
+on_street,366,Surf Avenue,0.000625838
+on_street,367,67 Street,0.000625838
+on_street,368,Newkirk Avenue,0.000625838
+on_street,369,Avenue T,0.000625838
+on_street,370,63 Street,0.000625838
+on_street,371,Avenue O,0.000625838
+on_street,372,West 5 Street,0.000625838
+on_street,373,Foster Avenue,0.000625838
+on_street,374,88 Street,0.000625838
+on_street,375,71 Street,0.000625838
+on_street,376,Troy Avenue,0.000625838
+on_street,377,47 Street,0.000625838
+on_street,378,76 Street,0.000625838
+on_street,379,75 Street,0.000625838
+on_street,380,Seneca Avenue,0.000625838
+on_street,381,Cypress Avenue,0.000625838
+on_street,382,78 Street,0.000625838
+on_street,383,57 Avenue,0.000625838
+on_street,384,73 Avenue,0.000625838
+on_street,385,99 Street,0.000625838
+on_street,386,64 Avenue,0.000625838
+on_street,387,102 Street,0.000625838
+on_street,388,38 Avenue,0.000625838
+on_street,389,Madison Street,0.000625838
+on_street,390,46 Avenue,0.000625838
+on_street,391,Horace Harding Expressway South,0.000625838
+on_street,392,Sanford Avenue,0.000625838
+on_street,393,Maiden Lane,0.000536433
+on_street,394,West 46 Street,0.000536433
+on_street,395,West 10 Street,0.000536433
+on_street,396,Ludlow Street,0.000536433
+on_street,397,West 45 Street,0.000536433
+on_street,398,West 25 Street,0.000536433
+on_street,399,East Houston Street,0.000536433
+on_street,400,West 41 Street,0.000536433
+from_stree,1,Broadway,0.0177023
+from_stree,2,5 Avenue,0.0124274
+from_stree,3,3 Avenue,0.00974519
+from_stree,4,Madison Avenue,0.00849352
+from_stree,5,7 Avenue,0.00768887
+from_stree,6,8 Avenue,0.00742065
+from_stree,7,Queens Boulevard,0.00724184
+from_stree,8,Lexington Avenue,0.00715244
+from_stree,9,Park Avenue,0.00581135
+from_stree,10,6 Avenue,0.00572195
+from_stree,11,Avenue U,0.00500671
+from_stree,12,2 Avenue,0.00473849
+from_stree,13,Roosevelt Avenue,0.00464908
+from_stree,14,Jamaica Avenue,0.00438087
+from_stree,15,Liberty Avenue,0.00429146
+from_stree,16,86 Street,0.00402325
+from_stree,17,Kings Highway,0.00393384
+from_stree,18,Flatbush Avenue,0.00384443
+from_stree,19,9 Avenue,0.00357622
+from_stree,20,37 Avenue,0.00339741
+from_stree,21,Westchester Avenue,0.00312919
+from_stree,22,13 Avenue,0.00312919
+from_stree,23,35 Avenue,0.00312919
+from_stree,24,Avenue of the Americas,0.00303979
+from_stree,25,Nostrand Avenue,0.00295038
+from_stree,26,Avenue T,0.00295038
+from_stree,27,1 Avenue,0.00286097
+from_stree,28,Church Avenue,0.00286097
+from_stree,29,4 Avenue,0.00268216
+from_stree,30,Northern Boulevard,0.00268216
+from_stree,31,East Fordham Road,0.00259276
+from_stree,32,Grand Street,0.00250335
+from_stree,33,18 Avenue,0.00250335
+from_stree,34,43 Avenue,0.00250335
+from_stree,35,85 Street,0.00241395
+from_stree,36,Main Street,0.00232454
+from_stree,37,30 Avenue,0.00232454
+from_stree,38,Park Avenue South,0.00223514
+from_stree,39,St. Nicholas Avenue,0.00223514
+from_stree,40,East Tremont Avenue,0.00223514
+from_stree,41,47 Street,0.00223514
+from_stree,42,Coney Island Avenue,0.00223514
+from_stree,43,Bell Boulevard,0.00223514
+from_stree,44,East 12 Street,0.00214573
+from_stree,45,East 14 Street,0.00214573
+from_stree,46,14 Avenue,0.00214573
+from_stree,47,45 Street,0.00214573
+from_stree,48,Myrtle Avenue,0.00214573
+from_stree,49,41 Avenue,0.00214573
+from_stree,50,East 16 Street,0.00205633
+from_stree,51,East 18 Street,0.00205633
+from_stree,52,East 19 Street,0.00205633
+from_stree,53,46 Street,0.00205633
+from_stree,54,78 Street,0.00205633
+from_stree,55,Avenue M,0.00205633
+from_stree,56,Avenue N,0.00205633
+from_stree,57,107 Avenue,0.00205633
+from_stree,58,34 Avenue,0.00205633
+from_stree,59,Quentin Road,0.00196692
+from_stree,60,80 Street,0.00196692
+from_stree,61,Avenue V,0.00196692
+from_stree,62,31 Street,0.00196692
+from_stree,63,Union Turnpike,0.00196692
+from_stree,64,Hillside Avenue,0.00196692
+from_stree,65,East 13 Street,0.00187751
+from_stree,66,East 29 Street,0.00187751
+from_stree,67,Union Street,0.00187751
+from_stree,68,64 Street,0.00187751
+from_stree,69,108 Street,0.00187751
+from_stree,70,Broome Street,0.00178811
+from_stree,71,43 Street,0.00178811
+from_stree,72,41 Street,0.00178811
+from_stree,73,77 Street,0.00178811
+from_stree,74,51 Street,0.00178811
+from_stree,75,47 Avenue,0.00178811
+from_stree,76,White Plains Road,0.0016987
+from_stree,77,Avenue P,0.0016987
+from_stree,78,74 Street,0.0016987
+from_stree,79,76 Street,0.0016987
+from_stree,80,31 Avenue,0.0016987
+from_stree,81,East 17 Street,0.0016093
+from_stree,82,East 21 Street,0.0016093
+from_stree,83,12 Avenue,0.0016093
+from_stree,84,Amsterdam Avenue,0.0016093
+from_stree,85,Grand Avenue,0.0016093
+from_stree,86,New Utrecht Avenue,0.0016093
+from_stree,87,92 Street,0.0016093
+from_stree,88,72 Street,0.0016093
+from_stree,89,49 Street,0.0016093
+from_stree,90,Avenue J,0.0016093
+from_stree,91,33 Street,0.0016093
+from_stree,92,42 Street,0.0016093
+from_stree,93,103 Avenue,0.0016093
+from_stree,94,Canal Street,0.00151989
+from_stree,95,East 23 Street,0.00151989
+from_stree,96,East 3 Street,0.00151989
+from_stree,97,Grand Concourse,0.00151989
+from_stree,98,90 Street,0.00151989
+from_stree,99,38 Street,0.00151989
+from_stree,100,79 Street,0.00151989
+from_stree,101,Brighton Beach  Avenue,0.00151989
+from_stree,102,Benson Avenue,0.00151989
+from_stree,103,65 Street,0.00151989
+from_stree,104,84 Street,0.00151989
+from_stree,105,29 Street,0.00151989
+from_stree,106,East 10 Street,0.00143049
+from_stree,107,East 15 Street,0.00143049
+from_stree,108,Metropolitan Avenue,0.00143049
+from_stree,109,48 Street,0.00143049
+from_stree,110,44 Street,0.00143049
+from_stree,111,Bedford Avenue,0.00143049
+from_stree,112,81 Street,0.00143049
+from_stree,113,21 Avenue,0.00143049
+from_stree,114,94 Street,0.00143049
+from_stree,115,Utica Avenue,0.00143049
+from_stree,116,36 Street,0.00143049
+from_stree,117,Junction Boulevard,0.00143049
+from_stree,118,89 Avenue,0.00143049
+from_stree,119,88 Avenue,0.00143049
+from_stree,120,Hester Street,0.00134108
+from_stree,121,East 52 Street,0.00134108
+from_stree,122,East 22 Street,0.00134108
+from_stree,123,East 4 Street,0.00134108
+from_stree,124,Edison Avenue,0.00134108
+from_stree,125,37 Street,0.00134108
+from_stree,126,63 Street,0.00134108
+from_stree,127,Avenue O,0.00134108
+from_stree,128,Avenue X,0.00134108
+from_stree,129,Avenue K,0.00134108
+from_stree,130,67 Street,0.00134108
+from_stree,131,Avenue L,0.00134108
+from_stree,132,61 Street,0.00134108
+from_stree,133,102 Street,0.00134108
+from_stree,134,Austin Street,0.00134108
+from_stree,135,150 Street,0.00134108
+from_stree,136,East 7 Street,0.00125168
+from_stree,137,East 2 Street,0.00125168
+from_stree,138,Clinton Street,0.00125168
+from_stree,139,Columbus Avenue,0.00125168
+from_stree,140,East 94 Street,0.00125168
+from_stree,141,East 187 Street,0.00125168
+from_stree,142,Jerome Avenue,0.00125168
+from_stree,143,Bergen Street,0.00125168
+from_stree,144,Knickerbocker Avenue,0.00125168
+from_stree,145,50 Street,0.00125168
+from_stree,146,Ocean Avenue,0.00125168
+from_stree,147,95 Street,0.00125168
+from_stree,148,Bay Ridge Avenue,0.00125168
+from_stree,149,32 Street,0.00125168
+from_stree,150,President Street,0.00125168
+from_stree,151,93 Street,0.00125168
+from_stree,152,McDonald Avenue,0.00125168
+from_stree,153,97 Street,0.00125168
+from_stree,154,Avenue I,0.00125168
+from_stree,155,Fresh Pond Road,0.00125168
+from_stree,156,Yellowstone Boulevard,0.00125168
+from_stree,157,Lefferts Boulevard,0.00125168
+from_stree,158,Francis Lewis Boulevard,0.00125168
+from_stree,159,36 Avenue,0.00125168
+from_stree,160,Water Street,0.00116227
+from_stree,161,Warren Street,0.00116227
+from_stree,162,East 9 Street,0.00116227
+from_stree,163,East 51 Street,0.00116227
+from_stree,164,East 30 Street,0.00116227
+from_stree,165,East 88 Street,0.00116227
+from_stree,166,East 81 Street,0.00116227
+from_stree,167,Washington Avenue,0.00116227
+from_stree,168,40 Street,0.00116227
+from_stree,169,52 Street,0.00116227
+from_stree,170,Lincoln Place,0.00116227
+from_stree,171,34 Street,0.00116227
+from_stree,172,88 Street,0.00116227
+from_stree,173,66 Street,0.00116227
+from_stree,174,68 Street,0.00116227
+from_stree,175,17 Avenue,0.00116227
+from_stree,176,73 Street,0.00116227
+from_stree,177,Bay Pkwy.,0.00116227
+from_stree,178,60 Street,0.00116227
+from_stree,179,63 Drive,0.00116227
+from_stree,180,Forest Avenue,0.00116227
+from_stree,181,Fulton Street,0.00107287
+from_stree,182,East 20 Street,0.00107287
+from_stree,183,Dead End,0.00107287
+from_stree,184,East 53 Street,0.00107287
+from_stree,185,East 49 Street,0.00107287
+from_stree,186,East 71 Street,0.00107287
+from_stree,187,East 34 Street,0.00107287
+from_stree,188,East 5 Street,0.00107287
+from_stree,189,East 84 Street,0.00107287
+from_stree,190,East 80 Street,0.00107287
+from_stree,191,East 96 Street,0.00107287
+from_stree,192,East 95 Street,0.00107287
+from_stree,193,East 93 Street,0.00107287
+from_stree,194,Walton Avenue,0.00107287
+from_stree,195,East 188 Street,0.00107287
+from_stree,196,55 Street,0.00107287
+from_stree,197,58 Street,0.00107287
+from_stree,198,83 Street,0.00107287
+from_stree,199,19 Avenue,0.00107287
+from_stree,200,71 Street,0.00107287
+from_stree,201,82 Street,0.00107287
+from_stree,202,Linden Boulevard,0.00107287
+from_stree,203,54 Street,0.00107287
+from_stree,204,35 Street,0.00107287
+from_stree,205,98 Street,0.00107287
+from_stree,206,110 Street,0.00107287
+from_stree,207,104 Street,0.00107287
+from_stree,208,45 Avenue,0.00107287
+from_stree,209,39 Avenue,0.00107287
+from_stree,210,Park Place,0.00098346
+from_stree,211,East 31 Street,0.00098346
+from_stree,212,East 26 Street,0.00098346
+from_stree,213,East 46 Street,0.00098346
+from_stree,214,East 24 Street,0.00098346
+from_stree,215,East 72 Street,0.00098346
+from_stree,216,East 27 Street,0.00098346
+from_stree,217,East 48 Street,0.00098346
+from_stree,218,East 64 Street,0.00098346
+from_stree,219,West 10 Street,0.00098346
+from_stree,220,East 28 Street,0.00098346
+from_stree,221,West 54 Street,0.00098346
+from_stree,222,East 78 Street,0.00098346
+from_stree,223,East 76 Street,0.00098346
+from_stree,224,West 8 Street,0.00098346
+from_stree,225,Wadsworth Avenue,0.00098346
+from_stree,226,East 83 Street,0.00098346
+from_stree,227,East 85 Street,0.00098346
+from_stree,228,East 89 Street,0.00098346
+from_stree,229,East 91 Street,0.00098346
+from_stree,230,Morris Avenue,0.00098346
+from_stree,231,Barnes Avenue,0.00098346
+from_stree,232,Eastern Parkway,0.00098346
+from_stree,233,Manhattan Avenue,0.00098346
+from_stree,234,5 Street,0.00098346
+from_stree,235,53 Street,0.00098346
+from_stree,236,89 Street,0.00098346
+from_stree,237,87 Street,0.00098346
+from_stree,238,39 Street,0.00098346
+from_stree,239,91 Street,0.00098346
+from_stree,240,70 Street,0.00098346
+from_stree,241,Flatlands Avenue,0.00098346
+from_stree,242,28 Street,0.00098346
+from_stree,243,Steinway Street,0.00098346
+from_stree,244,28 Avenue,0.00098346
+from_stree,245,Victory Boulevard,0.00098346
+from_stree,246,Henry Street,0.000894055
+from_stree,247,West 13 Street,0.000894055
+from_stree,248,East 62 Street,0.000894055
+from_stree,249,East 73 Street,0.000894055
+from_stree,250,West 22 Street,0.000894055
+from_stree,251,East 75 Street,0.000894055
+from_stree,252,West 55 Street,0.000894055
+from_stree,253,West 51 Street,0.000894055
+from_stree,254,East 68 Street,0.000894055
+from_stree,255,East 32 Street,0.000894055
+from_stree,256,East 36 Street,0.000894055
+from_stree,257,West 20 Street,0.000894055
+from_stree,258,East 66 Street,0.000894055
+from_stree,259,West 50 Street,0.000894055
+from_stree,260,Prince Street,0.000894055
+from_stree,261,East 63 Street,0.000894055
+from_stree,262,West 17 Street,0.000894055
+from_stree,263,West 18 Street,0.000894055
+from_stree,264,East 45 Street,0.000894055
+from_stree,265,West 12 Street,0.000894055
+from_stree,266,East 77 Street,0.000894055
+from_stree,267,Central Park West,0.000894055
+from_stree,268,East 90 Street,0.000894055
+from_stree,269,East 82 Street,0.000894055
+from_stree,270,West 181 Street,0.000894055
+from_stree,271,East 92 Street,0.000894055
+from_stree,272,Holland Avenue,0.000894055
+from_stree,273,Allerton Avenue,0.000894055
+from_stree,274,Webster Avenue,0.000894055
+from_stree,275,Newkirk Avenue,0.000894055
+from_stree,276,Beverly Road,0.000894055
+from_stree,277,Prospect Place,0.000894055
+from_stree,278,Graham Avenue,0.000894055
+from_stree,279,Bay Ridge Pkwy.,0.000894055
+from_stree,280,59 Street,0.000894055
+from_stree,281,Glenwood Road,0.000894055
+from_stree,282,20 Avenue,0.000894055
+from_stree,283,Avenue Z,0.000894055
+from_stree,284,30 Street,0.000894055
+from_stree,285,Rockaway Boulevard,0.000894055
+from_stree,286,75 Street,0.000894055
+from_stree,287,Seneca Avenue,0.000894055
+from_stree,288,112 Street,0.000894055
+from_stree,289,120 Street,0.000894055
+from_stree,290,Vernon Boulevard,0.000894055
+from_stree,291,Ditmars Boulevard,0.000894055
+from_stree,292,75 Avenue,0.000894055
+from_stree,293,Kissena Boulevard,0.000894055
+from_stree,294,Pearl Street,0.000804649
+from_stree,295,West 28 Street,0.000804649
+from_stree,296,West 25 Street,0.000804649
+from_stree,297,East 35 Street,0.000804649
+from_stree,298,East 65 Street,0.000804649
+from_stree,299,East 54 Street,0.000804649
+from_stree,300,West 21 Street,0.000804649
+from_stree,301,East 70 Street,0.000804649
+from_stree,302,East 55 Street,0.000804649
+from_stree,303,West 11 Street,0.000804649
+from_stree,304,West 53 Street,0.000804649
+from_stree,305,East 69 Street,0.000804649
+from_stree,306,West 19 Street,0.000804649
+from_stree,307,Rivington Street,0.000804649
+from_stree,308,Bleecker Street,0.000804649
+from_stree,309,West 9 Street,0.000804649
+from_stree,310,West 126 Street,0.000804649
+from_stree,311,East 97 Street,0.000804649
+from_stree,312,Ft. Washington Avenue,0.000804649
+from_stree,313,Dean Street,0.000804649
+from_stree,314,St. Johns Place,0.000804649
+from_stree,315,Carroll Street,0.000804649
+from_stree,316,Caton Avenue,0.000804649
+from_stree,317,11 Street,0.000804649
+from_stree,318,Sheepshead Bay Road,0.000804649
+from_stree,319,Avenue S,0.000804649
+from_stree,320,Snyder Avenue,0.000804649
+from_stree,321,23 Avenue,0.000804649
+from_stree,322,62 Street,0.000804649
+from_stree,323,Avenue Y,0.000804649
+from_stree,324,99 Street,0.000804649
+from_stree,325,Crescent Street,0.000804649
+from_stree,326,71 Avenue,0.000804649
+from_stree,327,63 Avenue,0.000804649
+from_stree,328,103 Street,0.000804649
+from_stree,329,38 Avenue,0.000804649
+from_stree,330,Parsons Boulevard,0.000804649
+from_stree,331,Sanford Avenue,0.000804649
+from_stree,332,Ludlow Street,0.000715244
+from_stree,333,East Houston Street,0.000715244
+from_stree,334,West 56 Street,0.000715244
+from_stree,335,West 38 Street,0.000715244
+from_stree,336,West 26 Street,0.000715244
+from_stree,337,Hudson Street,0.000715244
+from_stree,338,East 8 Street,0.000715244
+from_stree,339,West 37 Street,0.000715244
+from_stree,340,Irving Place,0.000715244
+from_stree,341,West 49 Street,0.000715244
+from_stree,342,Mercer Street,0.000715244
+from_stree,343,East 33 Street,0.000715244
+from_stree,344,Washington Street,0.000715244
+from_stree,345,West 52 Street,0.000715244
+from_stree,346,Lafayette Street,0.000715244
+from_stree,347,Leonard Street,0.000715244
+from_stree,348,Bowery,0.000715244
+from_stree,349,Franklin Street,0.000715244
+from_stree,350,East 59 Street,0.000715244
+from_stree,351,West 16 Street,0.000715244
+from_stree,352,East 11 Street,0.000715244
+from_stree,353,East 74 Street,0.000715244
+from_stree,354,East 87 Street,0.000715244
+from_stree,355,West End Avenue,0.000715244
+from_stree,356,Dyckman Street,0.000715244
+from_stree,357,East 79 Street,0.000715244
+from_stree,358,East 170 Street,0.000715244
+from_stree,359,East 172 Street,0.000715244
+from_stree,360,Wilson Avenue,0.000715244
+from_stree,361,Wallace Avenue,0.000715244
+from_stree,362,East 189 Street,0.000715244
+from_stree,363,Hughes Avenue,0.000715244
+from_stree,364,East Gunhill Road,0.000715244
+from_stree,365,Cruger Avenue,0.000715244
+from_stree,366,Creston Avenue,0.000715244
+from_stree,367,Lydig Avenue,0.000715244
+from_stree,368,Court Street,0.000715244
+from_stree,369,Ocean Pkwy.,0.000715244
+from_stree,370,Sackett Street,0.000715244
+from_stree,371,Avenue H,0.000715244
+from_stree,372,Sterling Place,0.000715244
+from_stree,373,Brightwater Court,0.000715244
+from_stree,374,Ovington Avenue,0.000715244
+from_stree,375,Gravesend Neck Road,0.000715244
+from_stree,376,Schenectady Avenue,0.000715244
+from_stree,377,Montgomery Street,0.000715244
+from_stree,378,Cypress Avenue,0.000715244
+from_stree,379,70 Avenue,0.000715244
+from_stree,380,109 Street,0.000715244
+from_stree,381,64 Road,0.000715244
+from_stree,382,Sutphin Boulevard,0.000715244
+from_stree,383,23 Street,0.000715244
+from_stree,384,165 Street,0.000715244
+from_stree,385,46 Avenue,0.000715244
+from_stree,386,New Dorp Lane,0.000715244
+from_stree,387,Rose Avenue,0.000715244
+from_stree,388,Mott Street,0.000625838
+from_stree,389,Nassau Street,0.000625838
+from_stree,390,Front Street,0.000625838
+from_stree,391,Forsythe Street,0.000625838
+from_stree,392,Allen Street,0.000625838
+from_stree,393,Stanton Street,0.000625838
+from_stree,394,St. Mark's Place,0.000625838
+from_stree,395,East 40 Street,0.000625838
+from_stree,396,East 57 Street,0.000625838
+from_stree,397,West 57 Street,0.000625838
+from_stree,398,West 48 Street,0.000625838
+from_stree,399,West 23 Street,0.000625838
+from_stree,400,East 38 Street,0.000625838
+meter_rate,1,Zone 3,0.507376
+meter_rate,2,Zone 2,0.181225
+meter_rate,3,Zone M2,0.168261
+meter_rate,4,Zone M1,0.0862763
+meter_rate,5,Zone 1,0.0435405
+meter_rate,6,Off-Street Parking,0.00697363
+meter_rate,7,Zone M3,0.00607957
+meter_rate,8,Overnight Truck,0.000268216
+all_vehi_3,1,$4.00,0.483594
+all_vehi_3,2,$5.00,0.166741
+all_vehi_3,3,$13.25,0.143228
+all_vehi_3,4,N/A,0.0544479
+all_vehi_3,5,$7.50,0.038802
+all_vehi_3,6,$36.50,0.0225302
+all_vehi_3,7,$14.50,0.0159142
+all_vehi_3,8,$4.00/$6.00,0.0130532
+all_vehi_3,9,$7.00/$8.00,0.00965579
+all_vehi_3,10,$31.00,0.00902995
+all_vehi_3,11,$8.00,0.00786768
+all_vehi_3,12,$6.00,0.0049173
+all_vehi_3,13,$25.00,0.00473849
+all_vehi_3,14,$9.00,0.00464908
+all_vehi_3,15,$2.50,0.00455968
+all_vehi_3,16,$9.50,0.00312919
+all_vehi_3,17,$12.00,0.00295038
+all_vehi_3,18,$28.25,0.00232454
+all_vehi_3,19,$20.00,0.00151989
+all_vehi_3,20,$16.00,0.00125168
+all_vehi_3,21,$30.00,0.00107287
+all_vehi_3,22,$33.25,0.000894055
+all_vehi_3,23,$22.50,0.000894055
+all_vehi_3,24,$1.00,0.000536433
+all_vehi_3,25,$4.50,0.000447027
+all_vehi_3,26,$2.00,0.000447027
+all_vehi_3,27,$23.25,0.000178811
+all_vehi_3,28,$1.50,0.000178811
+all_vehi_3,29,$10.00,0.000178811
+all_vehi_3,30,$24.00,0.000178811
+all_vehi_3,31,$12.50,8.94055e-05
+commerci_3,1,N/A,0.857577
+commerci_3,2,$30.00,0.0722396
+commerci_3,3,$27.00,0.0445239
+commerci_3,4,$6.00,0.00965579
+commerci_3,5,$15.00,0.00795709
+commerci_3,6,$7.00,0.00706303
+commerci_3,7,$17.00,0.000625838
+commerci_3,8,$60.00,0.000357622
+all_vehi_1,1,Monday-Saturday 9 AM-7 PM,0.351989
+all_vehi_1,2,Monday-Saturday 8 AM-7 PM,0.174877
+all_vehi_1,3,Monday-Saturday 8:30 AM-7 PM,0.159946
+all_vehi_1,4,N/A,0.0544479
+all_vehi_1,5,"Monday-Friday 6 PM-12 AM, Saturday 8 AM-12 AM",0.019848
+all_vehi_1,6,Monday-Saturday 8 AM-10 PM,0.0144837
+all_vehi_1,7,Monday-Friday 8 AM-7 PM,0.012338
+all_vehi_1,8,Monday-Saturday 7 PM-12 AM,0.0117121
+all_vehi_1,9,Monday-Saturday 9:30 AM-7 PM,0.0116227
+all_vehi_1,10,Monday-Saturday 8:30 AM-10 PM,0.0108181
+all_vehi_1,11,Monday-Saturday 7 AM-10 PM,0.00992401
+all_vehi_1,12,Monday-Friday 9 AM-7 PM,0.00894055
+all_vehi_1,13,Monday-Saturday 7 AM-7 PM,0.00849352
+all_vehi_1,14,Monday-Saturday 9 AM-10 PM,0.00759946
+all_vehi_1,15,Monday-Saturday 7:30 AM-7 PM,0.00733125
+all_vehi_1,16,"Monday-Friday 6 PM-10 PM, Saturday 8 AM-10 PM",0.00697363
+all_vehi_1,17,Monday-Saturday 10 AM-7 PM,0.0065266
+all_vehi_1,18,Monday-Friday 8:30 AM-7 PM,0.0065266
+all_vehi_1,19,Saturday 9 AM-7 PM,0.00482789
+all_vehi_1,20,"Monday-Friday 4 PM-10 PM, Saturday 7 AM-10 PM",0.00464908
+all_vehi_1,21,"Monday-Friday 7 PM-10 PM, Saturday 9 AM-10 PM",0.00411265
+all_vehi_1,22,Monday-Saturday 9 AM-6 PM,0.00357622
+all_vehi_1,23,Monday-Saturday 9 AM-5 PM,0.003308
+all_vehi_1,24,"Monday-Friday 10 AM-7 PM, Saturday 8 AM-7 PM",0.00303979
+all_vehi_1,25,Saturday 8 AM-7 PM,0.00295038
+all_vehi_1,26,"Monday-Friday 10 AM-4 PM, Saturday 9 AM-7 PM",0.00286097
+all_vehi_1,27,"Monday-Friday 4 PM-10 PM, Saturday 8 AM-10 PM",0.00277157
+all_vehi_1,28,Monday-Saturday 9 AM-4 PM,0.00268216
+all_vehi_1,29,"Monday-Friday 10 AM-7 PM, Saturday 9 AM-7 PM",0.00259276
+all_vehi_1,30,Monday-Saturday 6 PM-12 AM,0.00250335
+all_vehi_1,31,"Monday-Friday 1 PM-7 PM, Saturday 9 AM-7 PM",0.00250335
+all_vehi_1,32,"Monday-Friday 9 AM-4 PM, Saturday 9 AM-7 PM",0.00241395
+all_vehi_1,33,Monday-Saturday 7 PM-10 PM,0.00232454
+all_vehi_1,34,Monday-Saturday 7:30 AM-10 PM,0.00223514
+all_vehi_1,35,Monday-Saturday 7 PM-11 PM,0.00214573
+all_vehi_1,36,Monday-Friday 8 AM-10 PM,0.00214573
+all_vehi_1,37,Monday-Saturday 8 AM-8 PM,0.00214573
+all_vehi_1,38,"Monday-Friday 10 AM-4 PM, Saturday 8 AM-7 PM",0.00196692
+all_vehi_1,39,Monday-Saturday 10 AM-4 PM,0.00187751
+all_vehi_1,40,Monday-Saturday 4 PM-10 PM,0.00187751
+all_vehi_1,41,"Monday-Friday 7 PM-10PM, Saturday 9 AM-10 PM",0.0016987
+all_vehi_1,42,"Monday-Friday 12 PM-4 PM, Saturday 8 AM-7 PM",0.0016093
+all_vehi_1,43,Monday-Saturday 12 PM-7 PM,0.00151989
+all_vehi_1,44,"Monday-Friday 8 AM-4 PM, Saturday 8 AM-7 PM",0.00151989
+all_vehi_1,45,"Monday-Friday 10 AM-2 PM, Saturday 9 AM-7 PM",0.00151989
+all_vehi_1,46,"Monday-Friday 6 PM-10 PM, Saturday 10 AM-10 PM",0.00143049
+all_vehi_1,47,"Monday-Friday 7 PM-12 AM, Saturday 8 AM-12 AM",0.00143049
+all_vehi_1,48,Monday-Saturday 4 PM-7 PM,0.00134108
+all_vehi_1,49,"Monday-Friday 4 PM-10 PM, Saturday 9 AM-10 PM",0.00134108
+all_vehi_1,50,Monday-Saturday 1 PM-7 PM,0.00134108
+all_vehi_1,51,"Monday-Friday 2 PM-12 AM, Saturday 6 AM-12 AM",0.00125168
+all_vehi_1,52,Monday-Saturday 7:30 AM-12 AM,0.00125168
+all_vehi_1,53,"Monday-Friday 4 PM-7 PM, Saturday 8 AM-7 PM",0.00125168
+all_vehi_1,54,"Monday-Friday 4 PM-7 PM, Saturday 9 AM-7 PM",0.00125168
+all_vehi_1,55,"Monday-Friday 2 PM-7 PM, Saturday 7 AM-7 PM",0.00116227
+all_vehi_1,56,"Monday-Friday 8:30 AM-12 PM, 2 PM-7 PM, Saturday 8:30 AM-7 PM",0.00116227
+all_vehi_1,57,Monday-Saturday 8 AM-6 PM,0.00107287
+all_vehi_1,58,Monday-Saturday 1 PM-10 PM,0.00098346
+all_vehi_1,59,"Monday-Thursdayday 9 AM-7 PM, Friday 9 AM-5 PM",0.00098346
+all_vehi_1,60,Saturday 8 AM-6 PM,0.000894055
+all_vehi_1,61,Monday-Saturday 6 PM-10 PM,0.000894055
+all_vehi_1,62,Saturday 8:30 AM-7 PM,0.000715244
+all_vehi_1,63,"Monday-Friday 4 PM-11 PM, Saturday 7 AM-11 PM",0.000715244
+all_vehi_1,64,"Monday-Thursday 8 AM-4 PM, Friday 8 AM-7 PM",0.000715244
+all_vehi_1,65,Monday-Saturday 9 AM-12 AM,0.000625838
+all_vehi_1,66,"Monday-Friday 1 PM-7 PM, Saturday 8:30 AM-7 PM",0.000625838
+all_vehi_1,67,"Monday-Friday 10 AM-9 PM, Saturday 9 AM-9 PM",0.000625838
+all_vehi_1,68,"Monday-Thursdayday 8 AM-7 PM, Friday 8 AM-5 PM",0.000625838
+all_vehi_1,69,Monday-Saturday 8 AM-5 PM,0.000625838
+all_vehi_1,70,"Monday-Friday 1 PM-10 PM, Saturday 9 AM-10 PM",0.000536433
+all_vehi_1,71,"Monday-Saturday 7 AM-6 PM, Monday-Saturday 6 PM-12 AM",0.000536433
+all_vehi_1,72,"Monday-Friday 7 PM-10 PM, Saturday 7 AM-10 PM",0.000536433
+all_vehi_1,73,Monday-Saturday 10 AM-10 PM,0.000536433
+all_vehi_1,74,Monday-Saturday 9 AM-8 PM,0.000536433
+all_vehi_1,75,"Monday-Friday 9 AM-2 PM, 7 PM-9 PM, Saturday 9 AM-9 PM",0.000536433
+all_vehi_1,76,"Monday-Friday 8 AM-3 PM, Saturday 8 AM-7 PM",0.000536433
+all_vehi_1,77,Monday-Friday 7:30 AM-7 PM,0.000536433
+all_vehi_1,78,"Monday-Friday 2 PM-10 PM, Saturday 7 AM-10 PM",0.000447027
+all_vehi_1,79,"Monday-Saturday 6 PM-12 AM, Saturday 8 AM-12 AM",0.000447027
+all_vehi_1,80,"Monday-Friday 4 PM-10 PM, Saturday 9 AM-7 PM",0.000447027
+all_vehi_1,81,Monday-Friday 7 AM-7 PM,0.000447027
+all_vehi_1,82,"Monday-Friday 10 AM-10 PM, Saturday 9 AM-10 PM",0.000447027
+all_vehi_1,83,Monday-Friday 9 AM-10 PM,0.000447027
+all_vehi_1,84,Monday-Friday 8 AM-4 PM,0.000447027
+all_vehi_1,85,"Monday-Saturday 9 AM-7 PM Jan-May, Sept-Dec, 9 AM-12 AM June-Aug",0.000447027
+all_vehi_1,86,Monday-Saturday 8:30 AM-6 PM,0.000447027
+all_vehi_1,87,Monday-Friday 8 AM-6 PM,0.000447027
+all_vehi_1,88,Saturday 7 AM-7 PM,0.000357622
+all_vehi_1,89,Monday-Saturday 7 AM-11 PM,0.000357622
+all_vehi_1,90,"Monday-Friday 6 PM-10 PM, Saturday 7:30 AM-10 PM",0.000357622
+all_vehi_1,91,Saturday 7:30 AM-7 PM,0.000357622
+all_vehi_1,92,"Monday-Friday 1 PM-7 PM, Saturday 7 AM-7 PM",0.000357622
+all_vehi_1,93,Monday-Saturday 8 AM-3 PM,0.000357622
+all_vehi_1,94,Monday-Saturday 8 PM-10 PM,0.000357622
+all_vehi_1,95,Monday-Saturday 8 AM-12 AM,0.000357622
+all_vehi_1,96,"Monday-Friday 10 AM-2 PM, Saturday 8:30 AM-7 PM",0.000357622
+all_vehi_1,97,"Monday-Friday 1 PM-7 PM, Saturday 8 AM-7 PM",0.000357622
+all_vehi_1,98,"Monday-Friday 4 PM-7 PM, Saturday 8:30 AM-7 PM",0.000357622
+all_vehi_1,99,"Monday-Friday 9 AM-4 PM, 7 PM-10 PM, Saturday 9 AM-10 PM",0.000357622
+all_vehi_1,100,"Monday-Friday 2 PM-7 PM, Saturday 8 AM-7 PM",0.000268216
+all_vehi_1,101,Monday-Saturday 7 PM-10PM,0.000268216
+all_vehi_1,102,"Monday-Friday 6 PM-10 PM, Saturday 9 AM-10 PM",0.000268216
+all_vehi_1,103,Monday-Saturday 8:30 AM-12 AM,0.000268216
+all_vehi_1,104,Monday-Saturday 8 AM-4 PM,0.000268216
+all_vehi_1,105,"Monday-Friday 7 AM-10 PM, Saturday 9 AM-10 PM",0.000268216
+all_vehi_1,106,"Monday-Friday 10 AM-12 PM, 2 PM-4 PM, Saturday 8:30 AM-7 PM",0.000268216
+all_vehi_1,107,Monday-Friday 8 AM-5 PM,0.000268216
+all_vehi_1,108,"Monday-Saturday 8 AM-7 PM Jan-May, Sept-Dec, 8 AM-12 AM June-Aug",0.000268216
+all_vehi_1,109,Monday-Saturday 8:30 AM-4 PM,0.000268216
+all_vehi_1,110,"Monday-Friday 12 PM-7 PM, Saturday 8 AM-7 PM",0.000268216
+all_vehi_1,111,Monday-Saturday 8 AM-2 PM,0.000268216
+all_vehi_1,112,"Monday-Friday 4 PM-10 PM, Saturday 8:30AM-10 PM",0.000178811
+all_vehi_1,113,"Monday-Friday 1 PM-10 PM, Saturday 8:30 AM-10 PM",0.000178811
+all_vehi_1,114,"Monday-Friday 10 AM-7 PM, Saturday 8:30 AM-7 PM",0.000178811
+all_vehi_1,115,"Monday-Friday 10 AM-4 PM, 7 PM-10 PM, Saturday 9 AM-10 PM",0.000178811
+all_vehi_1,116,Monday-Saturday 12 PM-10 PM,0.000178811
+all_vehi_1,117,Saturday 10 AM-7 PM,0.000178811
+all_vehi_1,118,Monday-Saturday 10 AM-3 PM,0.000178811
+all_vehi_1,119,"Monday-Friday 10 AM-4 PM, Saturday 8:30 AM-7 PM",0.000178811
+all_vehi_1,120,"Monday-Friday 8:30 AM-4 PM, Saturday 8:30 AM-7 PM",0.000178811
+all_vehi_1,121,"Monday-Saturday 8:30 AM-7 PM Jan-May, Sept-Dec, 8:30 AM-12 AM June-Aug",0.000178811
+all_vehi_1,122,"Monday-Friday 3 PM-7 PM, Saturday 8 AM-7 PM",0.000178811
+all_vehi_1,123,Monday-Saturday 6 AM-10 PM,0.000178811
+all_vehi_1,124,"Monday-Saturday 10 AM-4 PM, 7 PM-10 PM",0.000178811
+all_vehi_1,125,Saturday 10 AM-10 PM,8.94055e-05
+all_vehi_1,126,"Monday-Friday 1 PM-10 PM, Saturday 8 AM-10 PM",8.94055e-05
+all_vehi_1,127,Saturday 6 PM-12 AM,8.94055e-05
+all_vehi_1,128,Saturday 7 AM-2 PM,8.94055e-05
+all_vehi_1,129,"Monday-Friday 8 PM-10 PM, Saturday 9 AM-10 PM",8.94055e-05
+all_vehi_1,130,"Monday-Friday 7 PM-10 PM, Saturday 7:30 AM-10 PM",8.94055e-05
+all_vehi_1,131,"Monday-Friday 7 AM-7 PM, Saturday 9 AM-7 PM",8.94055e-05
+all_vehi_1,132,Saturday 8 AM-12 AM,8.94055e-05
+all_vehi_1,133,Saturday 8 AM-3 PM,8.94055e-05
+all_vehi_1,134,"Monday-Friday 4 PM-12 AM, Saturday 8 AM-12 AM",8.94055e-05
+all_vehi_1,135,"Monday-Friday 7 PM-10 PM, Saturday 8 AM-10 PM",8.94055e-05
+all_vehi_1,136,"Monday-Friday 8 AM-3 PM, Saturday 9 AM-7 PM",8.94055e-05
+all_vehi_1,137,"Monday-Friday 1 PM-7PM, Saturday 8 AM-7 PM",8.94055e-05
+all_vehi_1,138,"Monday-Saturday 9 AM-1 PM, 3 PM-7 PM",8.94055e-05
+all_vehi_1,139,"Monday-Friday 7 AM-10 PM, Saturday 8 AM-10 PM",8.94055e-05
+all_vehi_1,140,Saturday 8:30 AM-6 PM,8.94055e-05
+all_vehi_1,141,"Monday-Friday 6 PM-10 PM, Saturday 8:30 AM-10 PM",8.94055e-05
+all_vehi_1,142,"Monday-Friday 2 PM-10 PM, Saturday 8 AM-10 PM",8.94055e-05
+all_vehi_1,143,"Monday-Friday 10 AM-3 PM, Saturday 9 AM-7 PM",8.94055e-05
+all_vehi_1,144,Monday-Saturday 1 PM-12 AM,8.94055e-05
+all_vehi_1,145,Monday-Saturday 10:30 AM-6 PM,8.94055e-05
+all_vehi_1,146,Monday-Saturday 7:30 AM-4 PM,8.94055e-05
+all_vehi_1,147,Saturday 10 AM-4 PM,8.94055e-05
+all_vehi_1,148,Monday-Saturday 8:30 AM-11 PM,8.94055e-05
+all_vehi_1,149,"Monday-Friday 9 AM-7 PM, Saturday 9:30 AM-7 PM",8.94055e-05
+all_vehi_1,150,Monday-Saturday 2 PM-7 PM,8.94055e-05
+all_vehi_1,151,"Monday-Saturday 8 AM-7 PM Jan-May, Dec, Monday, Wednesday-Saturday 8 AM-7 PM June-Nov",8.94055e-05
+all_vehi_1,152,Monday-Saturday 10 AM-2 PM,8.94055e-05
+all_vehi_1,153,Monday-Saturday 12 PM-2 PM,8.94055e-05
+all_vehi_1,154,Monday-Friday 10 AM-4 PM,8.94055e-05
+all_vehi_1,155,"Monday-Thursday 4 PM-7 PM, Friday 4 PM-7 PM",8.94055e-05
+all_vehi_1,156,Monday-Saturday 7 AM-12 AM,8.94055e-05
+all_vehi_1,157,"Monday-Friday 8:30 AM-3 PM, Saturday 8:30 AM-7 PM",8.94055e-05
+all_vehi_1,158,Monday-Saturday 9 AM-3 PM,8.94055e-05
+all_vehi_1,159,"Monday-Thursday 1 PM-7 PM, Friday-Saturday 9 AM-7 PM",8.94055e-05
+all_vehi_1,160,"Tuesday-Saturday 9 AM-5 PM, Monday 10 AM-5 PM",8.94055e-05
+all_vehi_1,161,Monday-Saturday 7 AM-8 PM,8.94055e-05
+vehicle_ty,1,All Vehicles,0.857577
+vehicle_ty,2,Dual (Commercial / All Vehicles),0.087975
+vehicle_ty,3,Commercial Only,0.0540903
+vehicle_ty,4,Charter Bus Only,0.000357622
+side_of_st,1,W,0.270004
+side_of_st,2,E,0.267143
+side_of_st,3,S,0.231918
+side_of_st,4,N,0.227984
+side_of_st,5,C,0.00205633
+side_of_st,6,w,0.000357622
+side_of_st,7,s,0.000178811
+side_of_st,8,Island,0.000178811
+side_of_st,9,n,8.94055e-05
+side_of_st,10,S/s  Island,8.94055e-05
+commerci_2,1,N/A,0.857577
+commerci_2,2,$7.00 1st Hour / $10.00 2nd Hour / $13.00 3rd Hour,0.0719714
+commerci_2,3,$6.00 1st Hour / $9.00 2nd Hour / $12.00 3rd Hour,0.0445239
+commerci_2,4,$6.00 1st Hour / $9.00 2nd Hour,0.00795709
+commerci_2,5,$7.00 per Hour,0.00607957
+commerci_2,6,$6.00 1st Hour,0.00527492
+commerci_2,7,$6.00 per Hour,0.00438087
+commerci_2,8,$7.00 per 30 Minutes,0.00098346
+commerci_2,9,$7.00 1st Hour / $10.00 2nd Hour,0.000625838
+commerci_2,10,$20.00 per Hour,0.000357622
+commerci_2,11,$10.00 per 8 Hours,0.000268216
+all_vehicl,1,2 Hours,0.853107
+all_vehicl,2,N/A,0.0544479
+all_vehicl,3,6 Hours,0.0274475
+all_vehicl,4,"2 Hours (Mon-Thurs), 4 Hours (Fri)",0.0226196
+all_vehicl,5,5 Hours,0.0114439
+all_vehicl,6,3 Hours,0.0105498
+all_vehicl,7,4 Hours,0.0065266
+all_vehicl,8,1 Hour,0.00554314
+all_vehicl,9,15 Hours,0.00375503
+all_vehicl,10,12 Hours,0.00241395
+all_vehicl,11,"1 Hour, 2 Hours (after 2PM)",0.000715244
+all_vehicl,12,"2 Hours, 6 Hours (After 6pm)",0.000536433
+all_vehicl,13,30 Minutes,0.000536433
+all_vehicl,14,"1 Hour, 2 Hours (Mon-Fri after 4PM, Sat)",8.94055e-05
+all_vehicl,15,"2 Hours (Mon-Thurs), 3 Hours (Fri)",8.94055e-05
+all_vehicl,16,16 Hours,8.94055e-05
+all_vehicl,17,18 Hours,8.94055e-05
+commercial,1,N/A,0.857577
+commercial,2,3 Hours,0.116853
+commercial,3,1 Hour,0.0157354
+commercial,4,2 Hours,0.00858292
+commercial,5,30 Minutes,0.00098346
+commercial,6,24 Hours,0.000268216
+commerci_1,1,N/A,0.857577
+commerci_1,2,Monday-Saturday 7 AM-7 PM,0.0234242
+commerci_1,3,Monday-Saturday 7 AM-6 PM,0.0191328
+commerci_1,4,Monday-Friday 7 AM-7 PM,0.0181493
+commerci_1,5,Monday-Friday 8 AM-6 PM,0.013679
+commerci_1,6,Monday-Friday 7 AM-4 PM,0.0082253
+commerci_1,7,Monday-Saturday 10 AM-4 PM,0.00509611
+commerci_1,8,Monday-Friday 7 AM-6 PM,0.00482789
+commerci_1,9,Monday-Friday 10 AM-4 PM,0.00473849
+commerci_1,10,Monday-Friday 8 AM-7 PM,0.00402325
+commerci_1,11,Monday-Saturday 7 AM-4 PM,0.00312919
+commerci_1,12,Monday-Saturday 8 AM-7 PM,0.00250335
+commerci_1,13,Monday-Friday 8 AM-4 PM,0.00250335
+commerci_1,14,Monday-Friday 9 AM-7 PM,0.00205633
+commerci_1,15,Monday-Saturday 9 AM-7 PM,0.00196692
+commerci_1,16,Monday-Friday 7 AM-2 PM,0.0016987
+commerci_1,17,Monday-Saturday 7 AM-1 PM,0.0016987
+commerci_1,18,Monday-Friday 7 AM-10 AM,0.0016093
+commerci_1,19,Monday-Saturday 6 AM-10 PM,0.00143049
+commerci_1,20,Monday-Friday 8:30 AM-1 PM,0.00134108
+commerci_1,21,Monday-Saturday 6 AM-2 PM,0.00125168
+commerci_1,22,Monday-Saturday 8 AM-12 PM,0.00116227
+commerci_1,23,Monday-Saturday 8 AM-6 PM,0.00107287
+commerci_1,24,Monday-Friday 10 AM-2 PM,0.00107287
+commerci_1,25,Monday-Saturday 7 AM-12 AM,0.00107287
+commerci_1,26,Monday-Friday 8:30 AM-4 PM,0.00098346
+commerci_1,27,Monday-Saturday 7 PM-12 AM,0.00098346
+commerci_1,28,Monday-Saturday 7 AM-10 PM,0.000804649
+commerci_1,29,Monday-Friday 7 AM-1 PM,0.000804649
+commerci_1,30,Monday-Saturday 9 AM-4 PM,0.000715244
+commerci_1,31,Monday-Friday 8:30 AM-7 PM,0.000625838
+commerci_1,32,Monday-Friday 1 PM-7 PM,0.000536433
+commerci_1,33,Monday-Friday 7:30 AM-4 PM,0.000536433
+commerci_1,34,Monday-Saturday 6 AM-7 PM,0.000536433
+commerci_1,35,Monday-Friday 6 AM-6 PM,0.000536433
+commerci_1,36,Monday-Saturday 10 AM-3 PM,0.000447027
+commerci_1,37,Monday-Friday 7:30 AM-7 PM,0.000447027
+commerci_1,38,Monday-Saturday 8 AM-12 AM,0.000447027
+commerci_1,39,Monday-Saturday 8 AM-3 PM,0.000447027
+commerci_1,40,Monday-Saturday 10 AM-7 PM,0.000447027
+commerci_1,41,Monday-Friday 8 AM-2 PM,0.000357622
+commerci_1,42,Monday-Friday 7:30 AM-6 PM,0.000357622
+commerci_1,43,Monday-Friday 6 AM-7 PM,0.000357622
+commerci_1,44,Monday-Friday 10 AM-7 PM,0.000357622
+commerci_1,45,Monday-Saturday 7 AM-3 PM,0.000268216
+commerci_1,46,Monday-Friday 7 AM-3 PM,0.000268216
+commerci_1,47,Monday-Saturday 8:30 AM-7 PM,0.000268216
+commerci_1,48,Monday-Saturday 7:30 AM-7 PM,0.000268216
+commerci_1,49,Monday-Saturday 1 PM-10 PM,0.000268216
+commerci_1,50,Monday-Saturday 7 AM-10 AM,0.000268216
+commerci_1,51,Monday-Saturday 12 AM-12 AM,0.000268216
+commerci_1,52,"Monday-Friday 10 AM-4 PM, Saturday 7 AM-7 PM",0.000178811
+commerci_1,53,Monday-Saturday 7 AM-3:30 PM,0.000178811
+commerci_1,54,Monday-Saturday 10 AM-2 PM,0.000178811
+commerci_1,55,Monday-Friday 10 AM-1 PM,0.000178811
+commerci_1,56,Monday-Saturday 7 AM-5 PM,8.94055e-05
+commerci_1,57,Monday-Friday 7 AM-5 PM,8.94055e-05
+commerci_1,58,"Monday-Friday 1 PM-6 PM, 6 PM-10 PM",8.94055e-05
+commerci_1,59,"Monday, Wednesday, Friday 7 AM-7 PM",8.94055e-05
+commerci_1,60,Monday-Saturday 10 AM-10 PM,8.94055e-05
+commerci_1,61,Monday-Saturday 9 AM-1 PM,8.94055e-05
+commerci_1,62,"Monday-Saturday 6 AM-3 PM, Monday-Saturday 8 PM-12 AM",8.94055e-05
+commerci_1,63,Monday-Saturday 6 AM-6 PM,8.94055e-05
+commerci_1,64,"Monday-Saturday 10 AM-3 PM, 8 PM-12 AM",8.94055e-05
+commerci_1,65,Monday-Saturday 7 AM-11 PM,8.94055e-05
+commerci_1,66,"Monday-Saturday 7 AM-3 PM, 8 PM-12 AM",8.94055e-05
+commerci_1,67,"Monday-Friday 7 AM-4 PM, Saturday 7 AM-7 PM",8.94055e-05
+commerci_1,68,Monday-Saturday 7:30 AM-4 PM,8.94055e-05
+commerci_1,69,Monday-Saturday 7 AM-8 PM,8.94055e-05
+commerci_1,70,Monday-Friday 8:30 AM-6 PM,8.94055e-05
+commerci_1,71,Monday-Saturday 6 AM-4 PM,8.94055e-05
+commerci_1,72,Monday-Saturday 11 AM-7 PM,8.94055e-05
+commerci_1,73,Monday-Saturday 8 AM-10 PM,8.94055e-05
+commerci_1,74,Monday-Friday 8 AM-10 PM,8.94055e-05
+commerci_1,75,"Monday-Friday 7 AM-3 PM, Saturday 7 AM-7 PM",8.94055e-05
+commerci_1,76,Monday-Saturday 8 AM-4 PM,8.94055e-05
+commerci_1,77,Monday-Saturday 9 AM-12 PM,8.94055e-05
+commerci_1,78,Monday-Saturday 5 AM-6 PM,8.94055e-05
+commerci_1,79,Monday-Friday 10 AM-3 PM,8.94055e-05
+commerci_1,80,Monday-Saturday 8 AM-1 PM,8.94055e-05
+borough,1,Manhattan,0.300581
+borough,2,Brooklyn,0.296111
+borough,3,Queens,0.272329
+borough,4,Bronx,0.109879
+borough,5,Staten Island,0.0197586
+borough,6,QUEENS,0.000715244
+borough,7,MANHATTAN,0.000268216
+borough,8,brooklyn,0.000268216
+borough,9,manhattan,8.94055e-05
+to_street,1,Broadway,0.0160036
+to_street,2,5 Avenue,0.0120697
+to_street,3,3 Avenue,0.00849352
+to_street,4,Madison Avenue,0.00786768
+to_street,5,7 Avenue,0.00724184
+to_street,6,Lexington Avenue,0.00724184
+to_street,7,8 Avenue,0.0065266
+to_street,8,Park Avenue,0.00634779
+to_street,9,Queens Boulevard,0.00634779
+to_street,10,2 Avenue,0.00616898
+to_street,11,6 Avenue,0.00563254
+to_street,12,Avenue U,0.00545373
+to_street,13,Liberty Avenue,0.00447027
+to_street,14,Roosevelt Avenue,0.00438087
+to_street,15,9 Avenue,0.00411265
+to_street,16,86 Street,0.00357622
+to_street,17,37 Avenue,0.00339741
+to_street,18,Avenue of the Americas,0.003308
+to_street,19,Church Avenue,0.003308
+to_street,20,Avenue T,0.00312919
+to_street,21,Jamaica Avenue,0.00312919
+to_street,22,13 Avenue,0.00303979
+to_street,23,Northern Boulevard,0.00303979
+to_street,24,35 Avenue,0.00303979
+to_street,25,4 Avenue,0.00295038
+to_street,26,East Tremont Avenue,0.00295038
+to_street,27,Kings Highway,0.00295038
+to_street,28,Flatbush Avenue,0.00286097
+to_street,29,Grand Street,0.00277157
+to_street,30,Westchester Avenue,0.00277157
+to_street,31,18 Avenue,0.00277157
+to_street,32,Union Street,0.00268216
+to_street,33,Avenue M,0.00259276
+to_street,34,47 Avenue,0.00259276
+to_street,35,31 Avenue,0.00250335
+to_street,36,East 21 Street,0.00241395
+to_street,37,Jerome Avenue,0.00241395
+to_street,38,Myrtle Avenue,0.00241395
+to_street,39,Quentin Road,0.00232454
+to_street,40,Nostrand Avenue,0.00232454
+to_street,41,East 17 Street,0.00223514
+to_street,42,Amsterdam Avenue,0.00223514
+to_street,43,45 Street,0.00223514
+to_street,44,Park Avenue South,0.00214573
+to_street,45,1 Avenue,0.00214573
+to_street,46,46 Street,0.00214573
+to_street,47,14 Avenue,0.00214573
+to_street,48,Benson Avenue,0.00214573
+to_street,49,85 Street,0.00214573
+to_street,50,Main Street,0.00214573
+to_street,51,Columbus Avenue,0.00205633
+to_street,52,East 15 Street,0.00205633
+to_street,53,East 19 Street,0.00205633
+to_street,54,St. Nicholas Avenue,0.00205633
+to_street,55,65 Street,0.00205633
+to_street,56,East 12 Street,0.00196692
+to_street,57,76 Street,0.00196692
+to_street,58,78 Street,0.00196692
+to_street,59,94 Street,0.00196692
+to_street,60,64 Street,0.00196692
+to_street,61,East 18 Street,0.00187751
+to_street,62,East 13 Street,0.00187751
+to_street,63,East 29 Street,0.00187751
+to_street,64,East 188 Street,0.00187751
+to_street,65,41 Street,0.00187751
+to_street,66,42 Street,0.00187751
+to_street,67,80 Street,0.00187751
+to_street,68,Avenue N,0.00187751
+to_street,69,50 Street,0.00187751
+to_street,70,72 Street,0.00187751
+to_street,71,41 Avenue,0.00187751
+to_street,72,30 Avenue,0.00187751
+to_street,73,East 51 Street,0.00178811
+to_street,74,12 Avenue,0.00178811
+to_street,75,Grand Avenue,0.00178811
+to_street,76,31 Street,0.00178811
+to_street,77,103 Avenue,0.00178811
+to_street,78,89 Avenue,0.00178811
+to_street,79,East 4 Street,0.0016987
+to_street,80,44 Street,0.0016987
+to_street,81,Avenue P,0.0016987
+to_street,82,47 Street,0.0016987
+to_street,83,38 Street,0.0016987
+to_street,84,Avenue J,0.0016987
+to_street,85,Austin Street,0.0016987
+to_street,86,East 14 Street,0.0016093
+to_street,87,East 31 Street,0.0016093
+to_street,88,Metropolitan Avenue,0.0016093
+to_street,89,White Plains Road,0.0016093
+to_street,90,84 Street,0.0016093
+to_street,91,92 Street,0.0016093
+to_street,92,77 Street,0.0016093
+to_street,93,79 Street,0.0016093
+to_street,94,Coney Island Avenue,0.0016093
+to_street,95,Avenue L,0.0016093
+to_street,96,33 Street,0.0016093
+to_street,97,107 Avenue,0.0016093
+to_street,98,43 Avenue,0.0016093
+to_street,99,29 Street,0.0016093
+to_street,100,East 16 Street,0.00151989
+to_street,101,East 22 Street,0.00151989
+to_street,102,Hillside Avenue,0.00151989
+to_street,103,East 96 Street,0.00151989
+to_street,104,51 Street,0.00151989
+to_street,105,48 Street,0.00151989
+to_street,106,43 Street,0.00151989
+to_street,107,35 Street,0.00151989
+to_street,108,Brighton Beach Avenue,0.00151989
+to_street,109,108 Street,0.00151989
+to_street,110,Bell Boulevard,0.00151989
+to_street,111,Canal Street,0.00143049
+to_street,112,Hester Street,0.00143049
+to_street,113,Broome Street,0.00143049
+to_street,114,East 2 Street,0.00143049
+to_street,115,East Fordham Road,0.00143049
+to_street,116,49 Street,0.00143049
+to_street,117,Manhattan Avenue,0.00143049
+to_street,118,99 Street,0.00143049
+to_street,119,Avenue K,0.00143049
+to_street,120,37 Street,0.00143049
+to_street,121,Union Turnpike,0.00143049
+to_street,122,Walton Avenue,0.00134108
+to_street,123,97 Street,0.00134108
+to_street,124,New Utrecht Avenue,0.00134108
+to_street,125,73 Street,0.00134108
+to_street,126,81 Street,0.00134108
+to_street,127,21 Avenue,0.00134108
+to_street,128,Forest Avenue,0.00134108
+to_street,129,110 Street,0.00134108
+to_street,130,36 Avenue,0.00134108
+to_street,131,34 Avenue,0.00134108
+to_street,132,Fulton Street,0.00125168
+to_street,133,East 26 Street,0.00125168
+to_street,134,East 7 Street,0.00125168
+to_street,135,East 3 Street,0.00125168
+to_street,136,Clinton Street,0.00125168
+to_street,137,East 23 Street,0.00125168
+to_street,138,Lincoln Place,0.00125168
+to_street,139,90 Street,0.00125168
+to_street,140,Bedford Avenue,0.00125168
+to_street,141,74 Street,0.00125168
+to_street,142,Bay Ridge Avenue,0.00125168
+to_street,143,Bay Parkway,0.00125168
+to_street,144,83 Street,0.00125168
+to_street,145,88 Street,0.00125168
+to_street,146,61 Street,0.00125168
+to_street,147,Avenue O,0.00125168
+to_street,148,17 Avenue,0.00125168
+to_street,149,Avenue R,0.00125168
+to_street,150,52 Street,0.00125168
+to_street,151,34 Street,0.00125168
+to_street,152,30 Street,0.00125168
+to_street,153,102 Street,0.00125168
+to_street,154,39 Avenue,0.00125168
+to_street,155,Warren Street,0.00116227
+to_street,156,East 34 Street,0.00116227
+to_street,157,Mercer Street,0.00116227
+to_street,158,East 9 Street,0.00116227
+to_street,159,Lafayette Street,0.00116227
+to_street,160,East 92 Street,0.00116227
+to_street,161,McDonald Avenue,0.00116227
+to_street,162,54 Street,0.00116227
+to_street,163,19 Avenue,0.00116227
+to_street,164,Caton Avenue,0.00116227
+to_street,165,68 Street,0.00116227
+to_street,166,Glenwood Road,0.00116227
+to_street,167,Avenue I,0.00116227
+to_street,168,Carroll Street,0.00116227
+to_street,169,32 Street,0.00116227
+to_street,170,66 Street,0.00116227
+to_street,171,71 Street,0.00116227
+to_street,172,Utica Avenue,0.00116227
+to_street,173,Greenpoint Avenue,0.00116227
+to_street,174,Woodhaven Boulevard,0.00116227
+to_street,175,63 Drive,0.00116227
+to_street,176,Lefferts Boulevard,0.00116227
+to_street,177,Francis Lewis Boulevard,0.00116227
+to_street,178,Water Street,0.00107287
+to_street,179,East 11 Street,0.00107287
+to_street,180,East 54 Street,0.00107287
+to_street,181,East 76 Street,0.00107287
+to_street,182,East 64 Street,0.00107287
+to_street,183,East 52 Street,0.00107287
+to_street,184,East 10 Street,0.00107287
+to_street,185,East 46 Street,0.00107287
+to_street,186,East 8 Street,0.00107287
+to_street,187,East 5 Street,0.00107287
+to_street,188,East 81 Street,0.00107287
+to_street,189,East 79 Street,0.00107287
+to_street,190,East 82 Street,0.00107287
+to_street,191,East 94 Street,0.00107287
+to_street,192,East 93 Street,0.00107287
+to_street,193,Morris Avenue,0.00107287
+to_street,194,Prospect Place,0.00107287
+to_street,195,39 Street,0.00107287
+to_street,196,Knickerbocker Avenue,0.00107287
+to_street,197,53 Street,0.00107287
+to_street,198,Avenue X,0.00107287
+to_street,199,62 Street,0.00107287
+to_street,200,36 Street,0.00107287
+to_street,201,91 Street,0.00107287
+to_street,202,88 Avenue,0.00107287
+to_street,203,98 Street,0.00107287
+to_street,204,90 Avenue,0.00107287
+to_street,205,East 74 Street,0.00098346
+to_street,206,Irving Place,0.00098346
+to_street,207,East 73 Street,0.00098346
+to_street,208,East 72 Street,0.00098346
+to_street,209,East 20 Street,0.00098346
+to_street,210,St. Marks Place,0.00098346
+to_street,211,West 10 Street,0.00098346
+to_street,212,West 125 Street,0.00098346
+to_street,213,East 84 Street,0.00098346
+to_street,214,East 89 Street,0.00098346
+to_street,215,East 88 Street,0.00098346
+to_street,216,West End Avenue,0.00098346
+to_street,217,East 95 Street,0.00098346
+to_street,218,East 85 Street,0.00098346
+to_street,219,Grand Concourse,0.00098346
+to_street,220,Bergen Street,0.00098346
+to_street,221,60 Street,0.00098346
+to_street,222,89 Street,0.00098346
+to_street,223,40 Street,0.00098346
+to_street,224,Ocean Avenue,0.00098346
+to_street,225,59 Street,0.00098346
+to_street,226,Bay Ridge Parkway,0.00098346
+to_street,227,70 Street,0.00098346
+to_street,228,Avenue V,0.00098346
+to_street,229,23 Avenue,0.00098346
+to_street,230,Gravesend Neck Road,0.00098346
+to_street,231,Linden Boulevard,0.00098346
+to_street,232,Avenue Y,0.00098346
+to_street,233,67 Street,0.00098346
+to_street,234,95 Street,0.00098346
+to_street,235,Rockaway Boulevard,0.00098346
+to_street,236,42 Avenue,0.00098346
+to_street,237,Yellowstone Boulevard,0.00098346
+to_street,238,Fresh Pond Road,0.00098346
+to_street,239,213 Street,0.00098346
+to_street,240,51 Avenue,0.00098346
+to_street,241,New Dorp Lane,0.00098346
+to_street,242,West 12 Street,0.000894055
+to_street,243,East 63 Street,0.000894055
+to_street,244,West 21 Street,0.000894055
+to_street,245,East 28 Street,0.000894055
+to_street,246,East 55 Street,0.000894055
+to_street,247,West 54 Street,0.000894055
+to_street,248,West 52 Street,0.000894055
+to_street,249,East 32 Street,0.000894055
+to_street,250,West 56 Street,0.000894055
+to_street,251,West 49 Street,0.000894055
+to_street,252,West 19 Street,0.000894055
+to_street,253,East 65 Street,0.000894055
+to_street,254,East 33 Street,0.000894055
+to_street,255,East 70 Street,0.000894055
+to_street,256,East 71 Street,0.000894055
+to_street,257,West 51 Street,0.000894055
+to_street,258,10 Avenue,0.000894055
+to_street,259,West 13 Street,0.000894055
+to_street,260,East 53 Street,0.000894055
+to_street,261,West 16 Street,0.000894055
+to_street,262,East 35 Street,0.000894055
+to_street,263,West 17 Street,0.000894055
+to_street,264,East 48 Street,0.000894055
+to_street,265,5th Avenue,0.000894055
+to_street,266,Delancey Street,0.000894055
+to_street,267,East 77 Street,0.000894055
+to_street,268,West 8 Street,0.000894055
+to_street,269,Dead End,0.000894055
+to_street,270,Ft. Washington Avenue,0.000894055
+to_street,271,East 83 Street,0.000894055
+to_street,272,East 90 Street,0.000894055
+to_street,273,East 80 Street,0.000894055
+to_street,274,East 91 Street,0.000894055
+to_street,275,Edison Avenue,0.000894055
+to_street,276,Barnes Avenue,0.000894055
+to_street,277,Cruger Avenue,0.000894055
+to_street,278,East 187 Street,0.000894055
+to_street,279,President Street,0.000894055
+to_street,280,St. Johns Place,0.000894055
+to_street,281,63 Street,0.000894055
+to_street,282,Eastern Parkway,0.000894055
+to_street,283,11 Street,0.000894055
+to_street,284,55 Street,0.000894055
+to_street,285,87 Street,0.000894055
+to_street,286,Oceanview Avenue,0.000894055
+to_street,287,82 Street,0.000894055
+to_street,288,Crescent Street,0.000894055
+to_street,289,150 Street,0.000894055
+to_street,290,College Point Boulevard,0.000894055
+to_street,291,149 Street,0.000894055
+to_street,292,Steinway Street,0.000894055
+to_street,293,Vernon Boulevard,0.000894055
+to_street,294,28 Avenue,0.000894055
+to_street,295,75 Avenue,0.000894055
+to_street,296,Madison Street,0.000804649
+to_street,297,Park Place,0.000804649
+to_street,298,Orchard Street,0.000804649
+to_street,299,East 30 Street,0.000804649
+to_street,300,West 29 Street,0.000804649
+to_street,301,West 24 Street,0.000804649
+to_street,302,East 61 Street,0.000804649
+to_street,303,West 50 Street,0.000804649
+to_street,304,East 69 Street,0.000804649
+to_street,305,East 37 Street,0.000804649
+to_street,306,West 48 Street,0.000804649
+to_street,307,East 67 Street,0.000804649
+to_street,308,West 28 Street,0.000804649
+to_street,309,Rivington Street,0.000804649
+to_street,310,Franklin Street,0.000804649
+to_street,311,Prince Street,0.000804649
+to_street,312,East 27 Street,0.000804649
+to_street,313,West 20 Street,0.000804649
+to_street,314,Bleecker Street,0.000804649
+to_street,315,East 49 Street,0.000804649
+to_street,316,West Street,0.000804649
+to_street,317,West 55 Street,0.000804649
+to_street,318,East 75 Street,0.000804649
+to_street,319,Wadsworth Avenue,0.000804649
+to_street,320,Audobon Avenue,0.000804649
+to_street,321,East 87 Street,0.000804649
+to_street,322,East 78 Street,0.000804649
+to_street,323,Creston Avenue,0.000804649
+to_street,324,Holland Avenue,0.000804649
+to_street,325,Wilson Avenue,0.000804649
+to_street,326,East 184 Street,0.000804649
+to_street,327,Lydig Avenue,0.000804649
+to_street,328,56 Street,0.000804649
+to_street,329,Sheepshead Bay Road,0.000804649
+to_street,330,93 Street,0.000804649
+to_street,331,Graham Avenue,0.000804649
+to_street,332,Avenue W,0.000804649
+to_street,333,Dean Street,0.000804649
+to_street,334,Woodside Avenue,0.000804649
+to_street,335,Dahill Road,0.000804649
+to_street,336,121 Street,0.000804649
+to_street,337,71 Avenue,0.000804649
+to_street,338,Parsons Boulevard,0.000804649
+to_street,339,45 Avenue,0.000804649
+to_street,340,75 Street,0.000804649
+to_street,341,Ditmars Boulevard,0.000804649
+to_street,342,38 Avenue,0.000804649
+to_street,343,Junction Boulevard,0.000804649
+to_street,344,Victory Boulevard,0.000804649
+to_street,345,Pearl Street,0.000715244
+to_street,346,Henry Street,0.000715244
+to_street,347,Elizabeth Street,0.000715244
+to_street,348,Stanton Street,0.000715244
+to_street,349,Waverly Place,0.000715244
+to_street,350,West 57 Street,0.000715244
+to_street,351,West 25 Street,0.000715244
+to_street,352,East 40 Street,0.000715244
+to_street,353,East 24 Street,0.000715244
+to_street,354,West 36 Street,0.000715244
+to_street,355,East 45 Street,0.000715244
+to_street,356,West 11 Street,0.000715244
+to_street,357,Washington Street,0.000715244
+to_street,358,West 15 Street,0.000715244
+to_street,359,East 68 Street,0.000715244
+to_street,360,West 4 Street,0.000715244
+to_street,361,Centre Street,0.000715244
+to_street,362,West 53 Street,0.000715244
+to_street,363,West 18 Street,0.000715244
+to_street,364,East 6 Street,0.000715244
+to_street,365,University Place,0.000715244
+to_street,366,Bond Street,0.000715244
+to_street,367,East 86 Street,0.000715244
+to_street,368,Watson Avenue,0.000715244
+to_street,369,Wallace Avenue,0.000715244
+to_street,370,Washington Avenue,0.000715244
+to_street,371,Dekalb Avenue,0.000715244
+to_street,372,Belmont Avenue,0.000715244
+to_street,373,Atlantic Avenue,0.000715244
+to_street,374,Foster Avenue,0.000715244
+to_street,375,9 Street,0.000715244
+to_street,376,Fort Hamilton Parkway,0.000715244
+to_street,377,Sterling Place,0.000715244
+to_street,378,57 Street,0.000715244
+to_street,379,23 Street,0.000715244
+to_street,380,New York Avenue,0.000715244
+to_street,381,West 6 Street,0.000715244
+to_street,382,Ovington Avenue,0.000715244
+to_street,383,Brightwater Court,0.000715244
+to_street,384,Rockaway Parkway,0.000715244
+to_street,385,Schenectady Avenue,0.000715244
+to_street,386,27 Street,0.000715244
+to_street,387,69 Avenue,0.000715244
+to_street,388,37 Road,0.000715244
+to_street,389,63 Avenue,0.000715244
+to_street,390,Springfield Boulevard,0.000715244
+to_street,391,72 Road,0.000715244
+to_street,392,64 Road,0.000715244
+to_street,393,117 Street,0.000715244
+to_street,394,111 Street,0.000715244
+to_street,395,Cypress Avenue,0.000715244
+to_street,396,103 Street,0.000715244
+to_street,397,112 Street,0.000715244
+to_street,398,106 Street,0.000715244
+to_street,399,148 Street,0.000715244
+to_street,400,164 Street,0.000715244
+all_vehi_2,1,$1.50 1st Hour / $2.50 2nd Hour,0.483594
+all_vehi_2,2,$2.00 1st Hour / $3.00 2nd Hour,0.166741
+all_vehi_2,3,$5.00 1st Hour / $8.25 2nd Hour,0.143228
+all_vehi_2,4,N/A,0.0544479
+all_vehi_2,5,$2.50 1st Hour / $5.00 2nd Hour,0.038802
+all_vehi_2,6,$5.50 1st Hour / $9.00 2nd Hour / $5.50 Add'l Hours,0.0310237
+all_vehi_2,7,$5.50 1st Hour / $9.00 2nd Hour,0.0159142
+all_vehi_2,8,$1.50 per Hour,0.0134108
+all_vehi_2,9,$1.50 1st Hour / $2.50 2nd Hour (Mon-Thurs) / $1.50 per Hour (Friday),0.0130532
+all_vehi_2,10,$2.00 1st Hour / $3.00 2nd Hour (Mon-Thurs) / $2.00 per Hour (Friday),0.00965579
+all_vehi_2,11,$3.00 1st Hour / $5.00 2nd Hour,0.00607957
+all_vehi_2,12,$2.00 per Hour,0.00509611
+all_vehi_2,13,$2.50 per Hour,0.0049173
+all_vehi_2,14,$5.00 1st Hour / $8.25 2nd Hour / $12.00 3rd Hour,0.00473849
+all_vehi_2,15,$5.00 1st Hour / $8.25 2nd Hour / $5.00 Add'l Hours,0.00339741
+all_vehi_2,16,$2.00 1st Hour / $3.00 2nd Hour / $4.50 3rd Hour,0.00312919
+all_vehi_2,17,$5.50 1st Hour / $9.00 2nd Hour / $5.50 3rd Hour,0.00151989
+all_vehi_2,18,$5.50 1st Hour / $9.00 2nd Hour; $5.50 1st Hour / $9.00 2nd Hour / $5.50 Add'l Hours PM,0.000536433
+all_vehi_2,19,$1.00 per 30 Minutes,0.000536433
+all_vehi_2,20,$2.00 1st Hour,8.94055e-05
+all_vehi_2,21,$3.00 per Hour,8.94055e-05
+.cell:.geom_x:.geom_y,1,-7399 4074,0.0157354
+.cell:.geom_x:.geom_y,2,-7399 4073,0.0152883
+.cell:.geom_x:.geom_y,3,-7398 4075,0.0135002
+.cell:.geom_x:.geom_y,4,-7400 4071,0.0129638
+.cell:.geom_x:.geom_y,5,-7399 4076,0.012338
+.cell:.geom_x:.geom_y,6,-7400 4074,0.0119803
+.cell:.geom_x:.geom_y,7,-7397 4076,0.0118909
+.cell:.geom_x:.geom_y,8,-7400 4073,0.0104604
+.cell:.geom_x:.geom_y,9,-7399 4075,0.00992401
+.cell:.geom_x:.geom_y,10,-7396 4077,0.0098346
+.cell:.geom_x:.geom_y,11,-7389 4074,0.00965579
+.cell:.geom_x:.geom_y,12,-7398 4078,0.0082253
+.cell:.geom_x:.geom_y,13,-7393 4076,0.00795709
+.cell:.geom_x:.geom_y,14,-7400 4063,0.00786768
+.cell:.geom_x:.geom_y,15,-7398 4074,0.00777827
+.cell:.geom_x:.geom_y,16,-7399 4072,0.00759946
+.cell:.geom_x:.geom_y,17,-7401 4071,0.00751006
+.cell:.geom_x:.geom_y,18,-7398 4076,0.00715244
+.cell:.geom_x:.geom_y,19,-7392 4076,0.00715244
+.cell:.geom_x:.geom_y,20,-7397 4077,0.00706303
+.cell:.geom_x:.geom_y,21,-7393 4074,0.00706303
+.cell:.geom_x:.geom_y,22,-7401 4073,0.00688422
+.cell:.geom_x:.geom_y,23,-7396 4078,0.00688422
+.cell:.geom_x:.geom_y,24,-7394 4084,0.00679481
+.cell:.geom_x:.geom_y,25,-7381 4070,0.00679481
+.cell:.geom_x:.geom_y,26,-7390 4086,0.00670541
+.cell:.geom_x:.geom_y,27,-7400 4072,0.00634779
+.cell:.geom_x:.geom_y,28,-7403 4062,0.00634779
+.cell:.geom_x:.geom_y,29,-7383 4068,0.00625838
+.cell:.geom_x:.geom_y,30,-7401 4074,0.00616898
+.cell:.geom_x:.geom_y,31,-7399 4077,0.00599017
+.cell:.geom_x:.geom_y,32,-7398 4059,0.00599017
+.cell:.geom_x:.geom_y,33,-7400 4075,0.00572195
+.cell:.geom_x:.geom_y,34,-7389 4085,0.00572195
+.cell:.geom_x:.geom_y,35,-7399 4066,0.00563254
+.cell:.geom_x:.geom_y,36,-7399 4061,0.00554314
+.cell:.geom_x:.geom_y,37,-7401 4070,0.00545373
+.cell:.geom_x:.geom_y,38,-7397 4060,0.00545373
+.cell:.geom_x:.geom_y,39,-7401 4060,0.00545373
+.cell:.geom_x:.geom_y,40,-7396 4059,0.00536433
+.cell:.geom_x:.geom_y,41,-7393 4075,0.00536433
+.cell:.geom_x:.geom_y,42,-7384 4068,0.00527492
+.cell:.geom_x:.geom_y,43,-7401 4063,0.00509611
+.cell:.geom_x:.geom_y,44,-7400 4061,0.00509611
+.cell:.geom_x:.geom_y,45,-7399 4063,0.00500671
+.cell:.geom_x:.geom_y,46,-7398 4067,0.0049173
+.cell:.geom_x:.geom_y,47,-7401 4072,0.00482789
+.cell:.geom_x:.geom_y,48,-7390 4070,0.00482789
+.cell:.geom_x:.geom_y,49,-7390 4074,0.00482789
+.cell:.geom_x:.geom_y,50,-7388 4074,0.00473849
+.cell:.geom_x:.geom_y,51,-7397 4075,0.00464908
+.cell:.geom_x:.geom_y,52,-7400 4068,0.00464908
+.cell:.geom_x:.geom_y,53,-7402 4064,0.00464908
+.cell:.geom_x:.geom_y,54,-7398 4060,0.00464908
+.cell:.geom_x:.geom_y,55,-7396 4074,0.00447027
+.cell:.geom_x:.geom_y,56,-7397 4057,0.00438087
+.cell:.geom_x:.geom_y,57,-7400 4060,0.00438087
+.cell:.geom_x:.geom_y,58,-7380 4070,0.00438087
+.cell:.geom_x:.geom_y,59,-7391 4070,0.00429146
+.cell:.geom_x:.geom_y,60,-7401 4064,0.00420206
+.cell:.geom_x:.geom_y,61,-7396 4061,0.00420206
+.cell:.geom_x:.geom_y,62,-7385 4072,0.00420206
+.cell:.geom_x:.geom_y,63,-7387 4074,0.00420206
+.cell:.geom_x:.geom_y,64,-7386 4083,0.00411265
+.cell:.geom_x:.geom_y,65,-7391 4088,0.00411265
+.cell:.geom_x:.geom_y,66,-7403 4063,0.00411265
+.cell:.geom_x:.geom_y,67,-7394 4085,0.00402325
+.cell:.geom_x:.geom_y,68,-7400 4069,0.00402325
+.cell:.geom_x:.geom_y,69,-7400 4076,0.00393384
+.cell:.geom_x:.geom_y,70,-7396 4076,0.00393384
+.cell:.geom_x:.geom_y,71,-7396 4058,0.00393384
+.cell:.geom_x:.geom_y,72,-7386 4069,0.00393384
+.cell:.geom_x:.geom_y,73,-7397 4080,0.00384443
+.cell:.geom_x:.geom_y,74,-7393 4086,0.00384443
+.cell:.geom_x:.geom_y,75,-7385 4068,0.00384443
+.cell:.geom_x:.geom_y,76,-7387 4072,0.00384443
+.cell:.geom_x:.geom_y,77,-7395 4070,0.00375503
+.cell:.geom_x:.geom_y,78,-7386 4072,0.00375503
+.cell:.geom_x:.geom_y,79,-7387 4085,0.00366562
+.cell:.geom_x:.geom_y,80,-7391 4085,0.00366562
+.cell:.geom_x:.geom_y,81,-7384 4071,0.00366562
+.cell:.geom_x:.geom_y,82,-7392 4074,0.00366562
+.cell:.geom_x:.geom_y,83,-7385 4084,0.00357622
+.cell:.geom_x:.geom_y,84,-7395 4060,0.00357622
+.cell:.geom_x:.geom_y,85,-7397 4062,0.00357622
+.cell:.geom_x:.geom_y,86,-7395 4083,0.00348681
+.cell:.geom_x:.geom_y,87,-7401 4065,0.00348681
+.cell:.geom_x:.geom_y,88,-7396 4060,0.00348681
+.cell:.geom_x:.geom_y,89,-7378 4076,0.00348681
+.cell:.geom_x:.geom_y,90,-7394 4074,0.00348681
+.cell:.geom_x:.geom_y,91,-7397 4059,0.00339741
+.cell:.geom_x:.geom_y,92,-7388 4087,0.003308
+.cell:.geom_x:.geom_y,93,-7401 4062,0.003308
+.cell:.geom_x:.geom_y,94,-7389 4075,0.003308
+.cell:.geom_x:.geom_y,95,-7388 4075,0.003308
+.cell:.geom_x:.geom_y,96,-7382 4070,0.003308
+.cell:.geom_x:.geom_y,97,-7391 4074,0.003308
+.cell:.geom_x:.geom_y,98,-7381 4076,0.003308
+.cell:.geom_x:.geom_y,99,-7395 4080,0.0032186
+.cell:.geom_x:.geom_y,100,-7387 4086,0.0032186
+.cell:.geom_x:.geom_y,101,-7398 4068,0.0032186
+.cell:.geom_x:.geom_y,102,-7396 4064,0.0032186
+.cell:.geom_x:.geom_y,103,-7398 4063,0.0032186
+.cell:.geom_x:.geom_y,104,-7383 4075,0.0032186
+.cell:.geom_x:.geom_y,105,-7396 4065,0.00312919
+.cell:.geom_x:.geom_y,106,-7395 4074,0.00312919
+.cell:.geom_x:.geom_y,107,-7399 4071,0.00303979
+.cell:.geom_x:.geom_y,108,-7397 4079,0.00303979
+.cell:.geom_x:.geom_y,109,-7392 4083,0.00303979
+.cell:.geom_x:.geom_y,110,-7384 4084,0.00303979
+.cell:.geom_x:.geom_y,111,-7399 4068,0.00303979
+.cell:.geom_x:.geom_y,112,-7395 4059,0.00303979
+.cell:.geom_x:.geom_y,113,-7390 4072,0.00303979
+.cell:.geom_x:.geom_y,114,-7388 4073,0.00303979
+.cell:.geom_x:.geom_y,115,-7412 4057,0.00303979
+.cell:.geom_x:.geom_y,116,-7392 4081,0.00295038
+.cell:.geom_x:.geom_y,117,-7396 4072,0.00295038
+.cell:.geom_x:.geom_y,118,-7393 4061,0.00295038
+.cell:.geom_x:.geom_y,119,-7392 4077,0.00295038
+.cell:.geom_x:.geom_y,120,-7398 4079,0.00286097
+.cell:.geom_x:.geom_y,121,-7395 4063,0.00286097
+.cell:.geom_x:.geom_y,122,-7390 4063,0.00286097
+.cell:.geom_x:.geom_y,123,-7387 4073,0.00286097
+.cell:.geom_x:.geom_y,124,-7392 4075,0.00286097
+.cell:.geom_x:.geom_y,125,-7398 4077,0.00277157
+.cell:.geom_x:.geom_y,126,-7387 4075,0.00277157
+.cell:.geom_x:.geom_y,127,-7396 4080,0.00268216
+.cell:.geom_x:.geom_y,128,-7387 4083,0.00268216
+.cell:.geom_x:.geom_y,129,-7395 4071,0.00268216
+.cell:.geom_x:.geom_y,130,-7397 4064,0.00268216
+.cell:.geom_x:.geom_y,131,-7394 4075,0.00268216
+.cell:.geom_x:.geom_y,132,-7395 4077,0.00259276
+.cell:.geom_x:.geom_y,133,-7396 4071,0.00259276
+.cell:.geom_x:.geom_y,134,-7402 4063,0.00259276
+.cell:.geom_x:.geom_y,135,-7374 4071,0.00259276
+.cell:.geom_x:.geom_y,136,-7391 4086,0.00250335
+.cell:.geom_x:.geom_y,137,-7399 4067,0.00250335
+.cell:.geom_x:.geom_y,138,-7397 4063,0.00250335
+.cell:.geom_x:.geom_y,139,-7387 4067,0.00250335
+.cell:.geom_x:.geom_y,140,-7388 4082,0.00241395
+.cell:.geom_x:.geom_y,141,-7398 4064,0.00241395
+.cell:.geom_x:.geom_y,142,-7399 4059,0.00241395
+.cell:.geom_x:.geom_y,143,-7394 4065,0.00241395
+.cell:.geom_x:.geom_y,144,-7384 4069,0.00241395
+.cell:.geom_x:.geom_y,145,-7391 4077,0.00241395
+.cell:.geom_x:.geom_y,146,-7395 4078,0.00232454
+.cell:.geom_x:.geom_y,147,-7395 4082,0.00232454
+.cell:.geom_x:.geom_y,148,-7395 4081,0.00232454
+.cell:.geom_x:.geom_y,149,-7395 4079,0.00232454
+.cell:.geom_x:.geom_y,150,-7387 4088,0.00232454
+.cell:.geom_x:.geom_y,151,-7395 4062,0.00232454
+.cell:.geom_x:.geom_y,152,-7397 4061,0.00232454
+.cell:.geom_x:.geom_y,153,-7383 4076,0.00232454
+.cell:.geom_x:.geom_y,154,-7402 4070,0.00223514
+.cell:.geom_x:.geom_y,155,-7396 4082,0.00223514
+.cell:.geom_x:.geom_y,156,-7387 4087,0.00223514
+.cell:.geom_x:.geom_y,157,-7396 4070,0.00223514
+.cell:.geom_x:.geom_y,158,-7397 4065,0.00223514
+.cell:.geom_x:.geom_y,159,-7394 4066,0.00223514
+.cell:.geom_x:.geom_y,160,-7383 4082,0.00214573
+.cell:.geom_x:.geom_y,161,-7386 4089,0.00214573
+.cell:.geom_x:.geom_y,162,-7390 4084,0.00214573
+.cell:.geom_x:.geom_y,163,-7391 4087,0.00214573
+.cell:.geom_x:.geom_y,164,-7397 4067,0.00214573
+.cell:.geom_x:.geom_y,165,-7404 4061,0.00214573
+.cell:.geom_x:.geom_y,166,-7399 4078,0.00205633
+.cell:.geom_x:.geom_y,167,-7387 4084,0.00205633
+.cell:.geom_x:.geom_y,168,-7396 4066,0.00205633
+.cell:.geom_x:.geom_y,169,-7396 4067,0.00205633
+.cell:.geom_x:.geom_y,170,-7401 4061,0.00205633
+.cell:.geom_x:.geom_y,171,-7392 4066,0.00205633
+.cell:.geom_x:.geom_y,172,-7379 4072,0.00205633
+.cell:.geom_x:.geom_y,173,-7384 4076,0.00205633
+.cell:.geom_x:.geom_y,174,-7396 4081,0.00196692
+.cell:.geom_x:.geom_y,175,-7383 4083,0.00196692
+.cell:.geom_x:.geom_y,176,-7386 4084,0.00196692
+.cell:.geom_x:.geom_y,177,-7399 4062,0.00196692
+.cell:.geom_x:.geom_y,178,-7384 4070,0.00196692
+.cell:.geom_x:.geom_y,179,-7379 4075,0.00196692
+.cell:.geom_x:.geom_y,180,-7411 4063,0.00196692
+.cell:.geom_x:.geom_y,181,-7393 4081,0.00187751
+.cell:.geom_x:.geom_y,182,-7394 4061,0.00187751
+.cell:.geom_x:.geom_y,183,-7376 4060,0.00187751
+.cell:.geom_x:.geom_y,184,-7400 4062,0.00178811
+.cell:.geom_x:.geom_y,185,-7396 4063,0.00178811
+.cell:.geom_x:.geom_y,186,-7391 4069,0.00178811
+.cell:.geom_x:.geom_y,187,-7385 4071,0.00178811
+.cell:.geom_x:.geom_y,188,-7383 4074,0.00178811
+.cell:.geom_x:.geom_y,189,-7392 4084,0.0016987
+.cell:.geom_x:.geom_y,190,-7400 4066,0.0016987
+.cell:.geom_x:.geom_y,191,-7392 4068,0.0016987
+.cell:.geom_x:.geom_y,192,-7389 4070,0.0016987
+.cell:.geom_x:.geom_y,193,-7386 4073,0.0016987
+.cell:.geom_x:.geom_y,194,-7377 4075,0.0016987
+.cell:.geom_x:.geom_y,195,-7382 4076,0.0016987
+.cell:.geom_x:.geom_y,196,-7385 4067,0.0016987
+.cell:.geom_x:.geom_y,197,-7400 4067,0.0016093
+.cell:.geom_x:.geom_y,198,-7394 4069,0.0016093
+.cell:.geom_x:.geom_y,199,-7399 4064,0.0016093
+.cell:.geom_x:.geom_y,200,-7395 4065,0.0016093
+.cell:.geom_x:.geom_y,201,-7384 4075,0.0016093
+.cell:.geom_x:.geom_y,202,-7408 4063,0.0016093
+.cell:.geom_x:.geom_y,203,-7414 4063,0.0016093
+.cell:.geom_x:.geom_y,204,-7393 4070,0.00151989
+.cell:.geom_x:.geom_y,205,-7396 4073,0.00151989
+.cell:.geom_x:.geom_y,206,-7395 4061,0.00151989
+.cell:.geom_x:.geom_y,207,-7404 4062,0.00151989
+.cell:.geom_x:.geom_y,208,-7394 4062,0.00151989
+.cell:.geom_x:.geom_y,209,-7393 4065,0.00151989
+.cell:.geom_x:.geom_y,210,-7382 4067,0.00151989
+.cell:.geom_x:.geom_y,211,-7382 4075,0.00151989
+.cell:.geom_x:.geom_y,212,-7383 4072,0.00151989
+.cell:.geom_x:.geom_y,213,-7385 4078,0.00151989
+.cell:.geom_x:.geom_y,214,-7389 4082,0.00143049
+.cell:.geom_x:.geom_y,215,-7385 4083,0.00143049
+.cell:.geom_x:.geom_y,216,-7385 4087,0.00143049
+.cell:.geom_x:.geom_y,217,-7399 4069,0.00143049
+.cell:.geom_x:.geom_y,218,-7395 4067,0.00143049
+.cell:.geom_x:.geom_y,219,-7393 4069,0.00143049
+.cell:.geom_x:.geom_y,220,-7388 4068,0.00143049
+.cell:.geom_x:.geom_y,221,-7388 4071,0.00143049
+.cell:.geom_x:.geom_y,222,-7390 4082,0.00134108
+.cell:.geom_x:.geom_y,223,-7397 4069,0.00134108
+.cell:.geom_x:.geom_y,224,-7400 4059,0.00134108
+.cell:.geom_x:.geom_y,225,-7395 4064,0.00134108
+.cell:.geom_x:.geom_y,226,-7395 4066,0.00134108
+.cell:.geom_x:.geom_y,227,-7391 4066,0.00134108
+.cell:.geom_x:.geom_y,228,-7391 4064,0.00134108
+.cell:.geom_x:.geom_y,229,-7386 4071,0.00134108
+.cell:.geom_x:.geom_y,230,-7413 4061,0.00134108
+.cell:.geom_x:.geom_y,231,-7398 4073,0.00125168
+.cell:.geom_x:.geom_y,232,-7396 4079,0.00125168
+.cell:.geom_x:.geom_y,233,-7394 4080,0.00125168
+.cell:.geom_x:.geom_y,234,-7393 4082,0.00125168
+.cell:.geom_x:.geom_y,235,-7389 4088,0.00125168
+.cell:.geom_x:.geom_y,236,-7395 4058,0.00125168
+.cell:.geom_x:.geom_y,237,-7398 4057,0.00125168
+.cell:.geom_x:.geom_y,238,-7397 4068,0.00125168
+.cell:.geom_x:.geom_y,239,-7398 4061,0.00125168
+.cell:.geom_x:.geom_y,240,-7392 4063,0.00125168
+.cell:.geom_x:.geom_y,241,-7394 4067,0.00125168
+.cell:.geom_x:.geom_y,242,-7393 4066,0.00125168
+.cell:.geom_x:.geom_y,243,-7382 4068,0.00125168
+.cell:.geom_x:.geom_y,244,-7377 4076,0.00125168
+.cell:.geom_x:.geom_y,245,-7374 4077,0.00125168
+.cell:.geom_x:.geom_y,246,-7382 4078,0.00125168
+.cell:.geom_x:.geom_y,247,-7382 4072,0.00125168
+.cell:.geom_x:.geom_y,248,-7374 4066,0.00125168
+.cell:.geom_x:.geom_y,249,-7383 4085,0.00116227
+.cell:.geom_x:.geom_y,250,-7390 4085,0.00116227
+.cell:.geom_x:.geom_y,251,-7403 4061,0.00116227
+.cell:.geom_x:.geom_y,252,-7396 4057,0.00116227
+.cell:.geom_x:.geom_y,253,-7399 4060,0.00116227
+.cell:.geom_x:.geom_y,254,-7388 4072,0.00116227
+.cell:.geom_x:.geom_y,255,-7385 4073,0.00116227
+.cell:.geom_x:.geom_y,256,-7402 4071,0.00107287
+.cell:.geom_x:.geom_y,257,-7400 4064,0.00107287
+.cell:.geom_x:.geom_y,258,-7392 4069,0.00107287
+.cell:.geom_x:.geom_y,259,-7402 4062,0.00107287
+.cell:.geom_x:.geom_y,260,-7393 4062,0.00107287
+.cell:.geom_x:.geom_y,261,-7392 4061,0.00107287
+.cell:.geom_x:.geom_y,262,-7385 4069,0.00107287
+.cell:.geom_x:.geom_y,263,-7375 4071,0.00107287
+.cell:.geom_x:.geom_y,264,-7375 4067,0.00107287
+.cell:.geom_x:.geom_y,265,-7380 4077,0.00107287
+.cell:.geom_x:.geom_y,266,-7408 4064,0.00107287
+.cell:.geom_x:.geom_y,267,-7408 4062,0.00107287
+.cell:.geom_x:.geom_y,268,-7389 4084,0.00098346
+.cell:.geom_x:.geom_y,269,-7396 4068,0.00098346
+.cell:.geom_x:.geom_y,270,-7392 4065,0.00098346
+.cell:.geom_x:.geom_y,271,-7377 4071,0.00098346
+.cell:.geom_x:.geom_y,272,-7378 4071,0.00098346
+.cell:.geom_x:.geom_y,273,-7382 4069,0.00098346
+.cell:.geom_x:.geom_y,274,-7386 4074,0.00098346
+.cell:.geom_x:.geom_y,275,-7394 4076,0.00098346
+.cell:.geom_x:.geom_y,276,-7380 4071,0.00098346
+.cell:.geom_x:.geom_y,277,-7379 4071,0.00098346
+.cell:.geom_x:.geom_y,278,-7380 4072,0.00098346
+.cell:.geom_x:.geom_y,279,-7379 4076,0.00098346
+.cell:.geom_x:.geom_y,280,-7392 4086,0.000894055
+.cell:.geom_x:.geom_y,281,-7393 4080,0.000894055
+.cell:.geom_x:.geom_y,282,-7386 4087,0.000894055
+.cell:.geom_x:.geom_y,283,-7388 4088,0.000894055
+.cell:.geom_x:.geom_y,284,-7387 4089,0.000894055
+.cell:.geom_x:.geom_y,285,-7389 4087,0.000894055
+.cell:.geom_x:.geom_y,286,-7397 4070,0.000894055
+.cell:.geom_x:.geom_y,287,-7395 4068,0.000894055
+.cell:.geom_x:.geom_y,288,-7397 4058,0.000894055
+.cell:.geom_x:.geom_y,289,-7398 4062,0.000894055
+.cell:.geom_x:.geom_y,290,-7389 4065,0.000894055
+.cell:.geom_x:.geom_y,291,-7390 4075,0.000894055
+.cell:.geom_x:.geom_y,292,-7383 4071,0.000894055
+.cell:.geom_x:.geom_y,293,-7373 4072,0.000894055
+.cell:.geom_x:.geom_y,294,-7383 4070,0.000894055
+.cell:.geom_x:.geom_y,295,-7381 4073,0.000894055
+.cell:.geom_x:.geom_y,296,-7378 4075,0.000894055
+.cell:.geom_x:.geom_y,297,-7384 4065,0.000894055
+.cell:.geom_x:.geom_y,298,-7417 4054,0.000894055
+.cell:.geom_x:.geom_y,299,-7411 4062,0.000894055
+.cell:.geom_x:.geom_y,300,-7394 4079,0.000804649
+.cell:.geom_x:.geom_y,301,-7386 4085,0.000804649
+.cell:.geom_x:.geom_y,302,-7391 4090,0.000804649
+.cell:.geom_x:.geom_y,303,-7400 4070,0.000804649
+.cell:.geom_x:.geom_y,304,-7398 4069,0.000804649
+.cell:.geom_x:.geom_y,305,-7392 4070,0.000804649
+.cell:.geom_x:.geom_y,306,-7397 4071,0.000804649
+.cell:.geom_x:.geom_y,307,-7402 4061,0.000804649
+.cell:.geom_x:.geom_y,308,-7392 4062,0.000804649
+.cell:.geom_x:.geom_y,309,-7387 4068,0.000804649
+.cell:.geom_x:.geom_y,310,-7386 4075,0.000804649
+.cell:.geom_x:.geom_y,311,-7381 4069,0.000804649
+.cell:.geom_x:.geom_y,312,-7379 4070,0.000804649
+.cell:.geom_x:.geom_y,313,-7380 4075,0.000804649
+.cell:.geom_x:.geom_y,314,-7385 4066,0.000804649
+.cell:.geom_x:.geom_y,315,-7395 4084,0.000715244
+.cell:.geom_x:.geom_y,316,-7388 4083,0.000715244
+.cell:.geom_x:.geom_y,317,-7393 4083,0.000715244
+.cell:.geom_x:.geom_y,318,-7385 4086,0.000715244
+.cell:.geom_x:.geom_y,319,-7392 4088,0.000715244
+.cell:.geom_x:.geom_y,320,-7399 4057,0.000715244
+.cell:.geom_x:.geom_y,321,-7398 4058,0.000715244
+.cell:.geom_x:.geom_y,322,-7394 4064,0.000715244
+.cell:.geom_x:.geom_y,323,-7383 4067,0.000715244
+.cell:.geom_x:.geom_y,324,-7391 4075,0.000715244
+.cell:.geom_x:.geom_y,325,-7388 4076,0.000715244
+.cell:.geom_x:.geom_y,326,-7391 4071,0.000715244
+.cell:.geom_x:.geom_y,327,-7379 4073,0.000715244
+.cell:.geom_x:.geom_y,328,-7381 4072,0.000715244
+.cell:.geom_x:.geom_y,329,-7372 4074,0.000715244
+.cell:.geom_x:.geom_y,330,-7386 4068,0.000715244
+.cell:.geom_x:.geom_y,331,-7384 4058,0.000715244
+.cell:.geom_x:.geom_y,332,-7410 4058,0.000715244
+.cell:.geom_x:.geom_y,333,-7393 4085,0.000625838
+.cell:.geom_x:.geom_y,334,-7382 4082,0.000625838
+.cell:.geom_x:.geom_y,335,-7392 4080,0.000625838
+.cell:.geom_x:.geom_y,336,-7384 4088,0.000625838
+.cell:.geom_x:.geom_y,337,-7384 4083,0.000625838
+.cell:.geom_x:.geom_y,338,-7375 4076,0.000625838
+.cell:.geom_x:.geom_y,339,-7372 4072,0.000625838
+.cell:.geom_x:.geom_y,340,-7372 4073,0.000625838
+.cell:.geom_x:.geom_y,341,-7384 4067,0.000625838
+.cell:.geom_x:.geom_y,342,-7374 4067,0.000625838
+.cell:.geom_x:.geom_y,343,-7383 4069,0.000625838
+.cell:.geom_x:.geom_y,344,-7381 4067,0.000625838
+.cell:.geom_x:.geom_y,345,-7374 4076,0.000625838
+.cell:.geom_x:.geom_y,346,-7376 4074,0.000625838
+.cell:.geom_x:.geom_y,347,-7387 4069,0.000625838
+.cell:.geom_x:.geom_y,348,-7416 4055,0.000625838
+.cell:.geom_x:.geom_y,349,-7412 4062,0.000625838
+.cell:.geom_x:.geom_y,350,-7398 4072,0.000536433
+.cell:.geom_x:.geom_y,351,-7391 4081,0.000536433
+.cell:.geom_x:.geom_y,352,-7382 4081,0.000536433
+.cell:.geom_x:.geom_y,353,-7390 4089,0.000536433
+.cell:.geom_x:.geom_y,354,-7389 4086,0.000536433
+.cell:.geom_x:.geom_y,355,-7393 4084,0.000536433
+.cell:.geom_x:.geom_y,356,-7397 4066,0.000536433
+.cell:.geom_x:.geom_y,357,-7401 4068,0.000536433
+.cell:.geom_x:.geom_y,358,-7396 4069,0.000536433
+.cell:.geom_x:.geom_y,359,-7393 4063,0.000536433
+.cell:.geom_x:.geom_y,360,-7393 4064,0.000536433
+.cell:.geom_x:.geom_y,361,-7394 4060,0.000536433
+.cell:.geom_x:.geom_y,362,-7375 4073,0.000536433
+.cell:.geom_x:.geom_y,363,-7393 4077,0.000536433
+.cell:.geom_x:.geom_y,364,-7395 4075,0.000536433
+.cell:.geom_x:.geom_y,365,-7371 4073,0.000536433
+.cell:.geom_x:.geom_y,366,-7382 4071,0.000536433
+.cell:.geom_x:.geom_y,367,-7413 4056,0.000536433
+.cell:.geom_x:.geom_y,368,-7409 4058,0.000536433
+.cell:.geom_x:.geom_y,369,-7414 4062,0.000536433
+.cell:.geom_x:.geom_y,370,-7411 4061,0.000536433
+.cell:.geom_x:.geom_y,371,-7394 4081,0.000447027
+.cell:.geom_x:.geom_y,372,-7394 4082,0.000447027
+.cell:.geom_x:.geom_y,373,-7385 4085,0.000447027
+.cell:.geom_x:.geom_y,374,-7390 4088,0.000447027
+.cell:.geom_x:.geom_y,375,-7385 4090,0.000447027
+.cell:.geom_x:.geom_y,376,-7386 4090,0.000447027
+.cell:.geom_x:.geom_y,377,-7399 4070,0.000447027
+.cell:.geom_x:.geom_y,378,-7398 4066,0.000447027
+.cell:.geom_x:.geom_y,379,-7393 4060,0.000447027
+.cell:.geom_x:.geom_y,380,-7394 4059,0.000447027
+.cell:.geom_x:.geom_y,381,-7390 4064,0.000447027
+.cell:.geom_x:.geom_y,382,-7388 4070,0.000447027
+.cell:.geom_x:.geom_y,383,-7377 4069,0.000447027
+.cell:.geom_x:.geom_y,384,-7393 4073,0.000447027
+.cell:.geom_x:.geom_y,385,-7383 4073,0.000447027
+.cell:.geom_x:.geom_y,386,-7380 4073,0.000447027
+.cell:.geom_x:.geom_y,387,-7381 4071,0.000447027
+.cell:.geom_x:.geom_y,388,-7381 4078,0.000447027
+.cell:.geom_x:.geom_y,389,-7381 4075,0.000447027
+.cell:.geom_x:.geom_y,390,-7385 4070,0.000447027
+.cell:.geom_x:.geom_y,391,-7389 4072,0.000447027
+.cell:.geom_x:.geom_y,392,-7401 4075,0.000357622
+.cell:.geom_x:.geom_y,393,-7400 4077,0.000357622
+.cell:.geom_x:.geom_y,394,-7397 4081,0.000357622
+.cell:.geom_x:.geom_y,395,-7397 4078,0.000357622
+.cell:.geom_x:.geom_y,396,-7386 4082,0.000357622
+.cell:.geom_x:.geom_y,397,-7386 4088,0.000357622
+.cell:.geom_x:.geom_y,398,-7383 4086,0.000357622
+.cell:.geom_x:.geom_y,399,-7390 4087,0.000357622
+.cell:.geom_x:.geom_y,400,-7391 4084,0.000357622
+.cell:.geom_x:.geom_y,401,-7391 4083,0.000357622
+.cell:.geom_x:.geom_y,402,-7399 4065,0.000357622
+.cell:.geom_x:.geom_y,403,-7400 4065,0.000357622
+.cell:.geom_x:.geom_y,404,-7393 4067,0.000357622
+.cell:.geom_x:.geom_y,405,-7389 4066,0.000357622
+.cell:.geom_x:.geom_y,406,-7393 4068,0.000357622
+.cell:.geom_x:.geom_y,407,-7376 4071,0.000357622
+.cell:.geom_x:.geom_y,408,-7389 4073,0.000357622
+.cell:.geom_x:.geom_y,409,-7391 4072,0.000357622
+.cell:.geom_x:.geom_y,410,-7391 4076,0.000357622
+.cell:.geom_x:.geom_y,411,-7390 4071,0.000357622
+.cell:.geom_x:.geom_y,412,-7382 4073,0.000357622
+.cell:.geom_x:.geom_y,413,-7378 4065,0.000357622
+.cell:.geom_x:.geom_y,414,-7371 4075,0.000357622
+.cell:.geom_x:.geom_y,415,-7382 4074,0.000357622
+.cell:.geom_x:.geom_y,416,-7380 4076,0.000357622
+.cell:.geom_x:.geom_y,417,-7415 4054,0.000357622
+.cell:.geom_x:.geom_y,418,-7412 4063,0.000357622
+.cell:.geom_x:.geom_y,419,-7394 4083,0.000268216
+.cell:.geom_x:.geom_y,420,-7384 4085,0.000268216
+.cell:.geom_x:.geom_y,421,-7386 4086,0.000268216
+.cell:.geom_x:.geom_y,422,-7392 4087,0.000268216
+.cell:.geom_x:.geom_y,423,-7383 4087,0.000268216
+.cell:.geom_x:.geom_y,424,-7385 4082,0.000268216
+.cell:.geom_x:.geom_y,425,-7400 4057,0.000268216
+.cell:.geom_x:.geom_y,426,-7401 4059,0.000268216
+.cell:.geom_x:.geom_y,427,-7395 4072,0.000268216
+.cell:.geom_x:.geom_y,428,-7387 4070,0.000268216
+.cell:.geom_x:.geom_y,429,-7389 4076,0.000268216
+.cell:.geom_x:.geom_y,430,-7390 4077,0.000268216
+.cell:.geom_x:.geom_y,431,-7378 4067,0.000268216
+.cell:.geom_x:.geom_y,432,-7378 4072,0.000268216
+.cell:.geom_x:.geom_y,433,-7379 4074,0.000268216
+.cell:.geom_x:.geom_y,434,-7382 4079,0.000268216
+.cell:.geom_x:.geom_y,435,-7381 4077,0.000268216
+.cell:.geom_x:.geom_y,436,-7384 4066,0.000268216
+.cell:.geom_x:.geom_y,437,-7384 4057,0.000268216
+.cell:.geom_x:.geom_y,438,-7415 4053,0.000268216
+.cell:.geom_x:.geom_y,439,-7414 4061,0.000268216
+.cell:.geom_x:.geom_y,440,-7385 4088,0.000178811
+.cell:.geom_x:.geom_y,441,-7392 4085,0.000178811
+.cell:.geom_x:.geom_y,442,-7390 4090,0.000178811
+.cell:.geom_x:.geom_y,443,-7391 4082,0.000178811
+.cell:.geom_x:.geom_y,444,-7394 4070,0.000178811
+.cell:.geom_x:.geom_y,445,-7401 4067,0.000178811
+.cell:.geom_x:.geom_y,446,-7395 4069,0.000178811
+.cell:.geom_x:.geom_y,447,-7394 4058,0.000178811
+.cell:.geom_x:.geom_y,448,-7391 4063,0.000178811
+.cell:.geom_x:.geom_y,449,-7388 4067,0.000178811
+.cell:.geom_x:.geom_y,450,-7391 4068,0.000178811
+.cell:.geom_x:.geom_y,451,-7387 4071,0.000178811
+.cell:.geom_x:.geom_y,452,-7374 4072,0.000178811
+.cell:.geom_x:.geom_y,453,-7389 4071,0.000178811
+.cell:.geom_x:.geom_y,454,-7375 4072,0.000178811
+.cell:.geom_x:.geom_y,455,-7392 4073,0.000178811
+.cell:.geom_x:.geom_y,456,-7374 4065,0.000178811
+.cell:.geom_x:.geom_y,457,-7373 4074,0.000178811
+.cell:.geom_x:.geom_y,458,-7374 4075,0.000178811
+.cell:.geom_x:.geom_y,459,-7383 4066,0.000178811
+.cell:.geom_x:.geom_y,460,-7386 4070,0.000178811
+.cell:.geom_x:.geom_y,461,-7382 4077,0.000178811
+.cell:.geom_x:.geom_y,462,-7386 4067,0.000178811
+.cell:.geom_x:.geom_y,463,-7385 4057,0.000178811
+.cell:.geom_x:.geom_y,464,-7380 4059,0.000178811
+.cell:.geom_x:.geom_y,465,-7376 4059,0.000178811
+.cell:.geom_x:.geom_y,466,-7413 4063,0.000178811
+.cell:.geom_x:.geom_y,467,-7415 4055,0.000178811
+.cell:.geom_x:.geom_y,468,-7401 4076,8.94055e-05
+.cell:.geom_x:.geom_y,469,-7394 4086,8.94055e-05
+.cell:.geom_x:.geom_y,470,-7384 4089,8.94055e-05
+.cell:.geom_x:.geom_y,471,-7389 4083,8.94055e-05
+.cell:.geom_x:.geom_y,472,-7387 4090,8.94055e-05
+.cell:.geom_x:.geom_y,473,-7383 4084,8.94055e-05
+.cell:.geom_x:.geom_y,474,-7391 4091,8.94055e-05
+.cell:.geom_x:.geom_y,475,-7384 4087,8.94055e-05
+.cell:.geom_x:.geom_y,476,-7389 4080,8.94055e-05
+.cell:.geom_x:.geom_y,477,-7396 4062,8.94055e-05
+.cell:.geom_x:.geom_y,478,-7391 4067,8.94055e-05
+.cell:.geom_x:.geom_y,479,-7397 4072,8.94055e-05
+.cell:.geom_x:.geom_y,480,-7387 4065,8.94055e-05
+.cell:.geom_x:.geom_y,481,-7392 4067,8.94055e-05
+.cell:.geom_x:.geom_y,482,-7402 4065,8.94055e-05
+.cell:.geom_x:.geom_y,483,-7376 4076,8.94055e-05
+.cell:.geom_x:.geom_y,484,-7376 4072,8.94055e-05
+.cell:.geom_x:.geom_y,485,-7384 4074,8.94055e-05
+.cell:.geom_x:.geom_y,486,-7375 4070,8.94055e-05
+.cell:.geom_x:.geom_y,487,-7375 4069,8.94055e-05
+.cell:.geom_x:.geom_y,488,-7377 4072,8.94055e-05
+.cell:.geom_x:.geom_y,489,-7378 4069,8.94055e-05
+.cell:.geom_x:.geom_y,490,-7397 4074,8.94055e-05
+.cell:.geom_x:.geom_y,491,-7387 4076,8.94055e-05
+.cell:.geom_x:.geom_y,492,-7393 4072,8.94055e-05
+.cell:.geom_x:.geom_y,493,-7375 4065,8.94055e-05
+.cell:.geom_x:.geom_y,494,-7376 4073,8.94055e-05
+.cell:.geom_x:.geom_y,495,-7377 4073,8.94055e-05
+.cell:.geom_x:.geom_y,496,-7375 4077,8.94055e-05
+.cell:.geom_x:.geom_y,497,-7384 4063,8.94055e-05
+.cell:.geom_x:.geom_y,498,-7384 4064,8.94055e-05
+.cell:.geom_x:.geom_y,499,-7385 4065,8.94055e-05
+.cell:.geom_x:.geom_y,500,-7371 4074,8.94055e-05
+.cell:.geom_x:.geom_y,501,-7390 4069,8.94055e-05
+.cell:.geom_x:.geom_y,502,-7383 4077,8.94055e-05
+.cell:.geom_x:.geom_y,503,-7378 4073,8.94055e-05
+.cell:.geom_x:.geom_y,504,-7380 4078,8.94055e-05
+.cell:.geom_x:.geom_y,505,-7375 4060,8.94055e-05
+.cell:.geom_x:.geom_y,506,-7376 4061,8.94055e-05
+.cell:.geom_x:.geom_y,507,-7415 4062,8.94055e-05
+.cell:.geom_x:.geom_y,508,-7410 4060,8.94055e-05
+.cell:.geom_x:.geom_y,509,-7413 4062,8.94055e-05
+.cell:.geom_x:.geom_y,510,-7409 4063,8.94055e-05
+.cell:.geom_x:.geom_y,511,-7422 4052,8.94055e-05
+.cell:.geom_x:.geom_y,512,-7411 4057,8.94055e-05

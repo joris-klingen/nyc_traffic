@@ -1,0 +1,389 @@
+column,rank,value,share
+Roadway Name,1,Webster Ave,0.0267943
+Roadway Name,2,Jerome Ave,0.0223285
+Roadway Name,3,Metropolitan Ave,0.0178628
+Roadway Name,4,Laurel Hill Blvd / 56 Rd,0.0178628
+Roadway Name,5,48 St,0.0178628
+Roadway Name,6,E 138 St,0.0178628
+Roadway Name,7,E 149 St,0.0178628
+Roadway Name,8,Sheridan Ave,0.0178628
+Roadway Name,9,Mosholu Pkwy,0.0178628
+Roadway Name,10,Boston Rd,0.0178628
+Roadway Name,11,Brinkerhoff Av,0.0133971
+Roadway Name,12,Van Wyck Expressway - Mainline,0.0133971
+Roadway Name,13,101 Av,0.0133971
+Roadway Name,14,Maurice Ave,0.0133971
+Roadway Name,15,Flushing Ave,0.00893142
+Roadway Name,16,Vermont Pl,0.00893142
+Roadway Name,17,Rockaway Blvd,0.00893142
+Roadway Name,18,Myrtle Ave,0.00893142
+Roadway Name,19,73rd pl,0.00893142
+Roadway Name,20,Pitkin Ave,0.00893142
+Roadway Name,21,Liberty Ave,0.00893142
+Roadway Name,22,101st Ave,0.00893142
+Roadway Name,23,METROPOLITAN AVE,0.00893142
+Roadway Name,24,Jamaica Ave,0.00893142
+Roadway Name,25,111 Av,0.00893142
+Roadway Name,26,Van Wyck Expressway (Service Rd),0.00893142
+Roadway Name,27,Archer Av,0.00893142
+Roadway Name,28,150 St,0.00893142
+Roadway Name,29,Hillside Ave,0.00893142
+Roadway Name,30,Liberty Av,0.00893142
+Roadway Name,31,Lakewood Av,0.00893142
+Roadway Name,32,Sutphin Blvd,0.00893142
+Roadway Name,33,Farmers Blvd,0.00893142
+Roadway Name,34,Central Ave,0.00893142
+Roadway Name,35,Murdock Ave,0.00893142
+Roadway Name,36,Hollis Ave,0.00893142
+Roadway Name,37,Linden Blvd,0.00893142
+Roadway Name,38,Cross Island Pkwy,0.00893142
+Roadway Name,39,Woodside Ave,0.00893142
+Roadway Name,40,Hungry Harbor Rd,0.00893142
+Roadway Name,41,39 St,0.00893142
+Roadway Name,42,Northern Blvd,0.00893142
+Roadway Name,43,Morris Av,0.00893142
+Roadway Name,44,39 Ave,0.00893142
+Roadway Name,45,E 135 St,0.00893142
+Roadway Name,46,E 156 St,0.00893142
+Roadway Name,47,Melrose Av,0.00893142
+Roadway Name,48,3 AVENUE,0.00893142
+Roadway Name,49,ST ANNS AVENUE,0.00893142
+Roadway Name,50,Unndercliff Av,0.00893142
+Roadway Name,51,Ogden Ave,0.00893142
+Roadway Name,52,E 165 St,0.00893142
+Roadway Name,53,Cedar Av,0.00893142
+Roadway Name,54,Henry Hudson Parkway (Mainline),0.00893142
+Roadway Name,55,Riverdale Ave,0.00893142
+Roadway Name,56,E 174 St,0.00893142
+Roadway Name,57,69 St,0.00893142
+Roadway Name,58,Eliot Ave,0.00893142
+Roadway Name,59,Horace Harding Expwy (Mainline),0.00893142
+Roadway Name,60,Horace Harding Expressway (Service Rd),0.00893142
+Roadway Name,61,Corona Ave,0.00893142
+Roadway Name,62,Braodway,0.00893142
+Roadway Name,63,32 ave,0.00893142
+Roadway Name,64,Whitney Ave,0.00893142
+Roadway Name,65,Longwood Ave,0.00893142
+Roadway Name,66,East 163 St,0.00893142
+Roadway Name,67,E 177 St,0.00893142
+Roadway Name,68,East  Tremont Ave,0.00893142
+Roadway Name,69,Van Cortlandt Ave E,0.00893142
+Roadway Name,70,Crotona Av,0.00893142
+Roadway Name,71,Broadway,0.00893142
+Roadway Name,72,Bronx Park E,0.00893142
+Roadway Name,73,Astor Av,0.00893142
+Roadway Name,74,Bronxwood Av,0.00893142
+Roadway Name,75,Bronxwood Ave,0.00893142
+Roadway Name,76,Laconia Av,0.00893142
+Roadway Name,77,Bartow Ave,0.00893142
+Roadway Name,78,Neill Av,0.00893142
+Roadway Name,79,Baychester Ave,0.00893142
+Roadway Name,80,E 241 St,0.00893142
+Roadway Name,81,Roosevelt Ave,0.00893142
+Roadway Name,82,Jewel Av,0.00893142
+Roadway Name,83,Sanford Ave,0.00893142
+Roadway Name,84,73 Av,0.00893142
+Roadway Name,85,56 Av,0.00893142
+Roadway Name,86,26th Ave,0.00893142
+Roadway Name,87,Maryland Rd,0.00893142
+Roadway Name,88,Marathon Parkway,0.00893142
+Roadway Name,89,164 St,0.00893142
+Roadway Name,90,Marathon Pkwy,0.00893142
+Roadway Name,91,East Tremont Ave,0.00893142
+Roadway Name,92,Henry Hudson Pkwy,0.00861244
+Roadway Name,93,Kew Gardens Rd,0.00446571
+Roadway Name,94,SOUTH CONDUIT AVENUE,0.00446571
+Roadway Name,95,Waltham St,0.00446571
+Roadway Name,96,S Conduit Ave,0.00446571
+Roadway Name,97,North Conduit Ave,0.00446571
+Roadway Name,98,Park Ave,0.00446571
+Roadway Name,99,Courtlandt Av,0.00446571
+Roadway Name,100,Prospect Av,0.00446571
+Roadway Name,101,Paulding Av,0.00446571
+Roadway Name,102,Bruckner Blvd,0.00446571
+Roadway Name,103,Hutchinson River Pkwy E,0.00446571
+Roadway Name,104,Lydig Av,0.00446571
+Roadway Name,105,Bronx Blvd,0.00446571
+From,1,102 Ave,0.0223285
+From,2,E 153 St,0.0223285
+From,3,Brisbin St,0.0178628
+From,4,198th St,0.0178628
+From,5,50 St,0.0178628
+From,6,58 Ave,0.0178628
+From,7,E 233 St,0.0178628
+From,8,Boston Rd,0.0178628
+From,9,147th St,0.0178628
+From,10,Canal St W,0.0133971
+From,11,E 172 St,0.0133971
+From,12,Grand Ave,0.00893142
+From,13,Highland Blvd,0.00893142
+From,14,73 Pl,0.00893142
+From,15,72 St,0.00893142
+From,16,78th ave,0.00893142
+From,17,95th St,0.00893142
+From,18,98 St,0.00893142
+From,19,107th St,0.00893142
+From,20,LI RAILROAD,0.00893142
+From,21,101 St,0.00893142
+From,22,142 St,0.00893142
+From,23,143 St,0.00893142
+From,24,148 St,0.00893142
+From,25,144 St,0.00893142
+From,26,Inwood St,0.00893142
+From,27,109 Av,0.00893142
+From,28,155 St,0.00893142
+From,29,Sage St,0.00893142
+From,30,200th St,0.00893142
+From,31,107 Ave,0.00893142
+From,32,38 Ave,0.00893142
+From,33,148th Rd,0.00893142
+From,34,43 St,0.00893142
+From,35,55 Ave,0.00893142
+From,36,Northern Blvd,0.00893142
+From,37,35 Ave,0.00893142
+From,38,37 Ave,0.00893142
+From,39,E 154 St,0.00893142
+From,40,Grand Concourse,0.00893142
+From,41,A J Griffin Pl,0.00893142
+From,42,Morris Ave,0.00893142
+From,43,Cauldwell Ave,0.00893142
+From,44,EAST 153 ST,0.00893142
+From,45,EAST 156 STREET,0.00893142
+From,46,Sedgwick Av,0.00893142
+From,47,Dr M L King Jr Blvd,0.00893142
+From,48,Carroll Pl,0.00893142
+From,49,W 179 St,0.00893142
+From,50,Independence Ave,0.00893142
+From,51,Henry Hudson Pkwy,0.00893142
+From,52,Commonwealth Av,0.00893142
+From,53,Tyler Ave,0.00893142
+From,54,53 Ave,0.00893142
+From,55,69 Pl,0.00893142
+From,56,92 St,0.00893142
+From,57,55 St,0.00893142
+From,58,85 St,0.00893142
+From,59,Roosevelt Ave,0.00893142
+From,60,E 160 St,0.00893142
+From,61,Intervale Ave,0.00893142
+From,62,Devoe Ave,0.00893142
+From,63,Bronx Park Ave,0.00893142
+From,64,E Masholu Pkwy S,0.00893142
+From,65,Jerome Ave,0.00893142
+From,66,E 187 St,0.00893142
+From,67,E Mosholu Pkwy N,0.00893142
+From,68,Bainbridge Ave,0.00893142
+From,69,Bronx Park E,0.00893142
+From,70,Barnes Av,0.00893142
+From,71,Allerton Av,0.00893142
+From,72,E 214 St,0.00893142
+From,73,Adee Av,0.00893142
+From,74,Bruner Ave,0.00893142
+From,75,Narragansett Av,0.00893142
+From,76,Fish Ave,0.00893142
+From,77,Bronx Blvd,0.00893142
+From,78,137 Av,0.00893142
+From,79,71 Crescent,0.00893142
+From,80,194 St,0.00893142
+From,81,201st St,0.00893142
+From,82,Douglaston Pkwy,0.00893142
+From,83,Deepdale Ave,0.00893142
+From,84,67 Av,0.00893142
+From,85,61 Avenue,0.00893142
+From,86,Forest Park Dr,0.00893142
+From,87,Clay Ave,0.00893142
+From,88,Anthony Ave,0.00893142
+From,89,W 235 St,0.00861244
+From,90,115th Dr,0.00478469
+From,91,83 St,0.00446571
+From,92,83 ST,0.00446571
+From,93,Union Tpke,0.00446571
+From,94,COHANCY STREET,0.00446571
+From,95,111 Av,0.00446571
+From,96,146 St,0.00446571
+From,97,101 Ave,0.00446571
+From,98,Belt Pkwy EB En Farmers Blvd,0.00446571
+From,99,181 Pl,0.00446571
+From,100,55 Drive,0.00446571
+From,101,E 135 St,0.00446571
+From,102,Bruckner Blvd,0.00446571
+From,103,E 156 St,0.00446571
+From,104,E 161 St,0.00446571
+From,105,E 149 St,0.00446571
+From,106,W 259 St,0.00446571
+From,107,West 259 St,0.00446571
+From,108,Lydig Av,0.00446571
+From,109,Castle Hill Av,0.00446571
+From,110,St Theresa Av,0.00446571
+From,111,Williamsbridge Rd,0.00446571
+From,112,Carpenter Ave,0.00446571
+From,113,116th Dr,0.000318979
+From,114,117th Dr,0.000318979
+From,115,118th Dr,0.000318979
+From,116,119th Dr,0.000318979
+From,117,120th Dr,0.000318979
+From,118,121st Dr,0.000318979
+From,119,122nd Dr,0.000318979
+From,120,123rd Dr,0.000318979
+From,121,124th Dr,0.000318979
+From,122,125th Dr,0.000318979
+From,123,126th Dr,0.000318979
+From,124,127th Dr,0.000318979
+From,125,128th Dr,0.000318979
+To,1,Park Ave,0.0401914
+To,2,Liberty Ave,0.0223285
+To,3,199th St,0.0178628
+To,4,73 St,0.0178628
+To,5,Van Cortlandt Ave E,0.0178628
+To,6,143 St,0.0133971
+To,7,E 154 St,0.0133971
+To,8,East Mt Eden Ave,0.0133971
+To,9,Ryerson St,0.00893142
+To,10,J Robinson Pkwy,0.00893142
+To,11,Pleasantview St,0.00893142
+To,12,79 Ln,0.00893142
+To,13,Cooper ave,0.00893142
+To,14,96th St,0.00893142
+To,15,99 ST,0.00893142
+To,16,108th St,0.00893142
+To,17,TROTTING COURSE LANE,0.00893142
+To,18,102 St,0.00893142
+To,19,144 Pl,0.00893142
+To,20,Center Cargo Rd,0.00893142
+To,21,146 ST,0.00893142
+To,22,Cresskill Pl,0.00893142
+To,23,Liverpool St,0.00893142
+To,24,Arlington Ter,0.00893142
+To,25,156 St,0.00893142
+To,26,Virginia St,0.00893142
+To,27,201st St,0.00893142
+To,28,115 Ave,0.00893142
+To,29,Barnett Ave,0.00893142
+To,30,262nd Pl,0.00893142
+To,31,48 St,0.00893142
+To,32,Laurel Hill Blvd / 56 Rd,0.00893142
+To,33,Skillman Ave,0.00893142
+To,34,45 St,0.00893142
+To,35,Northern Blvd,0.00893142
+To,36,E 153 St,0.00893142
+To,37,51 St,0.00893142
+To,38,E 156 St,0.00893142
+To,39,Eagle Ave,0.00893142
+To,40,EAST 156 ST,0.00893142
+To,41,RAE STREET,0.00893142
+To,42,W 171 St,0.00893142
+To,43,W 170st St,0.00893142
+To,44,Sheridan Av,0.00893142
+To,45,W Fordham Rd,0.00893142
+To,46,W 232 St,0.00893142
+To,47,W 238 St,0.00893142
+To,48,56 St / 56 Dr,0.00893142
+To,49,St Lawrence Av,0.00893142
+To,50,53 Ave,0.00893142
+To,51,53 Rd,0.00893142
+To,52,69 St,0.00893142
+To,53,93 St,0.00893142
+To,54,56 St,0.00893142
+To,55,86 St,0.00893142
+To,56,Aske St,0.00893142
+To,57,Hewitt Pl,0.00893142
+To,58,Rogers Pl,0.00893142
+To,59,E Tremont Ave,0.00893142
+To,60,Devoe Ave,0.00893142
+To,61,Grand Concourse,0.00893142
+To,62,E 189 St,0.00893142
+To,63,Mosholu Pkwy,0.00893142
+To,64,East Gun Hill Rd,0.00893142
+To,65,Bronxdale Ave,0.00893142
+To,66,Pelham Pkwy,0.00893142
+To,67,Wallace Av,0.00893142
+To,68,Mace Av,0.00893142
+To,69,E 215 St,0.00893142
+To,70,Arnow Av,0.00893142
+To,71,Edson Ave,0.00893142
+To,72,Tenbroeck Av,0.00893142
+To,73,Wilson Ave,0.00893142
+To,74,Tillotson Ave,0.00893142
+To,75,E 234 St,0.00893142
+To,76,Carpenter Ave,0.00893142
+To,77,149th St.,0.00893142
+To,78,138 Av,0.00893142
+To,79,149th St,0.00893142
+To,80,197 St,0.00893142
+To,81,195 St,0.00893142
+To,82,202nd St,0.00893142
+To,83,Hanford St,0.00893142
+To,84,Rushmore Ave,0.00893142
+To,85,69 Av,0.00893142
+To,86,63 Avenue,0.00893142
+To,87,Park Lane S,0.00893142
+To,88,E 173 St,0.00893142
+To,89,E 176 St,0.00893142
+To,90,W 236 St,0.00861244
+To,91,115th Rd,0.00478469
+To,92,84 St,0.00446571
+To,93,84 ST,0.00446571
+To,94,80 Rd,0.00446571
+To,95,NASSAU EXPRESSWAY,0.00446571
+To,96,Llyod Rd,0.00446571
+To,97,Lloyd Rd,0.00446571
+To,98,Waltham St,0.00446571
+To,99,Liberty Av,0.00446571
+To,100,181 St,0.00446571
+To,101,182 Pl,0.00446571
+To,102,56 Ave,0.00446571
+To,103,E 138 St,0.00446571
+To,104,St Anns Ave,0.00446571
+To,105,E 161 St,0.00446571
+To,106,E 162 St,0.00446571
+To,107,Southern Blvd,0.00446571
+To,108,W 260 St,0.00446571
+To,109,West 260 St,0.00446571
+To,110,Neill Av,0.00446571
+To,111,Havemeyer Av,0.00446571
+To,112,Laurie Av,0.00446571
+To,113,Tomlinson Av,0.00446571
+To,114,E 216 St,0.00446571
+To,115,116th Rd,0.000318979
+To,116,117th Rd,0.000318979
+To,117,118th Rd,0.000318979
+To,118,119th Rd,0.000318979
+To,119,120th Rd,0.000318979
+To,120,121st Rd,0.000318979
+To,121,122nd Rd,0.000318979
+To,122,123rd Rd,0.000318979
+To,123,124th Rd,0.000318979
+To,124,125th Rd,0.000318979
+To,125,126th Rd,0.000318979
+To,126,127th Rd,0.000318979
+To,127,128th Rd,0.000318979
+Direction,1,WB,0.267943
+Direction,2,NB,0.254545
+Direction,3,EB,0.25008
+Direction,4,SB,0.227432
+Date,1,2012-10-17,0.116108
+Date,2,2012-10-10,0.115789
+Date,3,2012-10-16,0.104944
+Date,4,2012-10-24,0.100478
+Date,5,2012-10-11,0.100478
+Date,6,2012-10-25,0.0826156
+Date,7,2012-10-18,0.0692185
+Date,8,2012-10-09,0.0625199
+Date,9,2012-10-12,0.04689
+Date,10,2012-10-23,0.0424242
+Date,11,2012-10-19,0.0379585
+Date,12,2012-10-26,0.0245614
+Date,13,2012-10-15,0.0245614
+Date,14,2013-02-06,0.01563
+Date,15,2013-01-30,0.0111643
+Date,16,2013-01-29,0.0111643
+Date,17,2013-02-07,0.0111643
+Date,18,2013-01-31,0.00893142
+Date,19,2013-02-01,0.00893142
+Date,20,2013-02-05,0.00446571
+Veh Class Type,1,Auto,0.142903
+Veh Class Type,2,Taxis,0.142903
+Veh Class Type,3,Commercial,0.142903
+Veh Class Type,4,Medium Truck,0.142903
+Veh Class Type,5,Heavy Truck,0.142903
+Veh Class Type,6,School Bus,0.142903
+Veh Class Type,7,Other Bus,0.142584

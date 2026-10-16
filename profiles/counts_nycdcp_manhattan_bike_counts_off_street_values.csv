@@ -1,0 +1,63 @@
+column,rank,value,share
+LocationID,1,14,0.247191
+LocationID,2,12,0.224719
+LocationID,3,13,0.224719
+LocationID,4,11,0.191011
+LocationID,5,15,0.11236
+LocationType,1,Off-Street,1
+TypeOfTime,1,Weekday,0.606742
+TypeOfTime,2,Weekend,0.393258
+Location,1,Route 9A Greenway at 80th St.,0.247191
+Location,2,Route 9A at 11th St.,0.224719
+Location,3,East River Greenway at E90th St.,0.224719
+Location,4,East River at E Houston St.,0.191011
+Location,5,Route 9A Greenway at 125th St.,0.11236
+Location_Lat,1,40.786529,0.247191
+Location_Lat,2,40.73534,0.224719
+Location_Lat,3,40.777374,0.224719
+Location_Lat,4,40.718709,0.191011
+Location_Lat,5,40.818769,0.11236
+Location_Long,1,-73.984584,0.247191
+Location_Long,2,-74.010569,0.224719
+Location_Long,3,-73.942531,0.224719
+Location_Long,4,-73.9741,0.191011
+Location_Long,5,-73.961127,0.11236
+Year,1,2010,0.101124
+Year,2,2011,0.101124
+Year,3,2012,0.101124
+Year,4,2013,0.101124
+Year,5,2014,0.101124
+Year,6,2015,0.101124
+Year,7,2007,0.0898876
+Year,8,2009,0.0898876
+Year,9,2008,0.0786517
+Year,10,2005,0.0674157
+Year,11,2006,0.0674157
+Citibike_All,1,0,0.730337
+Citibike_All,2,2,0.0337079
+Citibike_All,3,298,0.011236
+Citibike_All,4,266,0.011236
+Citibike_All,5,363,0.011236
+Citibike_All,6,913,0.011236
+Citibike_All,7,910,0.011236
+Citibike_All,8,1124,0.011236
+Citibike_All,9,8,0.011236
+Citibike_All,10,4,0.011236
+Citibike_All,11,14,0.011236
+Citibike_All,12,55,0.011236
+Citibike_All,13,1,0.011236
+Citibike_All,14,5,0.011236
+Citibike_All,15,44,0.011236
+Citibike_All,16,155,0.011236
+Citibike_All,17,7,0.011236
+Citibike_All,18,558,0.011236
+Citibike_All,19,579,0.011236
+Citibike_All,20,592,0.011236
+Citibike_All,21,65,0.011236
+Citibike_All,22,125,0.011236
+Citibike_All,23,32,0.011236
+.cell:Location_Long:Location_Lat,1,-14797 8157,0.247191
+.cell:Location_Long:Location_Lat,2,-14803 8147,0.224719
+.cell:Location_Long:Location_Lat,3,-14789 8155,0.224719
+.cell:Location_Long:Location_Lat,4,-14795 8143,0.191011
+.cell:Location_Long:Location_Lat,5,-14793 8163,0.11236

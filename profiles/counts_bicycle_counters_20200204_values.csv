@@ -1,0 +1,136 @@
+column,rank,value,share
+latitude,1,0,0.151515
+latitude,2,40.69981,0.0909091
+latitude,3,40.787745,0.0909091
+latitude,4,40.742563,0.0454545
+latitude,5,40.751038,0.0454545
+latitude,6,40.7156,0.0454545
+latitude,7,40.73971,0.0454545
+latitude,8,40.762348,0.0454545
+latitude,9,40.720959,0.0454545
+latitude,10,40.671288,0.0454545
+latitude,11,40.714573,0.0454545
+latitude,12,40.73883,0.0454545
+latitude,13,40.643387,0.0454545
+latitude,14,40.76138,0.0454545
+latitude,15,40.709274,0.0454545
+latitude,16,40.71053,0.0454545
+latitude,17,40.699768,0.0454545
+latitude,18,40.715623,0.030303
+longitude,1,0,0.151515
+longitude,2,-73.98589,0.0909091
+longitude,3,-73.975021,0.0909091
+longitude,4,-73.951492,0.0454545
+longitude,5,-73.94082,0.0454545
+longitude,6,-73.99475,0.0454545
+longitude,7,-73.97954,0.0454545
+longitude,8,-73.98612,0.0454545
+longitude,9,-73.96093,0.0454545
+longitude,10,-73.971382,0.0454545
+longitude,11,-73.99495,0.0454545
+longitude,12,-73.977165,0.0454545
+longitude,13,-74.072075,0.0454545
+longitude,14,-73.98408,0.0454545
+longitude,15,-74.00099,0.0454545
+longitude,16,-73.96145,0.0454545
+longitude,17,-73.98582,0.0454545
+longitude,18,-73.994744,0.030303
+domain,1,New York City DOT,1
+userType,1,2,0.984848
+userType,2,7,0.0151515
+timezone,1,(UTC-05:00) US/Eastern;DST,1
+interval,1,15,1
+sens,1,1,0.348485
+sens,2,2,0.333333
+sens,3,0,0.318182
+installationDate,1,1900-01-01,0.19697
+installationDate,2,2013-12-04,0.0909091
+installationDate,3,2012-08-31,0.0909091
+installationDate,4,2019-10-24,0.0909091
+installationDate,5,2013-12-03,0.0909091
+installationDate,6,2017-06-24,0.0454545
+installationDate,7,2018-06-01,0.0454545
+installationDate,8,2015-05-22,0.0454545
+installationDate,9,2018-06-14,0.0454545
+installationDate,10,2014-08-14,0.0454545
+installationDate,11,2016-11-07,0.0454545
+installationDate,12,2016-03-31,0.0454545
+installationDate,13,2019-06-14,0.0454545
+installationDate,14,2013-12-19,0.0454545
+installationDate,15,2018-01-23,0.030303
+counter,1,Y2H18055363,0.0625
+counter,2,Y2H13094302,0.0625
+counter,3,Y2H13094304,0.0625
+counter,4,Y2H19111445,0.0625
+counter,5,Y2H18044984,0.0625
+counter,6,Y2H18055356,0.0625
+counter,7,Y2H17062567,0.0625
+counter,8,Y2H13094300,0.0625
+counter,9,Y2H13074107,0.0625
+counter,10,Y2H18055362,0.0625
+counter,11,Y2H13074106,0.0625
+counter,12,Y2H13094301,0.0625
+counter,13,Y2H18055357,0.0625
+counter,14,Y2H13074108,0.0625
+counter,15,Y2H13074109,0.0625
+counter,16,Y2H13074105,0.0625
+Zip Codes,1,16865,0.169811
+Zip Codes,2,11723,0.150943
+Zip Codes,3,16858,0.113208
+Zip Codes,4,12081,0.113208
+Zip Codes,5,17613,0.113208
+Zip Codes,6,12421,0.113208
+Zip Codes,7,12073,0.0566038
+Zip Codes,8,12078,0.0566038
+Zip Codes,9,10369,0.0566038
+Zip Codes,10,13096,0.0566038
+Community Districts,1,68,0.160714
+Community Districts,2,70,0.142857
+Community Districts,3,53,0.107143
+Community Districts,4,71,0.107143
+Community Districts,5,36,0.107143
+Community Districts,6,20,0.107143
+Community Districts,7,12,0.0535714
+Community Districts,8,14,0.0535714
+Community Districts,9,4,0.0535714
+Community Districts,10,11,0.0535714
+Community Districts,11,56,0.0535714
+Borough Boundaries,1,4,0.517857
+Borough Boundaries,2,2,0.321429
+Borough Boundaries,3,3,0.107143
+Borough Boundaries,4,1,0.0535714
+City Council Districts,1,38,0.214286
+City Council Districts,2,32,0.196429
+City Council Districts,3,33,0.107143
+City Council Districts,4,50,0.107143
+City Council Districts,5,19,0.107143
+City Council Districts,6,10,0.0535714
+City Council Districts,7,27,0.0535714
+City Council Districts,8,13,0.0535714
+City Council Districts,9,51,0.0535714
+City Council Districts,10,30,0.0535714
+Police Precincts,1,2,0.196429
+Police Precincts,2,54,0.160714
+Police Precincts,3,66,0.107143
+Police Precincts,4,7,0.107143
+Police Precincts,5,10,0.107143
+Police Precincts,6,15,0.107143
+Police Precincts,7,57,0.0535714
+Police Precincts,8,50,0.0535714
+Police Precincts,9,74,0.0535714
+Police Precincts,10,56,0.0535714
+.cell:longitude:latitude,1,0 0,0.151515
+.cell:longitude:latitude,2,-14798 8139,0.136364
+.cell:longitude:latitude,3,-14796 8147,0.0909091
+.cell:longitude:latitude,4,-14796 8157,0.0909091
+.cell:longitude:latitude,5,-14799 8143,0.0757576
+.cell:longitude:latitude,6,-14791 8148,0.0454545
+.cell:longitude:latitude,7,-14789 8150,0.0454545
+.cell:longitude:latitude,8,-14798 8152,0.0454545
+.cell:longitude:latitude,9,-14793 8144,0.0454545
+.cell:longitude:latitude,10,-14795 8134,0.0454545
+.cell:longitude:latitude,11,-14799 8142,0.0454545
+.cell:longitude:latitude,12,-14815 8128,0.0454545
+.cell:longitude:latitude,13,-14797 8152,0.0454545
+.cell:longitude:latitude,14,-14801 8141,0.0454545
+.cell:longitude:latitude,15,-14793 8142,0.0454545

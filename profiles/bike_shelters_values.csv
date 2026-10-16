@@ -1,0 +1,164 @@
+column,rank,value,share
+BoroCode,1,3,0.294118
+BoroCode,2,1,0.235294
+BoroCode,3,4,0.235294
+BoroCode,4,2,0.117647
+BoroCode,5,5,0.117647
+BoroName,1,Brooklyn,0.294118
+BoroName,2,Manhattan,0.235294
+BoroName,3,Queens,0.235294
+BoroName,4,Bronx,0.117647
+BoroName,5,Staten Island,0.117647
+BoroCD,1,105,0.117647
+BoroCD,2,302,0.0588235
+BoroCD,3,301,0.0588235
+BoroCD,4,315,0.0588235
+BoroCD,5,307,0.0588235
+BoroCD,6,313,0.0588235
+BoroCD,7,207,0.0588235
+BoroCD,8,205,0.0588235
+BoroCD,9,104,0.0588235
+BoroCD,10,103,0.0588235
+BoroCD,11,402,0.0588235
+BoroCD,12,401,0.0588235
+BoroCD,13,410,0.0588235
+BoroCD,14,406,0.0588235
+BoroCD,15,595,0.0588235
+BoroCD,16,503,0.0588235
+CounDist,1,7,0.176471
+CounDist,2,12,0.176471
+CounDist,3,10,0.117647
+CounDist,4,11,0.117647
+CounDist,5,9,0.0588235
+CounDist,6,8,0.0588235
+CounDist,7,13,0.0588235
+CounDist,8,15,0.0588235
+CounDist,9,14,0.0588235
+CounDist,10,5,0.0588235
+CounDist,11,6,0.0588235
+AssemDist,1,75,0.117647
+AssemDist,2,57,0.0588235
+AssemDist,3,50,0.0588235
+AssemDist,4,45,0.0588235
+AssemDist,5,51,0.0588235
+AssemDist,6,46,0.0588235
+AssemDist,7,78,0.0588235
+AssemDist,8,86,0.0588235
+AssemDist,9,74,0.0588235
+AssemDist,10,65,0.0588235
+AssemDist,11,37,0.0588235
+AssemDist,12,36,0.0588235
+AssemDist,13,24,0.0588235
+AssemDist,14,28,0.0588235
+AssemDist,15,64,0.0588235
+AssemDist,16,62,0.0588235
+StSenDist,1,26,0.117647
+StSenDist,2,23,0.117647
+StSenDist,3,33,0.117647
+StSenDist,4,28,0.117647
+StSenDist,5,59,0.117647
+StSenDist,6,18,0.0588235
+StSenDist,7,22,0.0588235
+StSenDist,8,47,0.0588235
+StSenDist,9,27,0.0588235
+StSenDist,10,15,0.0588235
+StSenDist,11,14,0.0588235
+StSenDist,12,24,0.0588235
+CongDist,1,7,0.176471
+CongDist,2,12,0.176471
+CongDist,3,10,0.117647
+CongDist,4,11,0.117647
+CongDist,5,9,0.0588235
+CongDist,6,8,0.0588235
+CongDist,7,13,0.0588235
+CongDist,8,15,0.0588235
+CongDist,9,14,0.0588235
+CongDist,10,5,0.0588235
+CongDist,11,6,0.0588235
+location,1,Dekalb Ave & Flatbush Ave,0.0588235
+location,2,Grahan Ave & Metropolitan Ave,0.0588235
+location,3,Kings Hwy & E. 15th St,0.0588235
+location,4,4th Ave & 36th St,0.0588235
+location,5,Surf Ave & Stillwell Ave,0.0588235
+location,6,E. Kingbridge Rd & Briggs Ave,0.0588235
+location,7,Grand Concourse & E.Tremont Ave,0.0588235
+location,8,E. 17th St & Broadway,0.0588235
+location,9,W. 23rd St & 6th Ave,0.0588235
+location,10,W. 23rd St & 8th Ave,0.0588235
+location,11,Rutgers St & East Broadway,0.0588235
+location,12,Jackson Ave & 50th Ave,0.0588235
+location,13,31st St & 30th Ave,0.0588235
+location,14,Lefferts Blvd & Liberty Ave,0.0588235
+location,15,71st Ave & Austin St,0.0588235
+location,16,Father Capodanno Blvd & Sand Lane,0.0588235
+location,17,Richmond Ave & Wainwright Ave,0.0588235
+shelter_id,1,BS1001,0.0588235
+shelter_id,2,BS1003,0.0588235
+shelter_id,3,BS1004,0.0588235
+shelter_id,4,BS1005,0.0588235
+shelter_id,5,BS1007,0.0588235
+shelter_id,6,BS3001,0.0588235
+shelter_id,7,BS3002,0.0588235
+shelter_id,8,BS4001,0.0588235
+shelter_id,9,BS4003,0.0588235
+shelter_id,10,BS4006,0.0588235
+shelter_id,11,BS4008,0.0588235
+shelter_id,12,BS2001,0.0588235
+shelter_id,13,BS2002,0.0588235
+shelter_id,14,BS2003,0.0588235
+shelter_id,15,BS2005,0.0588235
+shelter_id,16,BS5002,0.0588235
+shelter_id,17,BS5003,0.0588235
+street,1,WEST 23 STREET,0.117647
+street,2,DEKALB AVENUE,0.0588235
+street,3,GRAHAM AVENUE,0.0588235
+street,4,KINGS HIGHWAY,0.0588235
+street,5,36 STREET,0.0588235
+street,6,SURF AVENUE,0.0588235
+street,7,EAST KINGSBRIDGE ROAD,0.0588235
+street,8,GRAND CONCOURSE,0.0588235
+street,9,EAST 17 STREET,0.0588235
+street,10,RUTGERS STREET,0.0588235
+street,11,JACKSON AVENUE,0.0588235
+street,12,31 STREET,0.0588235
+street,13,LEFFERTS BOULEVARD,0.0588235
+street,14,71 AVENUE,0.0588235
+street,15,FR CAPODANNO BOULEVARD,0.0588235
+street,16,ELTINGVILLE TRANSIT CENTER DRVWY,0.0588235
+Build_date,1,2007-12-19,0.117647
+Build_date,2,2008-09-12,0.117647
+Build_date,3,2008-09-16,0.117647
+Build_date,4,2008-10-13,0.117647
+Build_date,5,2008-09-11,0.117647
+Build_date,6,2007-12-18,0.0588235
+Build_date,7,2008-07-01,0.0588235
+Build_date,8,2008-10-11,0.0588235
+Build_date,9,2007-12-17,0.0588235
+Build_date,10,2008-11-26,0.0588235
+Build_date,11,2008-11-28,0.0588235
+Build_date,12,2008-12-17,0.0588235
+NTAName,1,Midtown South-Flatiron-Union Square,0.117647
+NTAName,2,Fort Greene,0.0588235
+NTAName,3,East Williamsburg,0.0588235
+NTAName,4,Madison,0.0588235
+NTAName,5,Sunset Park (West),0.0588235
+NTAName,6,Coney Island-Sea Gate,0.0588235
+NTAName,7,University Heights (North)-Fordham,0.0588235
+NTAName,8,Mount Hope,0.0588235
+NTAName,9,Chelsea-Hudson Yards,0.0588235
+NTAName,10,Chinatown-Two Bridges,0.0588235
+NTAName,11,Long Island City-Hunters Point,0.0588235
+NTAName,12,Astoria (Central),0.0588235
+NTAName,13,South Ozone Park,0.0588235
+NTAName,14,Forest Hills,0.0588235
+NTAName,15,Grasmere-Arrochar-South Beach-Dongan Hills,0.0588235
+NTAName,16,Great Kills-Eltingville,0.0588235
+FEMAFldz,1,X,0.882353
+FEMAFldz,2,AE,0.117647
+FEMAFldT,1,"AREA OF MINIMAL FLOOD HAZARD, AREA OF MINIMAL FLOOD HAZARD",0.882353
+FEMAFldT,2,",",0.117647
+HrcEvac,1,X,0.529412
+HrcEvac,2,5,0.235294
+HrcEvac,3,1,0.117647
+HrcEvac,4,2,0.0588235
+HrcEvac,5,3,0.0588235

@@ -1,0 +1,16 @@
+column,kind,class,n,na_share,n_distinct,nchar_min,nchar_max,id_pattern,example,values_kept,values_share,min,q001,q01,q05,q10,q25,median,q75,q90,q95,q99,q999,max,mean,sd,whole,cell
+shape_area,character,character,262,0,262,10,13,alnum,35321808.4385,,,,,,,,,,,,,,,,,,,
+ntaname,character,character,262,0,262,6,56,alnum,Greenpoint,,,,,,,,,,,,,,,,,,,
+cdtaname,character,character,262,0,71,30,63,alnum,BK01 Williamsburg-Greenpoint (CD 1 Equivalent),71,1,,,,,,,,,,,,,,,,,
+shape_leng,character,character,262,0,262,10,13,alnum,28919.5607283,,,,,,,,,,,,,,,,,,,
+boroname,character,character,262,0,5,5,13,alnum,Brooklyn,5,1,,,,,,,,,,,,,,,,,
+ntatype,character,character,262,0,6,1,1,digits,0,6,1,,,,,,,,,,,,,,,,,
+nta2020,character,character,262,0,262,6,6,alnum,BK0101,,,,,,,,,,,,,,,,,,,
+borocode,character,character,262,0,5,1,1,digits,3,5,1,,,,,,,,,,,,,,,,,
+countyfips,character,character,262,0,5,3,3,digits,047,5,1,,,,,,,,,,,,,,,,,
+ntaabbrev,character,character,262,0,262,2,10,alnum,Grnpt,,,,,,,,,,,,,,,,,,,
+cdta2020,character,character,262,0,71,4,4,alnum,BK01,71,1,,,,,,,,,,,,,,,,,
+.geom_x,numeric,numeric,262,0,262,,,,,,,918783.1,918783.1,929350.6,955590.0,978993.2,992872.6,1008386.1,1023545.6,1042004.0,1050188.1,1057591.1,1064339.5,1064339.5,1007184,26905.5,FALSE,
+.geom_y,numeric,numeric,262,0,262,,,,,,,130507.0,130507.0,138144.4,150251.7,158585.1,176479.9,200604.6,226561.2,248218.0,254812.2,265624.7,266467.6,266467.6,201922.2,32703.2,FALSE,
+.geom_area,numeric,numeric,262,0,262,,,,,,,635701.9,635701.9,1091249.9,5322023.2,8754117.4,14416863.9,24553690.8,39840609.2,61635912.4,70533503.7,186311324.2,209387372.4,209387372.4,32150138,29086800,FALSE,
+.cell:.geom_x:.geom_y,cell,cell,262,0,261,,,,,261,1,,,,,,,,,,,,,,,,,2000

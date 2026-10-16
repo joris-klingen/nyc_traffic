@@ -39,3 +39,11 @@ renamed to `Dropbox/1_research/nyc_traffic_data` with the flat layout, all three
       store (the 2024 repackaging converted 2020 to the new format). Check whether they can still be
       found anywhere if the gender work needs them.
 - [x] `output/` and `migration_logs/` deleted 2026-10-13.
+
+## Profiles and simulated data
+
+- [x] Profiles of every source in `profiles/` and simulators in `sim/` (2026-10-16); see the README.
+- [ ] Re-run `profiles/build_profiles.R` after refreshing the store (new snapshots, new months), so
+      that the profiles and reference tables follow the data.
+- [ ] Optional: `sim_store(dir)` writing a fake data store in the real file formats (parquet months,
+      crash CSV, ...), so that the readers and project pipelines run unchanged on simulated data.

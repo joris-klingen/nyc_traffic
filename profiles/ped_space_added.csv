@@ -1,0 +1,4 @@
+column,kind,class,n,na_share,n_distinct,nchar_min,nchar_max,id_pattern,example,min,q001,q01,q05,q10,q25,median,q75,q90,q95,q99,q999,max,mean,sd,whole,values_kept,values_share
+Project Title,character,character,757,0,737,4,89,alnum,Willoughby e-bike charging rack,,,,,,,,,,,,,,,,,,
+City FY,integer,integer,757,0,18,,,,,2006,2006,2008,2009,2011,2014,2018,2023,2025,2025,2025,2025,2025,2018.089,5.09423,TRUE,18,1
+Total Former Roadbed Space,integer,integer,757,0.0369881109643329,622,,,,,65,65,165,334,480,1000,2445,5748,11436,18251,46542,79200,79200,5216.691,8655.41,TRUE,,

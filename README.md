@@ -15,6 +15,45 @@ the data store. An `NYC_TRAFFIC_DATA` environment variable takes precedence (the
 source("path/to/nyc_traffic/R/nyc_traffic.R")   # all helpers below; needs data.table, arrow, sf
 ```
 
+Locally the repos sit next to each other with a `_repo` suffix (`nyc_traffic_repo`,
+`nyc_streets_repo`, `nyc_res_*_repo`) to tell them apart from the data folders
+(`nyc_traffic_data`, `nyc_streets_data`); `source()` calls between repos try both the suffixed
+name and the plain GitHub name, so a fresh clone works too.
+
+## Simulated data (no data store)
+
+To write and test code without the data (in a cloud session, for example), every source has a
+profile and a simulator:
+
+```r
+source("sim/sim.R")              # from this repo; ../nyc_traffic_repo/sim/sim.R from a project
+sim_list()                       # the simulators
+cr  <- sim_crashes(5000, from = "2018-01-01", to = "2019-12-31")
+per <- sim_crash_persons(cr)     # persons and vehicles linked to the simulated crashes
+tt  <- sim_taxi_yellow(10000, month = "2019-06")
+lion <- sim_lion()               # a connected Manhattan-like street grid
+```
+
+- `profiles/<source>.csv`: one row per column of what the reader returns (or of the raw file
+  where there is no reader): kind (integer, numeric, character, Date, POSIXct, ITime, logical),
+  class, NA share, distinct values, quantiles (min, 0.1%, 1%, 5%, 10%, 25%, median, 75%, 90%, 95%,
+  99%, 99.9%, max), mean, sd, text lengths and an example. `<source>_values.csv`: the most common
+  values of discrete columns with their shares, and grid cells of coordinate pairs.
+  `index.csv`: one row per source with the reader, files, rows, sample, geometry and notes.
+  Reference tables kept whole: `taxi_zone_lookup_full.csv`, `lion_releases_full.csv`,
+  `bike_ped_sensors_full.csv`, station and count-location lists, TLC columns and types by year
+  (`taxi_*_schema_by_year.csv`), hour-of-week shares of trips and counts.
+- `sim/sim_<source>.R`: what the real data are (file, reader, grain, columns, quirks), what the
+  simulation keeps and what it does not, and `sim_<source>()` returning a table with the reader's
+  columns and types. Columns are drawn from their own distributions; the scripts restore the
+  relations that matter (dropoff after pickup, totals that add up, persons and vehicles linked to
+  crashes, Citi Bike trips between real stations, count time series with the real daily
+  pattern). The data are made up: for code, never for results.
+- `profiles/build_profiles.R` rebuilds the profiles from the store (about 20 minutes; `Rscript
+  profiles/build_profiles.R crashes lion` for some sources).
+
+The street network history of nyc_streets has the same in that repo (`sim/sim.R` there).
+
 ## Sources
 
 | Source | Coverage | Location / join key | CRS | Read with | Known issues |

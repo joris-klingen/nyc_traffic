@@ -1,0 +1,938 @@
+column,rank,value,share
+rw_type,1,1,0.986225
+rw_type,2,3,0.00662252
+rw_type,3,2,0.00503311
+rw_type,4,9,0.0015894
+rw_type,5,6,0.000264901
+rw_type,6,13,0.000264901
+year3,1,0,0.957473
+year3,2,2024,0.0122911
+year3,3,2022,0.00958702
+year3,4,2015,0.00663717
+year3,5,2014,0.00491642
+year3,6,2012,0.0046706
+year3,7,2023,0.00393314
+year3,8,2019,0.000491642
+days_code,1,7.0,0.635202
+days_code,2,5.0,0.347345
+days_code,3,6.0,0.0172075
+days_code,4,0.0,0.000245821
+direction,1,NB,0.318619
+direction,2,SB,0.283354
+direction,3,EB,0.203946
+direction,4,WB,0.194081
+year2,1,0,0.798918
+year2,2,2010,0.0852999
+year2,3,2008,0.0282694
+year2,4,2017,0.0213864
+year2,5,2019,0.0169617
+year2,6,2021,0.0127827
+year2,7,2011,0.00909538
+year2,8,1999,0.00884956
+year2,9,2018,0.00540806
+year2,10,1990,0.00491642
+year2,11,1982,0.0046706
+year2,12,2015,0.00344149
+chron_id_1,1,MAN1982,0.127707
+chron_id_1,2,BX2013,0.054872
+chron_id_1,3,QNS2025,0.0489665
+chron_id_1,4,QNS2017,0.0423228
+chron_id_1,5,BX2023,0.0410925
+chron_id_1,6,BK2018,0.0356791
+chron_id_1,7,BK2013,0.0339567
+chron_id_1,8,QNS2023,0.03125
+chron_id_1,9,BX2021,0.03125
+chron_id_1,10,QNS2015,0.0310039
+chron_id_1,11,QNS2020,0.0290354
+chron_id_1,12,SI2012,0.0278051
+chron_id_1,13,BX2020,0.0248524
+chron_id_1,14,QNS2022,0.0246063
+chron_id_1,15,SI2020,0.023376
+chron_id_1,16,BK2015,0.0231299
+chron_id_1,17,QNS1969,0.0209154
+chron_id_1,18,MAN2024,0.0204232
+chron_id_1,19,MAN2019,0.019439
+chron_id_1,20,BX2002,0.0191929
+chron_id_1,21,QNS2019,0.0184547
+chron_id_1,22,MAN2022,0.0172244
+chron_id_1,23,MAN2025,0.0147638
+chron_id_1,24,MAN2015,0.0130413
+chron_id_1,25,MAN1986,0.0110728
+chron_id_1,26,MAN2010,0.0108268
+chron_id_1,27,SI2010,0.0103346
+chron_id_1,28,MAN2001,0.0100886
+chron_id_1,29,BX2017,0.0100886
+chron_id_1,30,BK2019,0.00885827
+chron_id_1,31,MAN2023,0.00885827
+chron_id_1,32,SI1963,0.00836614
+chron_id_1,33,"BX, MN2023",0.00762795
+chron_id_1,34,BX2022,0.00762795
+chron_id_1,35,MAN1983,0.00762795
+chron_id_1,36,BK1984,0.00762795
+chron_id_1,37,MAN2007,0.00713583
+chron_id_1,38,MAN1991,0.00713583
+chron_id_1,39,MAN2016,0.00688976
+chron_id_1,40,QNS1993,0.00688976
+chron_id_1,41,BK2014,0.0066437
+chron_id_1,42,MAN2008,0.00615157
+chron_id_1,43,MAN2014,0.00590551
+chron_id_1,44,MAN2020,0.00565945
+chron_id_1,45,BK2020,0.00492126
+chron_id_1,46,BK1988,0.00492126
+chron_id_1,47,QNS2011,0.0046752
+chron_id_1,48,MAN2021,0.00442913
+chron_id_1,49,MAN2009,0.00418307
+chron_id_1,50,BK2004,0.00418307
+chron_id_1,51,QNS2021,0.00418307
+chron_id_1,52,MAN1981,0.00393701
+chron_id_1,53,MAN2017,0.00270669
+chron_id_1,54,MAN2011,0.00270669
+chron_id_1,55,BX2012,0.00246063
+chron_id_1,56,QNS2016,0.00246063
+chron_id_1,57,BK2025,0.00221457
+chron_id_1,58,BK2011,0.00172244
+chron_id_1,59,BX2008,0.00172244
+chron_id_1,60,BK2016,0.00172244
+chron_id_1,61,BX2019,0.00172244
+chron_id_1,62,QNS1988,0.00172244
+chron_id_1,63,BK2024,0.00147638
+chron_id_1,64,BK1999,0.000984252
+chron_id_1,65,BK2010,0.000984252
+chron_id_1,66,MAN2005,0.000984252
+chron_id_1,67,MAN1996,0.000738189
+chron_id_1,68,BX2025,0.000492126
+chron_id_1,69,BK2001,0.000492126
+chron_id_1,70,BK0,0.000492126
+chron_id_1,71,BX2014,0.000492126
+chron_id_1,72,MANUnknown,0.000246063
+chron_id_1,73,BX2018,0.000246063
+lane_color,1,Red,0.982227
+lane_color,2,None,0.0107311
+lane_color,3,No,0.00469484
+lane_color,4,No/Never,0.00234742
+last_updat,1,7/19/2017,0.434243
+last_updat,2,5/16/2024,0.0895782
+last_updat,3,03/31/21,0.0828784
+last_updat,4,1/28/2026,0.0717122
+last_updat,5,12/19/2019,0.0533499
+last_updat,6,3/1/2023,0.0506203
+last_updat,7,10/31/17,0.0419355
+last_updat,8,12/15/2021,0.0394541
+last_updat,9,2/25/2019,0.0387097
+last_updat,10,4/4/2025,0.0230769
+last_updat,11,10/3/17,0.0183623
+last_updat,12,9/26/2023,0.0114144
+last_updat,13,10/2/17,0.00967742
+last_updat,14,12/23/2019,0.00744417
+last_updat,15,4/9/2024,0.0044665
+last_updat,16,9/05/2024,0.00421836
+last_updat,17,5/9/2024,0.00397022
+last_updat,18,12/05/2024,0.00372208
+last_updat,19,11/25/2024,0.00347395
+last_updat,20,9/28/2023,0.00223325
+last_updat,21,11/25/2019,0.00148883
+last_updat,22,9/22/2023,0.00148883
+last_updat,23,7/01/2024,0.000992556
+last_updat,24,8/3/2017,0.000992556
+last_updat,25,10/2/2023,0.000248139
+last_updat,26,12/20/2019,0.000248139
+streetwidt,1,0.0,0.16765
+streetwidt,2,60.0,0.162242
+streetwidt,3,70.0,0.140855
+streetwidt,4,30.0,0.0589971
+streetwidt,5,50.0,0.0457227
+streetwidt,6,44.0,0.0417896
+streetwidt,7,52.0,0.0417896
+streetwidt,8,40.0,0.0415438
+streetwidt,9,32.0,0.0378564
+streetwidt,10,54.0,0.0204031
+streetwidt,11,48.0,0.0194199
+streetwidt,12,55.0,0.0194199
+streetwidt,13,34.0,0.019174
+streetwidt,14,62.0,0.0186824
+streetwidt,15,68.0,0.0152409
+streetwidt,16,38.0,0.0147493
+streetwidt,17,42.0,0.0132743
+streetwidt,18,58.0,0.0103245
+streetwidt,19,45.0,0.0103245
+streetwidt,20,24.0,0.0100787
+streetwidt,21,64.0,0.0093412
+streetwidt,22,36.0,0.00835792
+streetwidt,23,28.0,0.00835792
+streetwidt,24,25.0,0.00762045
+streetwidt,25,46.0,0.00688299
+streetwidt,26,66.0,0.00688299
+streetwidt,27,35.0,0.00639135
+streetwidt,28,56.0,0.00614553
+streetwidt,29,74.0,0.00565388
+streetwidt,30,72.0,0.00491642
+streetwidt,31,22.0,0.00393314
+streetwidt,32,20.0,0.00270403
+streetwidt,33,65.0,0.00245821
+streetwidt,34,75.0,0.00221239
+streetwidt,35,18.0,0.00196657
+streetwidt,36,31.0,0.000983284
+streetwidt,37,26.0,0.000737463
+streetwidt,38,57.0,0.000737463
+streetwidt,39,47.0,0.000491642
+streetwidt,40,29.0,0.000491642
+streetwidt,41,134.0,0.000491642
+streetwidt,42,82.0,0.000491642
+streetwidt,43,84.0,0.000491642
+streetwidt,44,78.0,0.000491642
+streetwidt,45,23.0,0.000491642
+streetwidt,46,80.0,0.000245821
+streetwidt,47,41.0,0.000245821
+streetwidt,48,76.0,0.000245821
+hours,1,24 Hours,0.566108
+hours,2,7AM-7PM,0.110755
+hours,3,7AM-9PM,0.0313271
+hours,4,6AM-9AM,0.026887
+hours,5,7AM-10AM/4PM-7PM,0.026887
+hours,6,7AM-10AM/2PM-7PM,0.0249137
+hours,7,4PM-7PM,0.0229403
+hours,8,3PM-7PM,0.022447
+hours,9,7AM-9AM,0.0214603
+hours,10,7AM-10AM,0.0167736
+hours,11,7AM - 8PM,0.0157869
+hours,12,6 AM - 7 PM,0.0133202
+hours,13,6AM-10PM,0.0120868
+hours,14,7AM-10AM / 4PM-8PM,0.0103601
+hours,15,7 AM - 7 PM,0.0098668
+hours,16,7 AM - 8 PM,0.00838678
+hours,17,7AM-10AM/12PM-7PM,0.00764677
+hours,18,7AM-6PM,0.00690676
+hours,19,7AM-12PM/2PM-7PM,0.00542674
+hours,20,7AM - 7PM,0.0049334
+hours,21,2PM-8PM,0.00468673
+hours,22,"7AM - 10 AM, 2PM - 7 PM",0.00468673
+hours,23,6AM-10AM/4PM-7PM,0.00394672
+hours,24,2PM-7PM,0.00370005
+hours,25,7 AM - 1 PM,0.00296004
+hours,26,7AM-10PM/3PM-7PM,0.00271337
+hours,27,24 hrs,0.00222003
+hours,28,4 PM - 7 PM,0.00222003
+hours,29,6AM-7PM,0.00172669
+hours,30,6 AM - 3 PM,0.00172669
+hours,31,"7AM-10AM, 12PM-7PM",0.00074001
+hours,32,7 AM - 10 AM,0.00074001
+hours,33,7AM-1PM,0.00049334
+hours,34,"7AM- 10AM, 3PM - 7PM",0.00049334
+hours,35,7AM-10AM/2PM-12PM,0.00049334
+hours,36,24 hour,0.00049334
+hours,37,7AM-10AM/3PM-7PM,0.00024667
+hours,38,7 AM - 10 AM 4 PM - 7 PM,0.00024667
+hours,39,6 AM - 8 PM,0.00024667
+lane_type1,1,Bus Lane,0.698344
+lane_type1,2,Shared Lane,0.301656
+year1,1,1982,0.127581
+year1,2,2023,0.0887414
+year1,3,2013,0.0887414
+year1,4,2020,0.0877581
+year1,5,2015,0.0671091
+year1,6,2025,0.0663717
+year1,7,2017,0.0548181
+year1,8,2022,0.04941
+year1,9,2019,0.0484267
+year1,10,2021,0.039823
+year1,11,2018,0.0351524
+year1,12,2012,0.030236
+year1,13,2024,0.0228614
+year1,14,2010,0.0221239
+year1,15,1969,0.0208948
+year1,16,2002,0.019174
+year1,17,2014,0.0130285
+year1,18,2016,0.0110619
+year1,19,1986,0.0110619
+year1,20,2001,0.0105703
+year1,21,2011,0.00909538
+year1,22,1963,0.00835792
+year1,23,1983,0.00762045
+year1,24,2008,0.00762045
+year1,25,1984,0.00762045
+year1,26,2007,0.00712881
+year1,27,1991,0.00712881
+year1,28,1993,0.00688299
+year1,29,1988,0.00663717
+year1,30,2004,0.00491642
+year1,31,0,0.00393314
+year1,32,1981,0.00393314
+year1,33,2009,0.00147493
+year1,34,1999,0.000983284
+year1,35,2005,0.000983284
+year1,36,1996,0.000737463
+open_dates,1,6/30/2013,0.0505574
+open_dates,2,9/15/2025,0.0505574
+open_dates,3,11/17/2013,0.0357791
+open_dates,4,"8/24/82, 10/10/10",0.033705
+open_dates,5,12/03/2021,0.0329271
+open_dates,6,8/8/2023,0.0324086
+open_dates,7,09/02/12,0.0292974
+open_dates,8,12/1/2020,0.0282603
+open_dates,9,10/31/2023,0.0282603
+open_dates,10,8/15/2022,0.0259269
+open_dates,11,9/12/2020,0.024112
+open_dates,12,05/26/69,0.0220379
+open_dates,13,"9/3/02,06/29/08",0.020223
+open_dates,14,"7/28/82,10/10/10",0.0189266
+open_dates,15,09/01/15,0.0186674
+open_dates,16,9/1/2022,0.0181488
+open_dates,17,10/05/2018,0.017371
+open_dates,18,8/5/2020,0.0165932
+open_dates,19,09/16/2019,0.0160747
+open_dates,20,"8/24/82,10/10/10",0.0145191
+open_dates,21,11/29/15,0.0140005
+open_dates,22,8/4/2025,0.0132227
+open_dates,23,2/12/2024,0.0129634
+open_dates,24,10/16/2015,0.0124449
+open_dates,25,10/23/2015,0.0119264
+open_dates,26,10/10/10,0.0114078
+open_dates,27,11/10/10,0.0108893
+open_dates,28,10/24/2021,0.00985222
+open_dates,29,12/8/2023,0.00933368
+open_dates,30,9/3/2017,0.00907441
+open_dates,31,12/1/2023,0.00907441
+open_dates,32,6/30/2018,0.00881514
+open_dates,33,10/13/82,0.00881514
+open_dates,34,05/20/63,0.00881514
+open_dates,35,11/27/2024,0.00881514
+open_dates,36,10/03/2019,0.0082966
+open_dates,37,08/17/82,0.0082966
+open_dates,38,12/2/2023,0.00803733
+open_dates,39,06/16/83,0.00803733
+open_dates,40,11/13/2020,0.00803733
+open_dates,41,09/13/84,0.00803733
+open_dates,42,06/01/2018,0.00777807
+open_dates,43,07/02/07,0.0075188
+open_dates,44,10/01/91,0.0075188
+open_dates,45,10/1/2013,0.00725953
+open_dates,46,06/01/15,0.00700026
+open_dates,47,8/15/2016,0.00700026
+open_dates,48,4/3/86 & 9/15/08 & 5/27/15,0.00700026
+open_dates,49,8/25/2014,0.00674099
+open_dates,50,12/27/2023,0.00596318
+open_dates,51,6/15/2020,0.00596318
+open_dates,52,9/28/2022,0.00570391
+open_dates,53,"11/16/82,6/99",0.00518538
+open_dates,54,"6/22/82,4/90, 10/14",0.00518538
+open_dates,55,06/13/2019,0.00492611
+open_dates,56,05/25/14,0.00492611
+open_dates,57,"5/26/81,1/82, 12/11/12",0.00492611
+open_dates,58,09/08/82,0.00492611
+open_dates,59,12/20/2019,0.00466684
+open_dates,60,10/23/2019,0.00466684
+open_dates,61,11/17/15,0.00466684
+open_dates,62,11/18/22,0.00466684
+open_dates,63,"7/28/82,10/10/10, 9/05/24",0.00440757
+open_dates,64,8/31/2020,0.00440757
+open_dates,65,"10/20/82,06/30/11",0.00440757
+open_dates,66,10/05/04,0.00440757
+open_dates,67,"11/3/82,6/99",0.0041483
+open_dates,68,"8/30/88,6/01/10,11/14/23",0.0041483
+open_dates,69,01/19/2021,0.0041483
+open_dates,70,06/10/2021,0.0041483
+open_dates,71,9/21/1982,0.0041483
+open_dates,72,"7/28/82,10/10/10, 12/05/24",0.00388903
+open_dates,73,"7/28/82,10/10/10, 11/25/24",0.00362976
+open_dates,74,9/15/08 & 11/11/15,0.0033705
+open_dates,75,11/25/2019,0.00311123
+open_dates,76,05/20/2017,0.00285196
+open_dates,77,08/26/2019,0.00259269
+open_dates,78,1/1/2012,0.00259269
+open_dates,79,5/24/2009,0.00259269
+open_dates,80,4/3/86 & 9/15/08,0.00259269
+open_dates,81,12/3/2022,0.00233342
+open_dates,82,09/13/2019,0.00233342
+open_dates,83,11/15/11,0.00233342
+open_dates,84,10/2/2025,0.00233342
+open_dates,85,12/16/2025,0.00233342
+open_dates,86,4/3/1986,0.00207415
+open_dates,87,04/26/2021,0.00207415
+open_dates,88,"9/01/93,11/15/11",0.00207415
+open_dates,89,11/09/11,0.00181488
+open_dates,90,2017,0.00181488
+open_dates,91,12/03/01,0.00181488
+open_dates,92,"12/1/2020, 9/14/2021",0.00181488
+open_dates,93,6/29/2008,0.00181488
+open_dates,94,09/21/2019,0.00181488
+open_dates,95,???,0.00181488
+open_dates,96,07/13/15,0.00155561
+open_dates,97,9/9/2024,0.00155561
+open_dates,98,5/23/2016,0.00155561
+open_dates,99,08/02/19,0.00155561
+open_dates,100,08/05/2020,0.00155561
+open_dates,101,05/24/09,0.00155561
+open_dates,102,06/06/14,0.00129634
+open_dates,103,6/22/2017,0.00129634
+open_dates,104,06/29/08,0.00129634
+open_dates,105,9/15/2008,0.00129634
+open_dates,106,09/30/2018,0.00129634
+open_dates,107,"7/28/82,10/10/10, 7/01/25",0.00103708
+open_dates,108,10/17/2016,0.00103708
+open_dates,109,12/13/2025,0.00103708
+open_dates,110,"8/30/88,6/01/10",0.00103708
+open_dates,111,06/22/99,0.00103708
+open_dates,112,5/16/2010,0.00103708
+open_dates,113,9/13/2019,0.00103708
+open_dates,114,1/1/2016,0.00103708
+open_dates,115,07/27/05,0.00103708
+open_dates,116,07/15/2018,0.000777807
+open_dates,117,08/11/11,0.000777807
+open_dates,118,6/3/2016,0.000777807
+open_dates,119,7/23/2020,0.000777807
+open_dates,120,"10/05/2004, 06/01/2018",0.000777807
+open_dates,121,12/26/2024,0.000777807
+open_dates,122,07/01/96,0.000777807
+open_dates,123,06/28/2021,0.000518538
+open_dates,124,9/12/20,0.000518538
+open_dates,125,10/20/82,0.000518538
+open_dates,126,11/12/2025,0.000518538
+open_dates,127,06/30/01,0.000518538
+open_dates,128,1/1/2014,0.000518538
+open_dates,129,11/01/2015,0.000518538
+open_dates,130,06/30/2018,0.000518538
+open_dates,131,11/27/2023,0.000518538
+open_dates,132,05/24/2009,0.000259269
+open_dates,133,5/30/2016,0.000259269
+open_dates,134,8/24/2018,0.000259269
+open_dates,135,"10/13/82, 12/20/2019",0.000259269
+open_dates,136,9/15/08 & 5/27/15,0.000259269
+open_dates,137,9/1/2014,0.000259269
+open_dates,138,9/1/2008,0.000259269
+lane_type,1,Offset,0.470371
+lane_type,2,Curbside,0.435456
+lane_type,3,Busway,0.0317187
+lane_type,4,Median,0.0295058
+lane_type,5,Center Running,0.0120482
+lane_type,6,Left-side running,0.00688468
+lane_type,7,Bus lane on shoulder,0.00467175
+lane_type,8,Enhanced Bus Stop,0.00172117
+lane_type,9,Contraflow,0.00172117
+lane_type,10,Shoulder,0.00147529
+lane_type,11,bus lane on shoulder,0.00147529
+lane_type,12,Queue Jump,0.000983526
+lane_type,13,Enhanced bus stop,0.000983526
+lane_type,14,Buses and local deliveries only,0.000491763
+lane_type,15,Bus Only,0.000245881
+lane_type,16,Left Turn Lane,0.000245881
+sbs_route1,1,M15,0.204729
+sbs_route1,2,Q52,0.145083
+sbs_route1,3,S79,0.109618
+sbs_route1,4,BX41,0.108544
+sbs_route1,5,B44,0.0967222
+sbs_route1,6,B82,0.0564213
+sbs_route1,7,B46,0.0478238
+sbs_route1,8,BX12,0.0472864
+sbs_route1,9,Q44,0.0445997
+sbs_route1,10,M34,0.0300913
+sbs_route1,11,Q53,0.0236432
+sbs_route1,12,BX6,0.0209565
+sbs_route1,13,M60,0.0198818
+sbs_route1,14,M14 A,0.0171951
+sbs_route1,15,M23,0.0145083
+sbs_route1,16,M14,0.00913487
+sbs_route1,17,M86,0.00376142
+boro,1,MAN,0.320551
+boro,2,QNS,0.266224
+boro,3,BX,0.195919
+boro,4,BK,0.139872
+boro,5,SI,0.0698132
+boro,6,"BX, MN",0.00762045
+lane_type2,1,Paint,0.792768
+lane_type2,2,Bus Only Lane,0.0876217
+lane_type2,3,Queue Jump,0.0180807
+lane_type2,4,Offset,0.0180807
+lane_type2,5,Median,0.0180807
+lane_type2,6,Curbside,0.015299
+lane_type2,7,Intermittent queue jumps,0.0139082
+lane_type2,8,Enhanced Bus Stop,0.0069541
+lane_type2,9,Concrete,0.0069541
+lane_type2,10,Quick curb,0.0069541
+lane_type2,11,Contraflow,0.0069541
+lane_type2,12,Quick Kerb,0.00556328
+lane_type2,13,Continuous,0.00139082
+lane_type2,14,Bus Only Left Turn Bay,0.00139082
+street,1,HILLSIDE AVENUE,0.0698132
+street,2,1 AVENUE,0.0501475
+street,3,WOODHAVEN BOULEVARD,0.0499017
+street,4,WEBSTER AVENUE,0.0496559
+street,5,HYLAN BOULEVARD,0.0469518
+street,6,2 AVENUE,0.0410521
+street,7,NORTHERN BOULEVARD,0.0307276
+street,8,NOSTRAND AVENUE,0.0307276
+street,9,STORY AVENUE,0.0299902
+street,10,3 AVENUE,0.0290069
+street,11,MERRICK BOULEVARD,0.0267945
+street,12,EAST GUN HILL ROAD,0.0267945
+street,13,21 STREET,0.0245821
+street,14,UTICA AVENUE,0.0218781
+street,15,5 AVENUE,0.0213864
+street,16,FULTON STREET,0.0199115
+street,17,BROADWAY,0.0184366
+street,18,LEXINGTON AVENUE,0.0176991
+street,19,EAST 149 STREET,0.0172075
+street,20,EAST FORDHAM ROAD,0.0167158
+street,21,KINGS HIGHWAY,0.01647
+street,22,UNIVERSITY AVENUE,0.0157325
+street,23,AVENUE D,0.0135202
+street,24,MAIN STREET,0.0130285
+street,25,ROGERS AVENUE,0.0115536
+street,26,CROSS BAY BOULEVARD,0.0110619
+street,27,EAST 14 STREET,0.0105703
+street,28,FR CAPODANNO BOULEVARD,0.0103245
+street,29,PENNSYLVANIA AVENUE,0.00884956
+street,30,WEST 34 STREET,0.00884956
+street,31,EAST 42 STREET,0.00835792
+street,32,VICTORY BOULEVARD,0.00835792
+street,33,JAMAICA AVENUE,0.00762045
+street,34,PIKE STREET,0.00737463
+street,35,EAST 161 STREET,0.00712881
+street,36,FLATBUSH AVENUE,0.00688299
+street,37,PELHAM PARKWAY SOUTH,0.00688299
+street,38,AVENUE OF THE AMERICAS,0.00688299
+street,39,ALLEN STREET,0.00639135
+street,40,ROCKAWAY BEACH BOULEVARD,0.00639135
+street,41,WASHINGTON BRIDGE,0.00614553
+street,42,EDWARD L GRANT HIGHWAY,0.00589971
+street,43,WEST 125 STREET,0.00589971
+street,44,ARCHER AVENUE,0.00589971
+street,45,PELHAM PARKWAY,0.00565388
+street,46,EAST 34 STREET,0.00540806
+street,47,EAST 96 STREET,0.00516224
+street,48,LIVINGSTON STREET,0.00491642
+street,49,F D R DRIVE,0.0046706
+street,50,EAST 23 STREET,0.0046706
+street,51,WEST 42 STREET,0.0046706
+street,52,MADISON AVENUE,0.0046706
+street,53,CHURCH AVENUE,0.00442478
+street,54,EAST 57 STREET,0.00442478
+street,55,RICHMOND AVENUE,0.00417896
+street,56,BATTERY PLACE,0.00393314
+street,57,8 AVENUE,0.00393314
+street,58,WEST 57 STREET,0.00344149
+street,59,WEST FORDHAM ROAD,0.00344149
+street,60,JAY STREET,0.00344149
+street,61,FRESH POND ROAD,0.00319567
+street,62,EAST 125 STREET,0.00319567
+street,63,WEST 96 STREET,0.00319567
+street,64,WHITE PLAINS ROAD,0.00294985
+street,65,BEDFORD AVENUE,0.00294985
+street,66,WEST 14 STREET,0.00294985
+street,67,7 AVENUE,0.00270403
+street,68,SUTPHIN BOULEVARD,0.00270403
+street,69,EAST 79 STREET,0.00245821
+street,70,TRINITY PLACE,0.00245821
+street,71,11 AVENUE,0.00196657
+street,72,WEST 23 STREET,0.00196657
+street,73,WEST 181 STREET,0.00196657
+street,74,CHURCH STREET,0.00196657
+street,75,168 STREET,0.00172075
+street,76,GRAND ARMY PLAZA OVAL,0.00147493
+street,77,ELTON AVENUE,0.00147493
+street,78,WEST 207 STREET,0.00147493
+street,79,DR MLK JR BLVD EN WASHINGTON BR,0.00147493
+street,80,WESTCHESTER AVENUE,0.00122911
+street,81,QUEENS BOULEVARD,0.00122911
+street,82,9 AVENUE,0.00122911
+street,83,BEACH 59 STREET,0.00122911
+street,84,AVENUE A,0.00122911
+street,85,ESSEX STREET,0.00122911
+street,86,EAST 163 STREET,0.00122911
+street,87,GLENWOOD ROAD,0.00122911
+street,88,PIKE SLIP,0.000983284
+street,89,QUEENS PLAZA,0.000983284
+street,90,ROCKAWAY PARKWAY,0.000983284
+street,91,WILKINSON AVENUE,0.000983284
+street,92,VAN SINDEREN AVENUE,0.000983284
+street,93,AMSTERDAM AVENUE,0.000983284
+street,94,CONNECTOR,0.000737463
+street,95,WEST 86 STREET,0.000737463
+street,96,FLATLANDS AVENUE,0.000737463
+street,97,EAST 60 STREET,0.000737463
+street,98,MALCOLM X BOULEVARD,0.000737463
+street,99,FREDERICK DOUGLASS BOULEVARD,0.000737463
+street,100,86 ST TRANSVERSE,0.000491642
+street,101,WEST 178 STREET,0.000491642
+street,102,COLUMBIA STREET,0.000491642
+street,103,HUNTS POINT AVENUE,0.000491642
+street,104,EAST 188 STREET,0.000491642
+street,105,ORIENTAL BOULEVARD,0.000491642
+street,106,SMITH STREET,0.000491642
+street,107,KISSENA BOULEVARD,0.000491642
+street,108,GREENWICH STREET,0.000491642
+street,109,HOFFMAN DRIVE,0.000491642
+street,110,HOUSTON/ESSEX STREET LINE,0.000491642
+street,111,JACKSON STREET,0.000245821
+street,112,HOYT AVENUE NORTH,0.000245821
+street,113,TILLARY STREET,0.000245821
+street,114,EAST 97 STREET,0.000245821
+street,115,HUDSON RIVER GREENWAY,0.000245821
+street,116,EAST 86 STREET,0.000245821
+street,117,NASSAU AVENUE,0.000245821
+street,118,WEST 81 STREET,0.000245821
+street,119,BRONX RIVER AVENUE,0.000245821
+street,120,WASHINGTON AVENUE,0.000245821
+street,121,JEROME AVENUE,0.000245821
+street,122,FLATBUSH AVENUE EXTENSION,0.000245821
+street,123,HOYT AVENUE SOUTH,0.000245821
+street,124,WILLIS AVENUE,0.000245821
+street,125,WATTS STREET,0.000245821
+mid_block,1,Y,1
+bltrafdir,1,T,0.5273
+bltrafdir,2,A,0.247909
+bltrafdir,3,W,0.224545
+bltrafdir,4,P,0.000245942
+facility,1,Hillside Avenue,0.0698132
+facility,2,Woodhaven Boulevard,0.0609636
+facility,3,1st Avenue,0.0501475
+facility,4,Webster Avenue,0.0496559
+facility,5,2nd Avenue,0.0410521
+facility,6,Hylan Boulevard,0.0309735
+facility,7,Northern Boulevard,0.0307276
+facility,8,Nostrand Avenue,0.0307276
+facility,9,Story Avenue,0.0299902
+facility,10,Merrick Boulevard,0.0267945
+facility,11,Gun Hill Road,0.0267945
+facility,12,21st,0.0245821
+facility,13,Utica Avenue,0.0218781
+facility,14,5th Avenue,0.0213864
+facility,15,Fordham Road,0.020649
+facility,16,Fulton Street,0.0199115
+facility,17,Broadway,0.0184366
+facility,18,Lexington Avenue,0.0176991
+facility,19,Kings Highway,0.01647
+facility,20,Hylan Bl,0.0159784
+facility,21,3rd Avenue,0.0159784
+facility,22,E 149 Street,0.0157325
+facility,23,University Avenue,0.0147493
+facility,24,34th Street,0.0142576
+facility,25,Avenue D,0.0135202
+facility,26,42nd Street,0.0130285
+facility,27,Main Street,0.0130285
+facility,28,3 Avenue,0.0130285
+facility,29,Allen Street/Pike Street,0.0122911
+facility,30,Rogers Avenue,0.0115536
+facility,31,Father Capodanno Bl,0.0103245
+facility,32,125th Street,0.00909538
+facility,33,Pennsylvania Avenue,0.00884956
+facility,34,14 Street,0.00835792
+facility,35,Victory Bl,0.00835792
+facility,36,96th Street,0.00835792
+facility,37,57th Street,0.00786627
+facility,38,Washington Bridge,0.00762045
+facility,39,Jamaica Avenue,0.00762045
+facility,40,EL Grant Highway,0.00688299
+facility,41,Pelham Parkway S.,0.00688299
+facility,42,6th Avenue,0.00688299
+facility,43,23rd Street,0.00663717
+facility,44,Rockaway Beach Boulevard,0.00639135
+facility,45,E 161 Street,0.00614553
+facility,46,Archer Avenue,0.00589971
+facility,47,Pelham Parkway,0.00565388
+facility,48,Flatbush Avenue,0.00516224
+facility,49,Livingston Street,0.00491642
+facility,50,Church Street,0.00491642
+facility,51,FDR Drive,0.0046706
+facility,52,Madison Avenue,0.0046706
+facility,53,Church Avenue,0.00442478
+facility,54,Richmond Avenue,0.00417896
+facility,55,Jay Street/Smith Street,0.00393314
+facility,56,Battery Pl,0.00393314
+facility,57,8th Avenue,0.00393314
+facility,58,White Plains Road,0.00344149
+facility,59,Fresh Pond Road,0.00319567
+facility,60,Bedford Avenue,0.00294985
+facility,61,14 Street (9 Avenue- 3 Avenue),0.00294985
+facility,62,7th Avenue,0.00270403
+facility,63,Sutphin Bl,0.00270403
+facility,64,Allen Street,0.00245821
+facility,65,79th Street,0.00245821
+facility,66,14 Street (3 Avenue-9 Avenue),0.00221239
+facility,67,11th Avenue,0.00196657
+facility,68,W 181 Street,0.00196657
+facility,69,Grand Army Plaza,0.00172075
+facility,70,168 Street,0.00172075
+facility,71,Essex Street,0.00172075
+facility,72,Elton Avenue,0.00147493
+facility,73,Queens Boulevard,0.00147493
+facility,74,Flatbush Avenue/Utica Avenue,0.00147493
+facility,75,W 207th Street,0.00147493
+facility,76,149th Street,0.00147493
+facility,77,Westchester Avenue,0.00122911
+facility,78,9th Avenue,0.00122911
+facility,79,B 59 Street,0.00122911
+facility,80,Avenue A,0.00122911
+facility,81,E 163 Street,0.00122911
+facility,82,Glenwood Road,0.00122911
+facility,83,Queens Plaza,0.000983284
+facility,84,Rockaway Pky,0.000983284
+facility,85,Wilkinson Avenue,0.000983284
+facility,86,Van Sinderen Avenue,0.000983284
+facility,87,Amsterdam Avenue,0.000983284
+facility,88,W 86th Street,0.000737463
+facility,89,Flatlands Avenue,0.000737463
+facility,90,60th Street,0.000737463
+facility,91,Malcolm X Boulevard,0.000737463
+facility,92,Fredrick Douglass Boulevard,0.000737463
+facility,93,86th Street Transverse,0.000491642
+facility,94,W 178 Street,0.000491642
+facility,95,Columbia Street,0.000491642
+facility,96,Hunts Point Avenue,0.000491642
+facility,97,Oriental Avenue,0.000491642
+facility,98,E 161 Street Main Line,0.000491642
+facility,99,Kissena Bl,0.000491642
+facility,100,Hoffman Drive,0.000491642
+facility,101,E 161 Street Service Road,0.000491642
+facility,102,Jackson Street,0.000245821
+facility,103,Hoyt Avenue North,0.000245821
+facility,104,Tillary Street,0.000245821
+facility,105,97th Street,0.000245821
+facility,106,12 Avenue,0.000245821
+facility,107,E 86th Street,0.000245821
+facility,108,Nassau Avenue,0.000245821
+facility,109,W 81st Street,0.000245821
+facility,110,Bronx River Avenue,0.000245821
+facility,111,Washington Avenue,0.000245821
+facility,112,Jerome Avenue,0.000245821
+facility,113,Flatbush Avenue Ext,0.000245821
+facility,114,Hoyt Avenue South,0.000245821
+facility,115,Willis Avenue,0.000245821
+facility,116,Watts Street,0.000245821
+days,1,7 Days/Week,0.631178
+days,2,Mon - Fri,0.346693
+days,3,Mon - Sat,0.0169658
+days,4,Mon-Fri,0.00491763
+days,5,& Days/Week,0.000245881
+sbs_route2,1,Q53,0.688347
+sbs_route2,2,M34A,0.151762
+sbs_route2,3,M14 D,0.0867209
+sbs_route2,4,Q25,0.0460705
+sbs_route2,5,M14 A,0.0271003
+lane_width,1,Single,0.984673
+lane_width,2,Double,0.0153266
+.cell:.geom_x:.geom_y,1,-7395 4078,0.0189282
+.cell:.geom_x:.geom_y,2,-7380 4070,0.0189282
+.cell:.geom_x:.geom_y,3,-7398 4075,0.0184366
+.cell:.geom_x:.geom_y,4,-7398 4074,0.0181908
+.cell:.geom_x:.geom_y,5,-7391 4083,0.0181908
+.cell:.geom_x:.geom_y,6,-7387 4082,0.0176991
+.cell:.geom_x:.geom_y,7,-7398 4072,0.0167158
+.cell:.geom_x:.geom_y,8,-7394 4079,0.01647
+.cell:.geom_x:.geom_y,9,-7397 4076,0.0154867
+.cell:.geom_x:.geom_y,10,-7394 4076,0.0154867
+.cell:.geom_x:.geom_y,11,-7379 4071,0.0147493
+.cell:.geom_x:.geom_y,12,-7396 4077,0.0142576
+.cell:.geom_x:.geom_y,13,-7393 4084,0.0135202
+.cell:.geom_x:.geom_y,14,-7399 4073,0.0135202
+.cell:.geom_x:.geom_y,15,-7378 4071,0.0132743
+.cell:.geom_x:.geom_y,16,-7390 4086,0.0130285
+.cell:.geom_x:.geom_y,17,-7381 4070,0.0130285
+.cell:.geom_x:.geom_y,18,-7400 4071,0.0122911
+.cell:.geom_x:.geom_y,19,-7399 4075,0.0120452
+.cell:.geom_x:.geom_y,20,-7396 4078,0.0120452
+.cell:.geom_x:.geom_y,21,-7397 4075,0.0113078
+.cell:.geom_x:.geom_y,22,-7398 4076,0.0110619
+.cell:.geom_x:.geom_y,23,-7388 4082,0.0108161
+.cell:.geom_x:.geom_y,24,-7399 4069,0.0105703
+.cell:.geom_x:.geom_y,25,-7394 4080,0.0100787
+.cell:.geom_x:.geom_y,26,-7411 4057,0.0100787
+.cell:.geom_x:.geom_y,27,-7386 4070,0.00983284
+.cell:.geom_x:.geom_y,28,-7402 4070,0.00983284
+.cell:.geom_x:.geom_y,29,-7398 4068,0.00983284
+.cell:.geom_x:.geom_y,30,-7387 4087,0.00958702
+.cell:.geom_x:.geom_y,31,-7377 4071,0.00958702
+.cell:.geom_x:.geom_y,32,-7399 4074,0.0093412
+.cell:.geom_x:.geom_y,33,-7410 4058,0.0093412
+.cell:.geom_x:.geom_y,34,-7409 4059,0.0093412
+.cell:.geom_x:.geom_y,35,-7400 4075,0.00909538
+.cell:.geom_x:.geom_y,36,-7385 4067,0.00884956
+.cell:.geom_x:.geom_y,37,-7386 4069,0.00884956
+.cell:.geom_x:.geom_y,38,-7391 4084,0.00884956
+.cell:.geom_x:.geom_y,39,-7399 4072,0.00835792
+.cell:.geom_x:.geom_y,40,-7385 4068,0.00811209
+.cell:.geom_x:.geom_y,41,-7388 4073,0.00811209
+.cell:.geom_x:.geom_y,42,-7395 4079,0.00811209
+.cell:.geom_x:.geom_y,43,-7412 4056,0.00786627
+.cell:.geom_x:.geom_y,44,-7390 4085,0.00786627
+.cell:.geom_x:.geom_y,45,-7376 4072,0.00762045
+.cell:.geom_x:.geom_y,46,-7396 4069,0.00737463
+.cell:.geom_x:.geom_y,47,-7401 4071,0.00712881
+.cell:.geom_x:.geom_y,48,-7396 4066,0.00712881
+.cell:.geom_x:.geom_y,49,-7391 4086,0.00712881
+.cell:.geom_x:.geom_y,50,-7397 4077,0.00688299
+.cell:.geom_x:.geom_y,51,-7393 4081,0.00688299
+.cell:.geom_x:.geom_y,52,-7386 4087,0.00688299
+.cell:.geom_x:.geom_y,53,-7395 4061,0.00688299
+.cell:.geom_x:.geom_y,54,-7389 4086,0.00688299
+.cell:.geom_x:.geom_y,55,-7387 4072,0.00663717
+.cell:.geom_x:.geom_y,56,-7399 4068,0.00639135
+.cell:.geom_x:.geom_y,57,-7392 4081,0.00614553
+.cell:.geom_x:.geom_y,58,-7383 4075,0.00614553
+.cell:.geom_x:.geom_y,59,-7386 4085,0.00589971
+.cell:.geom_x:.geom_y,60,-7387 4071,0.00589971
+.cell:.geom_x:.geom_y,61,-7388 4075,0.00589971
+.cell:.geom_x:.geom_y,62,-7387 4075,0.00589971
+.cell:.geom_x:.geom_y,63,-7388 4087,0.00589971
+.cell:.geom_x:.geom_y,64,-7375 4072,0.00589971
+.cell:.geom_x:.geom_y,65,-7393 4082,0.00565388
+.cell:.geom_x:.geom_y,66,-7377 4068,0.00540806
+.cell:.geom_x:.geom_y,67,-7378 4068,0.00540806
+.cell:.geom_x:.geom_y,68,-7379 4069,0.00540806
+.cell:.geom_x:.geom_y,69,-7389 4075,0.00540806
+.cell:.geom_x:.geom_y,70,-7394 4062,0.00540806
+.cell:.geom_x:.geom_y,71,-7394 4066,0.00540806
+.cell:.geom_x:.geom_y,72,-7409 4063,0.00540806
+.cell:.geom_x:.geom_y,73,-7386 4075,0.00516224
+.cell:.geom_x:.geom_y,74,-7386 4071,0.00516224
+.cell:.geom_x:.geom_y,75,-7394 4058,0.00516224
+.cell:.geom_x:.geom_y,76,-7389 4085,0.00516224
+.cell:.geom_x:.geom_y,77,-7399 4076,0.00516224
+.cell:.geom_x:.geom_y,78,-7383 4074,0.00516224
+.cell:.geom_x:.geom_y,79,-7396 4067,0.00491642
+.cell:.geom_x:.geom_y,80,-7395 4080,0.00491642
+.cell:.geom_x:.geom_y,81,-7380 4071,0.00491642
+.cell:.geom_x:.geom_y,82,-7392 4085,0.0046706
+.cell:.geom_x:.geom_y,83,-7409 4057,0.0046706
+.cell:.geom_x:.geom_y,84,-7396 4065,0.0046706
+.cell:.geom_x:.geom_y,85,-7397 4068,0.0046706
+.cell:.geom_x:.geom_y,86,-7392 4082,0.00442478
+.cell:.geom_x:.geom_y,87,-7401 4070,0.00442478
+.cell:.geom_x:.geom_y,88,-7391 4075,0.00442478
+.cell:.geom_x:.geom_y,89,-7385 4087,0.00442478
+.cell:.geom_x:.geom_y,90,-7396 4076,0.00417896
+.cell:.geom_x:.geom_y,91,-7385 4086,0.00417896
+.cell:.geom_x:.geom_y,92,-7393 4063,0.00417896
+.cell:.geom_x:.geom_y,93,-7391 4081,0.00417896
+.cell:.geom_x:.geom_y,94,-7400 4074,0.00393314
+.cell:.geom_x:.geom_y,95,-7396 4068,0.00393314
+.cell:.geom_x:.geom_y,96,-7390 4075,0.00393314
+.cell:.geom_x:.geom_y,97,-7389 4064,0.00393314
+.cell:.geom_x:.geom_y,98,-7389 4074,0.00393314
+.cell:.geom_x:.geom_y,99,-7398 4073,0.00368732
+.cell:.geom_x:.geom_y,100,-7393 4062,0.00344149
+.cell:.geom_x:.geom_y,101,-7392 4084,0.00319567
+.cell:.geom_x:.geom_y,102,-7387 4085,0.00319567
+.cell:.geom_x:.geom_y,103,-7393 4077,0.00319567
+.cell:.geom_x:.geom_y,104,-7388 4072,0.00294985
+.cell:.geom_x:.geom_y,105,-7413 4055,0.00294985
+.cell:.geom_x:.geom_y,106,-7393 4083,0.00294985
+.cell:.geom_x:.geom_y,107,-7400 4073,0.00294985
+.cell:.geom_x:.geom_y,108,-7394 4065,0.00294985
+.cell:.geom_x:.geom_y,109,-7408 4063,0.00294985
+.cell:.geom_x:.geom_y,110,-7394 4084,0.00270403
+.cell:.geom_x:.geom_y,111,-7417 4057,0.00270403
+.cell:.geom_x:.geom_y,112,-7397 4074,0.00270403
+.cell:.geom_x:.geom_y,113,-7385 4085,0.00245821
+.cell:.geom_x:.geom_y,114,-7382 4070,0.00245821
+.cell:.geom_x:.geom_y,115,-7389 4065,0.00245821
+.cell:.geom_x:.geom_y,116,-7388 4064,0.00245821
+.cell:.geom_x:.geom_y,117,-7397 4064,0.00245821
+.cell:.geom_x:.geom_y,118,-7393 4064,0.00245821
+.cell:.geom_x:.geom_y,119,-7383 4085,0.00221239
+.cell:.geom_x:.geom_y,120,-7393 4061,0.00221239
+.cell:.geom_x:.geom_y,121,-7396 4079,0.00221239
+.cell:.geom_x:.geom_y,122,-7390 4070,0.00221239
+.cell:.geom_x:.geom_y,123,-7400 4072,0.00196657
+.cell:.geom_x:.geom_y,124,-7390 4058,0.00196657
+.cell:.geom_x:.geom_y,125,-7408 4058,0.00196657
+.cell:.geom_x:.geom_y,126,-7407 4059,0.00196657
+.cell:.geom_x:.geom_y,127,-7383 4058,0.00196657
+.cell:.geom_x:.geom_y,128,-7415 4054,0.00196657
+.cell:.geom_x:.geom_y,129,-7396 4064,0.00196657
+.cell:.geom_x:.geom_y,130,-7376 4067,0.00196657
+.cell:.geom_x:.geom_y,131,-7393 4076,0.00196657
+.cell:.geom_x:.geom_y,132,-7394 4075,0.00196657
+.cell:.geom_x:.geom_y,133,-7395 4075,0.00196657
+.cell:.geom_x:.geom_y,134,-7398 4064,0.00196657
+.cell:.geom_x:.geom_y,135,-7395 4067,0.00196657
+.cell:.geom_x:.geom_y,136,-7395 4064,0.00196657
+.cell:.geom_x:.geom_y,137,-7399 4071,0.00172075
+.cell:.geom_x:.geom_y,138,-7414 4055,0.00172075
+.cell:.geom_x:.geom_y,139,-7395 4077,0.00172075
+.cell:.geom_x:.geom_y,140,-7382 4058,0.00172075
+.cell:.geom_x:.geom_y,141,-7394 4067,0.00172075
+.cell:.geom_x:.geom_y,142,-7398 4079,0.00172075
+.cell:.geom_x:.geom_y,143,-7397 4078,0.00147493
+.cell:.geom_x:.geom_y,144,-7400 4076,0.00147493
+.cell:.geom_x:.geom_y,145,-7414 4054,0.00147493
+.cell:.geom_x:.geom_y,146,-7401 4072,0.00147493
+.cell:.geom_x:.geom_y,147,-7377 4067,0.00147493
+.cell:.geom_x:.geom_y,148,-7391 4085,0.00147493
+.cell:.geom_x:.geom_y,149,-7391 4064,0.00147493
+.cell:.geom_x:.geom_y,150,-7395 4063,0.00147493
+.cell:.geom_x:.geom_y,151,-7377 4072,0.00147493
+.cell:.geom_x:.geom_y,152,-7386 4082,0.00147493
+.cell:.geom_x:.geom_y,153,-7397 4079,0.00147493
+.cell:.geom_x:.geom_y,154,-7398 4067,0.00122911
+.cell:.geom_x:.geom_y,155,-7408 4057,0.00122911
+.cell:.geom_x:.geom_y,156,-7395 4059,0.00122911
+.cell:.geom_x:.geom_y,157,-7379 4059,0.00122911
+.cell:.geom_x:.geom_y,158,-7380 4059,0.00122911
+.cell:.geom_x:.geom_y,159,-7376 4068,0.00122911
+.cell:.geom_x:.geom_y,160,-7390 4082,0.00122911
+.cell:.geom_x:.geom_y,161,-7401 4074,0.00122911
+.cell:.geom_x:.geom_y,162,-7396 4060,0.00122911
+.cell:.geom_x:.geom_y,163,-7388 4074,0.00122911
+.cell:.geom_x:.geom_y,164,-7393 4067,0.00122911
+.cell:.geom_x:.geom_y,165,-7389 4082,0.00122911
+.cell:.geom_x:.geom_y,166,-7384 4076,0.00122911
+.cell:.geom_x:.geom_y,167,-7395 4065,0.00122911
+.cell:.geom_x:.geom_y,168,-7384 4085,0.000983284
+.cell:.geom_x:.geom_y,169,-7394 4074,0.000983284
+.cell:.geom_x:.geom_y,170,-7409 4058,0.000983284
+.cell:.geom_x:.geom_y,171,-7391 4059,0.000983284
+.cell:.geom_x:.geom_y,172,-7380 4058,0.000983284
+.cell:.geom_x:.geom_y,173,-7378 4069,0.000983284
+.cell:.geom_x:.geom_y,174,-7388 4088,0.000983284
+.cell:.geom_x:.geom_y,175,-7401 4073,0.000983284
+.cell:.geom_x:.geom_y,176,-7399 4060,0.000983284
+.cell:.geom_x:.geom_y,177,-7398 4060,0.000983284
+.cell:.geom_x:.geom_y,178,-7401 4075,0.000983284
+.cell:.geom_x:.geom_y,179,-7396 4081,0.000983284
+.cell:.geom_x:.geom_y,180,-7392 4086,0.000983284
+.cell:.geom_x:.geom_y,181,-7388 4086,0.000983284
+.cell:.geom_x:.geom_y,182,-7384 4075,0.000983284
+.cell:.geom_x:.geom_y,183,-7391 4067,0.000983284
+.cell:.geom_x:.geom_y,184,-7395 4068,0.000983284
+.cell:.geom_x:.geom_y,185,-7402 4071,0.000983284
+.cell:.geom_x:.geom_y,186,-7399 4077,0.000983284
+.cell:.geom_x:.geom_y,187,-7396 4063,0.000737463
+.cell:.geom_x:.geom_y,188,-7398 4078,0.000737463
+.cell:.geom_x:.geom_y,189,-7384 4086,0.000737463
+.cell:.geom_x:.geom_y,190,-7395 4062,0.000737463
+.cell:.geom_x:.geom_y,191,-7390 4071,0.000737463
+.cell:.geom_x:.geom_y,192,-7416 4053,0.000737463
+.cell:.geom_x:.geom_y,193,-7390 4064,0.000737463
+.cell:.geom_x:.geom_y,194,-7394 4083,0.000737463
+.cell:.geom_x:.geom_y,195,-7408 4059,0.000737463
+.cell:.geom_x:.geom_y,196,-7379 4070,0.000737463
+.cell:.geom_x:.geom_y,197,-7397 4067,0.000491642
+.cell:.geom_x:.geom_y,198,-7392 4077,0.000491642
+.cell:.geom_x:.geom_y,199,-7400 4070,0.000491642
+.cell:.geom_x:.geom_y,200,-7417 4056,0.000491642
+.cell:.geom_x:.geom_y,201,-7407 4058,0.000491642
+.cell:.geom_x:.geom_y,202,-7381 4058,0.000491642
+.cell:.geom_x:.geom_y,203,-7401 4076,0.000491642
+.cell:.geom_x:.geom_y,204,-7398 4071,0.000491642
+.cell:.geom_x:.geom_y,205,-7392 4063,0.000491642
+.cell:.geom_x:.geom_y,206,-7396 4061,0.000491642
+.cell:.geom_x:.geom_y,207,-7396 4080,0.000491642
+.cell:.geom_x:.geom_y,208,-7391 4082,0.000491642
+.cell:.geom_x:.geom_y,209,-7393 4086,0.000491642
+.cell:.geom_x:.geom_y,210,-7392 4083,0.000491642
+.cell:.geom_x:.geom_y,211,-7394 4064,0.000491642
+.cell:.geom_x:.geom_y,212,-7390 4084,0.000491642
+.cell:.geom_x:.geom_y,213,-7395 4057,0.000491642
+.cell:.geom_x:.geom_y,214,-7394 4085,0.000491642
+.cell:.geom_x:.geom_y,215,-7384 4071,0.000491642
+.cell:.geom_x:.geom_y,216,-7385 4066,0.000245821
+.cell:.geom_x:.geom_y,217,-7413 4056,0.000245821
+.cell:.geom_x:.geom_y,218,-7394 4059,0.000245821
+.cell:.geom_x:.geom_y,219,-7396 4072,0.000245821
+.cell:.geom_x:.geom_y,220,-7391 4071,0.000245821
+.cell:.geom_x:.geom_y,221,-7393 4068,0.000245821
+.cell:.geom_x:.geom_y,222,-7394 4081,0.000245821
+.cell:.geom_x:.geom_y,223,-7418 4057,0.000245821
+.cell:.geom_x:.geom_y,224,-7394 4078,0.000245821
+.cell:.geom_x:.geom_y,225,-7386 4068,0.000245821
+.cell:.geom_x:.geom_y,226,-7412 4057,0.000245821

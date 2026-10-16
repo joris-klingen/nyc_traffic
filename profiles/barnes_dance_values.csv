@@ -1,0 +1,818 @@
+column,rank,value,share
+BoroCode,1,1,0.457259
+BoroCode,2,3,0.213026
+BoroCode,3,2,0.17232
+BoroCode,4,4,0.145183
+BoroCode,5,5,0.0122117
+BoroName,1,Manhattan,0.457259
+BoroName,2,Brooklyn,0.213026
+BoroName,3,Bronx,0.17232
+BoroName,4,Queens,0.145183
+BoroName,5,Staten Island,0.0122117
+CongDist,1,10,0.192673
+CongDist,2,13,0.181818
+CongDist,3,12,0.17232
+CongDist,4,15,0.0990502
+CongDist,5,6,0.0678426
+CongDist,6,7,0.0610583
+CongDist,7,9,0.0488467
+CongDist,8,14,0.0488467
+CongDist,9,8,0.0474898
+CongDist,10,5,0.0352782
+CongDist,11,11,0.0298507
+CongDist,12,3,0.00814111
+CongDist,13,16,0.00678426
+Main Street,1,5 Avenue,0.0325645
+Main Street,2,Broadway,0.0325645
+Main Street,3,Riverside Drive,0.0325645
+Main Street,4,1 Avenue,0.0257802
+Main Street,5,Central Park W,0.0257802
+Main Street,6,Amsterdam Avenue,0.0230665
+Main Street,7,3 Avenue,0.0230665
+Main Street,8,Prospect Park,0.0217096
+Main Street,9,Madison Avenue,0.0162822
+Main Street,10,Flatbush Avenue,0.0135685
+Main Street,11,St Nicholas Avenue,0.0122117
+Main Street,12,2 Avenue,0.0108548
+Main Street,13,Jerome Avenue,0.0108548
+Main Street,14,Webster Avenue,0.00949796
+Main Street,15,Columbus Ave,0.00949796
+Main Street,16,Grand Concourse,0.00814111
+Main Street,17,Southern Boulevard,0.00814111
+Main Street,18,University Avenue,0.00814111
+Main Street,19,Fulton Street,0.00814111
+Main Street,20,8 Avenue,0.00814111
+Main Street,21,7 Avenue,0.00814111
+Main Street,22,Grand Street,0.00814111
+Main Street,23,4 Avenue,0.00814111
+Main Street,24,East Tremont Avenue,0.00678426
+Main Street,25,Hillside Avenue,0.00678426
+Main Street,26,South Street,0.00678426
+Main Street,27,Lenox Avenue,0.00678426
+Main Street,28,Main Street,0.00678426
+Main Street,29,Greenwich Street,0.00678426
+Main Street,30,Kissena Blvd,0.00678426
+Main Street,31,Jamaica Ave,0.00678426
+Main Street,32,Baychester Avenue,0.00678426
+Main Street,33,Myrtle Avenue,0.00678426
+Main Street,34,Centre Street,0.00678426
+Main Street,35,West St,0.00542741
+Main Street,36,Bay Pkwy,0.00542741
+Main Street,37,Atlantic Avenue,0.00542741
+Main Street,38,York Avenue,0.00542741
+Main Street,39,6 Avenue,0.00542741
+Main Street,40,East Houston St,0.00542741
+Main Street,41,Metropolitan Avenue,0.00542741
+Main Street,42,W 34 Street,0.00542741
+Main Street,43,Coney Island Ave,0.00542741
+Main Street,44,W 125 Street,0.00542741
+Main Street,45,W 42 Street,0.00542741
+Main Street,46,East Fordham Rd,0.00407056
+Main Street,47,Nostrand Ave,0.00407056
+Main Street,48,Roosevelt Avenue,0.00407056
+Main Street,49,Steinway Street,0.00407056
+Main Street,50,86 Street,0.00407056
+Main Street,51,Woodside Avenue,0.00407056
+Main Street,52,Northern Boulevard,0.00407056
+Main Street,53,Queens Boulevard,0.00407056
+Main Street,54,Sedgwick Avenue,0.00407056
+Main Street,55,11 Avenue,0.00407056
+Main Street,56,Water Street,0.00407056
+Main Street,57,Convent Avenue,0.00407056
+Main Street,58,Sutphin Blvd,0.00407056
+Main Street,59,W 57 Street,0.00407056
+Main Street,60,Ocean Avenue,0.00407056
+Main Street,61,Lexington Avenue,0.00407056
+Main Street,62,Court Street,0.00407056
+Main Street,63,Avenue D,0.00407056
+Main Street,64,Rockaway Blvd,0.00407056
+Main Street,65,Livingston Street,0.00407056
+Main Street,66,Willis Avenue,0.00407056
+Main Street,67,Avenue B,0.0027137
+Main Street,68,Battery Place,0.0027137
+Main Street,69,Chrystie Street,0.0027137
+Main Street,70,Bainbridge Ave,0.0027137
+Main Street,71,Reservoir Avenue,0.0027137
+Main Street,72,Central Park East Drive,0.0027137
+Main Street,73,East 161 Street,0.0027137
+Main Street,74,East 149 Street,0.0027137
+Main Street,75,Grand Avenue,0.0027137
+Main Street,76,City Island Road,0.0027137
+Main Street,77,Queens Plaza North,0.0027137
+Main Street,78,Hugh Grant Circle,0.0027137
+Main Street,79,Wyckoff Avenue,0.0027137
+Main Street,80,Boston Road,0.0027137
+Main Street,81,State Street,0.0027137
+Main Street,82,Morris Park Avenue,0.0027137
+Main Street,83,West Fordham Road,0.0027137
+Main Street,84,Neptune Avenue,0.0027137
+Main Street,85,Adams Street,0.0027137
+Main Street,86,Graham Avenue,0.0027137
+Main Street,87,Henry Hudson Pkwy W S/R,0.0027137
+Main Street,88,Flushing Avenue,0.0027137
+Main Street,89,Pennsylvania Avenue,0.0027137
+Main Street,90,Bowne Street,0.0027137
+Main Street,91,Washington Square So,0.0027137
+Main Street,92,Sanford Avenue,0.0027137
+Main Street,93,Fransis Lewis Blvd,0.0027137
+Main Street,94,East 163 Street,0.0027137
+Main Street,95,Shore Front Pkwy,0.0027137
+Main Street,96,34 Avenue,0.0027137
+Main Street,97,Bowery,0.0027137
+Main Street,98,East 170 Street,0.0027137
+Main Street,99,College Point Blvd,0.0027137
+Main Street,100,Forsyth Street,0.0027137
+Main Street,101,Washington Avenue,0.0027137
+Main Street,102,Canal Street,0.0027137
+Main Street,103,Pelham Parkway North,0.0027137
+Main Street,104,East 168 Street,0.0027137
+Main Street,105,VARICK ST,0.0027137
+Main Street,106,Union Turnpike,0.0027137
+Main Street,107,West Tremont Avenue,0.0027137
+Main Street,108,East NY Avenue,0.0027137
+Main Street,109,Yellowstone Blvd,0.0027137
+Main Street,110,Montgomery Street,0.0027137
+Main Street,111,New Dorp Lane,0.0027137
+Main Street,112,Van Courtland Park East,0.0027137
+Main Street,113,Ft. Washington Avenue,0.0027137
+Main Street,114,Parkside Avenue,0.0027137
+Main Street,115,Pelham Parkway EB,0.0027137
+Main Street,116,Bartel Pritchard Sq,0.0027137
+Main Street,117,7 Avenue SB,0.0027137
+Main Street,118,Frederick Douglass Circle,0.0027137
+Main Street,119,Forest Avenue,0.0027137
+Main Street,120,N Conduit Blvd,0.0027137
+Main Street,121,Bedford Avenue,0.0027137
+Main Street,122,Corona Avenue,0.0027137
+Main Street,123,Lenox Road,0.0027137
+Main Street,124,Madison Street,0.0027137
+Main Street,125,East Broadway,0.0027137
+Main Street,126,Sutter Avenue,0.0027137
+Main Street,127,Marcy Avenue,0.0027137
+Main Street,128,West End Avenue,0.0027137
+Main Street,129,Lefferts Blvd,0.00135685
+Main Street,130,Clinton Street,0.00135685
+Main Street,131,Church Avenue,0.00135685
+Main Street,132,Central Park Post #3,0.00135685
+Main Street,133,69 Street,0.00135685
+Main Street,134,Wadsworth Avenue,0.00135685
+Main Street,135,Hudson Street,0.00135685
+Main Street,136,Archer Avenue,0.00135685
+Main Street,137,Thomas Boyland Street,0.00135685
+Main Street,138,Unionport Road,0.00135685
+Main Street,139,East 34 Street,0.00135685
+Main Street,140,Williams Ave,0.00135685
+Main Street,141,212 Street,0.00135685
+Main Street,142,W 23 Street,0.00135685
+Main Street,143,80 St & Dry Harbor Rd,0.00135685
+Main Street,144,Pitt Street,0.00135685
+Main Street,145,Lafayette Avenue,0.00135685
+Main Street,146,Mother Gaston Blvd,0.00135685
+Main Street,147,55 WATER ST,0.00135685
+Main Street,148,Rutland Road,0.00135685
+Main Street,149,Avenue C,0.00135685
+Main Street,150,Dahill Rd,0.00135685
+Main Street,151,W 112 Street,0.00135685
+Main Street,152,Central Park Post #4B,0.00135685
+Main Street,153,Wythe Avenue,0.00135685
+Main Street,154,Cropsey Avenue,0.00135685
+Main Street,155,Avenue M,0.00135685
+Main Street,156,W 43 Street,0.00135685
+Main Street,157,McDonald Ave,0.00135685
+Main Street,158,Park Row,0.00135685
+Main Street,159,West 12 Street,0.00135685
+Main Street,160,S Conduit Blvd,0.00135685
+Main Street,161,Franklin Street,0.00135685
+Main Street,162,Avenue U,0.00135685
+Main Street,163,LIE N S/R,0.00135685
+Main Street,164,Clintonville Street,0.00135685
+Main Street,165,Cross Island Pkwy WB,0.00135685
+Main Street,166,Whitehall Street,0.00135685
+Main Street,167,Cadman Plaza West,0.00135685
+Main Street,168,Central Park West,0.00135685
+Main Street,169,Patchen Avenue,0.00135685
+Main Street,170,East 98 St,0.00135685
+Main Street,171,East 25 Street,0.00135685
+Main Street,172,Murray Street,0.00135685
+Main Street,173,Park Avenue East S/R,0.00135685
+Main Street,174,Pelham Parkway WB,0.00135685
+Main Street,175,7 Avenue South,0.00135685
+Main Street,176,Marginal Street,0.00135685
+Main Street,177,Worth Street,0.00135685
+Main Street,178,Water Street & State St,0.00135685
+Main Street,179,Bushwick Ave,0.00135685
+Main Street,180,87 Street,0.00135685
+Main Street,181,9 Avenue,0.00135685
+Main Street,182,Renwick Avenue,0.00135685
+Main Street,183,Stillwell Avenue,0.00135685
+Main Street,184,Morningside Ave,0.00135685
+Main Street,185,Union Avenue,0.00135685
+Main Street,186,63 Road,0.00135685
+Main Street,187,Van Duzer Street,0.00135685
+Main Street,188,Williansbridge Rs (Midblock),0.00135685
+Main Street,189,Prospect Avenue,0.00135685
+Main Street,190,Grand Army Plaza,0.00135685
+Main Street,191,Castle Hill Avenue,0.00135685
+Main Street,192,West 5 Street,0.00135685
+Main Street,193,10 Avenue,0.00135685
+Main Street,194,FDR NB SR,0.00135685
+Main Street,195,Bailey Avenue,0.00135685
+Main Street,196,Queens Boulevard North,0.00135685
+Main Street,197,Ft. Hamilton Pkwy,0.00135685
+Main Street,198,Valentine Avenue,0.00135685
+Main Street,199,Ashland Place,0.00135685
+Main Street,200,East 120 Street,0.00135685
+Main Street,201,East 20 Street,0.00135685
+Main Street,202,Baxter Avenue,0.00135685
+Main Street,203,Rockaway Pkwy,0.00135685
+Main Street,204,Morningside Avenue,0.00135685
+Main Street,205,Park Ave & E Roadway,0.00135685
+Main Street,206,108 Street,0.00135685
+Main Street,207,92 Street,0.00135685
+Main Street,208,Seaview Avenue,0.00135685
+Main Street,209,Prospect Park West,0.00135685
+Main Street,210,Avenue A,0.00135685
+Main Street,211,86 Avenue,0.00135685
+Main Street,212,Richmond Terrace,0.00135685
+Main Street,213,Mosholu Pkwy N/B,0.00135685
+Main Street,214,Prospect EXPY & 19 Street,0.00135685
+Main Street,215,Melbourne Avenue,0.00135685
+Main Street,216,Bradhurst Avenue,0.00135685
+Main Street,217,Zerega Avenue,0.00135685
+Main Street,218,Ocean Pkwy,0.00135685
+Main Street,219,Kappock Street,0.00135685
+Main Street,220,Front Street,0.00135685
+Main Street,221,East 23 Street,0.00135685
+Main Street,222,W 65 Street,0.00135685
+Main Street,223,Bruckner Blvd,0.00135685
+Main Street,224,Broad Street,0.00135685
+Main Street,225,New Lots Avenue,0.00135685
+Main Street,226,W 181 Street,0.00135685
+Main Street,227,Kingsland Avenue,0.00135685
+Main Street,228,Hicks Street,0.00135685
+Main Street,229,Brook Avenue,0.00135685
+Main Street,230,W 53 Street,0.00135685
+Main Street,231,East 157 St & East 153 St.,0.00135685
+Main Street,232,East 57 Street,0.00135685
+Main Street,233,East 233 Street,0.00135685
+Main Street,234,9 Av & Columbus Av,0.00135685
+Main Street,235,E 42 Street,0.00135685
+Main Street,236,West 205 Street,0.00135685
+Main Street,237,Newkirk Avenue,0.00135685
+Main Street,238,12 Avenue,0.00135685
+Main Street,239,101 Avenue,0.00135685
+Main Street,240,Greenwich Avenue,0.00135685
+Main Street,241,Gold Street,0.00135685
+Main Street,242,Skillman Avenue,0.00135685
+Main Street,243,Astor Avenue,0.00135685
+Main Street,244,Knapp Street,0.00135685
+Main Street,245,Linden Blvd,0.00135685
+Main Street,246,43 Avenue,0.00135685
+Main Street,247,Van Wyck Expwy,0.00135685
+Main Street,248,Mott Avenue,0.00135685
+Main Street,249,Johnson Avenue,0.00135685
+Main Street,250,Kent Avenue,0.00135685
+Main Street,251,Central Park Drive,0.00135685
+Main Street,252,St Anns Avenue,0.00135685
+Main Street,253,Ft. George Avenue,0.00135685
+Main Street,254,Prospect Park South West,0.00135685
+Main Street,255,Brooklyn Avenue,0.00135685
+Main Street,256,Merrick Blvd,0.00135685
+Main Street,257,Juniper Blvd S,0.00135685
+Main Street,258,Rockaway Beach Blvd,0.00135685
+Main Street,259,LIE S S/R,0.00135685
+Main Street,260,Union Street,0.00135685
+Main Street,261,Edgwater Road,0.00135685
+Main Street,262,VESEY ST,0.00135685
+Main Street,263,Park Drive,0.00135685
+Main Street,264,Bartel Pritchard Sq S,0.00135685
+Main Street,265,Liberty Avenue,0.00135685
+Main Street,266,Austin Street,0.00135685
+Main Street,267,Kings Highway,0.00135685
+Main Street,268,Liberty Street,0.00135685
+Main Street,269,Cooper Square,0.00135685
+Main Street,270,Parsons Boulevard,0.00135685
+Main Street,271,East End Avenue,0.00135685
+Main Street,272,UNION SQUARE WEST,0.00135685
+Main Street,273,Vanderbilt Avenue,0.00135685
+Main Street,274,75 Street,0.00135685
+Main Street,275,Morris Avenue & Park Avenue,0.00135685
+Main Street,276,Winthrop Street,0.00135685
+Main Street,277,Pelham Parkway South S/R,0.00135685
+Main Street,278,Rockaway Parkway,0.00135685
+Main Street,279,Cypress Avenue,0.00135685
+Main Street,280,Soundview Avenue,0.00135685
+Main Street,281,Bronx Boulevard,0.00135685
+Main Street,282,Rosedale Avenue,0.00135685
+Main Street,283,Lafayette Street,0.00135685
+Main Street,284,Manhattan Avenue,0.00135685
+Main Street,285,Targee Street,0.00135685
+Main Street,286,Hoe Avenue,0.00135685
+Main Street,287,Jay Street,0.00135685
+Main Street,288,East 138 Street,0.00135685
+Main Street,289,Pelham Parkway North S/R,0.00135685
+Main Street,290,Guy R Brewer Blvd,0.00135685
+Main Street,291,149 Street,0.00135685
+Main Street,292,Avenue T,0.00135685
+Main Street,293,Reade Street,0.00135685
+Main Street,294,Central Park Post #4,0.00135685
+Main Street,295,111 Street,0.00135685
+Main Street,296,Thomson Avenue,0.00135685
+Main Street,297,Frederick Douglass Blvd,0.00135685
+Main Street,298,East 174 Street,0.00135685
+Main Street,299,Nagle Avenue,0.00135685
+Main Street,300,Sheepshead Bay,0.00135685
+Main Street,301,Astoria Blvd,0.00135685
+Main Street,302,Park Avenue,0.00135685
+Main Street,303,Furman Street,0.00135685
+Main Street,304,Story Avenue,0.00135685
+Main Street,305,Exterior Srteet (Gateway Ctr),0.00135685
+Main Street,306,Avenue N,0.00135685
+Main Street,307,St. James Place,0.00135685
+Main Street,308,Mermaid Avenue,0.00135685
+Main Street,309,Flatlands Avenue,0.00135685
+Main Street,310,West St S/B,0.00135685
+Barnes Dance,1,X,1
+Modified Barnes Dance,1,X,1
+Mid-Block Crossing,1,X,1
+T- Oneway Away- 24 hour Walk,1,X,0.965517
+T- Oneway Away- 24 hour Walk,2,x,0.0295567
+T- Oneway Away- 24 hour Walk,3,X - 24 hr walk,0.00492611
+T- Oneway Away- All Walk in Phase B,1,X,1
+Installation Date,1,00:00:00.000,1
+NTAName,1,Financial District-Battery Park City,0.036635
+NTAName,2,Central Park,0.036635
+NTAName,3,Prospect Park,0.0312076
+NTAName,4,East Harlem (South),0.0298507
+NTAName,5,East Harlem (North),0.027137
+NTAName,6,Harlem (North),0.027137
+NTAName,7,Lower East Side,0.0217096
+NTAName,8,Upper West Side-Manhattan Valley,0.0217096
+NTAName,9,Downtown Brooklyn-DUMBO-Boerum Hill,0.0176391
+NTAName,10,Tribeca-Civic Center,0.0176391
+NTAName,11,Morningside Heights,0.0162822
+NTAName,12,Upper East Side-Carnegie Hill,0.0162822
+NTAName,13,Flushing-Willets Point,0.0162822
+NTAName,14,Chinatown-Two Bridges,0.0149254
+NTAName,15,East Village,0.0135685
+NTAName,16,Mott Haven-Port Morris,0.0135685
+NTAName,17,Washington Heights (North),0.0135685
+NTAName,18,Upper West Side-Lincoln Square,0.0135685
+NTAName,19,Jamaica,0.0122117
+NTAName,20,Upper West Side (Central),0.0122117
+NTAName,21,Harlem (South),0.0122117
+NTAName,22,Midtown-Times Square,0.0122117
+NTAName,23,Midtown South-Flatiron-Union Square,0.0122117
+NTAName,24,Murray Hill-Kips Bay,0.0108548
+NTAName,25,Bay Ridge,0.0108548
+NTAName,26,Chelsea-Hudson Yards,0.0108548
+NTAName,27,Flatbush,0.0108548
+NTAName,28,West Village,0.00949796
+NTAName,29,University Heights (South)-Morris Heights,0.00949796
+NTAName,30,Brownsville,0.00949796
+NTAName,31,Fort Greene,0.00949796
+NTAName,32,Elmhurst,0.00814111
+NTAName,33,Mount Hope,0.00814111
+NTAName,34,Washington Heights (South),0.00814111
+NTAName,35,Ridgewood,0.00814111
+NTAName,36,Morris Park,0.00814111
+NTAName,37,Woodside,0.00814111
+NTAName,38,Greenwich Village,0.00814111
+NTAName,39,Gramercy,0.00814111
+NTAName,40,Belmont,0.00678426
+NTAName,41,Bedford-Stuyvesant (West),0.00678426
+NTAName,42,Concourse-Concourse Village,0.00678426
+NTAName,43,Norwood,0.00678426
+NTAName,44,Kingsbridge Heights-Van Cortlandt Village,0.00678426
+NTAName,45,Upper East Side-Lenox Hill-Roosevelt Island,0.00678426
+NTAName,46,Coney Island-Sea Gate,0.00678426
+NTAName,47,Riverdale-Spuyten Duyvil,0.00678426
+NTAName,48,Manhattanville-West Harlem,0.00678426
+NTAName,49,Hamilton Heights-Sugar Hill,0.00678426
+NTAName,50,Windsor Terrace-South Slope,0.00678426
+NTAName,51,Mount Eden-Claremont (West),0.00542741
+NTAName,52,Flatbush (West)-Ditmas Park-Parkville,0.00542741
+NTAName,53,Yankee Stadium-Macombs Dam Park,0.00542741
+NTAName,54,Astoria (East)-Woodside (North),0.00542741
+NTAName,55,Bensonhurst,0.00542741
+NTAName,56,Kew Gardens Hills,0.00542741
+NTAName,57,Claremont Village-Claremont (East),0.00542741
+NTAName,58,Melrose,0.00542741
+NTAName,59,University Heights (North)-Fordham,0.00542741
+NTAName,60,East New York-City Line,0.00542741
+NTAName,61,SoHo-Little Italy-Hudson Square,0.00542741
+NTAName,62,Morrisania,0.00542741
+NTAName,63,Park Slope,0.00542741
+NTAName,64,Upper East Side-Yorkville,0.00542741
+NTAName,65,Forest Hills,0.00542741
+NTAName,66,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,0.00542741
+NTAName,67,Ocean Hill,0.00407056
+NTAName,68,Gravesend (West),0.00407056
+NTAName,69,Crotona Park East,0.00407056
+NTAName,70,East Williamsburg,0.00407056
+NTAName,71,East Flatbush-Remsen Village,0.00407056
+NTAName,72,Midwood,0.00407056
+NTAName,73,Hell's Kitchen,0.00407056
+NTAName,74,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,0.00407056
+NTAName,75,Rockaway Beach-Arverne-Edgemere,0.00407056
+NTAName,76,Bedford-Stuyvesant (East),0.00407056
+NTAName,77,Prospect Lefferts Gardens-Wingate,0.00407056
+NTAName,78,Wakefield-Woodlawn,0.00407056
+NTAName,79,Corona,0.00407056
+NTAName,80,Bedford Park,0.00407056
+NTAName,81,Longwood,0.00407056
+NTAName,82,East Flatbush-Erasmus,0.00407056
+NTAName,83,Middle Village,0.00407056
+NTAName,84,Fordham Heights,0.00407056
+NTAName,85,Flatlands,0.00407056
+NTAName,86,Eastchester-Edenwald-Baychester,0.00407056
+NTAName,87,Tremont,0.0027137
+NTAName,88,Richmond Hill,0.0027137
+NTAName,89,Pelham Bay-Country Club-City Island,0.0027137
+NTAName,90,Maspeth,0.0027137
+NTAName,91,Castle Hill-Unionport,0.0027137
+NTAName,92,Parkchester,0.0027137
+NTAName,93,Canarsie,0.0027137
+NTAName,94,Spring Creek-Starrett City,0.0027137
+NTAName,95,Queensboro Hill,0.0027137
+NTAName,96,Whitestone-Beechhurst,0.0027137
+NTAName,97,West Farms,0.0027137
+NTAName,98,East Flushing,0.0027137
+NTAName,99,Pelham Gardens,0.0027137
+NTAName,100,Bushwick (West),0.0027137
+NTAName,101,Williamsburg,0.0027137
+NTAName,102,Rego Park,0.0027137
+NTAName,103,Tompkinsville-Stapleton-Clifton-Fox Hills,0.0027137
+NTAName,104,Westchester Square,0.0027137
+NTAName,105,Co-op City,0.0027137
+NTAName,106,East Midtown-Turtle Bay,0.0027137
+NTAName,107,Dyker Heights,0.0027137
+NTAName,108,Jackson Heights,0.0027137
+NTAName,109,Marine Park-Mill Basin-Bergen Beach,0.0027137
+NTAName,110,Pelham Bay Park,0.0027137
+NTAName,111,Inwood,0.0027137
+NTAName,112,Allerton,0.0027137
+NTAName,113,Glendale,0.0027137
+NTAName,114,Highbridge Park,0.0027137
+NTAName,115,Ozone Park,0.0027137
+NTAName,116,Soundview-Clason Point,0.0027137
+NTAName,117,Soundview-Bruckner-Bronx River,0.0027137
+NTAName,118,Kew Gardens,0.00135685
+NTAName,119,Queensbridge-Ravenswood-Dutch Kills,0.00135685
+NTAName,120,Flushing Meadows-Corona Park,0.00135685
+NTAName,121,Bay Terrace-Clearview,0.00135685
+NTAName,122,St. John Cemetery,0.00135685
+NTAName,123,Queens Village,0.00135685
+NTAName,124,Clinton Hill,0.00135685
+NTAName,125,Borough Park,0.00135685
+NTAName,126,Crotona Park,0.00135685
+NTAName,127,South Williamsburg,0.00135685
+NTAName,128,Bath Beach,0.00135685
+NTAName,129,Greenpoint,0.00135685
+NTAName,130,Cunningham Park,0.00135685
+NTAName,131,North Corona,0.00135685
+NTAName,132,Bronx Park,0.00135685
+NTAName,133,Kensington,0.00135685
+NTAName,134,Todt Hill-Emerson Hill-Lighthouse Hill-Manor Heights,0.00135685
+NTAName,135,Gravesend (South),0.00135685
+NTAName,136,Pelham Parkway-Van Nest,0.00135685
+NTAName,137,Long Island City-Hunters Point,0.00135685
+NTAName,138,The Battery-Governors Island-Ellis Island-Liberty Island,0.00135685
+NTAName,139,Hollis,0.00135685
+NTAName,140,South Ozone Park,0.00135685
+NTAName,141,Gravesend (East)-Homecrest,0.00135685
+NTAName,142,Stuyvesant Town-Peter Cooper Village,0.00135685
+NTAName,143,New Dorp-Midland Beach,0.00135685
+NTAName,144,Baisley Park,0.00135685
+NTAName,145,Bayside,0.00135685
+NTAName,146,Bellerose,0.00135685
+NTAName,147,Ozone Park (North),0.00135685
+NTAName,148,St. George-New Brighton,0.00135685
+NTAName,149,East New York-New Lots,0.00135685
+NTAName,150,East Flatbush-Farragut,0.00135685
+NTAName,151,Jamaica Estates-Holliswood,0.00135685
+NTAName,152,Far Rockaway-Bayswater,0.00135685
+NTAName,153,Sunnyside Yards (South),0.00135685
+NTAName,154,Sunset Park (Central),0.00135685
+NTAName,155,Crown Heights (North),0.00135685
+NTAName,156,Woodhaven,0.00135685
+NTAName,157,Fresh Meadows-Utopia,0.00135685
+NTAName,158,Hunts Point,0.00135685
+NTAName,159,South Jamaica,0.00135685
+NTAName,160,Douglaston-Little Neck,0.00135685
+NTAName,161,Pomonok-Electchester-Hillcrest,0.00135685
+NTAName,162,Rosebank-Shore Acres-Park Hill,0.00135685
+NTAName,163,Cambria Heights,0.00135685
+NTAName,164,Highland Park-Cypress Hills Cemeteries (North),0.00135685
+NTAName,165,Hutchinson Metro Center,0.00135685
+NTAName,166,Williamsbridge-Olinville,0.00135685
+NTAName,167,Grasmere-Arrochar-South Beach-Dongan Hills,0.00135685
+NTAName,168,Springfield Gardens (North)-Rochdale Village,0.00135685
+NTAName,169,Murray Hill-Broadway Flushing,0.00135685
+NTAName,170,Sunnyside,0.00135685
+NTAName,171,Miller Field,0.00135685
+NTAName,172,West New Brighton-Silver Lake-Grymes Hill,0.00135685
+NTAName,173,East Elmhurst,0.00135685
+NTAName,174,Throgs Neck-Schuylerville,0.00135685
+NTAName,175,Brooklyn Heights,0.00135685
+NTAName,176,Cypress Hills,0.00135685
+FEMAFldz,1,X,0.936228
+FEMAFldz,2,AE,0.063772
+FEMAFldT,1,AREA OF MINIMAL FLOOD HAZARD,0.971014
+FEMAFldT,2,0.2 PCT ANNUAL CHANCE FLOOD HAZARD,0.0289855
+HrcEvac,1,X,0.576662
+HrcEvac,2,6,0.112619
+HrcEvac,3,1,0.0786974
+HrcEvac,4,5,0.0651289
+HrcEvac,5,4,0.063772
+HrcEvac,6,2,0.0624152
+HrcEvac,7,3,0.0407056
+.cell:.geom_x:.geom_y,1,-7395 4079,0.0203528
+.cell:.geom_x:.geom_y,2,-7402 4070,0.0189959
+.cell:.geom_x:.geom_y,3,-7401 4071,0.0162822
+.cell:.geom_x:.geom_y,4,-7399 4071,0.0149254
+.cell:.geom_x:.geom_y,5,-7397 4079,0.0149254
+.cell:.geom_x:.geom_y,6,-7395 4078,0.0135685
+.cell:.geom_x:.geom_y,7,-7397 4080,0.0122117
+.cell:.geom_x:.geom_y,8,-7395 4081,0.0122117
+.cell:.geom_x:.geom_y,9,-7398 4066,0.0122117
+.cell:.geom_x:.geom_y,10,-7397 4077,0.0108548
+.cell:.geom_x:.geom_y,11,-7402 4071,0.0108548
+.cell:.geom_x:.geom_y,12,-7396 4080,0.0108548
+.cell:.geom_x:.geom_y,13,-7399 4077,0.0108548
+.cell:.geom_x:.geom_y,14,-7397 4065,0.0108548
+.cell:.geom_x:.geom_y,15,-7400 4072,0.00949796
+.cell:.geom_x:.geom_y,16,-7391 4085,0.00949796
+.cell:.geom_x:.geom_y,17,-7396 4079,0.00949796
+.cell:.geom_x:.geom_y,18,-7396 4078,0.00949796
+.cell:.geom_x:.geom_y,19,-7398 4074,0.00949796
+.cell:.geom_x:.geom_y,20,-7391 4083,0.00949796
+.cell:.geom_x:.geom_y,21,-7383 4075,0.00949796
+.cell:.geom_x:.geom_y,22,-7395 4082,0.00949796
+.cell:.geom_x:.geom_y,23,-7397 4066,0.00949796
+.cell:.geom_x:.geom_y,24,-7400 4071,0.00949796
+.cell:.geom_x:.geom_y,25,-7399 4072,0.00814111
+.cell:.geom_x:.geom_y,26,-7395 4080,0.00814111
+.cell:.geom_x:.geom_y,27,-7394 4079,0.00814111
+.cell:.geom_x:.geom_y,28,-7397 4078,0.00814111
+.cell:.geom_x:.geom_y,29,-7399 4068,0.00814111
+.cell:.geom_x:.geom_y,30,-7394 4081,0.00814111
+.cell:.geom_x:.geom_y,31,-7398 4079,0.00814111
+.cell:.geom_x:.geom_y,32,-7400 4075,0.00814111
+.cell:.geom_x:.geom_y,33,-7401 4072,0.00814111
+.cell:.geom_x:.geom_y,34,-7393 4082,0.00678426
+.cell:.geom_x:.geom_y,35,-7401 4073,0.00678426
+.cell:.geom_x:.geom_y,36,-7399 4078,0.00678426
+.cell:.geom_x:.geom_y,37,-7398 4077,0.00678426
+.cell:.geom_x:.geom_y,38,-7399 4069,0.00678426
+.cell:.geom_x:.geom_y,39,-7399 4075,0.00678426
+.cell:.geom_x:.geom_y,40,-7398 4068,0.00678426
+.cell:.geom_x:.geom_y,41,-7399 4074,0.00678426
+.cell:.geom_x:.geom_y,42,-7399 4076,0.00678426
+.cell:.geom_x:.geom_y,43,-7398 4076,0.00678426
+.cell:.geom_x:.geom_y,44,-7401 4070,0.00678426
+.cell:.geom_x:.geom_y,45,-7393 4081,0.00678426
+.cell:.geom_x:.geom_y,46,-7401 4074,0.00542741
+.cell:.geom_x:.geom_y,47,-7389 4085,0.00542741
+.cell:.geom_x:.geom_y,48,-7388 4087,0.00542741
+.cell:.geom_x:.geom_y,49,-7394 4084,0.00542741
+.cell:.geom_x:.geom_y,50,-7392 4081,0.00542741
+.cell:.geom_x:.geom_y,51,-7381 4070,0.00542741
+.cell:.geom_x:.geom_y,52,-7388 4071,0.00542741
+.cell:.geom_x:.geom_y,53,-7391 4086,0.00542741
+.cell:.geom_x:.geom_y,54,-7390 4074,0.00542741
+.cell:.geom_x:.geom_y,55,-7398 4072,0.00542741
+.cell:.geom_x:.geom_y,56,-7400 4073,0.00542741
+.cell:.geom_x:.geom_y,57,-7395 4063,0.00542741
+.cell:.geom_x:.geom_y,58,-7391 4082,0.00542741
+.cell:.geom_x:.geom_y,59,-7394 4082,0.00542741
+.cell:.geom_x:.geom_y,60,-7396 4081,0.00542741
+.cell:.geom_x:.geom_y,61,-7399 4073,0.00542741
+.cell:.geom_x:.geom_y,62,-7398 4078,0.00542741
+.cell:.geom_x:.geom_y,63,-7393 4086,0.00542741
+.cell:.geom_x:.geom_y,64,-7390 4084,0.00407056
+.cell:.geom_x:.geom_y,65,-7391 4087,0.00407056
+.cell:.geom_x:.geom_y,66,-7392 4084,0.00407056
+.cell:.geom_x:.geom_y,67,-7394 4085,0.00407056
+.cell:.geom_x:.geom_y,68,-7400 4074,0.00407056
+.cell:.geom_x:.geom_y,69,-7385 4085,0.00407056
+.cell:.geom_x:.geom_y,70,-7396 4082,0.00407056
+.cell:.geom_x:.geom_y,71,-7392 4066,0.00407056
+.cell:.geom_x:.geom_y,72,-7393 4066,0.00407056
+.cell:.geom_x:.geom_y,73,-7383 4076,0.00407056
+.cell:.geom_x:.geom_y,74,-7391 4084,0.00407056
+.cell:.geom_x:.geom_y,75,-7400 4069,0.00407056
+.cell:.geom_x:.geom_y,76,-7386 4085,0.00407056
+.cell:.geom_x:.geom_y,77,-7397 4081,0.00407056
+.cell:.geom_x:.geom_y,78,-7403 4062,0.00407056
+.cell:.geom_x:.geom_y,79,-7396 4076,0.00407056
+.cell:.geom_x:.geom_y,80,-7392 4085,0.00407056
+.cell:.geom_x:.geom_y,81,-7398 4080,0.00407056
+.cell:.geom_x:.geom_y,82,-7398 4075,0.00407056
+.cell:.geom_x:.geom_y,83,-7385 4072,0.00407056
+.cell:.geom_x:.geom_y,84,-7396 4065,0.00407056
+.cell:.geom_x:.geom_y,85,-7398 4065,0.00407056
+.cell:.geom_x:.geom_y,86,-7390 4082,0.00407056
+.cell:.geom_x:.geom_y,87,-7398 4071,0.00407056
+.cell:.geom_x:.geom_y,88,-7395 4083,0.00407056
+.cell:.geom_x:.geom_y,89,-7385 4088,0.00407056
+.cell:.geom_x:.geom_y,90,-7396 4069,0.0027137
+.cell:.geom_x:.geom_y,91,-7389 4074,0.0027137
+.cell:.geom_x:.geom_y,92,-7397 4068,0.0027137
+.cell:.geom_x:.geom_y,93,-7380 4085,0.0027137
+.cell:.geom_x:.geom_y,94,-7390 4072,0.0027137
+.cell:.geom_x:.geom_y,95,-7387 4083,0.0027137
+.cell:.geom_x:.geom_y,96,-7391 4069,0.0027137
+.cell:.geom_x:.geom_y,97,-7392 4067,0.0027137
+.cell:.geom_x:.geom_y,98,-7392 4075,0.0027137
+.cell:.geom_x:.geom_y,99,-7403 4063,0.0027137
+.cell:.geom_x:.geom_y,100,-7389 4083,0.0027137
+.cell:.geom_x:.geom_y,101,-7399 4060,0.0027137
+.cell:.geom_x:.geom_y,102,-7382 4071,0.0027137
+.cell:.geom_x:.geom_y,103,-7396 4077,0.0027137
+.cell:.geom_x:.geom_y,104,-7400 4057,0.0027137
+.cell:.geom_x:.geom_y,105,-7395 4070,0.0027137
+.cell:.geom_x:.geom_y,106,-7399 4061,0.0027137
+.cell:.geom_x:.geom_y,107,-7391 4067,0.0027137
+.cell:.geom_x:.geom_y,108,-7398 4063,0.0027137
+.cell:.geom_x:.geom_y,109,-7396 4061,0.0027137
+.cell:.geom_x:.geom_y,110,-7401 4075,0.0027137
+.cell:.geom_x:.geom_y,111,-7398 4060,0.0027137
+.cell:.geom_x:.geom_y,112,-7388 4067,0.0027137
+.cell:.geom_x:.geom_y,113,-7381 4078,0.0027137
+.cell:.geom_x:.geom_y,114,-7382 4058,0.0027137
+.cell:.geom_x:.geom_y,115,-7392 4083,0.0027137
+.cell:.geom_x:.geom_y,116,-7394 4070,0.0027137
+.cell:.geom_x:.geom_y,117,-7390 4087,0.0027137
+.cell:.geom_x:.geom_y,118,-7398 4064,0.0027137
+.cell:.geom_x:.geom_y,119,-7384 4075,0.0027137
+.cell:.geom_x:.geom_y,120,-7408 4062,0.0027137
+.cell:.geom_x:.geom_y,121,-7387 4085,0.0027137
+.cell:.geom_x:.geom_y,122,-7394 4074,0.0027137
+.cell:.geom_x:.geom_y,123,-7400 4070,0.0027137
+.cell:.geom_x:.geom_y,124,-7386 4084,0.0027137
+.cell:.geom_x:.geom_y,125,-7393 4083,0.0027137
+.cell:.geom_x:.geom_y,126,-7380 4070,0.0027137
+.cell:.geom_x:.geom_y,127,-7391 4088,0.0027137
+.cell:.geom_x:.geom_y,128,-7384 4087,0.0027137
+.cell:.geom_x:.geom_y,129,-7402 4062,0.0027137
+.cell:.geom_x:.geom_y,130,-7398 4069,0.0027137
+.cell:.geom_x:.geom_y,131,-7398 4073,0.0027137
+.cell:.geom_x:.geom_y,132,-7395 4084,0.0027137
+.cell:.geom_x:.geom_y,133,-7386 4074,0.0027137
+.cell:.geom_x:.geom_y,134,-7403 4061,0.0027137
+.cell:.geom_x:.geom_y,135,-7379 4071,0.0027137
+.cell:.geom_x:.geom_y,136,-7389 4087,0.0027137
+.cell:.geom_x:.geom_y,137,-7383 4073,0.0027137
+.cell:.geom_x:.geom_y,138,-7392 4087,0.0027137
+.cell:.geom_x:.geom_y,139,-7395 4085,0.0027137
+.cell:.geom_x:.geom_y,140,-7394 4083,0.0027137
+.cell:.geom_x:.geom_y,141,-7392 4076,0.0027137
+.cell:.geom_x:.geom_y,142,-7399 4066,0.0027137
+.cell:.geom_x:.geom_y,143,-7387 4067,0.0027137
+.cell:.geom_x:.geom_y,144,-7388 4074,0.0027137
+.cell:.geom_x:.geom_y,145,-7391 4074,0.0027137
+.cell:.geom_x:.geom_y,146,-7395 4065,0.0027137
+.cell:.geom_x:.geom_y,147,-7394 4067,0.0027137
+.cell:.geom_x:.geom_y,148,-7389 4070,0.0027137
+.cell:.geom_x:.geom_y,149,-7394 4080,0.0027137
+.cell:.geom_x:.geom_y,150,-7384 4084,0.0027137
+.cell:.geom_x:.geom_y,151,-7400 4068,0.0027137
+.cell:.geom_x:.geom_y,152,-7395 4069,0.0027137
+.cell:.geom_x:.geom_y,153,-7384 4070,0.00135685
+.cell:.geom_x:.geom_y,154,-7383 4070,0.00135685
+.cell:.geom_x:.geom_y,155,-7397 4064,0.00135685
+.cell:.geom_x:.geom_y,156,-7391 4081,0.00135685
+.cell:.geom_x:.geom_y,157,-7394 4075,0.00135685
+.cell:.geom_x:.geom_y,158,-7385 4075,0.00135685
+.cell:.geom_x:.geom_y,159,-7386 4083,0.00135685
+.cell:.geom_x:.geom_y,160,-7399 4059,0.00135685
+.cell:.geom_x:.geom_y,161,-7390 4065,0.00135685
+.cell:.geom_x:.geom_y,162,-7378 4078,0.00135685
+.cell:.geom_x:.geom_y,163,-7388 4088,0.00135685
+.cell:.geom_x:.geom_y,164,-7376 4072,0.00135685
+.cell:.geom_x:.geom_y,165,-7392 4088,0.00135685
+.cell:.geom_x:.geom_y,166,-7391 4075,0.00135685
+.cell:.geom_x:.geom_y,167,-7390 4073,0.00135685
+.cell:.geom_x:.geom_y,168,-7388 4064,0.00135685
+.cell:.geom_x:.geom_y,169,-7397 4070,0.00135685
+.cell:.geom_x:.geom_y,170,-7401 4060,0.00135685
+.cell:.geom_x:.geom_y,171,-7398 4057,0.00135685
+.cell:.geom_x:.geom_y,172,-7396 4072,0.00135685
+.cell:.geom_x:.geom_y,173,-7391 4071,0.00135685
+.cell:.geom_x:.geom_y,174,-7394 4060,0.00135685
+.cell:.geom_x:.geom_y,175,-7378 4073,0.00135685
+.cell:.geom_x:.geom_y,176,-7381 4073,0.00135685
+.cell:.geom_x:.geom_y,177,-7387 4084,0.00135685
+.cell:.geom_x:.geom_y,178,-7387 4075,0.00135685
+.cell:.geom_x:.geom_y,179,-7393 4068,0.00135685
+.cell:.geom_x:.geom_y,180,-7411 4060,0.00135685
+.cell:.geom_x:.geom_y,181,-7399 4058,0.00135685
+.cell:.geom_x:.geom_y,182,-7396 4070,0.00135685
+.cell:.geom_x:.geom_y,183,-7386 4073,0.00135685
+.cell:.geom_x:.geom_y,184,-7386 4086,0.00135685
+.cell:.geom_x:.geom_y,185,-7390 4083,0.00135685
+.cell:.geom_x:.geom_y,186,-7398 4067,0.00135685
+.cell:.geom_x:.geom_y,187,-7391 4068,0.00135685
+.cell:.geom_x:.geom_y,188,-7378 4071,0.00135685
+.cell:.geom_x:.geom_y,189,-7398 4058,0.00135685
+.cell:.geom_x:.geom_y,190,-7392 4071,0.00135685
+.cell:.geom_x:.geom_y,191,-7386 4071,0.00135685
+.cell:.geom_x:.geom_y,192,-7390 4089,0.00135685
+.cell:.geom_x:.geom_y,193,-7388 4073,0.00135685
+.cell:.geom_x:.geom_y,194,-7383 4067,0.00135685
+.cell:.geom_x:.geom_y,195,-7398 4059,0.00135685
+.cell:.geom_x:.geom_y,196,-7389 4075,0.00135685
+.cell:.geom_x:.geom_y,197,-7391 4080,0.00135685
+.cell:.geom_x:.geom_y,198,-7412 4057,0.00135685
+.cell:.geom_x:.geom_y,199,-7379 4067,0.00135685
+.cell:.geom_x:.geom_y,200,-7402 4072,0.00135685
+.cell:.geom_x:.geom_y,201,-7388 4090,0.00135685
+.cell:.geom_x:.geom_y,202,-7377 4076,0.00135685
+.cell:.geom_x:.geom_y,203,-7390 4063,0.00135685
+.cell:.geom_x:.geom_y,204,-7372 4073,0.00135685
+.cell:.geom_x:.geom_y,205,-7386 4068,0.00135685
+.cell:.geom_x:.geom_y,206,-7393 4060,0.00135685
+.cell:.geom_x:.geom_y,207,-7408 4064,0.00135685
+.cell:.geom_x:.geom_y,208,-7399 4065,0.00135685
+.cell:.geom_x:.geom_y,209,-7385 4083,0.00135685
+.cell:.geom_x:.geom_y,210,-7392 4082,0.00135685
+.cell:.geom_x:.geom_y,211,-7383 4085,0.00135685
+.cell:.geom_x:.geom_y,212,-7384 4076,0.00135685
+.cell:.geom_x:.geom_y,213,-7390 4066,0.00135685
+.cell:.geom_x:.geom_y,214,-7397 4061,0.00135685
+.cell:.geom_x:.geom_y,215,-7395 4071,0.00135685
+.cell:.geom_x:.geom_y,216,-7401 4068,0.00135685
+.cell:.geom_x:.geom_y,217,-7391 4070,0.00135685
+.cell:.geom_x:.geom_y,218,-7386 4072,0.00135685
+.cell:.geom_x:.geom_y,219,-7397 4075,0.00135685
+.cell:.geom_x:.geom_y,220,-7386 4089,0.00135685
+.cell:.geom_x:.geom_y,221,-7397 4063,0.00135685
+.cell:.geom_x:.geom_y,222,-7396 4063,0.00135685
+.cell:.geom_x:.geom_y,223,-7395 4064,0.00135685
+.cell:.geom_x:.geom_y,224,-7396 4064,0.00135685
+.cell:.geom_x:.geom_y,225,-7379 4072,0.00135685
+.cell:.geom_x:.geom_y,226,-7400 4066,0.00135685
+.cell:.geom_x:.geom_y,227,-7392 4074,0.00135685
+.cell:.geom_x:.geom_y,228,-7394 4059,0.00135685
+.cell:.geom_x:.geom_y,229,-7391 4065,0.00135685
+.cell:.geom_x:.geom_y,230,-7396 4066,0.00135685
+.cell:.geom_x:.geom_y,231,-7385 4076,0.00135685
+.cell:.geom_x:.geom_y,232,-7390 4070,0.00135685
+.cell:.geom_x:.geom_y,233,-7375 4060,0.00135685
+.cell:.geom_x:.geom_y,234,-7397 4071,0.00135685
+.cell:.geom_x:.geom_y,235,-7387 4074,0.00135685
+.cell:.geom_x:.geom_y,236,-7393 4085,0.00135685
+.cell:.geom_x:.geom_y,237,-7401 4064,0.00135685
+.cell:.geom_x:.geom_y,238,-7395 4067,0.00135685
+.cell:.geom_x:.geom_y,239,-7390 4085,0.00135685
+.cell:.geom_x:.geom_y,240,-7387 4069,0.00135685
+.cell:.geom_x:.geom_y,241,-7393 4084,0.00135685
+.cell:.geom_x:.geom_y,242,-7381 4058,0.00135685
+.cell:.geom_x:.geom_y,243,-7385 4069,0.00135685
+.cell:.geom_x:.geom_y,244,-7380 4073,0.00135685
+.cell:.geom_x:.geom_y,245,-7389 4081,0.00135685
+.cell:.geom_x:.geom_y,246,-7381 4086,0.00135685
+.cell:.geom_x:.geom_y,247,-7381 4069,0.00135685
+.cell:.geom_x:.geom_y,248,-7387 4086,0.00135685
+.cell:.geom_x:.geom_y,249,-7375 4076,0.00135685
+.cell:.geom_x:.geom_y,250,-7393 4080,0.00135685
+.cell:.geom_x:.geom_y,251,-7389 4086,0.00135685
+.cell:.geom_x:.geom_y,252,-7389 4064,0.00135685
+.cell:.geom_x:.geom_y,253,-7392 4086,0.00135685
+.cell:.geom_x:.geom_y,254,-7389 4084,0.00135685
+.cell:.geom_x:.geom_y,255,-7397 4076,0.00135685
+.cell:.geom_x:.geom_y,256,-7382 4072,0.00135685
+.cell:.geom_x:.geom_y,257,-7395 4077,0.00135685
+.cell:.geom_x:.geom_y,258,-7383 4074,0.00135685
+.cell:.geom_x:.geom_y,259,-7409 4061,0.00135685
+.cell:.geom_x:.geom_y,260,-7394 4065,0.00135685
+.cell:.geom_x:.geom_y,261,-7375 4069,0.00135685
+.cell:.geom_x:.geom_y,262,-7394 4062,0.00135685
+.cell:.geom_x:.geom_y,263,-7385 4067,0.00135685
+.cell:.geom_x:.geom_y,264,-7392 4065,0.00135685
+.cell:.geom_x:.geom_y,265,-7390 4069,0.00135685
+.cell:.geom_x:.geom_y,266,-7389 4088,0.00135685
+.cell:.geom_x:.geom_y,267,-7387 4081,0.00135685
+.cell:.geom_x:.geom_y,268,-7387 4082,0.00135685
+.cell:.geom_x:.geom_y,269,-7410 4060,0.00135685
+.cell:.geom_x:.geom_y,270,-7384 4085,0.00135685
+.cell:.geom_x:.geom_y,271,-7378 4067,0.00135685
+.cell:.geom_x:.geom_y,272,-7399 4067,0.00135685
+.cell:.geom_x:.geom_y,273,-7382 4077,0.00135685
+.cell:.geom_x:.geom_y,274,-7391 4062,0.00135685
+.cell:.geom_x:.geom_y,275,-7387 4090,0.00135685
+.cell:.geom_x:.geom_y,276,-7379 4070,0.00135685
+.cell:.geom_x:.geom_y,277,-7385 4068,0.00135685
+.cell:.geom_x:.geom_y,278,-7411 4056,0.00135685
+.cell:.geom_x:.geom_y,279,-7388 4083,0.00135685
+.cell:.geom_x:.geom_y,280,-7399 4057,0.00135685
+.cell:.geom_x:.geom_y,281,-7411 4063,0.00135685
+.cell:.geom_x:.geom_y,282,-7396 4058,0.00135685
+.cell:.geom_x:.geom_y,283,-7388 4076,0.00135685
+.cell:.geom_x:.geom_y,284,-7388 4082,0.00135685
+.cell:.geom_x:.geom_y,285,-7395 4061,0.00135685
+.cell:.geom_x:.geom_y,286,-7404 4061,0.00135685
+.cell:.geom_x:.geom_y,287,-7402 4073,0.00135685
+.cell:.geom_x:.geom_y,288,-7393 4063,0.00135685
+.cell:.geom_x:.geom_y,289,-7389 4068,0.00135685

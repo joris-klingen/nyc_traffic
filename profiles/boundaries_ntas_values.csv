@@ -1,0 +1,425 @@
+column,rank,value,share
+cdtaname,1,QN01 Astoria-Queensbridge (CD 1 Equivalent),0.0343511
+cdtaname,2,QN07 Flushing-Murray Hill-Whitestone (CD 7 Approximation),0.0343511
+cdtaname,3,QN05 Ridgewood-Maspeth-Middle Village (CD 5 Approximation),0.0305344
+cdtaname,4,QN13 Queens Village-Bellerose-Rosedale (CD 13 Approximation),0.0305344
+cdtaname,5,SI01 North Shore (CD 1 Equivalent),0.0305344
+cdtaname,6,QN08 Fresh Meadows-Hillcrest-Briarwood (CD 8 Approximation),0.0267176
+cdtaname,7,BK05 East New York-Cypress Hills (CD 5 Approximation),0.0229008
+cdtaname,8,BK18 Canarsie-Flatlands (CD 18 Approximation),0.0229008
+cdtaname,9,BX10 Co-op City-Throgs Neck (CD 10 Approximation),0.0229008
+cdtaname,10,QN12 Jamaica-St. Albans-Hollis (CD 12 Approximation),0.0229008
+cdtaname,11,SI03 South Shore (CD 3 Approximation),0.0229008
+cdtaname,12,BK02 Downtown Brooklyn-Fort Greene (CD 2 Approximation),0.019084
+cdtaname,13,BK17 East Flatbush (CD 17 Approximation),0.019084
+cdtaname,14,BX04 Highbridge-Concourse (CD 4 Approximation),0.019084
+cdtaname,15,BX09 Soundview-Parkchester (CD 9 Approximation),0.019084
+cdtaname,16,BX11 Pelham Parkway-Morris Park (CD 11 Approximation),0.019084
+cdtaname,17,MN06 East Midtown-Murray Hill (CD 6 Approximation),0.019084
+cdtaname,18,MN12 Washington Heights-Inwood (CD 12 Equivalent),0.019084
+cdtaname,19,QN02 Long Island City-Sunnyside-Woodside (CD 2 Approximation),0.019084
+cdtaname,20,QN09 Kew Gardens-Richmond Hill-Woodhaven (CD 9 Approximation),0.019084
+cdtaname,21,QN11 Auburndale-Bayside-Douglaston (CD 11 Approximation),0.019084
+cdtaname,22,SI02 Mid-Island (CD 2 Approximation),0.019084
+cdtaname,23,BK01 Williamsburg-Greenpoint (CD 1 Equivalent),0.0152672
+cdtaname,24,BK07 Sunset Park-Windsor Terrace (CD 7 Approximation),0.0152672
+cdtaname,25,BK10 Bay Ridge-Dyker Heights (CD 10 Approximation),0.0152672
+cdtaname,26,BK12 Borough Park-Kensington (CD 12 Approximation),0.0152672
+cdtaname,27,BK13 Coney Island-Brighton Beach (CD 13 Approximation),0.0152672
+cdtaname,28,BX03 Morrisania-Crotona Park East (CD 3 Approximation),0.0152672
+cdtaname,29,BX12 Wakefield-Williamsbridge-Eastchester (CD 12 Approximation),0.0152672
+cdtaname,30,QN10 South Ozone Park-Howard Beach (CD 10 Approximation),0.0152672
+cdtaname,31,QN14 The Rockaways (CD 14 Approximation),0.0152672
+cdtaname,32,SI95 Great Kills Park-Fort Wadsworth (JIA 95 Approximation),0.0152672
+cdtaname,33,BK04 Bushwick (CD 4 Equivalent),0.0114504
+cdtaname,34,BK08 Crown Heights (North) (CD 8 Approximation),0.0114504
+cdtaname,35,BK11 Bensonhurst-Bath Beach (CD 11 Approximation),0.0114504
+cdtaname,36,BK14 Flatbush-Midwood (CD 14 Approximation),0.0114504
+cdtaname,37,BK15 Sheepshead Bay-Gravesend (East) (CD 15 Approximation),0.0114504
+cdtaname,38,BK56 Jamaica Bay (West) (JIA 56 Approximation),0.0114504
+cdtaname,39,BX02 Longwood-Hunts Point (CD 2 Approximation),0.0114504
+cdtaname,40,BX05 Morris Heights-Mount Hope (CD 5 Approximation),0.0114504
+cdtaname,41,BX06 Tremont-Belmont-West Farms (CD 6 Approximation),0.0114504
+cdtaname,42,BX07 Fordham-Bedford Park-Norwood (CD 7 Approximation),0.0114504
+cdtaname,43,BX08 Riverdale-Kingsbridge-Marble Hill (CD 8 Approximation),0.0114504
+cdtaname,44,MN01 Financial District-Tribeca (CD 1 Equivalent),0.0114504
+cdtaname,45,MN02 Greenwich Village-SoHo (CD 2 Equivalent),0.0114504
+cdtaname,46,MN03 Lower East Side-Chinatown (CD 3 Equivalent),0.0114504
+cdtaname,47,MN07 Upper West Side (CD 7 Approximation),0.0114504
+cdtaname,48,MN08 Upper East Side-Roosevelt Island (CD 8 Equivalent),0.0114504
+cdtaname,49,MN09 Morningside Heights-Hamilton Heights (CD 9 Equivalent),0.0114504
+cdtaname,50,MN11 East Harlem (CD 11 Equivalent),0.0114504
+cdtaname,51,QN03 Jackson Heights-East Elmhurst (CD 3 Approximation),0.0114504
+cdtaname,52,BK03 Bedford-Stuyvesant (CD 3 Approximation),0.00763359
+cdtaname,53,BK06 Park Slope-Carroll Gardens (CD 6 Approximation),0.00763359
+cdtaname,54,BK09 Crown Heights (South) (CD 9 Approximation),0.00763359
+cdtaname,55,BK16 Ocean Hill-Brownsville (CD 16 Approximation),0.00763359
+cdtaname,56,BX01 Melrose-Mott Haven-Port Morris (CD 1 Approximation),0.00763359
+cdtaname,57,MN04 Chelsea-Hell's Kitchen (CD 4 Approximation),0.00763359
+cdtaname,58,MN05 Midtown-Flatiron-Union Square (CD 5 Approximation),0.00763359
+cdtaname,59,MN10 Harlem (CD 10 Equivalent),0.00763359
+cdtaname,60,QN04 Elmhurst-Corona (CD 4 Approximation),0.00763359
+cdtaname,61,QN06 Forest Hills-Rego Park (CD 6 Approximation),0.00763359
+cdtaname,62,QN84 Jamaica Bay (East) (JIA 84 Approximation),0.00763359
+cdtaname,63,BK55 Prospect Park (JIA 55 Approximation),0.00381679
+cdtaname,64,BX26 Van Cortlandt Park (JIA 26 Equivalent),0.00381679
+cdtaname,65,BX27 Bronx Park (JIA 27 Approximation),0.00381679
+cdtaname,66,BX28 Pelham Bay Park (JIA 28 Approximation),0.00381679
+cdtaname,67,MN64 Central Park (JIA 64 Equivalent),0.00381679
+cdtaname,68,QN80 LaGuardia Airport (JIA 80 Approximation),0.00381679
+cdtaname,69,QN81 Flushing Meadows-Corona Park (JIA 81 Approximation),0.00381679
+cdtaname,70,QN82 Forest Park (JIA 82 Approximation),0.00381679
+cdtaname,71,QN83 JFK International Airport (JIA 83 Approximation),0.00381679
+boroname,1,Queens,0.312977
+boroname,2,Brooklyn,0.263359
+boroname,3,Bronx,0.19084
+boroname,4,Manhattan,0.145038
+boroname,5,Staten Island,0.0877863
+ntatype,1,0,0.751908
+ntatype,2,9,0.152672
+ntatype,3,7,0.0534351
+ntatype,4,6,0.0305344
+ntatype,5,8,0.00763359
+ntatype,6,5,0.00381679
+borocode,1,4,0.312977
+borocode,2,3,0.263359
+borocode,3,2,0.19084
+borocode,4,1,0.145038
+borocode,5,5,0.0877863
+countyfips,1,081,0.312977
+countyfips,2,047,0.263359
+countyfips,3,005,0.19084
+countyfips,4,061,0.145038
+countyfips,5,085,0.0877863
+cdta2020,1,QN01,0.0343511
+cdta2020,2,QN07,0.0343511
+cdta2020,3,QN05,0.0305344
+cdta2020,4,QN13,0.0305344
+cdta2020,5,SI01,0.0305344
+cdta2020,6,QN08,0.0267176
+cdta2020,7,BK05,0.0229008
+cdta2020,8,BK18,0.0229008
+cdta2020,9,BX10,0.0229008
+cdta2020,10,QN12,0.0229008
+cdta2020,11,SI03,0.0229008
+cdta2020,12,BK02,0.019084
+cdta2020,13,BK17,0.019084
+cdta2020,14,BX04,0.019084
+cdta2020,15,BX09,0.019084
+cdta2020,16,BX11,0.019084
+cdta2020,17,MN06,0.019084
+cdta2020,18,MN12,0.019084
+cdta2020,19,QN02,0.019084
+cdta2020,20,QN09,0.019084
+cdta2020,21,QN11,0.019084
+cdta2020,22,SI02,0.019084
+cdta2020,23,BK01,0.0152672
+cdta2020,24,BK07,0.0152672
+cdta2020,25,BK10,0.0152672
+cdta2020,26,BK12,0.0152672
+cdta2020,27,BK13,0.0152672
+cdta2020,28,BX03,0.0152672
+cdta2020,29,BX12,0.0152672
+cdta2020,30,QN10,0.0152672
+cdta2020,31,QN14,0.0152672
+cdta2020,32,SI95,0.0152672
+cdta2020,33,BK04,0.0114504
+cdta2020,34,BK08,0.0114504
+cdta2020,35,BK11,0.0114504
+cdta2020,36,BK14,0.0114504
+cdta2020,37,BK15,0.0114504
+cdta2020,38,BK56,0.0114504
+cdta2020,39,BX02,0.0114504
+cdta2020,40,BX05,0.0114504
+cdta2020,41,BX06,0.0114504
+cdta2020,42,BX07,0.0114504
+cdta2020,43,BX08,0.0114504
+cdta2020,44,MN01,0.0114504
+cdta2020,45,MN02,0.0114504
+cdta2020,46,MN03,0.0114504
+cdta2020,47,MN07,0.0114504
+cdta2020,48,MN08,0.0114504
+cdta2020,49,MN09,0.0114504
+cdta2020,50,MN11,0.0114504
+cdta2020,51,QN03,0.0114504
+cdta2020,52,BK03,0.00763359
+cdta2020,53,BK06,0.00763359
+cdta2020,54,BK09,0.00763359
+cdta2020,55,BK16,0.00763359
+cdta2020,56,BX01,0.00763359
+cdta2020,57,MN04,0.00763359
+cdta2020,58,MN05,0.00763359
+cdta2020,59,MN10,0.00763359
+cdta2020,60,QN04,0.00763359
+cdta2020,61,QN06,0.00763359
+cdta2020,62,QN84,0.00763359
+cdta2020,63,BK55,0.00381679
+cdta2020,64,BX26,0.00381679
+cdta2020,65,BX27,0.00381679
+cdta2020,66,BX28,0.00381679
+cdta2020,67,MN64,0.00381679
+cdta2020,68,QN80,0.00381679
+cdta2020,69,QN81,0.00381679
+cdta2020,70,QN82,0.00381679
+cdta2020,71,QN83,0.00381679
+.cell:.geom_x:.geom_y,1,502 120,0.00763359
+.cell:.geom_x:.geom_y,2,499 102,0.00381679
+.cell:.geom_x:.geom_y,3,497 99,0.00381679
+.cell:.geom_x:.geom_y,4,498 97,0.00381679
+.cell:.geom_x:.geom_y,5,500 99,0.00381679
+.cell:.geom_x:.geom_y,6,492 96,0.00381679
+.cell:.geom_x:.geom_y,7,494 96,0.00381679
+.cell:.geom_x:.geom_y,8,495 95,0.00381679
+.cell:.geom_x:.geom_y,9,497 95,0.00381679
+.cell:.geom_x:.geom_y,10,496 97,0.00381679
+.cell:.geom_x:.geom_y,11,498 95,0.00381679
+.cell:.geom_x:.geom_y,12,501 94,0.00381679
+.cell:.geom_x:.geom_y,13,502 97,0.00381679
+.cell:.geom_x:.geom_y,14,504 95,0.00381679
+.cell:.geom_x:.geom_y,15,505 94,0.00381679
+.cell:.geom_x:.geom_y,16,508 93,0.00381679
+.cell:.geom_x:.geom_y,17,507 92,0.00381679
+.cell:.geom_x:.geom_y,18,507 89,0.00381679
+.cell:.geom_x:.geom_y,19,509 88,0.00381679
+.cell:.geom_x:.geom_y,20,510 91,0.00381679
+.cell:.geom_x:.geom_y,21,509 95,0.00381679
+.cell:.geom_x:.geom_y,22,492 93,0.00381679
+.cell:.geom_x:.geom_y,23,494 92,0.00381679
+.cell:.geom_x:.geom_y,24,494 89,0.00381679
+.cell:.geom_x:.geom_y,25,490 88,0.00381679
+.cell:.geom_x:.geom_y,26,491 86,0.00381679
+.cell:.geom_x:.geom_y,27,493 88,0.00381679
+.cell:.geom_x:.geom_y,28,496 93,0.00381679
+.cell:.geom_x:.geom_y,29,500 92,0.00381679
+.cell:.geom_x:.geom_y,30,502 91,0.00381679
+.cell:.geom_x:.geom_y,31,499 91,0.00381679
+.cell:.geom_x:.geom_y,32,499 89,0.00381679
+.cell:.geom_x:.geom_y,33,487 83,0.00381679
+.cell:.geom_x:.geom_y,34,490 83,0.00381679
+.cell:.geom_x:.geom_y,35,488 80,0.00381679
+.cell:.geom_x:.geom_y,36,489 80,0.00381679
+.cell:.geom_x:.geom_y,37,493 81,0.00381679
+.cell:.geom_x:.geom_y,38,491 79,0.00381679
+.cell:.geom_x:.geom_y,39,494 78,0.00381679
+.cell:.geom_x:.geom_y,40,492 86,0.00381679
+.cell:.geom_x:.geom_y,41,493 84,0.00381679
+.cell:.geom_x:.geom_y,42,495 86,0.00381679
+.cell:.geom_x:.geom_y,43,495 82,0.00381679
+.cell:.geom_x:.geom_y,44,495 76,0.00381679
+.cell:.geom_x:.geom_y,45,493 74,0.00381679
+.cell:.geom_x:.geom_y,46,497 75,0.00381679
+.cell:.geom_x:.geom_y,47,492 76,0.00381679
+.cell:.geom_x:.geom_y,48,498 86,0.00381679
+.cell:.geom_x:.geom_y,49,496 85,0.00381679
+.cell:.geom_x:.geom_y,50,498 82,0.00381679
+.cell:.geom_x:.geom_y,51,496 78,0.00381679
+.cell:.geom_x:.geom_y,52,499 79,0.00381679
+.cell:.geom_x:.geom_y,53,500 76,0.00381679
+.cell:.geom_x:.geom_y,54,504 92,0.00381679
+.cell:.geom_x:.geom_y,55,504 90,0.00381679
+.cell:.geom_x:.geom_y,56,499 87,0.00381679
+.cell:.geom_x:.geom_y,57,500 86,0.00381679
+.cell:.geom_x:.geom_y,58,501 88,0.00381679
+.cell:.geom_x:.geom_y,59,503 89,0.00381679
+.cell:.geom_x:.geom_y,60,500 87,0.00381679
+.cell:.geom_x:.geom_y,61,501 83,0.00381679
+.cell:.geom_x:.geom_y,62,503 81,0.00381679
+.cell:.geom_x:.geom_y,63,505 86,0.00381679
+.cell:.geom_x:.geom_y,64,503 77,0.00381679
+.cell:.geom_x:.geom_y,65,506 81,0.00381679
+.cell:.geom_x:.geom_y,66,507 84,0.00381679
+.cell:.geom_x:.geom_y,67,496 90,0.00381679
+.cell:.geom_x:.geom_y,68,507 77,0.00381679
+.cell:.geom_x:.geom_y,69,511 80,0.00381679
+.cell:.geom_x:.geom_y,70,510 87,0.00381679
+.cell:.geom_x:.geom_y,71,503 116,0.00381679
+.cell:.geom_x:.geom_y,72,504 118,0.00381679
+.cell:.geom_x:.geom_y,73,508 117,0.00381679
+.cell:.geom_x:.geom_y,74,506 119,0.00381679
+.cell:.geom_x:.geom_y,75,506 115,0.00381679
+.cell:.geom_x:.geom_y,76,505 120,0.00381679
+.cell:.geom_x:.geom_y,77,505 122,0.00381679
+.cell:.geom_x:.geom_y,78,507 121,0.00381679
+.cell:.geom_x:.geom_y,79,506 122,0.00381679
+.cell:.geom_x:.geom_y,80,502 122,0.00381679
+.cell:.geom_x:.geom_y,81,503 122,0.00381679
+.cell:.geom_x:.geom_y,82,504 122,0.00381679
+.cell:.geom_x:.geom_y,83,503 124,0.00381679
+.cell:.geom_x:.geom_y,84,505 124,0.00381679
+.cell:.geom_x:.geom_y,85,506 126,0.00381679
+.cell:.geom_x:.geom_y,86,508 122,0.00381679
+.cell:.geom_x:.geom_y,87,507 123,0.00381679
+.cell:.geom_x:.geom_y,88,507 125,0.00381679
+.cell:.geom_x:.geom_y,89,505 127,0.00381679
+.cell:.geom_x:.geom_y,90,507 128,0.00381679
+.cell:.geom_x:.geom_y,91,508 129,0.00381679
+.cell:.geom_x:.geom_y,92,506 129,0.00381679
+.cell:.geom_x:.geom_y,93,505 130,0.00381679
+.cell:.geom_x:.geom_y,94,504 132,0.00381679
+.cell:.geom_x:.geom_y,95,509 120,0.00381679
+.cell:.geom_x:.geom_y,96,511 118,0.00381679
+.cell:.geom_x:.geom_y,97,513 119,0.00381679
+.cell:.geom_x:.geom_y,98,511 122,0.00381679
+.cell:.geom_x:.geom_y,99,509 118,0.00381679
+.cell:.geom_x:.geom_y,100,513 122,0.00381679
+.cell:.geom_x:.geom_y,101,516 120,0.00381679
+.cell:.geom_x:.geom_y,102,518 123,0.00381679
+.cell:.geom_x:.geom_y,103,516 128,0.00381679
+.cell:.geom_x:.geom_y,104,523 125,0.00381679
+.cell:.geom_x:.geom_y,105,515 118,0.00381679
+.cell:.geom_x:.geom_y,106,510 124,0.00381679
+.cell:.geom_x:.geom_y,107,512 124,0.00381679
+.cell:.geom_x:.geom_y,108,513 127,0.00381679
+.cell:.geom_x:.geom_y,109,510 127,0.00381679
+.cell:.geom_x:.geom_y,110,514 124,0.00381679
+.cell:.geom_x:.geom_y,111,511 130,0.00381679
+.cell:.geom_x:.geom_y,112,514 130,0.00381679
+.cell:.geom_x:.geom_y,113,512 133,0.00381679
+.cell:.geom_x:.geom_y,114,509 131,0.00381679
+.cell:.geom_x:.geom_y,115,507 133,0.00381679
+.cell:.geom_x:.geom_y,116,509 125,0.00381679
+.cell:.geom_x:.geom_y,117,518 127,0.00381679
+.cell:.geom_x:.geom_y,118,490 98,0.00381679
+.cell:.geom_x:.geom_y,119,491 100,0.00381679
+.cell:.geom_x:.geom_y,120,489 95,0.00381679
+.cell:.geom_x:.geom_y,121,491 101,0.00381679
+.cell:.geom_x:.geom_y,122,492 102,0.00381679
+.cell:.geom_x:.geom_y,123,491 103,0.00381679
+.cell:.geom_x:.geom_y,124,493 99,0.00381679
+.cell:.geom_x:.geom_y,125,494 100,0.00381679
+.cell:.geom_x:.geom_y,126,494 101,0.00381679
+.cell:.geom_x:.geom_y,127,491 106,0.00381679
+.cell:.geom_x:.geom_y,128,493 108,0.00381679
+.cell:.geom_x:.geom_y,129,493 105,0.00381679
+.cell:.geom_x:.geom_y,130,494 107,0.00381679
+.cell:.geom_x:.geom_y,131,495 102,0.00381679
+.cell:.geom_x:.geom_y,132,494 103,0.00381679
+.cell:.geom_x:.geom_y,133,495 105,0.00381679
+.cell:.geom_x:.geom_y,134,496 107,0.00381679
+.cell:.geom_x:.geom_y,135,496 106,0.00381679
+.cell:.geom_x:.geom_y,136,494 110,0.00381679
+.cell:.geom_x:.geom_y,137,495 113,0.00381679
+.cell:.geom_x:.geom_y,138,496 115,0.00381679
+.cell:.geom_x:.geom_y,139,498 108,0.00381679
+.cell:.geom_x:.geom_y,140,497 110,0.00381679
+.cell:.geom_x:.geom_y,141,499 111,0.00381679
+.cell:.geom_x:.geom_y,142,497 117,0.00381679
+.cell:.geom_x:.geom_y,143,498 118,0.00381679
+.cell:.geom_x:.geom_y,144,499 120,0.00381679
+.cell:.geom_x:.geom_y,145,498 116,0.00381679
+.cell:.geom_x:.geom_y,146,500 118,0.00381679
+.cell:.geom_x:.geom_y,147,499 113,0.00381679
+.cell:.geom_x:.geom_y,148,500 115,0.00381679
+.cell:.geom_x:.geom_y,149,502 113,0.00381679
+.cell:.geom_x:.geom_y,150,500 122,0.00381679
+.cell:.geom_x:.geom_y,151,501 125,0.00381679
+.cell:.geom_x:.geom_y,152,503 127,0.00381679
+.cell:.geom_x:.geom_y,153,501 123,0.00381679
+.cell:.geom_x:.geom_y,154,502 128,0.00381679
+.cell:.geom_x:.geom_y,155,496 112,0.00381679
+.cell:.geom_x:.geom_y,156,505 111,0.00381679
+.cell:.geom_x:.geom_y,157,501 110,0.00381679
+.cell:.geom_x:.geom_y,158,502 108,0.00381679
+.cell:.geom_x:.geom_y,159,504 108,0.00381679
+.cell:.geom_x:.geom_y,160,500 107,0.00381679
+.cell:.geom_x:.geom_y,161,508 113,0.00381679
+.cell:.geom_x:.geom_y,162,503 106,0.00381679
+.cell:.geom_x:.geom_y,163,506 108,0.00381679
+.cell:.geom_x:.geom_y,164,502 111,0.00381679
+.cell:.geom_x:.geom_y,165,499 105,0.00381679
+.cell:.geom_x:.geom_y,166,502 104,0.00381679
+.cell:.geom_x:.geom_y,167,505 105,0.00381679
+.cell:.geom_x:.geom_y,168,502 106,0.00381679
+.cell:.geom_x:.geom_y,169,504 103,0.00381679
+.cell:.geom_x:.geom_y,170,507 107,0.00381679
+.cell:.geom_x:.geom_y,171,509 108,0.00381679
+.cell:.geom_x:.geom_y,172,511 107,0.00381679
+.cell:.geom_x:.geom_y,173,508 104,0.00381679
+.cell:.geom_x:.geom_y,174,511 105,0.00381679
+.cell:.geom_x:.geom_y,175,505 101,0.00381679
+.cell:.geom_x:.geom_y,176,505 98,0.00381679
+.cell:.geom_x:.geom_y,177,509 97,0.00381679
+.cell:.geom_x:.geom_y,178,509 100,0.00381679
+.cell:.geom_x:.geom_y,179,506 100,0.00381679
+.cell:.geom_x:.geom_y,180,508 98,0.00381679
+.cell:.geom_x:.geom_y,181,510 99,0.00381679
+.cell:.geom_x:.geom_y,182,508 95,0.00381679
+.cell:.geom_x:.geom_y,183,511 101,0.00381679
+.cell:.geom_x:.geom_y,184,513 101,0.00381679
+.cell:.geom_x:.geom_y,185,514 112,0.00381679
+.cell:.geom_x:.geom_y,186,518 113,0.00381679
+.cell:.geom_x:.geom_y,187,521 112,0.00381679
+.cell:.geom_x:.geom_y,188,518 109,0.00381679
+.cell:.geom_x:.geom_y,189,518 106,0.00381679
+.cell:.geom_x:.geom_y,190,517 105,0.00381679
+.cell:.geom_x:.geom_y,191,515 108,0.00381679
+.cell:.geom_x:.geom_y,192,523 113,0.00381679
+.cell:.geom_x:.geom_y,193,519 105,0.00381679
+.cell:.geom_x:.geom_y,194,517 102,0.00381679
+.cell:.geom_x:.geom_y,195,519 102,0.00381679
+.cell:.geom_x:.geom_y,196,521 103,0.00381679
+.cell:.geom_x:.geom_y,197,522 100,0.00381679
+.cell:.geom_x:.geom_y,198,518 99,0.00381679
+.cell:.geom_x:.geom_y,199,515 103,0.00381679
+.cell:.geom_x:.geom_y,200,524 103,0.00381679
+.cell:.geom_x:.geom_y,201,515 98,0.00381679
+.cell:.geom_x:.geom_y,202,515 96,0.00381679
+.cell:.geom_x:.geom_y,203,516 95,0.00381679
+.cell:.geom_x:.geom_y,204,513 94,0.00381679
+.cell:.geom_x:.geom_y,205,511 95,0.00381679
+.cell:.geom_x:.geom_y,206,517 92,0.00381679
+.cell:.geom_x:.geom_y,207,513 92,0.00381679
+.cell:.geom_x:.geom_y,208,513 89,0.00381679
+.cell:.geom_x:.geom_y,209,513 88,0.00381679
+.cell:.geom_x:.geom_y,210,521 107,0.00381679
+.cell:.geom_x:.geom_y,211,524 108,0.00381679
+.cell:.geom_x:.geom_y,212,528 108,0.00381679
+.cell:.geom_x:.geom_y,213,526 104,0.00381679
+.cell:.geom_x:.geom_y,214,527 106,0.00381679
+.cell:.geom_x:.geom_y,215,520 97,0.00381679
+.cell:.geom_x:.geom_y,216,521 96,0.00381679
+.cell:.geom_x:.geom_y,217,521 93,0.00381679
+.cell:.geom_x:.geom_y,218,523 92,0.00381679
+.cell:.geom_x:.geom_y,219,525 95,0.00381679
+.cell:.geom_x:.geom_y,220,525 99,0.00381679
+.cell:.geom_x:.geom_y,221,532 105,0.00381679
+.cell:.geom_x:.geom_y,222,529 103,0.00381679
+.cell:.geom_x:.geom_y,223,527 100,0.00381679
+.cell:.geom_x:.geom_y,224,528 96,0.00381679
+.cell:.geom_x:.geom_y,225,527 92,0.00381679
+.cell:.geom_x:.geom_y,226,525 89,0.00381679
+.cell:.geom_x:.geom_y,227,528 89,0.00381679
+.cell:.geom_x:.geom_y,228,527 94,0.00381679
+.cell:.geom_x:.geom_y,229,525 79,0.00381679
+.cell:.geom_x:.geom_y,230,520 77,0.00381679
+.cell:.geom_x:.geom_y,231,511 74,0.00381679
+.cell:.geom_x:.geom_y,232,522 79,0.00381679
+.cell:.geom_x:.geom_y,233,509 110,0.00381679
+.cell:.geom_x:.geom_y,234,514 104,0.00381679
+.cell:.geom_x:.geom_y,235,512 97,0.00381679
+.cell:.geom_x:.geom_y,236,521 87,0.00381679
+.cell:.geom_x:.geom_y,237,517 82,0.00381679
+.cell:.geom_x:.geom_y,238,505 71,0.00381679
+.cell:.geom_x:.geom_y,239,480 86,0.00381679
+.cell:.geom_x:.geom_y,240,481 83,0.00381679
+.cell:.geom_x:.geom_y,241,482 81,0.00381679
+.cell:.geom_x:.geom_y,242,478 84,0.00381679
+.cell:.geom_x:.geom_y,243,474 82,0.00381679
+.cell:.geom_x:.geom_y,244,473 85,0.00381679
+.cell:.geom_x:.geom_y,245,468 84,0.00381679
+.cell:.geom_x:.geom_y,246,477 86,0.00381679
+.cell:.geom_x:.geom_y,247,480 77,0.00381679
+.cell:.geom_x:.geom_y,248,478 74,0.00381679
+.cell:.geom_x:.geom_y,249,474 77,0.00381679
+.cell:.geom_x:.geom_y,250,467 79,0.00381679
+.cell:.geom_x:.geom_y,251,467 75,0.00381679
+.cell:.geom_x:.geom_y,252,475 72,0.00381679
+.cell:.geom_x:.geom_y,253,470 69,0.00381679
+.cell:.geom_x:.geom_y,254,464 70,0.00381679
+.cell:.geom_x:.geom_y,255,464 65,0.00381679
+.cell:.geom_x:.geom_y,256,459 65,0.00381679
+.cell:.geom_x:.geom_y,257,464 73,0.00381679
+.cell:.geom_x:.geom_y,258,483 79,0.00381679
+.cell:.geom_x:.geom_y,259,484 74,0.00381679
+.cell:.geom_x:.geom_y,260,478 73,0.00381679
+.cell:.geom_x:.geom_y,261,474 69,0.00381679

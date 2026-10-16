@@ -1,0 +1,9 @@
+column,kind,class,n,na_share,n_distinct,nchar_min,nchar_max,id_pattern,example,values_kept,values_share,min,q001,q01,q05,q10,q25,median,q75,q90,q95,q99,q999,max,mean,sd,whole,cell
+name,character,character,28,0,28,9,37,alnum,New Brighton / St George SZ,,,,,,,,,,,,,,,,,,,
+year,character,character,28,0,6,4,4,digits,2012,6,1,,,,,,,,,,,,,,,,,
+shape_leng,character,character,28,0,28,12,13,alnum,13036.4580315,,,,,,,,,,,,,,,,,,,
+shape_area,character,character,28,0,28,11,13,alnum,8385317.60873,,,,,,,,,,,,,,,,,,,
+.geom_x,numeric,numeric,28,0,28,,,,,,,-74.08730,-74.08730,-74.08730,-74.08309,-74.07006,-73.97991,-73.91429,-73.87623,-73.84874,-73.84115,-73.78133,-73.78133,-73.78133,-73.92673,0.07456,FALSE,
+.geom_y,numeric,numeric,28,0,28,,,,,,,40.58122,40.58122,40.58122,40.61522,40.64145,40.68546,40.75047,40.83933,40.87524,40.87625,40.89045,40.89045,40.89045,40.76123,0.0864067,FALSE,
+.geom_area,numeric,numeric,28,0,28,,,,,,,203842.2,203842.2,203842.2,252395.1,266385.3,420856.9,647980.8,775590.7,912087.8,915087.7,1085693.3,1085693.3,1085693.3,608216.5,227030,FALSE,
+.cell:.geom_x:.geom_y,cell,cell,28,0,28,,,,,28,1,,,,,,,,,,,,,,,,,0.01

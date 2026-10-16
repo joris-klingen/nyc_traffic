@@ -1,0 +1,1148 @@
+column,rank,value,share
+apprmonclo,1,20:00:00,0.443878
+apprmonclo,2,15:00:00,0.0663265
+apprmonclo,3,16:30:00,0.0510204
+apprmonclo,4,21:00:00,0.0459184
+apprmonclo,5,17:00:00,0.0459184
+apprmonclo,6,14:00:00,0.0408163
+apprmonclo,7,16:00:00,0.0408163
+apprmonclo,8,14:30:00,0.0306122
+apprmonclo,9,13:30:00,0.0306122
+apprmonclo,10,15:30:00,0.0306122
+apprmonclo,11,19:00:00,0.0204082
+apprmonclo,12,23:00:00,0.0204082
+apprmonclo,13,22:00:00,0.0153061
+apprmonclo,14,13:00:00,0.0153061
+apprmonclo,15,14:10:00,0.0153061
+apprmonclo,16,23:59:00,0.0102041
+apprmonclo,17,13:45:00,0.0102041
+apprmonclo,18,18:00:00,0.0102041
+apprmonclo,19,15:15:00,0.0102041
+apprmonclo,20,13:10:00,0.00510204
+apprmonclo,21,14:45:00,0.00510204
+apprmonclo,22,13:15:00,0.00510204
+apprmonclo,23,12:00:00,0.00510204
+apprmonclo,24,17:30:00,0.00510204
+apprmonclo,25,15:45:00,0.00510204
+apprmonclo,26,12:45:00,0.00510204
+apprmonclo,27,12:30:00,0.00510204
+apprmonclo,28,15:35:00,0.00510204
+apprsatope,1,07:00:00,0.268293
+apprsatope,2,08:00:00,0.229268
+apprsatope,3,12:00:00,0.156098
+apprsatope,4,11:00:00,0.131707
+apprsatope,5,09:00:00,0.0731707
+apprsatope,6,10:00:00,0.0536585
+apprsatope,7,10:30:00,0.0292683
+apprsatope,8,11:30:00,0.0195122
+apprsatope,9,15:00:00,0.0097561
+apprsatope,10,18:00:00,0.00487805
+apprsatope,11,00:00:00,0.00487805
+apprsatope,12,17:00:00,0.00487805
+apprsatope,13,13:00:00,0.00487805
+apprsatope,14,00:01:00,0.00487805
+apprsatope,15,14:00:00,0.00487805
+apprsunope,1,07:00:00,0.244344
+apprsunope,2,08:00:00,0.18552
+apprsunope,3,12:00:00,0.140271
+apprsunope,4,10:00:00,0.135747
+apprsunope,5,11:00:00,0.108597
+apprsunope,6,09:00:00,0.0904977
+apprsunope,7,12:01:00,0.040724
+apprsunope,8,10:30:00,0.0180995
+apprsunope,9,15:00:00,0.00904977
+apprsunope,10,18:00:00,0.00452489
+apprsunope,11,11:30:00,0.00452489
+apprsunope,12,00:00:00,0.00452489
+apprsunope,13,16:00:00,0.00452489
+apprsunope,14,00:01:00,0.00452489
+apprsunope,15,14:00:00,0.00452489
+boroughname,1,Brooklyn,0.352941
+boroughname,2,Manhattan,0.322251
+boroughname,3,Queens,0.248082
+boroughname,4,Bronx,0.0588235
+boroughname,5,Staten Island,0.0179028
+apprthuclo,1,20:00:00,0.402778
+apprthuclo,2,15:00:00,0.0601852
+apprthuclo,3,22:00:00,0.0555556
+apprthuclo,4,23:00:00,0.0555556
+apprthuclo,5,17:00:00,0.0462963
+apprthuclo,6,16:30:00,0.0416667
+apprthuclo,7,14:00:00,0.037037
+apprthuclo,8,16:00:00,0.037037
+apprthuclo,9,14:30:00,0.0277778
+apprthuclo,10,13:30:00,0.0277778
+apprthuclo,11,15:30:00,0.0277778
+apprthuclo,12,19:00:00,0.0231481
+apprthuclo,13,21:00:00,0.0231481
+apprthuclo,14,23:30:00,0.0185185
+apprthuclo,15,09:00:00,0.0138889
+apprthuclo,16,14:10:00,0.0138889
+apprthuclo,17,23:59:00,0.00925926
+apprthuclo,18,13:45:00,0.00925926
+apprthuclo,19,18:00:00,0.00925926
+apprthuclo,20,13:00:00,0.00925926
+apprthuclo,21,15:15:00,0.00925926
+apprthuclo,22,13:10:00,0.00462963
+apprthuclo,23,14:45:00,0.00462963
+apprthuclo,24,13:15:00,0.00462963
+apprthuclo,25,12:00:00,0.00462963
+apprthuclo,26,17:30:00,0.00462963
+apprthuclo,27,15:45:00,0.00462963
+apprthuclo,28,12:45:00,0.00462963
+apprthuclo,29,12:30:00,0.00462963
+apprthuclo,30,15:35:00,0.00462963
+apprdayswe,1,"mon,tue,wed,thu,fri,sat,sun",0.273657
+apprdayswe,2,"mon,tue,wed,thu,fri",0.204604
+apprdayswe,3,sun,0.122762
+apprdayswe,4,fri,0.112532
+apprdayswe,5,sat,0.0690537
+apprdayswe,6,"fri,sat,sun",0.0639386
+apprdayswe,7,"sat,sun",0.0588235
+apprdayswe,8,"thu,fri,sat,sun",0.0230179
+apprdayswe,9,"wed,thu,fri,sat,sun",0.0179028
+apprdayswe,10,"mon,tue,wed,thu,fri,sat",0.00767263
+apprdayswe,11,"tue,wed,thu,fri,sat,sun",0.00511509
+apprdayswe,12,thu,0.00511509
+apprdayswe,13,"wed,fri",0.00511509
+apprdayswe,14,"mon,tue,wed,thu",0.00511509
+apprdayswe,15,"wed,thu,fri",0.00511509
+apprdayswe,16,mon,0.00511509
+apprdayswe,17,"mon,thu,fri",0.00255754
+apprdayswe,18,"thu,fri,sat",0.00255754
+apprdayswe,19,"tue,wed",0.00255754
+apprdayswe,20,"mon,tue,fri",0.00255754
+apprdayswe,21,tue,0.00255754
+apprdayswe,22,"fri,sat",0.00255754
+apprmonope,1,07:00:00,0.321429
+apprmonope,2,08:00:00,0.25
+apprmonope,3,07:30:00,0.0969388
+apprmonope,4,10:00:00,0.0765306
+apprmonope,5,11:00:00,0.0357143
+apprmonope,6,10:30:00,0.0306122
+apprmonope,7,12:00:00,0.0255102
+apprmonope,8,09:00:00,0.0204082
+apprmonope,9,07:45:00,0.0204082
+apprmonope,10,09:30:00,0.0153061
+apprmonope,11,15:00:00,0.0102041
+apprmonope,12,16:30:00,0.0102041
+apprmonope,13,14:00:00,0.0102041
+apprmonope,14,11:30:00,0.0102041
+apprmonope,15,14:30:00,0.00510204
+apprmonope,16,12:30:00,0.00510204
+apprmonope,17,09:15:00,0.00510204
+apprmonope,18,11:45:00,0.00510204
+apprmonope,19,11:10:00,0.00510204
+apprmonope,20,00:00:00,0.00510204
+apprmonope,21,07:50:00,0.00510204
+apprmonope,22,08:30:00,0.00510204
+apprmonope,23,07:15:00,0.00510204
+apprmonope,24,07:55:00,0.00510204
+apprmonope,25,00:01:00,0.00510204
+apprmonope,26,11:15:00,0.00510204
+apprmonope,27,08:15:00,0.00510204
+apprwedclo,1,20:00:00,0.42233
+apprwedclo,2,15:00:00,0.0631068
+apprwedclo,3,17:00:00,0.0582524
+apprwedclo,4,22:00:00,0.0436893
+apprwedclo,5,21:00:00,0.0436893
+apprwedclo,6,16:30:00,0.0436893
+apprwedclo,7,16:00:00,0.038835
+apprwedclo,8,23:00:00,0.0339806
+apprwedclo,9,14:00:00,0.0339806
+apprwedclo,10,14:30:00,0.0291262
+apprwedclo,11,13:30:00,0.0291262
+apprwedclo,12,15:30:00,0.0291262
+apprwedclo,13,19:00:00,0.0194175
+apprwedclo,14,14:10:00,0.0145631
+apprwedclo,15,23:59:00,0.00970874
+apprwedclo,16,13:45:00,0.00970874
+apprwedclo,17,18:00:00,0.00970874
+apprwedclo,18,13:00:00,0.00970874
+apprwedclo,19,15:15:00,0.00970874
+apprwedclo,20,13:10:00,0.00485437
+apprwedclo,21,14:45:00,0.00485437
+apprwedclo,22,13:15:00,0.00485437
+apprwedclo,23,12:00:00,0.00485437
+apprwedclo,24,17:30:00,0.00485437
+apprwedclo,25,11:30:00,0.00485437
+apprwedclo,26,15:45:00,0.00485437
+apprwedclo,27,12:45:00,0.00485437
+apprwedclo,28,12:30:00,0.00485437
+apprwedclo,29,15:35:00,0.00485437
+apprtueclo,1,20:00:00,0.441624
+apprtueclo,2,15:00:00,0.0659898
+apprtueclo,3,17:00:00,0.0507614
+apprtueclo,4,16:00:00,0.0456853
+apprtueclo,5,21:00:00,0.0456853
+apprtueclo,6,16:30:00,0.035533
+apprtueclo,7,14:00:00,0.035533
+apprtueclo,8,14:30:00,0.0304569
+apprtueclo,9,13:30:00,0.0304569
+apprtueclo,10,15:30:00,0.0304569
+apprtueclo,11,23:00:00,0.0253807
+apprtueclo,12,22:00:00,0.0203046
+apprtueclo,13,19:00:00,0.0203046
+apprtueclo,14,13:00:00,0.0152284
+apprtueclo,15,14:10:00,0.0152284
+apprtueclo,16,23:59:00,0.0101523
+apprtueclo,17,13:45:00,0.0101523
+apprtueclo,18,18:00:00,0.0101523
+apprtueclo,19,15:15:00,0.0101523
+apprtueclo,20,13:10:00,0.00507614
+apprtueclo,21,14:45:00,0.00507614
+apprtueclo,22,13:15:00,0.00507614
+apprtueclo,23,12:00:00,0.00507614
+apprtueclo,24,04:30:00,0.00507614
+apprtueclo,25,17:30:00,0.00507614
+apprtueclo,26,15:45:00,0.00507614
+apprtueclo,27,12:45:00,0.00507614
+apprtueclo,28,12:30:00,0.00507614
+apprtueclo,29,15:35:00,0.00507614
+apprfromst,1,69 STREET,0.13555
+apprfromst,2,82 STREET,0.0588235
+apprfromst,3,BROADWAY,0.0588235
+apprfromst,4,WEST 68 STREET,0.0460358
+apprfromst,5,68 STREET,0.0358056
+apprfromst,6,EAST 48 STREET,0.0230179
+apprfromst,7,WEST 112 STREET,0.0230179
+apprfromst,8,EAST 17 STREET,0.0204604
+apprfromst,9,CORNAGA AVENUE,0.0204604
+apprfromst,10,ATLANTIC AVENUE,0.0179028
+apprfromst,11,WASHINGTON PARK,0.0179028
+apprfromst,12,GATES AVENUE,0.0153453
+apprfromst,13,HICKS STREET,0.0127877
+apprfromst,14,FULTON STREET,0.0127877
+apprfromst,15,HUDSON STREET,0.0127877
+apprfromst,16,5 AVENUE,0.0102302
+apprfromst,17,PRESIDENT STREET,0.0102302
+apprfromst,18,MOTT STREET,0.0102302
+apprfromst,19,ESSEX STREET,0.0102302
+apprfromst,20,PARK AVENUE,0.0102302
+apprfromst,21,WEST 106 STREET,0.0102302
+apprfromst,22,AMSTERDAM AVENUE,0.0102302
+apprfromst,23,9 AVENUE,0.00767263
+apprfromst,24,7 AVENUE SOUTH,0.00767263
+apprfromst,25,BROOME STREET,0.00767263
+apprfromst,26,ALLEN STREET,0.00767263
+apprfromst,27,2 AVENUE,0.00767263
+apprfromst,28,DELANCEY STREET,0.00767263
+apprfromst,29,EAST 7 STREET,0.00767263
+apprfromst,30,76 STREET,0.00767263
+apprfromst,31,HAMPTON STREET,0.00767263
+apprfromst,32,7 AVENUE,0.00767263
+apprfromst,33,HAROLD STREET,0.00511509
+apprfromst,34,8 AVENUE,0.00511509
+apprfromst,35,HENRY STREET,0.00511509
+apprfromst,36,CLINTON STREET,0.00511509
+apprfromst,37,EAST BROADWAY,0.00511509
+apprfromst,38,FRONT STREET,0.00511509
+apprfromst,39,BEDFORD AVENUE,0.00511509
+apprfromst,40,CLASSON AVENUE,0.00511509
+apprfromst,41,GRAND STREET,0.00511509
+apprfromst,42,EAST 16 STREET,0.00511509
+apprfromst,43,WEST 35 STREET,0.00511509
+apprfromst,44,BELMONT AVENUE,0.00511509
+apprfromst,45,IRVING AVENUE,0.00511509
+apprfromst,46,33 STREET,0.00511509
+apprfromst,47,WOODSIDE AVENUE,0.00511509
+apprfromst,48,LAFAYETTE AVENUE,0.00511509
+apprfromst,49,180 STREET,0.00511509
+apprfromst,50,34 AVENUE,0.00511509
+apprfromst,51,WEST BURNSIDE AVENUE,0.00511509
+apprfromst,52,HOWARD AVENUE,0.00511509
+apprfromst,53,KINGDOM AVENUE,0.00255754
+apprfromst,54,GANSEVOORT BOULEVARD,0.00255754
+apprfromst,55,ROSE AVENUE,0.00255754
+apprfromst,56,6 AVENUE,0.00255754
+apprfromst,57,CONOVER STREET,0.00255754
+apprfromst,58,SURF AVENUE,0.00255754
+apprfromst,59,BAY 19 STREET,0.00255754
+apprfromst,60,24 AVENUE,0.00255754
+apprfromst,61,CHURCH AVENUE,0.00255754
+apprfromst,62,HAMILTON AVENUE,0.00255754
+apprfromst,63,WATER STREET,0.00255754
+apprfromst,64,PEARL STREET,0.00255754
+apprfromst,65,CAMPUS ROAD,0.00255754
+apprfromst,66,CARROLL STREET,0.00255754
+apprfromst,67,SCHOLES STREET,0.00255754
+apprfromst,68,CHRISTOPHER STREET,0.00255754
+apprfromst,69,THOMPSON STREET,0.00255754
+apprfromst,70,BLEECKER STREET,0.00255754
+apprfromst,71,AVENUE OF THE AMERICAS,0.00255754
+apprfromst,72,MULBERRY STREET,0.00255754
+apprfromst,73,PRINCE STREET,0.00255754
+apprfromst,74,ORCHARD STREET,0.00255754
+apprfromst,75,1 AVENUE,0.00255754
+apprfromst,76,LORIMER STREET,0.00255754
+apprfromst,77,FREDERICK DOUGLASS BOULEVARD,0.00255754
+apprfromst,78,RIVERDALE AVENUE,0.00255754
+apprfromst,79,MALCOLM X BOULEVARD,0.00255754
+apprfromst,80,DUMONT AVENUE,0.00255754
+apprfromst,81,OLIVE STREET,0.00255754
+apprfromst,82,102 STREET,0.00255754
+apprfromst,83,109 AVENUE,0.00255754
+apprfromst,84,108 AVENUE,0.00255754
+apprfromst,85,JAMAICA AVENUE,0.00255754
+apprfromst,86,203 STREET,0.00255754
+apprfromst,87,47 AVENUE,0.00255754
+apprfromst,88,36 AVENUE,0.00255754
+apprfromst,89,PLEASANT AVENUE,0.00255754
+apprfromst,90,23 STREET,0.00255754
+apprfromst,91,NEWTOWN AVENUE,0.00255754
+apprfromst,92,CHISUM PLACE,0.00255754
+apprfromst,93,ST ANNS AVENUE,0.00255754
+apprfromst,94,DEAD END,0.00255754
+apprfromst,95,CONCORD AVENUE,0.00255754
+apprfromst,96,WEST 182 STREET,0.00255754
+apprfromst,97,EAST 167 STREET,0.00255754
+apprfromst,98,JEROME AVENUE,0.00255754
+apprfromst,99,WEST 189 STREET,0.00255754
+apprfromst,100,WEST 207 STREET,0.00255754
+apprfromst,101,BENHAM STREET,0.00255754
+apprfromst,102,PROSPECT AVENUE,0.00255754
+apprfromst,103,EAST 182 STREET,0.00255754
+apprfromst,104,EAST 183 STREET,0.00255754
+apprfromst,105,GRAND AVENUE,0.00255754
+apprfromst,106,CRESTON AVENUE,0.00255754
+apprfromst,107,EAST 194 STREET,0.00255754
+apprfromst,108,99 STREET,0.00255754
+apprfromst,109,OTIS AVENUE,0.00255754
+apprfromst,110,VAN DOREN STREET,0.00255754
+apprfromst,111,128 STREET,0.00255754
+apprfromst,112,BOGART AVENUE,0.00255754
+apprfromst,113,65 AVENUE,0.00255754
+apprfromst,114,58 AVENUE,0.00255754
+apprfromst,115,149 PLACE,0.00255754
+apprfromst,116,4 AVENUE,0.00255754
+apprfromst,117,RIVINGTON STREET,0.00255754
+apprfromst,118,LEXINGTON AVENUE,0.00255754
+apprfromst,119,CLAREMONT AVENUE,0.00255754
+apprfromst,120,LENOX AVENUE,0.00255754
+apprfromst,121,MOUNT MORRIS PARK WEST,0.00255754
+apprfromst,122,120 AVENUE,0.00255754
+apprfromst,123,75 STREET,0.00255754
+apprfromst,124,109 STREET,0.00255754
+apprfromst,125,LAFAYETTE STREET,0.00255754
+apprfromst,126,WAVERLY PLACE,0.00255754
+apprfromst,127,POPHAM AVENUE,0.00255754
+apprfromst,128,168 STREET,0.00255754
+apprfromst,129,BAY STREET,0.00255754
+apprfromst,130,WEST 14 STREET,0.00255754
+apprfromst,131,WEST END AVENUE,0.00255754
+apprfromst,132,MONROE AVENUE,0.00255754
+apprfromst,133,MOUNT HOPE PLACE,0.00255754
+apprfromst,134,159 STREET,0.00255754
+apprfromst,135,AVENUE C,0.00255754
+apprfromst,136,CATHEDRAL PARKWAY,0.00255754
+apprfromst,137,WHITE PLAINS ROAD,0.00255754
+apprfromst,138,PARK AVENUE SOUTH,0.00255754
+apprfromst,139,VARICK STREET,0.00255754
+apprfromst,140,WESTCHESTER AVENUE,0.00255754
+apprfromst,141,HUMBOLDT STREET,0.00255754
+apprfromst,142,BEACH STREET,0.00255754
+apprfromst,143,EAST 163 STREET,0.00255754
+apprfromst,144,EAST 20 STREET,0.00255754
+apprfromst,145,LEGGETT AVENUE,0.00255754
+apprsatclo,1,20:00:00,0.478049
+apprsatclo,2,22:00:00,0.156098
+apprsatclo,3,23:00:00,0.121951
+apprsatclo,4,21:00:00,0.0487805
+apprsatclo,5,19:00:00,0.0390244
+apprsatclo,6,17:00:00,0.0243902
+apprsatclo,7,18:00:00,0.0243902
+apprsatclo,8,19:30:00,0.0195122
+apprsatclo,9,00:00:00,0.0195122
+apprsatclo,10,23:30:00,0.0195122
+apprsatclo,11,23:59:00,0.0146341
+apprsatclo,12,16:00:00,0.0097561
+apprsatclo,13,15:00:00,0.0097561
+apprsatclo,14,16:30:00,0.00487805
+apprsatclo,15,18:30:00,0.00487805
+apprsatclo,16,23:45:00,0.00487805
+reviewstat,1,approvedFull,0.534527
+reviewstat,2,approvedLimited,0.265985
+reviewstat,3,approvedFullSchools,0.199488
+apprwedope,1,07:00:00,0.300971
+apprwedope,2,08:00:00,0.242718
+apprwedope,3,07:30:00,0.0825243
+apprwedope,4,10:00:00,0.0728155
+apprwedope,5,11:00:00,0.038835
+apprwedope,6,14:00:00,0.0339806
+apprwedope,7,10:30:00,0.0291262
+apprwedope,8,09:00:00,0.0242718
+apprwedope,9,12:00:00,0.0242718
+apprwedope,10,07:45:00,0.0194175
+apprwedope,11,09:30:00,0.0145631
+apprwedope,12,15:00:00,0.00970874
+apprwedope,13,16:30:00,0.00970874
+apprwedope,14,17:00:00,0.00970874
+apprwedope,15,11:30:00,0.00970874
+apprwedope,16,08:30:00,0.00970874
+apprwedope,17,14:30:00,0.00485437
+apprwedope,18,16:00:00,0.00485437
+apprwedope,19,12:30:00,0.00485437
+apprwedope,20,09:15:00,0.00485437
+apprwedope,21,11:45:00,0.00485437
+apprwedope,22,11:10:00,0.00485437
+apprwedope,23,00:00:00,0.00485437
+apprwedope,24,07:50:00,0.00485437
+apprwedope,25,07:15:00,0.00485437
+apprwedope,26,07:55:00,0.00485437
+apprwedope,27,00:01:00,0.00485437
+apprwedope,28,16:45:00,0.00485437
+apprwedope,29,11:15:00,0.00485437
+apprwedope,30,08:15:00,0.00485437
+orgname,1,34th Avenue Open Streets Coalition,0.13555
+orgname,2,"Merchants of third Avenue Civic improvement assoc, inc",0.0588235
+orgname,3,North Brooklyn Open Streets Community Coalition (NBK OSCC),0.0485934
+orgname,4,Columbus Avenue Business Improvement District,0.0460358
+orgname,5,Merchants Of third Avenue Civic Improvement assoc. Inc,0.0358056
+orgname,6,Fifth Avenue Association,0.0230179
+orgname,7,Frederick Douglass Boulevard Alliance,0.0230179
+orgname,8,Lower East Side Partnership,0.0204604
+orgname,9,Kesher Bridging Communities,0.0204604
+orgname,10,NYC Department of Transportation,0.0179028
+orgname,11,Flatbush Development Corporation,0.0153453
+orgname,12,Prospect Heights Neighborhood Development Council,0.0153453
+orgname,13,Bridge Street Development Corporation,0.0153453
+orgname,14,Meatpacking District Management Association,0.0153453
+orgname,15,5th Avenue Open Streets Merchants Association,0.0102302
+orgname,16,Lenape Bloemendael DMA dba Columbus Amsterdam Business Improvement District,0.0102302
+orgname,17,"Council of Jewish Organizations of Staten Island, a project of the Igud Harabonim of America Inc",0.00767263
+orgname,18,The Willowtown Assocation,0.00767263
+orgname,19,"Chinatown District Management Association, Inc. (aka Chinatown BID)",0.00767263
+orgname,20,Downtown Brooklyn Partnership,0.00767263
+orgname,21,Jeffrey's Grocery,0.00767263
+orgname,22,Little Italy Merchants Association,0.00767263
+orgname,23,Loisaida Open Streets Community Coalition,0.00767263
+orgname,24,Salsa Stories,0.00767263
+orgname,25,Community League of the Heights (CLOTH),0.00767263
+orgname,26,Thai Community USA NYC,0.00767263
+orgname,27,PS89Q: The Jose Peralta School of Dreamers (24Q089),0.00767263
+orgname,28,Middle School 88,0.00767263
+orgname,29,MONTAGUE ST BID,0.00511509
+orgname,30,Cervo's,0.00511509
+orgname,31,Brooklyn RISE Charter School,0.00511509
+orgname,32,GrowHouse Community Design + Development Group,0.00511509
+orgname,33,PS3 Charrette School,0.00511509
+orgname,34,Von Design Limited,0.00511509
+orgname,35,NYCDOE/Washington Irving Educational Campus,0.00511509
+orgname,36,Friends Seminary,0.00511509
+orgname,37,Justice Innovation Inc. d/b/a Center for Justice Innovation (Brownsville Community Justice Center),0.00511509
+orgname,38,Troutman Street Open Street Coalition,0.00511509
+orgname,39,31st Ave Open Street Collective,0.00511509
+orgname,40,The Young Women’s Leadership School of Astoria,0.00511509
+orgname,41,I Challenge Myself,0.00511509
+orgname,42,PS14Q Fairview School,0.00511509
+orgname,43,PS 5,0.00255754
+orgname,44,New Dorp Lane Management Association,0.00255754
+orgname,45,PS 170K The Ralph A. Fabrizio School,0.00255754
+orgname,46,Hometown Bar B Que,0.00255754
+orgname,47,Alliance for Coney Island,0.00255754
+orgname,48,Federation of Italian American Organizations,0.00255754
+orgname,49,Bet Yaakov Yesodot Hatorah,0.00255754
+orgname,50,PS 169 Sunset Park School,0.00255754
+orgname,51,MASJID NUR AL ISLAM,0.00255754
+orgname,52,Red Hook Initiative,0.00255754
+orgname,53,Living Traditions Inc.,0.00255754
+orgname,54,Mary McDowell Friends School,0.00255754
+orgname,55,Park Slope Fifth Avenue BID,0.00255754
+orgname,56,Peck Slip School,0.00255754
+orgname,57,PS 8 The Emily Warren Roebling School,0.00255754
+orgname,58,Atlantic Avenue BID,0.00255754
+orgname,59,Dumbo Business Improvement District,0.00255754
+orgname,60,Office Ho Jonot,0.00255754
+orgname,61,PS 152,0.00255754
+orgname,62,Saint Saviour Catholic Academy,0.00255754
+orgname,63,Polhemus Place Block Association,0.00255754
+orgname,64,Prospect Place Block Association 2.0,0.00255754
+orgname,65,"Bedford Stuyvesant Gateway District Management Association, Inc.",0.00255754
+orgname,66,Hall Street Block Association,0.00255754
+orgname,67,Pizzette,0.00255754
+orgname,68,RDK Restaurant Corp dba Bistro Les Amis,0.00255754
+orgname,69,Via Carota,0.00255754
+orgname,70,JST Restaurant Corp,0.00255754
+orgname,71,Academy of St. Joseph,0.00255754
+orgname,72,Little Italy Merchant Association,0.00255754
+orgname,73,Peasant,0.00255754
+orgname,74,PS 42M The Benjamin Altman School,0.00255754
+orgname,75,Fourth Arts Block (aka FABnyc),0.00255754
+orgname,76,More Gardens! Fund,0.00255754
+orgname,77,St. Marks Business Coalition,0.00255754
+orgname,78,West 21 Street Open Street Coalition,0.00255754
+orgname,79,34th Street Partnership,0.00255754
+orgname,80,North Brooklyn Open Streets Community Coalition,0.00255754
+orgname,81,The Nightingale Bamford School,0.00255754
+orgname,82,PS 290 The Manhattan New School,0.00255754
+orgname,83,Harlem Mothers Stop Another Violent End,0.00255754
+orgname,84,Harlem One Stop Inc,0.00255754
+orgname,85,Riverdale Avenue Community School,0.00255754
+orgname,86,The 700 Jefferson Avenue Block Association,0.00255754
+orgname,87,NYC Department of Health and Mental Hygiene,0.00255754
+orgname,88,Sharon Street Block Association,0.00255754
+orgname,89,Public School 273Q,0.00255754
+orgname,90,JAMROCK JERK LLC,0.00255754
+orgname,91,HOOD WORKS INC,0.00255754
+orgname,92,Downtown Jamaica Partnership,0.00255754
+orgname,93,PS 134Q: Langston Hughes School,0.00255754
+orgname,94,LaGuardia Community College,0.00255754
+orgname,95,Our World Neighborhood Charter School,0.00255754
+orgname,96,Global Community Charter School,0.00255754
+orgname,97,PS/MS 5 Port Morris School of Community Leadership,0.00255754
+orgname,98,PS 528 Bea Fuller Rogers School,0.00255754
+orgname,99,Futures Ignite,0.00255754
+orgname,100,WHEDCo/P.S./I.S. 218,0.00255754
+orgname,101,New Settlement,0.00255754
+orgname,102,Connectemonos,0.00255754
+orgname,103,Muscota New School/Amistad,0.00255754
+orgname,104,School in the Square,0.00255754
+orgname,105,P.S. 012 James B. Colgate,0.00255754
+orgname,106,"Korean Art Forum, Inc (aka. Korea Art Forum)",0.00255754
+orgname,107,Moving Up Children Center,0.00255754
+orgname,108,Leaders In Our Neighborhood Charter School,0.00255754
+orgname,109,Caldwell Enrichment Program Inc.,0.00255754
+orgname,110,PS 59 Community School of Technology,0.00255754
+orgname,111,P.S. 32 The Belmont School,0.00255754
+orgname,112,I AM MY COMMUNITY INC,0.00255754
+orgname,113,Public School 363 (10X363/APLE),0.00255754
+orgname,114,Decatur Block Association,0.00255754
+orgname,115,I.S.61Q Leonardo Da Vinci,0.00255754
+orgname,116,PS 129,0.00255754
+orgname,117,Frontline Nutrition Services,0.00255754
+orgname,118,P.S. 83 The Donald Hertz School,0.00255754
+orgname,119,PS201 Q,0.00255754
+orgname,120,P.S. 120 Queens,0.00255754
+orgname,121,Asian American Federation,0.00255754
+orgname,122,ADDISLEIGH PARK CIVIC ORGANIZATION,0.00255754
+orgname,123,Addisleigh Park Civic Organization,0.00255754
+orgname,124,PS 118,0.00255754
+orgname,125,The Buckley School,0.00255754
+orgname,126,The Allen-Stevenson School,0.00255754
+orgname,127,The Dalton School,0.00255754
+orgname,128,Uptown Grand Central,0.00255754
+orgname,129,Morningside Area Alliance,0.00255754
+orgname,130,"120 Marcus Meets Malcolm, Inc",0.00255754
+orgname,131,The Police Athletic League,0.00255754
+orgname,132,P.S. 176 The Cambria Heights School,0.00255754
+orgname,133,NYC DoE - Community Health Academy of the Heights,0.00255754
+orgname,134,NYCDOE Mosaic 3K/Pre-k Center 24Q331 @ Q364,0.00255754
+orgname,135,PS 330Q Helen M. Marshall,0.00255754
+orgname,136,P.S. 28Q The Thomas Emanuel Early Childhood Center,0.00255754
+orgname,137,PS143Q The Louis Armstrong Elementary School,0.00255754
+orgname,138,il Buco,0.00255754
+orgname,139,Hudson Yards Hell's Kitchen Alliance,0.00255754
+orgname,140,"Boriken Neighborhood Health Center/ East Harlem Council for Human Services, Inc.",0.00255754
+orgname,141,Kettle of Fish,0.00255754
+orgname,142,PS 109 Sedgwick School,0.00255754
+orgname,143,Thomas A. Edison CTE High School,0.00255754
+orgname,144,"Staten Island Chamber of Commerce Foundation Inc. / The Angiuli Group, LLC",0.00255754
+orgname,145,Saint David's School,0.00255754
+orgname,146,Manhattan Day School,0.00255754
+orgname,147,"PS 421M West Prep Academy, NYCPS",0.00255754
+orgname,148,PS 28 Mount Hope,0.00255754
+orgname,149,IS 117: Joseph H. Wade School,0.00255754
+orgname,150,Family Unity in Our Community Incorporated,0.00255754
+orgname,151,PS 64M Robert Simon School,0.00255754
+orgname,152,Middle School 390,0.00255754
+orgname,153,West 111th Street Block Association,0.00255754
+orgname,154,PS 146 Brooklyn New School,0.00255754
+orgname,155,Uptown & Boogie Healthy Project,0.00255754
+orgname,156,The École,0.00255754
+orgname,157,The Brooklyn Bazaar Festival Inc.,0.00255754
+orgname,158,City-As School: High School M560,0.00255754
+orgname,159,"Youth Ministries for Peace and Justice, Inc.",0.00255754
+orgname,160,SONNYBOY,0.00255754
+orgname,161,Friends of Cooper Park,0.00255754
+orgname,162,The Dock Street School for STEAM Studies,0.00255754
+orgname,163,Van Duzer Civic Association,0.00255754
+orgname,164,"Banana Kelly Community Improvement Association, Inc.",0.00255754
+orgname,165,Ballet Tech School,0.00255754
+orgname,166,Bright Leaders Group Family Day Care Inc.,0.00255754
+orgname,167,Chauncey Street Block & Tenants Association,0.00255754
+orgname,168,Hellenic Classical Charter Schools,0.00255754
+orgname,169,DHS Block Association,0.00255754
+lionversion,1,23C,1
+appronstre,1,34 AVENUE,0.13555
+appronstre,2,3 AVENUE,0.0946292
+appronstre,3,BERRY STREET,0.0485934
+appronstre,4,COLUMBUS AVENUE,0.0460358
+appronstre,5,5 AVENUE,0.0332481
+appronstre,6,FREDERICK DOUGLASS BOULEVARD,0.0230179
+appronstre,7,READS LANE,0.0204604
+appronstre,8,WILLOUGHBY AVENUE,0.0179028
+appronstre,9,NEWKIRK AVENUE,0.0153453
+appronstre,10,VANDERBILT AVENUE,0.0153453
+appronstre,11,TOMPKINS AVENUE,0.0153453
+appronstre,12,ORCHARD STREET,0.0127877
+appronstre,13,AMSTERDAM AVENUE,0.0127877
+appronstre,14,18 STREET,0.0102302
+appronstre,15,JORALEMON STREET,0.00767263
+appronstre,16,GANSEVOORT STREET,0.00767263
+appronstre,17,WAVERLY PLACE,0.00767263
+appronstre,18,MULBERRY STREET,0.00767263
+appronstre,19,BROOME STREET,0.00767263
+appronstre,20,AVENUE B,0.00767263
+appronstre,21,WOODSIDE AVENUE,0.00767263
+appronstre,22,BRITTON AVENUE,0.00767263
+appronstre,23,SUFFOLK AVENUE,0.00511509
+appronstre,24,PELL STREET,0.00511509
+appronstre,25,MONTAGUE STREET,0.00511509
+appronstre,26,CANAL STREET,0.00511509
+appronstre,27,PEARL STREET,0.00511509
+appronstre,28,HANOVER PLACE,0.00511509
+appronstre,29,MARTENSE STREET,0.00511509
+appronstre,30,7 STREET,0.00511509
+appronstre,31,GROVE STREET,0.00511509
+appronstre,32,HESTER STREET,0.00511509
+appronstre,33,BLEECKER STREET,0.00511509
+appronstre,34,IRVING PLACE,0.00511509
+appronstre,35,RUTHERFORD PLACE,0.00511509
+appronstre,36,BROADWAY,0.00511509
+appronstre,37,WEST 142 STREET,0.00511509
+appronstre,38,TROUTMAN STREET,0.00511509
+appronstre,39,109 AVENUE,0.00511509
+appronstre,40,31 AVENUE,0.00511509
+appronstre,41,RAE STREET,0.00511509
+appronstre,42,ACADEMY STREET,0.00511509
+appronstre,43,9 AVENUE,0.00511509
+appronstre,44,DEISIUS STREET,0.00255754
+appronstre,45,VERMONT COURT,0.00255754
+appronstre,46,9 STREET,0.00255754
+appronstre,47,71 STREET,0.00255754
+appronstre,48,REED STREET,0.00255754
+appronstre,49,WEST 12 STREET,0.00255754
+appronstre,50,BENSON AVENUE,0.00255754
+appronstre,51,82 STREET,0.00255754
+appronstre,52,43 STREET,0.00255754
+appronstre,53,CHESTER AVENUE,0.00255754
+appronstre,54,WEST 9 STREET,0.00255754
+appronstre,55,COLUMBIA STREET,0.00255754
+appronstre,56,SUMMIT STREET,0.00255754
+appronstre,57,4 STREET,0.00255754
+appronstre,58,PECK SLIP,0.00255754
+appronstre,59,FORSYTH STREET,0.00255754
+appronstre,60,POPLAR STREET,0.00255754
+appronstre,61,HOYT STREET,0.00255754
+appronstre,62,WILLOUGHBY STREET,0.00255754
+appronstre,63,WASHINGTON STREET,0.00255754
+appronstre,64,JEFFERSON STREET,0.00255754
+appronstre,65,EAST 23 STREET,0.00255754
+appronstre,66,POLHEMUS PLACE,0.00255754
+appronstre,67,PROSPECT PLACE,0.00255754
+appronstre,68,MARCY AVENUE,0.00255754
+appronstre,69,HALL STREET,0.00255754
+appronstre,70,GRAHAM AVENUE,0.00255754
+appronstre,71,BEDFORD STREET,0.00255754
+appronstre,72,LITTLE WEST 12 STREET,0.00255754
+appronstre,73,WEST 13 STREET,0.00255754
+appronstre,74,SPRING STREET,0.00255754
+appronstre,75,JANE STREET,0.00255754
+appronstre,76,WASHINGTON PLACE,0.00255754
+appronstre,77,ELIZABETH STREET,0.00255754
+appronstre,78,EAST 4 STREET,0.00255754
+appronstre,79,STANTON STREET,0.00255754
+appronstre,80,ST MARKS PLACE,0.00255754
+appronstre,81,WEST 21 STREET,0.00255754
+appronstre,82,BEDFORD AVENUE,0.00255754
+appronstre,83,EAST 92 STREET,0.00255754
+appronstre,84,EAST 82 STREET,0.00255754
+appronstre,85,WEST 128 STREET,0.00255754
+appronstre,86,STRAUSS STREET,0.00255754
+appronstre,87,JEFFERSON AVENUE,0.00255754
+appronstre,88,BRISTOL STREET,0.00255754
+appronstre,89,THATFORD AVENUE,0.00255754
+appronstre,90,WATKINS STREET,0.00255754
+appronstre,91,SHARON STREET,0.00255754
+appronstre,92,88 AVENUE,0.00255754
+appronstre,93,141 STREET,0.00255754
+appronstre,94,156 STREET,0.00255754
+appronstre,95,165 STREET,0.00255754
+appronstre,96,29 STREET,0.00255754
+appronstre,97,37 STREET,0.00255754
+appronstre,98,EAST 115 STREET,0.00255754
+appronstre,99,NEWTOWN AVENUE,0.00255754
+appronstre,100,23 STREET,0.00255754
+appronstre,101,EAST 150 STREET,0.00255754
+appronstre,102,WADSWORTH AVENUE,0.00255754
+appronstre,103,WEST 182 STREET,0.00255754
+appronstre,104,WALTON AVENUE,0.00255754
+appronstre,105,GOBLE PLACE,0.00255754
+appronstre,106,AUDUBON AVENUE,0.00255754
+appronstre,107,COOPER STREET,0.00255754
+appronstre,108,72 STREET,0.00255754
+appronstre,109,62 STREET,0.00255754
+appronstre,110,94 STREET,0.00255754
+appronstre,111,LONGFELLOW AVENUE,0.00255754
+appronstre,112,JENNINGS STREET,0.00255754
+appronstre,113,BATHGATE AVENUE,0.00255754
+appronstre,114,BEAUMONT AVENUE,0.00255754
+appronstre,115,EVELYN PLACE,0.00255754
+appronstre,116,FIELD PLACE,0.00255754
+appronstre,117,DECATUR AVENUE,0.00255754
+appronstre,118,50 AVENUE,0.00255754
+appronstre,119,VAN DOREN STREET,0.00255754
+appronstre,120,OTIS AVENUE,0.00255754
+appronstre,121,BOLTON AVENUE,0.00255754
+appronstre,122,RHINELANDER AVENUE,0.00255754
+appronstre,123,155 STREET,0.00255754
+appronstre,124,136 STREET,0.00255754
+appronstre,125,BARTON AVENUE,0.00255754
+appronstre,126,110 AVENUE,0.00255754
+appronstre,127,MURDOCK AVENUE,0.00255754
+appronstre,128,SUFFOLK STREET,0.00255754
+appronstre,129,EAST 73 STREET,0.00255754
+appronstre,130,EAST 78 STREET,0.00255754
+appronstre,131,EAST 91 STREET,0.00255754
+appronstre,132,EAST 101 STREET,0.00255754
+appronstre,133,LA SALLE STREET,0.00255754
+appronstre,134,WEST 120 STREET,0.00255754
+appronstre,135,WEST 124 STREET,0.00255754
+appronstre,136,235 STREET,0.00255754
+appronstre,137,WEST 158 STREET,0.00255754
+appronstre,138,41 AVENUE,0.00255754
+appronstre,139,110 STREET,0.00255754
+appronstre,140,47 AVENUE,0.00255754
+appronstre,141,113 STREET,0.00255754
+appronstre,142,BOND STREET,0.00255754
+appronstre,143,HUDSON BOULEVARD EAST,0.00255754
+appronstre,144,EAST 123 STREET,0.00255754
+appronstre,145,CHRISTOPHER STREET,0.00255754
+appronstre,146,PALISADE PLACE,0.00255754
+appronstre,147,84 AVENUE,0.00255754
+appronstre,148,MINTHORNE STREET,0.00255754
+appronstre,149,EAST 89 STREET,0.00255754
+appronstre,150,WEST 75 STREET,0.00255754
+appronstre,151,WEST 108 STREET,0.00255754
+appronstre,152,WEST 159 STREET,0.00255754
+appronstre,153,MOUNT HOPE PLACE,0.00255754
+appronstre,154,MORRIS AVENUE,0.00255754
+appronstre,155,WEST 164 STREET,0.00255754
+appronstre,156,EAST 5 STREET,0.00255754
+appronstre,157,ANDREWS AVENUE SOUTH,0.00255754
+appronstre,158,RAPELYE STREET,0.00255754
+appronstre,159,EAST 212 STREET,0.00255754
+appronstre,160,EAST 22 STREET,0.00255754
+appronstre,161,LEXINGTON AVENUE,0.00255754
+appronstre,162,CLARKSON STREET,0.00255754
+appronstre,163,HARROD PLACE,0.00255754
+appronstre,164,RIVINGTON STREET,0.00255754
+appronstre,165,MASPETH AVENUE,0.00255754
+appronstre,166,DOCK STREET,0.00255754
+appronstre,167,WATER STREET,0.00255754
+appronstre,168,SIMPSON STREET,0.00255754
+appronstre,169,GRAND AVENUE,0.00255754
+appronstre,170,CHAUNCEY STREET,0.00255754
+appronstre,171,BECK STREET,0.00255754
+appronstre,172,DECATUR STREET,0.00255754
+apprtostre,1,JUNCTION BOULEVARD,0.13555
+apprtostre,2,MARINE AVENUE,0.0588235
+apprtostre,3,NORTH 12 STREET,0.0485934
+apprtostre,4,WEST 77 STREET,0.0460358
+apprtostre,5,82 STREET,0.0358056
+apprtostre,6,DEAD END,0.028133
+apprtostre,7,EAST 57 STREET,0.0230179
+apprtostre,8,WEST 121 STREET,0.0230179
+apprtostre,9,MEEHAN AVENUE,0.0204604
+apprtostre,10,BOWERY,0.0179028
+apprtostre,11,WASHINGTON AVENUE,0.0179028
+apprtostre,12,CONEY ISLAND AVENUE,0.0153453
+apprtostre,13,PARK PLACE,0.0153453
+apprtostre,14,HALSEY STREET,0.0153453
+apprtostre,15,HICKS STREET,0.0102302
+apprtostre,16,2 STREET,0.0102302
+apprtostre,17,10 AVENUE,0.0102302
+apprtostre,18,CANAL STREET,0.0102302
+apprtostre,19,CATHEDRAL PARKWAY,0.0102302
+apprtostre,20,FURMAN STREET,0.00767263
+apprtostre,21,HENRY STREET,0.00767263
+apprtostre,22,CHRISTOPHER STREET,0.00767263
+apprtostre,23,LUDLOW STREET,0.00767263
+apprtostre,24,DELANCEY STREET,0.00767263
+apprtostre,25,EAST HOUSTON STREET,0.00767263
+apprtostre,26,EAST 10 STREET,0.00767263
+apprtostre,27,MADISON AVENUE,0.00767263
+apprtostre,28,ST NICHOLAS AVENUE,0.00767263
+apprtostre,29,79 STREET,0.00767263
+apprtostre,30,GLEANE STREET,0.00767263
+apprtostre,31,6 AVENUE,0.00767263
+apprtostre,32,LEXINGTON AVENUE,0.00767263
+apprtostre,33,QUEEN STREET,0.00511509
+apprtostre,34,7 AVENUE,0.00511509
+apprtostre,35,ORCHARD STREET,0.00511509
+apprtostre,36,WATER STREET,0.00511509
+apprtostre,37,LIVINGSTON STREET,0.00511509
+apprtostre,38,FLATBUSH AVENUE,0.00511509
+apprtostre,39,GRAND AVENUE,0.00511509
+apprtostre,40,WASHINGTON STREET,0.00511509
+apprtostre,41,7 AVENUE SOUTH,0.00511509
+apprtostre,42,NORFOLK STREET,0.00511509
+apprtostre,43,EAST 17 STREET,0.00511509
+apprtostre,44,EAST 15 STREET,0.00511509
+apprtostre,45,WEST 36 STREET,0.00511509
+apprtostre,46,1 AVENUE,0.00511509
+apprtostre,47,35 STREET,0.00511509
+apprtostre,48,5 AVENUE,0.00511509
+apprtostre,49,VERMILYEA AVENUE,0.00511509
+apprtostre,50,BROADWAY,0.00511509
+apprtostre,51,AMSTERDAM AVENUE,0.00511509
+apprtostre,52,SARATOGA AVENUE,0.00511509
+apprtostre,53,STECHER STREET,0.00255754
+apprtostre,54,SUFFOLK AVENUE,0.00255754
+apprtostre,55,NEW DORP LANE,0.00255754
+apprtostre,56,VAN BRUNT STREET,0.00255754
+apprtostre,57,18 AVENUE,0.00255754
+apprtostre,58,STILLWELL AVENUE,0.00255754
+apprtostre,59,LOUISA STREET,0.00255754
+apprtostre,60,WOODHULL STREET,0.00255754
+apprtostre,61,PEARL STREET,0.00255754
+apprtostre,62,DIVISION STREET,0.00255754
+apprtostre,63,STATE STREET,0.00255754
+apprtostre,64,JAY STREET,0.00255754
+apprtostre,65,GLENWOOD ROAD,0.00255754
+apprtostre,66,PROSPECT PARK WEST,0.00255754
+apprtostre,67,GARFIELD PLACE,0.00255754
+apprtostre,68,MAC DONOUGH STREET,0.00255754
+apprtostre,69,MYRTLE AVENUE,0.00255754
+apprtostre,70,MESEROLE STREET,0.00255754
+apprtostre,71,GROVE STREET,0.00255754
+apprtostre,72,WEST BROADWAY,0.00255754
+apprtostre,73,8 AVENUE,0.00255754
+apprtostre,74,BARROW STREET,0.00255754
+apprtostre,75,MOTT STREET,0.00255754
+apprtostre,76,SPRING STREET,0.00255754
+apprtostre,77,AVENUE A,0.00255754
+apprtostre,78,MANHATTAN AVENUE,0.00255754
+apprtostre,79,HAMILTON PLACE,0.00255754
+apprtostre,80,NEWPORT STREET,0.00255754
+apprtostre,81,PATCHEN AVENUE,0.00255754
+apprtostre,82,BLAKE AVENUE,0.00255754
+apprtostre,83,MORGAN AVENUE,0.00255754
+apprtostre,84,104 STREET,0.00255754
+apprtostre,85,LAKEWOOD AVENUE,0.00255754
+apprtostre,86,107 AVENUE,0.00255754
+apprtostre,87,89 AVENUE,0.00255754
+apprtostre,88,204 STREET,0.00255754
+apprtostre,89,SKILLMAN AVENUE,0.00255754
+apprtostre,90,35 AVENUE,0.00255754
+apprtostre,91,CRESCENT STREET,0.00255754
+apprtostre,92,ASTORIA BOULEVARD,0.00255754
+apprtostre,93,ST ANNS AVENUE,0.00255754
+apprtostre,94,WALES AVENUE,0.00255754
+apprtostre,95,WEST 183 STREET,0.00255754
+apprtostre,96,AUDUBON AVENUE,0.00255754
+apprtostre,97,EAST 168 STREET,0.00255754
+apprtostre,98,INWOOD AVENUE,0.00255754
+apprtostre,99,WEST 190 STREET,0.00255754
+apprtostre,100,ISHAM STREET,0.00255754
+apprtostre,101,43 AVENUE,0.00255754
+apprtostre,102,40 DRIVE,0.00255754
+apprtostre,103,SPOFFORD AVENUE,0.00255754
+apprtostre,104,CHISHOLM STREET,0.00255754
+apprtostre,105,EAST 181 STREET,0.00255754
+apprtostre,106,GROTE STREET,0.00255754
+apprtostre,107,AQUEDUCT AVENUE EAST,0.00255754
+apprtostre,108,MORRIS AVENUE,0.00255754
+apprtostre,109,EAST 195 STREET,0.00255754
+apprtostre,110,98 STREET,0.00255754
+apprtostre,111,MARTENSE AVENUE,0.00255754
+apprtostre,112,108 STREET,0.00255754
+apprtostre,113,129 STREET,0.00255754
+apprtostre,114,STORY AVENUE,0.00255754
+apprtostre,115,RADCLIFF AVENUE,0.00255754
+apprtostre,116,58 ROAD,0.00255754
+apprtostre,117,150 STREET,0.00255754
+apprtostre,118,PARK AVENUE,0.00255754
+apprtostre,119,MOUNT MORRIS PARK WEST,0.00255754
+apprtostre,120,LENOX AVENUE,0.00255754
+apprtostre,121,121 AVENUE,0.00255754
+apprtostre,122,76 STREET,0.00255754
+apprtostre,123,NORTHERN BOULEVARD,0.00255754
+apprtostre,124,111 STREET,0.00255754
+apprtostre,125,37 AVENUE,0.00255754
+apprtostre,126,3 AVENUE,0.00255754
+apprtostre,127,POPHAM AVENUE,0.00255754
+apprtostre,128,164 PLACE,0.00255754
+apprtostre,129,VICTORY BOULEVARD,0.00255754
+apprtostre,130,WEST 15 STREET,0.00255754
+apprtostre,131,RIVERSIDE DRIVE,0.00255754
+apprtostre,132,ANTHONY AVENUE,0.00255754
+apprtostre,133,EAST 176 STREET,0.00255754
+apprtostre,134,EDGECOMBE AVENUE,0.00255754
+apprtostre,135,160 STREET,0.00255754
+apprtostre,136,WEST 179 STREET,0.00255754
+apprtostre,137,WEST 111 STREET,0.00255754
+apprtostre,138,WHITE PLAINS ROAD,0.00255754
+apprtostre,139,HUDSON STREET,0.00255754
+apprtostre,140,BEDFORD STREET,0.00255754
+apprtostre,141,MORRISON AVENUE,0.00255754
+apprtostre,142,ALLEN STREET,0.00255754
+apprtostre,143,WOODPOINT ROAD,0.00255754
+apprtostre,144,FOX STREET,0.00255754
+apprtostre,145,EAST 19 STREET,0.00255754
+apprtostre,146,WEST TREMONT AVENUE,0.00255754
+apprtostre,147,AVENUE ST JOHN,0.00255754
+apprtostre,148,4 AVENUE,0.00255754
+apprsunclo,1,20:00:00,0.579186
+apprsunclo,2,21:00:00,0.117647
+apprsunclo,3,18:00:00,0.081448
+apprsunclo,4,23:00:00,0.0633484
+apprsunclo,5,22:00:00,0.0633484
+apprsunclo,6,16:00:00,0.0361991
+apprsunclo,7,23:30:00,0.0180995
+apprsunclo,8,19:00:00,0.0135747
+apprsunclo,9,23:59:00,0.0135747
+apprsunclo,10,00:00:00,0.00904977
+apprsunclo,11,19:30:00,0.00452489
+apprthuope,1,07:00:00,0.287037
+apprthuope,2,08:00:00,0.226852
+apprthuope,3,07:30:00,0.0787037
+apprthuope,4,10:00:00,0.0787037
+apprthuope,5,11:00:00,0.0509259
+apprthuope,6,14:00:00,0.0324074
+apprthuope,7,16:30:00,0.0277778
+apprthuope,8,10:30:00,0.0277778
+apprthuope,9,09:00:00,0.0231481
+apprthuope,10,12:00:00,0.0231481
+apprthuope,11,07:45:00,0.0185185
+apprthuope,12,09:30:00,0.0138889
+apprthuope,13,15:00:00,0.0138889
+apprthuope,14,17:00:00,0.0138889
+apprthuope,15,16:00:00,0.00925926
+apprthuope,16,11:30:00,0.00925926
+apprthuope,17,14:30:00,0.00462963
+apprthuope,18,12:30:00,0.00462963
+apprthuope,19,09:15:00,0.00462963
+apprthuope,20,11:45:00,0.00462963
+apprthuope,21,11:10:00,0.00462963
+apprthuope,22,00:00:00,0.00462963
+apprthuope,23,07:50:00,0.00462963
+apprthuope,24,08:30:00,0.00462963
+apprthuope,25,15:30:00,0.00462963
+apprthuope,26,07:15:00,0.00462963
+apprthuope,27,07:55:00,0.00462963
+apprthuope,28,00:01:00,0.00462963
+apprthuope,29,11:15:00,0.00462963
+apprthuope,30,08:15:00,0.00462963
+apprfriope,1,07:00:00,0.217544
+apprfriope,2,08:00:00,0.175439
+apprfriope,3,16:00:00,0.164912
+apprfriope,4,10:00:00,0.0701754
+apprfriope,5,07:30:00,0.0631579
+apprfriope,6,14:00:00,0.0385965
+apprfriope,7,11:00:00,0.0385965
+apprfriope,8,15:30:00,0.0280702
+apprfriope,9,12:00:00,0.0245614
+apprfriope,10,09:00:00,0.0245614
+apprfriope,11,16:30:00,0.0245614
+apprfriope,12,10:30:00,0.0210526
+apprfriope,13,17:00:00,0.0140351
+apprfriope,14,07:45:00,0.0140351
+apprfriope,15,09:30:00,0.0105263
+apprfriope,16,15:00:00,0.0105263
+apprfriope,17,12:30:00,0.00701754
+apprfriope,18,08:30:00,0.00701754
+apprfriope,19,19:00:00,0.00350877
+apprfriope,20,14:30:00,0.00350877
+apprfriope,21,09:15:00,0.00350877
+apprfriope,22,11:45:00,0.00350877
+apprfriope,23,11:10:00,0.00350877
+apprfriope,24,00:00:00,0.00350877
+apprfriope,25,07:50:00,0.00350877
+apprfriope,26,07:15:00,0.00350877
+apprfriope,27,07:55:00,0.00350877
+apprfriope,28,00:01:00,0.00350877
+apprfriope,29,11:15:00,0.00350877
+apprfriope,30,18:00:00,0.00350877
+apprfriope,31,08:15:00,0.00350877
+apprfriclo,1,20:00:00,0.301754
+apprfriclo,2,22:00:00,0.175439
+apprfriclo,3,23:00:00,0.0807018
+apprfriclo,4,15:00:00,0.0491228
+apprfriclo,5,19:00:00,0.0421053
+apprfriclo,6,21:00:00,0.0350877
+apprfriclo,7,16:00:00,0.0350877
+apprfriclo,8,17:00:00,0.0350877
+apprfriclo,9,16:30:00,0.0350877
+apprfriclo,10,14:00:00,0.0280702
+apprfriclo,11,14:30:00,0.0210526
+apprfriclo,12,13:30:00,0.0210526
+apprfriclo,13,15:30:00,0.0210526
+apprfriclo,14,23:30:00,0.0140351
+apprfriclo,15,23:59:00,0.0105263
+apprfriclo,16,13:45:00,0.0105263
+apprfriclo,17,13:00:00,0.0105263
+apprfriclo,18,14:10:00,0.0105263
+apprfriclo,19,00:00:00,0.00701754
+apprfriclo,20,18:00:00,0.00701754
+apprfriclo,21,13:15:00,0.00701754
+apprfriclo,22,15:15:00,0.00701754
+apprfriclo,23,11:00:00,0.00350877
+apprfriclo,24,13:10:00,0.00350877
+apprfriclo,25,14:45:00,0.00350877
+apprfriclo,26,12:00:00,0.00350877
+apprfriclo,27,17:30:00,0.00350877
+apprfriclo,28,11:30:00,0.00350877
+apprfriclo,29,23:45:00,0.00350877
+apprfriclo,30,12:45:00,0.00350877
+apprfriclo,31,12:30:00,0.00350877
+apprfriclo,32,15:35:00,0.00350877
+apprtueope,1,07:00:00,0.314721
+apprtueope,2,08:00:00,0.253807
+apprtueope,3,07:30:00,0.0862944
+apprtueope,4,10:00:00,0.0761421
+apprtueope,5,11:00:00,0.035533
+apprtueope,6,10:30:00,0.0304569
+apprtueope,7,09:00:00,0.0253807
+apprtueope,8,12:00:00,0.0253807
+apprtueope,9,07:45:00,0.0203046
+apprtueope,10,09:30:00,0.0152284
+apprtueope,11,15:00:00,0.0101523
+apprtueope,12,16:30:00,0.0101523
+apprtueope,13,14:00:00,0.0101523
+apprtueope,14,11:30:00,0.0101523
+apprtueope,15,14:30:00,0.00507614
+apprtueope,16,16:00:00,0.00507614
+apprtueope,17,12:30:00,0.00507614
+apprtueope,18,09:15:00,0.00507614
+apprtueope,19,11:45:00,0.00507614
+apprtueope,20,11:10:00,0.00507614
+apprtueope,21,00:00:00,0.00507614
+apprtueope,22,07:50:00,0.00507614
+apprtueope,23,08:30:00,0.00507614
+apprtueope,24,07:15:00,0.00507614
+apprtueope,25,07:55:00,0.00507614
+apprtueope,26,00:01:00,0.00507614
+apprtueope,27,16:45:00,0.00507614
+apprtueope,28,11:15:00,0.00507614
+apprtueope,29,08:15:00,0.00507614
+.cell:.geom_x:.geom_y,1,-7389 4075,0.0511509
+.cell:.geom_x:.geom_y,2,-7390 4075,0.0434783
+.cell:.geom_x:.geom_y,3,-7388 4075,0.0409207
+.cell:.geom_x:.geom_y,4,-7398 4077,0.0358056
+.cell:.geom_x:.geom_y,5,-7400 4071,0.0332481
+.cell:.geom_x:.geom_y,6,-7401 4073,0.0332481
+.cell:.geom_x:.geom_y,7,-7404 4061,0.0306905
+.cell:.geom_x:.geom_y,8,-7397 4071,0.0306905
+.cell:.geom_x:.geom_y,9,-7404 4062,0.028133
+.cell:.geom_x:.geom_y,10,-7403 4063,0.0230179
+.cell:.geom_x:.geom_y,11,-7399 4072,0.0230179
+.cell:.geom_x:.geom_y,12,-7396 4080,0.0230179
+.cell:.geom_x:.geom_y,13,-7395 4068,0.0179028
+.cell:.geom_x:.geom_y,14,-7389 4074,0.0179028
+.cell:.geom_x:.geom_y,15,-7399 4067,0.0153453
+.cell:.geom_x:.geom_y,16,-7397 4063,0.0153453
+.cell:.geom_x:.geom_y,17,-7399 4073,0.0153453
+.cell:.geom_x:.geom_y,18,-7397 4080,0.0153453
+.cell:.geom_x:.geom_y,19,-7375 4060,0.0153453
+.cell:.geom_x:.geom_y,20,-7403 4062,0.0127877
+.cell:.geom_x:.geom_y,21,-7400 4069,0.0127877
+.cell:.geom_x:.geom_y,22,-7399 4071,0.0127877
+.cell:.geom_x:.geom_y,23,-7397 4067,0.0127877
+.cell:.geom_x:.geom_y,24,-7400 4072,0.0127877
+.cell:.geom_x:.geom_y,25,-7398 4076,0.0127877
+.cell:.geom_x:.geom_y,26,-7398 4069,0.0102302
+.cell:.geom_x:.geom_y,27,-7397 4069,0.0102302
+.cell:.geom_x:.geom_y,28,-7396 4071,0.0102302
+.cell:.geom_x:.geom_y,29,-7396 4072,0.0102302
+.cell:.geom_x:.geom_y,30,-7398 4075,0.0102302
+.cell:.geom_x:.geom_y,31,-7413 4060,0.00767263
+.cell:.geom_x:.geom_y,32,-7401 4068,0.00767263
+.cell:.geom_x:.geom_y,33,-7399 4068,0.00767263
+.cell:.geom_x:.geom_y,34,-7399 4069,0.00767263
+.cell:.geom_x:.geom_y,35,-7397 4068,0.00767263
+.cell:.geom_x:.geom_y,36,-7401 4074,0.00767263
+.cell:.geom_x:.geom_y,37,-7396 4078,0.00767263
+.cell:.geom_x:.geom_y,38,-7393 4086,0.00767263
+.cell:.geom_x:.geom_y,39,-7386 4074,0.00767263
+.cell:.geom_x:.geom_y,40,-7399 4066,0.00767263
+.cell:.geom_x:.geom_y,41,-7392 4085,0.00767263
+.cell:.geom_x:.geom_y,42,-7400 4070,0.00511509
+.cell:.geom_x:.geom_y,43,-7396 4065,0.00511509
+.cell:.geom_x:.geom_y,44,-7401 4072,0.00511509
+.cell:.geom_x:.geom_y,45,-7399 4077,0.00511509
+.cell:.geom_x:.geom_y,46,-7391 4066,0.00511509
+.cell:.geom_x:.geom_y,47,-7393 4070,0.00511509
+.cell:.geom_x:.geom_y,48,-7380 4069,0.00511509
+.cell:.geom_x:.geom_y,49,-7393 4076,0.00511509
+.cell:.geom_x:.geom_y,50,-7393 4077,0.00511509
+.cell:.geom_x:.geom_y,51,-7392 4081,0.00511509
+.cell:.geom_x:.geom_y,52,-7391 4081,0.00511509
+.cell:.geom_x:.geom_y,53,-7391 4085,0.00511509
+.cell:.geom_x:.geom_y,54,-7378 4069,0.00511509
+.cell:.geom_x:.geom_y,55,-7397 4077,0.00511509
+.cell:.geom_x:.geom_y,56,-7395 4080,0.00511509
+.cell:.geom_x:.geom_y,57,-7395 4083,0.00511509
+.cell:.geom_x:.geom_y,58,-7386 4075,0.00511509
+.cell:.geom_x:.geom_y,59,-7391 4084,0.00511509
+.cell:.geom_x:.geom_y,60,-7392 4068,0.00511509
+.cell:.geom_x:.geom_y,61,-7398 4078,0.00511509
+.cell:.geom_x:.geom_y,62,-7419 4053,0.00255754
+.cell:.geom_x:.geom_y,63,-7412 4057,0.00255754
+.cell:.geom_x:.geom_y,64,-7402 4063,0.00255754
+.cell:.geom_x:.geom_y,65,-7402 4067,0.00255754
+.cell:.geom_x:.geom_y,66,-7398 4057,0.00255754
+.cell:.geom_x:.geom_y,67,-7401 4060,0.00255754
+.cell:.geom_x:.geom_y,68,-7399 4060,0.00255754
+.cell:.geom_x:.geom_y,69,-7401 4064,0.00255754
+.cell:.geom_x:.geom_y,70,-7399 4064,0.00255754
+.cell:.geom_x:.geom_y,71,-7401 4067,0.00255754
+.cell:.geom_x:.geom_y,72,-7401 4070,0.00255754
+.cell:.geom_x:.geom_y,73,-7399 4070,0.00255754
+.cell:.geom_x:.geom_y,74,-7396 4063,0.00255754
+.cell:.geom_x:.geom_y,75,-7398 4066,0.00255754
+.cell:.geom_x:.geom_y,76,-7398 4067,0.00255754
+.cell:.geom_x:.geom_y,77,-7395 4070,0.00255754
+.cell:.geom_x:.geom_y,78,-7399 4075,0.00255754
+.cell:.geom_x:.geom_y,79,-7396 4077,0.00255754
+.cell:.geom_x:.geom_y,80,-7396 4081,0.00255754
+.cell:.geom_x:.geom_y,81,-7395 4082,0.00255754
+.cell:.geom_x:.geom_y,82,-7392 4065,0.00255754
+.cell:.geom_x:.geom_y,83,-7393 4068,0.00255754
+.cell:.geom_x:.geom_y,84,-7392 4066,0.00255754
+.cell:.geom_x:.geom_y,85,-7394 4071,0.00255754
+.cell:.geom_x:.geom_y,86,-7385 4069,0.00255754
+.cell:.geom_x:.geom_y,87,-7381 4068,0.00255754
+.cell:.geom_x:.geom_y,88,-7380 4070,0.00255754
+.cell:.geom_x:.geom_y,89,-7374 4059,0.00255754
+.cell:.geom_x:.geom_y,90,-7374 4060,0.00255754
+.cell:.geom_x:.geom_y,91,-7376 4070,0.00255754
+.cell:.geom_x:.geom_y,92,-7394 4074,0.00255754
+.cell:.geom_x:.geom_y,93,-7393 4075,0.00255754
+.cell:.geom_x:.geom_y,94,-7394 4079,0.00255754
+.cell:.geom_x:.geom_y,95,-7394 4081,0.00255754
+.cell:.geom_x:.geom_y,96,-7394 4085,0.00255754
+.cell:.geom_x:.geom_y,97,-7394 4084,0.00255754
+.cell:.geom_x:.geom_y,98,-7392 4083,0.00255754
+.cell:.geom_x:.geom_y,99,-7392 4084,0.00255754
+.cell:.geom_x:.geom_y,100,-7393 4085,0.00255754
+.cell:.geom_x:.geom_y,101,-7390 4074,0.00255754
+.cell:.geom_x:.geom_y,102,-7391 4074,0.00255754
+.cell:.geom_x:.geom_y,103,-7388 4074,0.00255754
+.cell:.geom_x:.geom_y,104,-7389 4081,0.00255754
+.cell:.geom_x:.geom_y,105,-7390 4083,0.00255754
+.cell:.geom_x:.geom_y,106,-7390 4085,0.00255754
+.cell:.geom_x:.geom_y,107,-7389 4085,0.00255754
+.cell:.geom_x:.geom_y,108,-7389 4086,0.00255754
+.cell:.geom_x:.geom_y,109,-7387 4074,0.00255754
+.cell:.geom_x:.geom_y,110,-7384 4078,0.00255754
+.cell:.geom_x:.geom_y,111,-7386 4082,0.00255754
+.cell:.geom_x:.geom_y,112,-7386 4084,0.00255754
+.cell:.geom_x:.geom_y,113,-7382 4073,0.00255754
+.cell:.geom_x:.geom_y,114,-7383 4074,0.00255754
+.cell:.geom_x:.geom_y,115,-7382 4076,0.00255754
+.cell:.geom_x:.geom_y,116,-7395 4078,0.00255754
+.cell:.geom_x:.geom_y,117,-7397 4081,0.00255754
+.cell:.geom_x:.geom_y,118,-7374 4068,0.00255754
+.cell:.geom_x:.geom_y,119,-7400 4075,0.00255754
+.cell:.geom_x:.geom_y,120,-7394 4080,0.00255754
+.cell:.geom_x:.geom_y,121,-7380 4071,0.00255754
+.cell:.geom_x:.geom_y,122,-7408 4063,0.00255754
+.cell:.geom_x:.geom_y,123,-7399 4078,0.00255754
+.cell:.geom_x:.geom_y,124,-7394 4083,0.00255754
+.cell:.geom_x:.geom_y,125,-7387 4087,0.00255754
+.cell:.geom_x:.geom_y,126,-7388 4082,0.00255754
+.cell:.geom_x:.geom_y,127,-7395 4071,0.00255754
+.cell:.geom_x:.geom_y,128,-7408 4062,0.00255754
+.cell:.geom_x:.geom_y,129,-7390 4082,0.00255754
+.cell:.geom_x:.geom_y,130,-7400 4066,0.00255754

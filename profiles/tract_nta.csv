@@ -1,0 +1,15 @@
+column,kind,class,n,na_share,n_distinct,min,q001,q01,q05,q10,q25,median,q75,q90,q95,q99,q999,max,mean,sd,whole,values_kept,values_share,nchar_min,nchar_max,id_pattern,example
+GEOID,numeric,integer64,2327,0,2327,36005000100,36005000400,36005004100,36005017900,36005031200,36047025300,36047150200,36081036500,36081100800,36085002000,36085023100,36085031900,36085990100,36055042250,25976200,TRUE,,,,,,
+CountyFIPS,integer,integer,2327,0,5,5,5,5,5,5,47,47,81,81,85,85,85,85,55,25.9694,TRUE,5,1,,,,
+BoroCode,integer,integer,2327,0,5,1,1,1,1,1,2,3,4,4,5,5,5,5,2.998281,1.10303,TRUE,5,1,,,,
+BoroName,character,character,2327,0,5,,,,,,,,,,,,,,,,,5,1,5,13,alnum,Bronx
+BoroCT2020,integer,integer,2327,0,2327,1000100,1000202,1002500,1011100,1020500,2036902,3054200,4036500,4100804,5002002,5023100,5031902,5990100,3040533,1115470,TRUE,,,,,,
+CT2020,integer,integer,2327,0,1530,100,100,700,3300,6300,15200,30100,57901,94401,115700,146700,990100,990100,42251.91,48265.2,TRUE,,,,,,
+CTLabel,numeric,numeric,2327,0,1530,1.00,1.00,7.00,33.00,63.00,152.00,301.00,579.01,944.01,1157.00,1467.00,9901.00,9901.00,422.5191,482.652,FALSE,,,,,,
+NTACode,character,character,2327,0,262,,,,,,,,,,,,,,,,,262,1,6,6,alnum,BX0101
+NTAType,integer,integer,2327,0,6,0,0,0,0,0,0,0,0,0,0,9,9,9,0.2535453,1.4342,TRUE,6,1,,,,
+NTAName,character,character,2327,0,262,,,,,,,,,,,,,,,,,262,1,6,56,alnum,Mott Haven-Port Morris
+NTAAbbrev,character,character,2327,0,262,,,,,,,,,,,,,,,,,262,1,2,10,alnum,MttHvn
+CDTACode,character,character,2327,0,71,,,,,,,,,,,,,,,,,71,1,4,4,alnum,BX01
+CDTAType,character,character,2327,0,2,,,,,,,,,,,,,,,,,2,1,2,3,alnum,CD
+CDTAName,character,character,2327,0,71,,,,,,,,,,,,,,,,,71,1,30,63,alnum,BX01 Melrose-Mott Haven-Port Morris (CD 1 Approximation)

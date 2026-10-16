@@ -1,0 +1,13 @@
+column,kind,class,n,na_share,n_distinct,nchar_min,nchar_max,id_pattern,example,values_kept,values_share,min,q001,q01,q05,q10,q25,median,q75,q90,q95,q99,q999,max,mean,sd,whole,cell
+shape_area,character,character,52,0,52,11,13,alnum,1608755569.58,,,,,,,,,,,,,,,,,,,
+shape_leng,character,character,52,0,52,12,13,alnum,309993.482023,,,,,,,,,,,,,,,,,,,
+boro_name,character,character,52,0,5,5,13,alnum,Staten Island,5,1,,,,,,,,,,,,,,,,,
+zone_name,character,character,52,0,47,6,43,alnum,Outerborough,,,,,,,,,,,,,,,,,,,
+rate_zone,character,character,52,0,7,52,145,alnum,Zone 3 - All Vehicles: $1.50 1st Hour / $2.50 2nd Hour,7,1,,,,,,,,,,,,,,,,,
+boro_code,character,character,52,0,5,3,3,alnum,5.0,5,1,,,,,,,,,,,,,,,,,
+shape_le_1,character,character,52,0,52,12,13,alnum,309993.485707,,,,,,,,,,,,,,,,,,,
+zone,character,character,52,0,6,6,7,alnum,Zone 3,6,1,,,,,,,,,,,,,,,,,
+.geom_x,numeric,numeric,52,0,52,,,,,,,-74.15407,-74.15407,-74.15407,-74.02616,-73.99760,-73.96842,-73.94467,-73.89303,-73.84441,-73.81682,-73.77109,-73.77109,-73.77109,-73.93136,0.0691715,FALSE,
+.geom_y,numeric,numeric,52,0,52,,,,,,,40.57706,40.57706,40.57706,40.58743,40.60780,40.64952,40.71928,40.79509,40.85459,40.88075,40.88572,40.88572,40.88572,40.7294,0.0893111,FALSE,
+.geom_area,numeric,numeric,52,0,52,,,,,,,139192.3,139192.3,139192.3,187843.0,211111.3,354584.7,519768.2,2051819.1,16149287.9,149278864.8,270976710.8,270976710.8,270976710.8,14778928,48651500,FALSE,
+.cell:.geom_x:.geom_y,cell,cell,52,0,49,,,,,49,1,,,,,,,,,,,,,,,,,0.01

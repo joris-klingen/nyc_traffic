@@ -1,0 +1,25 @@
+column,rank,value,share
+Type of Change,1,One-way Conversion,0.519573
+Type of Change,2,One-way,0.135231
+Type of Change,3,One-way Reversal,0.120996
+Type of Change,4,One-way conversion,0.0925267
+Type of Change,5,One way Conversion,0.0747331
+Type of Change,6,Two-way Conversion,0.0355872
+Type of Change,7,Street closure,0.0106762
+Type of Change,8,Two-way,0.0106762
+New Direction,1,WB,0.263345
+New Direction,2,SB,0.241993
+New Direction,3,EB,0.224199
+New Direction,4,NB,0.213523
+New Direction,5,EB-WB,0.024911
+New Direction,6,NB-SB,0.0142349
+New Direction,7,N/A,0.0106762
+New Direction,8,NB -SB,0.00711744
+Boro,1,(Q),0.551601
+Boro,2,(K),0.153025
+Boro,3,(BX),0.13879
+Boro,4,(SI),0.0854093
+Boro,5,(M),0.0498221
+Boro,6,(B),0.0142349
+Boro,7,(Bx),0.00711744
+Notes,1,Closed to vehicular traffic,1

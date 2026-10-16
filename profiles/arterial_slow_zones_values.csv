@@ -1,0 +1,52 @@
+column,rank,value,share
+enforcemen,1,2014-05-19,0.0714286
+enforcemen,2,2014-06-02,0.0714286
+enforcemen,3,2014-08-04,0.0714286
+enforcemen,4,2014-06-09,0.0357143
+enforcemen,5,2014-06-16,0.0357143
+enforcemen,6,2014-06-23,0.0357143
+enforcemen,7,2014-06-30,0.0357143
+enforcemen,8,2014-07-07,0.0357143
+enforcemen,9,2014-08-18,0.0357143
+enforcemen,10,2014-08-25,0.0357143
+enforcemen,11,2014-09-01,0.0357143
+enforcemen,12,2014-09-08,0.0357143
+enforcemen,13,2014-09-22,0.0357143
+enforcemen,14,2014-09-29,0.0357143
+enforcemen,15,2014-10-13,0.0357143
+enforcemen,16,2014-10-27,0.0357143
+enforcemen,17,2014-11-10,0.0357143
+enforcemen,18,2014-11-17,0.0357143
+enforcemen,19,2014-11-24,0.0357143
+enforcemen,20,2014-12-01,0.0357143
+enforcemen,21,2014-12-08,0.0357143
+enforcemen,22,2014-12-15,0.0357143
+enforcemen,23,2014-12-22,0.0357143
+enforcemen,24,2014-01-05,0.0357143
+enforcemen,25,2014-01-12,0.0357143
+.cell:.geom_x:.geom_y,1,-7396 4081,0.0714286
+.cell:.geom_x:.geom_y,2,-7400 4072,0.0714286
+.cell:.geom_x:.geom_y,3,-7393 4067,0.0357143
+.cell:.geom_x:.geom_y,4,-7391 4084,0.0357143
+.cell:.geom_x:.geom_y,5,-7390 4075,0.0357143
+.cell:.geom_x:.geom_y,6,-7395 4072,0.0357143
+.cell:.geom_x:.geom_y,7,-7386 4087,0.0357143
+.cell:.geom_x:.geom_y,8,-7377 4071,0.0357143
+.cell:.geom_x:.geom_y,9,-7394 4067,0.0357143
+.cell:.geom_x:.geom_y,10,-7401 4071,0.0357143
+.cell:.geom_x:.geom_y,11,-7414 4062,0.0357143
+.cell:.geom_x:.geom_y,12,-7390 4082,0.0357143
+.cell:.geom_x:.geom_y,13,-7388 4073,0.0357143
+.cell:.geom_x:.geom_y,14,-7391 4085,0.0357143
+.cell:.geom_x:.geom_y,15,-7382 4067,0.0357143
+.cell:.geom_x:.geom_y,16,-7400 4075,0.0357143
+.cell:.geom_x:.geom_y,17,-7397 4061,0.0357143
+.cell:.geom_x:.geom_y,18,-7387 4075,0.0357143
+.cell:.geom_x:.geom_y,19,-7414 4061,0.0357143
+.cell:.geom_x:.geom_y,20,-7393 4064,0.0357143
+.cell:.geom_x:.geom_y,21,-7396 4065,0.0357143
+.cell:.geom_x:.geom_y,22,-7391 4083,0.0357143
+.cell:.geom_x:.geom_y,23,-7396 4078,0.0357143
+.cell:.geom_x:.geom_y,24,-7400 4074,0.0357143
+.cell:.geom_x:.geom_y,25,-7388 4071,0.0357143
+.cell:.geom_x:.geom_y,26,-7379 4076,0.0357143

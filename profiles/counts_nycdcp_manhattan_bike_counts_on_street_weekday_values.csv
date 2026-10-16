@@ -1,0 +1,110 @@
+column,rank,value,share
+LocationID,1,1,0.101852
+LocationID,2,2,0.101852
+LocationID,3,3,0.101852
+LocationID,4,4,0.101852
+LocationID,5,5,0.101852
+LocationID,6,7,0.101852
+LocationID,7,8,0.101852
+LocationID,8,9,0.101852
+LocationID,9,10,0.101852
+LocationID,10,6,0.0833333
+LocationType,1,On-Street,1
+TypeOfTime,1,Weekday,1
+Location,1,Second Avenue at E7 St.,0.101852
+Location,2,Lafayette Street at Astor Pl.,0.101852
+Location,3,Fifth Avenue at 14 St.,0.101852
+Location,4,Sixth Avenue at W23 St.,0.101852
+Location,5,Broadway at W28 St.,0.101852
+Location,6,First Avenue at E85 St.,0.101852
+Location,7,Central Park West at W93 St.,0.101852
+Location,8,Adam Clayton at W113th St. (NB+SB),0.101852
+Location,9,Fort Washington at W173 St. (NB +SB),0.101852
+Location,10,Eighth Avenue at W28 St.,0.0833333
+Location_Lat,1,40.727963,0.101852
+Location_Lat,2,40.72983,0.101852
+Location_Lat,3,40.736015,0.101852
+Location_Lat,4,40.742897,0.101852
+Location_Lat,5,40.745293,0.101852
+Location_Lat,6,40.77619,0.101852
+Location_Lat,7,40.789748,0.101852
+Location_Lat,8,40.801269,0.101852
+Location_Lat,9,40.845373,0.101852
+Location_Lat,10,40.748435,0.0833333
+Location_Long,1,-73.988133,0.101852
+Location_Long,2,-73.991424,0.101852
+Location_Long,3,-73.993635,0.101852
+Location_Long,4,-73.992805,0.101852
+Location_Long,5,-73.988767,0.101852
+Location_Long,6,-73.949855,0.101852
+Location_Long,7,-73.966117,0.101852
+Location_Long,8,-73.953865,0.101852
+Location_Long,9,-73.940536,0.101852
+Location_Long,10,-73.996206,0.0833333
+Year,1,2007,0.0925926
+Year,2,2008,0.0925926
+Year,3,2009,0.0925926
+Year,4,2010,0.0925926
+Year,5,2011,0.0925926
+Year,6,2012,0.0925926
+Year,7,2013,0.0925926
+Year,8,2014,0.0925926
+Year,9,2015,0.0925926
+Year,10,2005,0.0833333
+Year,11,2006,0.0833333
+Citibike_Male,1,0,0.757282
+Citibike_Male,2,3,0.0291262
+Citibike_Male,3,445,0.0194175
+Citibike_Male,4,6,0.0194175
+Citibike_Male,5,393,0.00970874
+Citibike_Male,6,521,0.00970874
+Citibike_Male,7,186,0.00970874
+Citibike_Male,8,274,0.00970874
+Citibike_Male,9,293,0.00970874
+Citibike_Male,10,316,0.00970874
+Citibike_Male,11,313,0.00970874
+Citibike_Male,12,487,0.00970874
+Citibike_Male,13,513,0.00970874
+Citibike_Male,14,476,0.00970874
+Citibike_Male,15,676,0.00970874
+Citibike_Male,16,506,0.00970874
+Citibike_Male,17,434,0.00970874
+Citibike_Male,18,512,0.00970874
+Citibike_Male,19,538,0.00970874
+Citibike_Male,20,591,0.00970874
+Citibike_Male,21,28,0.00970874
+Citibike_Male,22,21,0.00970874
+Citibike_female,1,0,0.742857
+Citibike_female,2,1,0.0380952
+Citibike_female,3,2,0.0190476
+Citibike_female,4,192,0.00952381
+Citibike_female,5,182,0.00952381
+Citibike_female,6,244,0.00952381
+Citibike_female,7,78,0.00952381
+Citibike_female,8,115,0.00952381
+Citibike_female,9,146,0.00952381
+Citibike_female,10,117,0.00952381
+Citibike_female,11,119,0.00952381
+Citibike_female,12,162,0.00952381
+Citibike_female,13,224,0.00952381
+Citibike_female,14,147,0.00952381
+Citibike_female,15,220,0.00952381
+Citibike_female,16,171,0.00952381
+Citibike_female,17,124,0.00952381
+Citibike_female,18,120,0.00952381
+Citibike_female,19,163,0.00952381
+Citibike_female,20,148,0.00952381
+Citibike_female,21,190,0.00952381
+Citibike_female,22,9,0.00952381
+Citibike_female,23,3,0.00952381
+Citibike_female,24,8,0.00952381
+.cell:Location_Long:Location_Lat,1,-14798 8145,0.101852
+.cell:Location_Long:Location_Lat,2,-14799 8145,0.101852
+.cell:Location_Long:Location_Lat,3,-14799 8147,0.101852
+.cell:Location_Long:Location_Lat,4,-14799 8148,0.101852
+.cell:Location_Long:Location_Lat,5,-14798 8149,0.101852
+.cell:Location_Long:Location_Lat,6,-14790 8155,0.101852
+.cell:Location_Long:Location_Lat,7,-14794 8157,0.101852
+.cell:Location_Long:Location_Lat,8,-14791 8160,0.101852
+.cell:Location_Long:Location_Lat,9,-14789 8169,0.101852
+.cell:Location_Long:Location_Lat,10,-14800 8149,0.0833333

@@ -1,0 +1,35 @@
+column,rank,value,share
+year,1,2013,0.321429
+year,2,2015,0.285714
+year,3,2014,0.178571
+year,4,2012,0.142857
+year,5,2011,0.0357143
+year,6,2016,0.0357143
+.cell:.geom_x:.geom_y,1,-7409 4064,0.0357143
+.cell:.geom_x:.geom_y,2,-7387 4075,0.0357143
+.cell:.geom_x:.geom_y,3,-7390 4076,0.0357143
+.cell:.geom_x:.geom_y,4,-7388 4074,0.0357143
+.cell:.geom_x:.geom_y,5,-7379 4075,0.0357143
+.cell:.geom_x:.geom_y,6,-7393 4086,0.0357143
+.cell:.geom_x:.geom_y,7,-7385 4087,0.0357143
+.cell:.geom_x:.geom_y,8,-7409 4058,0.0357143
+.cell:.geom_x:.geom_y,9,-7386 4086,0.0357143
+.cell:.geom_x:.geom_y,10,-7392 4089,0.0357143
+.cell:.geom_x:.geom_y,11,-7408 4061,0.0357143
+.cell:.geom_x:.geom_y,12,-7392 4084,0.0357143
+.cell:.geom_x:.geom_y,13,-7399 4068,0.0357143
+.cell:.geom_x:.geom_y,14,-7389 4083,0.0357143
+.cell:.geom_x:.geom_y,15,-7388 4087,0.0357143
+.cell:.geom_x:.geom_y,16,-7398 4072,0.0357143
+.cell:.geom_x:.geom_y,17,-7397 4068,0.0357143
+.cell:.geom_x:.geom_y,18,-7389 4075,0.0357143
+.cell:.geom_x:.geom_y,19,-7391 4066,0.0357143
+.cell:.geom_x:.geom_y,20,-7394 4085,0.0357143
+.cell:.geom_x:.geom_y,21,-7386 4083,0.0357143
+.cell:.geom_x:.geom_y,22,-7392 4074,0.0357143
+.cell:.geom_x:.geom_y,23,-7393 4073,0.0357143
+.cell:.geom_x:.geom_y,24,-7401 4073,0.0357143
+.cell:.geom_x:.geom_y,25,-7397 4067,0.0357143
+.cell:.geom_x:.geom_y,26,-7400 4069,0.0357143
+.cell:.geom_x:.geom_y,27,-7392 4076,0.0357143
+.cell:.geom_x:.geom_y,28,-7385 4083,0.0357143

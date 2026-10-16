@@ -1,0 +1,280 @@
+column,rank,value,share
+stsendist,1,25,0.11828
+stsendist,2,28,0.0967742
+stsendist,3,26,0.0967742
+stsendist,4,31,0.0860215
+stsendist,5,27,0.0645161
+stsendist,6,18,0.0645161
+stsendist,7,12,0.0537634
+stsendist,8,32,0.0430108
+stsendist,9,20,0.0322581
+stsendist,10,21,0.0322581
+stsendist,11,33,0.0215054
+stsendist,12,30,0.0215054
+stsendist,13,59,0.0215054
+stsendist,14,13,0.0215054
+stsendist,15,34,0.0215054
+stsendist,16,10,0.0215054
+stsendist,17,15,0.0215054
+stsendist,18,47,0.0107527
+stsendist,19,"27, 28",0.0107527
+stsendist,20,"12, 13",0.0107527
+stsendist,21,14,0.0107527
+stsendist,22,16,0.0107527
+stsendist,23,29,0.0107527
+stsendist,24,23,0.0107527
+stsendist,25,19,0.0107527
+stsendist,26,"12,19",0.0107527
+stsendist,27,"28,27",0.0107527
+stsendist,28,"18,12",0.0107527
+stsendist,29,11,0.0107527
+stsendist,30,"13,16",0.0107527
+stsendist,31,"30,31",0.0107527
+stsendist,32,"20, 17",0.0107527
+coundist,1,1,0.107527
+coundist,2,33,0.0752688
+coundist,3,10,0.0645161
+coundist,4,35,0.0645161
+coundist,5,26,0.0537634
+coundist,6,2,0.0430108
+coundist,7,34,0.0430108
+coundist,8,41,0.0322581
+coundist,9,3,0.0322581
+coundist,10,"3, 4",0.0322581
+coundist,11,25,0.0322581
+coundist,12,4,0.0322581
+coundist,13,40,0.0215054
+coundist,14,18,0.0215054
+coundist,15,"2, 3",0.0215054
+coundist,16,7,0.0215054
+coundist,17,15,0.0215054
+coundist,18,31,0.0215054
+coundist,19,30,0.0215054
+coundist,20,39,0.0215054
+coundist,21,17,0.0107527
+coundist,22,11,0.0107527
+coundist,23,9,0.0107527
+coundist,24,27,0.0107527
+coundist,25,45,0.0107527
+coundist,26,20,0.0107527
+coundist,27,21,0.0107527
+coundist,28,"8,17",0.0107527
+coundist,29,8,0.0107527
+coundist,30,"8,9",0.0107527
+coundist,31,49,0.0107527
+coundist,32,37,0.0107527
+coundist,33,42,0.0107527
+coundist,34,"37,32",0.0107527
+coundist,35,36,0.0107527
+coundist,36,"34,37",0.0107527
+coundist,37,19,0.0107527
+coundist,38,13,0.0107527
+coundist,39,5,0.0107527
+coundist,40,"34,33",0.0107527
+assemdist,1,65,0.0860215
+assemdist,2,75,0.0752688
+assemdist,3,66,0.0645161
+assemdist,4,37,0.0645161
+assemdist,5,57,0.0645161
+assemdist,6,50,0.0537634
+assemdist,7,52,0.0537634
+assemdist,8,72,0.0430108
+assemdist,9,55,0.0322581
+assemdist,10,85,0.0322581
+assemdist,11,73,0.0322581
+assemdist,12,43,0.0215054
+assemdist,13,70,0.0215054
+assemdist,14,78,0.0215054
+assemdist,15,38,0.0215054
+assemdist,16,53,0.0215054
+assemdist,17,44,0.0215054
+assemdist,18,71,0.0215054
+assemdist,19,81,0.0107527
+assemdist,20,"74, 75",0.0107527
+assemdist,21,"66, 74",0.0107527
+assemdist,22,"39, 30, 34",0.0107527
+assemdist,23,29,0.0107527
+assemdist,24,42,0.0107527
+assemdist,25,40,0.0107527
+assemdist,26,34,0.0107527
+assemdist,27,39,0.0107527
+assemdist,28,84,0.0107527
+assemdist,29,"77,84",0.0107527
+assemdist,30,68,0.0107527
+assemdist,31,61,0.0107527
+assemdist,32,23,0.0107527
+assemdist,33,60,0.0107527
+assemdist,34,"54,23",0.0107527
+assemdist,35,56,0.0107527
+assemdist,36,"38,53",0.0107527
+assemdist,37,26,0.0107527
+assemdist,38,"34,39",0.0107527
+assemdist,39,82,0.0107527
+assemdist,40,31,0.0107527
+assemdist,41,"72,71",0.0107527
+borocd,1,302,0.107527
+borocd,2,105,0.0967742
+borocd,3,112,0.0645161
+borocd,4,301,0.0645161
+borocd,5,101,0.0537634
+borocd,6,402,0.0537634
+borocd,7,103,0.0430108
+borocd,8,316,0.0322581
+borocd,9,102,0.0322581
+borocd,10,403,0.0322581
+borocd,11,405,0.0322581
+borocd,12,309,0.0215054
+borocd,13,209,0.0215054
+borocd,14,109,0.0215054
+borocd,15,414,0.0215054
+borocd,16,312,0.0215054
+borocd,17,202,0.0107527
+borocd,18,"207, 208",0.0107527
+borocd,19,"102, 104",0.0107527
+borocd,20,"102, 105",0.0107527
+borocd,21,110,0.0107527
+borocd,22,412,0.0107527
+borocd,23,314,0.0107527
+borocd,24,407,0.0107527
+borocd,25,404,0.0107527
+borocd,26,106,0.0107527
+borocd,27,"103,102",0.0107527
+borocd,28,201,0.0107527
+borocd,29,204,0.0107527
+borocd,30,111,0.0107527
+borocd,31,"206,207",0.0107527
+borocd,32,501,0.0107527
+borocd,33,304,0.0107527
+borocd,34,305,0.0107527
+borocd,35,"305,409",0.0107527
+borocd,36,303,0.0107527
+borocd,37,"304,405",0.0107527
+borocd,38,207,0.0107527
+borocd,39,411,0.0107527
+borocd,40,210,0.0107527
+borocd,41,108,0.0107527
+borocd,42,308,0.0107527
+femafldz,1,X,0.956989
+femafldz,2,"AE,X",0.0215054
+femafldz,3,AE,0.0215054
+boroname,1,Manhattan,0.387097
+boroname,2,Brooklyn,0.301075
+boroname,3,Queens,0.182796
+boroname,4,Bronx,0.0967742
+boroname,5,"Brooklyn,Queens",0.0215054
+boroname,6,Staten Island,0.0107527
+hrcevac,1,X,0.105263
+hrcevac,2,4,0.105263
+hrcevac,3,1,0.105263
+hrcevac,4,3,0.105263
+hrcevac,5,"4, 5, 6",0.0789474
+hrcevac,6,6,0.0789474
+hrcevac,7,5,0.0789474
+hrcevac,8,2,0.0789474
+hrcevac,9,"5,6",0.0526316
+hrcevac,10,"5, 6",0.0263158
+hrcevac,11,"2, 3, 4, 5, 6",0.0263158
+hrcevac,12,"6, 5",0.0263158
+hrcevac,13,"4, 6, 5",0.0263158
+hrcevac,14,"0,1",0.0263158
+hrcevac,15,"2,3,4",0.0263158
+hrcevac,16,"2,5",0.0263158
+hrcevac,17,"4,5",0.0263158
+borocode,1,1,0.387097
+borocode,2,3,0.301075
+borocode,3,4,0.182796
+borocode,4,2,0.0967742
+borocode,5,"3,4",0.0215054
+borocode,6,5,0.0107527
+congdist,1,12,0.182796
+congdist,2,7,0.172043
+congdist,3,8,0.129032
+congdist,4,13,0.129032
+congdist,5,10,0.107527
+congdist,6,9,0.0645161
+congdist,7,14,0.0645161
+congdist,8,15,0.0430108
+congdist,9,5,0.0322581
+congdist,10,6,0.0215054
+congdist,11,"10, 12",0.0107527
+congdist,12,"6, 14",0.0107527
+congdist,13,11,0.0107527
+congdist,14,3,0.0107527
+congdist,15,"10,12",0.0107527
+femafldt,1,AREA OF MINIMAL FLOOD HAZARD,0.901099
+femafldt,2,"0.2 PCT ANNUAL CHANCE FLOOD HAZARD,AREA OF MINIMAL FLOOD HAZARD",0.032967
+femafldt,3,",0.2 PCT ANNUAL CHANCE FLOOD HAZARD,AREA OF MINIMAL FLOOD HAZARD",0.021978
+femafldt,4,0.2 PCT ANNUAL CHANCE FLOOD HAZARD,0.021978
+femafldt,5,"AREA OF MINIMAL FLOOD HAZARD, 0.2 PCT ANNUAL CHANCE FLOOD HAZARD",0.010989
+femafldt,6,"0.2 PCT ANNUAL CHANCE FLOOD HAZARD, AREA OF MINIMAL FLOOD HAZARD",0.010989
+.cell:.geom_x:.geom_y,1,-7399 4074,0.0430108
+.cell:.geom_x:.geom_y,2,-7400 4073,0.0322581
+.cell:.geom_x:.geom_y,3,-7401 4071,0.0322581
+.cell:.geom_x:.geom_y,4,-7400 4071,0.0322581
+.cell:.geom_x:.geom_y,5,-7399 4069,0.0322581
+.cell:.geom_x:.geom_y,6,-7397 4068,0.0322581
+.cell:.geom_x:.geom_y,7,-7391 4066,0.0215054
+.cell:.geom_x:.geom_y,8,-7399 4075,0.0215054
+.cell:.geom_x:.geom_y,9,-7389 4075,0.0215054
+.cell:.geom_x:.geom_y,10,-7398 4075,0.0215054
+.cell:.geom_x:.geom_y,11,-7390 4086,0.0215054
+.cell:.geom_x:.geom_y,12,-7376 4060,0.0215054
+.cell:.geom_x:.geom_y,13,-7392 4069,0.0215054
+.cell:.geom_x:.geom_y,14,-7396 4071,0.0215054
+.cell:.geom_x:.geom_y,15,-7398 4064,0.0215054
+.cell:.geom_x:.geom_y,16,-7397 4066,0.0107527
+.cell:.geom_x:.geom_y,17,-7390 4082,0.0107527
+.cell:.geom_x:.geom_y,18,-7389 4088,0.0107527
+.cell:.geom_x:.geom_y,19,-7389 4082,0.0107527
+.cell:.geom_x:.geom_y,20,-7401 4074,0.0107527
+.cell:.geom_x:.geom_y,21,-7394 4083,0.0107527
+.cell:.geom_x:.geom_y,22,-7396 4079,0.0107527
+.cell:.geom_x:.geom_y,23,-7401 4072,0.0107527
+.cell:.geom_x:.geom_y,24,-7392 4074,0.0107527
+.cell:.geom_x:.geom_y,25,-7393 4074,0.0107527
+.cell:.geom_x:.geom_y,26,-7378 4069,0.0107527
+.cell:.geom_x:.geom_y,27,-7394 4074,0.0107527
+.cell:.geom_x:.geom_y,28,-7395 4063,0.0107527
+.cell:.geom_x:.geom_y,29,-7393 4085,0.0107527
+.cell:.geom_x:.geom_y,30,-7383 4076,0.0107527
+.cell:.geom_x:.geom_y,31,-7387 4074,0.0107527
+.cell:.geom_x:.geom_y,32,-7400 4072,0.0107527
+.cell:.geom_x:.geom_y,33,-7399 4076,0.0107527
+.cell:.geom_x:.geom_y,34,-7392 4081,0.0107527
+.cell:.geom_x:.geom_y,35,-7393 4082,0.0107527
+.cell:.geom_x:.geom_y,36,-7394 4080,0.0107527
+.cell:.geom_x:.geom_y,37,-7394 4084,0.0107527
+.cell:.geom_x:.geom_y,38,-7396 4082,0.0107527
+.cell:.geom_x:.geom_y,39,-7416 4063,0.0107527
+.cell:.geom_x:.geom_y,40,-7390 4070,0.0107527
+.cell:.geom_x:.geom_y,41,-7389 4070,0.0107527
+.cell:.geom_x:.geom_y,42,-7395 4070,0.0107527
+.cell:.geom_x:.geom_y,43,-7397 4071,0.0107527
+.cell:.geom_x:.geom_y,44,-7395 4071,0.0107527
+.cell:.geom_x:.geom_y,45,-7402 4070,0.0107527
+.cell:.geom_x:.geom_y,46,-7401 4070,0.0107527
+.cell:.geom_x:.geom_y,47,-7400 4070,0.0107527
+.cell:.geom_x:.geom_y,48,-7399 4070,0.0107527
+.cell:.geom_x:.geom_y,49,-7389 4066,0.0107527
+.cell:.geom_x:.geom_y,50,-7387 4067,0.0107527
+.cell:.geom_x:.geom_y,51,-7395 4068,0.0107527
+.cell:.geom_x:.geom_y,52,-7397 4069,0.0107527
+.cell:.geom_x:.geom_y,53,-7399 4068,0.0107527
+.cell:.geom_x:.geom_y,54,-7392 4066,0.0107527
+.cell:.geom_x:.geom_y,55,-7397 4065,0.0107527
+.cell:.geom_x:.geom_y,56,-7391 4069,0.0107527
+.cell:.geom_x:.geom_y,57,-7399 4071,0.0107527
+.cell:.geom_x:.geom_y,58,-7398 4068,0.0107527
+.cell:.geom_x:.geom_y,59,-7375 4076,0.0107527
+.cell:.geom_x:.geom_y,60,-7390 4074,0.0107527
+.cell:.geom_x:.geom_y,61,-7395 4084,0.0107527
+.cell:.geom_x:.geom_y,62,-7385 4084,0.0107527
+.cell:.geom_x:.geom_y,63,-7396 4078,0.0107527
+.cell:.geom_x:.geom_y,64,-7395 4082,0.0107527
+.cell:.geom_x:.geom_y,65,-7395 4075,0.0107527
+.cell:.geom_x:.geom_y,66,-7395 4074,0.0107527
+.cell:.geom_x:.geom_y,67,-7393 4086,0.0107527
+.cell:.geom_x:.geom_y,68,-7388 4082,0.0107527
+.cell:.geom_x:.geom_y,69,-7400 4075,0.0107527
+.cell:.geom_x:.geom_y,70,-7396 4072,0.0107527
+.cell:.geom_x:.geom_y,71,-7392 4086,0.0107527

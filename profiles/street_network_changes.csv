@@ -1,0 +1,9 @@
+column,kind,class,n,na_share,n_distinct,nchar_min,nchar_max,id_pattern,example,format,min,q001,q01,q05,q10,q25,median,q75,q90,q95,q99,q999,max,mean,sd,whole,values_kept,values_share
+On Street,character,character,281,0,239,4,29,alnum,Dawson Street,,,,,,,,,,,,,,,,,,,
+From St,character,character,281,0,232,3,24,alnum,Intervale Ave,,,,,,,,,,,,,,,,,,,
+To Street,character,character,281,0.00355871886120995,224,4,24,alnum,Longwood Ave,,,,,,,,,,,,,,,,,,,
+Completion Date,Date,character,281,0,174,,,,,%m/%d/%Y,2015-03-11,2015-03-11,2015-04-09,2015-10-20,2016-06-16,2017-09-26,2019-07-10,2022-05-16,2023-11-02,2024-08-29,2024-11-07,2024-11-07,2024-11-07,2020-01-11,986.972,TRUE,,
+Type of Change,character,character,281,0,8,7,18,alnum,Two-way Conversion,,,,,,,,,,,,,,,,,,8,1
+New Direction,character,character,281,0,8,2,6,alnum,EB-WB,,,,,,,,,,,,,,,,,,8,1
+Boro,character,character,281,0,7,3,4,alnum,(BX),,,,,,,,,,,,,,,,,,7,1
+Notes,character,character,281,0.99644128113879,1,27,27,alnum,Closed to vehicular traffic,,,,,,,,,,,,,,,,,,1,1
