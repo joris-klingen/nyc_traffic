@@ -471,6 +471,9 @@ citibike_read <- function(ym, nrows = Inf) {
   parts <- lapply(file.path(tmp, basename(n)), data.table::fread, nrows = nrows, colClasses = "character")
   x <- data.table::rbindlist(parts, use.names = TRUE, fill = TRUE)
   data.table::setnames(x, gsub("[^a-z0-9]+", "_", tolower(names(x))))
+  # 2016-10 to 2017-03 write the old columns with spaces ("Start Time", "User Type", "Bike ID")
+  data.table::setnames(x, c("start_time", "stop_time", "user_type", "bike_id", "trip_duration"),
+                       c("starttime", "stoptime", "usertype", "bikeid", "tripduration"), skip_absent = TRUE)
   if ("starttime" %in% names(x)) {
     data.table::setnames(x, c("starttime", "stoptime", "start_station_latitude", "start_station_longitude",
                               "end_station_latitude", "end_station_longitude", "birth_year"),
@@ -489,7 +492,7 @@ citibike_read <- function(ym, nrows = Inf) {
   }
   for (v in c("start_lat", "start_lng", "end_lat", "end_lng")) data.table::set(x, j = v, value = as.numeric(x[[v]]))
   # some old csv parts write station ids as "116.0" next to "116" in others (2013-06)
-  for (v in intersect(c("start_station_id", "end_station_id"), names(x)))
+  for (v in intersect(c("start_station_id", "end_station_id", "birth_year", "bikeid"), names(x)))
     data.table::set(x, j = v, value = sub("^([0-9]+)\\.0$", "\\1", x[[v]]))
   keep <- c("started_at", "ended_at", "start_station_id", "start_station_name", "start_lat", "start_lng",
             "end_station_id", "end_station_name", "end_lat", "end_lng", "member", "rideable_type", "ride_id",
