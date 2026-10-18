@@ -28,7 +28,8 @@ lk[VehicleTypeRaw == "E-Sco", `:=`(VehicleType = "Scooter", Source = "hand, chan
 # all codes in the newest crash snapshot ----
 cr <- crashes_read(select = paste("VEHICLE TYPE CODE", 1:5))
 codes <- melt(cr[, lapply(.SD, as.character)], measure.vars = names(cr), value.name = "raw")[!is.na(raw) & raw != "", .N, raw]
-new <- codes[!raw %in% lk[, VehicleTypeRaw]]
+# codes that read back as missing ("NA") would match every empty vehicle slot in a merge: leave them out
+new <- codes[!raw %in% lk[, VehicleTypeRaw] & !raw %in% c("NA", "N/A", "na", "n/a")]
 
 # rules, in order: the first that matches wins ----
 rules <- list(
