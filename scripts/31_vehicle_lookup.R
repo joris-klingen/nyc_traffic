@@ -2,12 +2,15 @@
 #
 # Run from the repo root: Rscript scripts/31_vehicle_lookup.R [--write]
 # crashes/reference/NYC_vehicle_lookup_table.csv maps the free-text VEHICLE TYPE CODE 1-5 of the
-# crash table to classes (Car, SUV, Taxi, Van, Truck, Bus, Motorcycle, Bike, Other, Unknown). The
+# crash table to classes (Car, SUV, Taxi, Van, Truck, Bus, Motorcycle, Scooter, Bike, Other, Unknown). The
 # hand-made table of 2020-01 covered 106 spellings; newer data add e-bikes ("E-Bike", 12k
 # vehicles), e-scooters, and in 2026 NYPD's four-letter codes (BICY, EBIK, ESST, MOPD, ...).
 # This script keeps every hand-made row and classifies each code not in the table by the rules
-# below, in the spirit of the hand-made choices: e-bikes are Bike (as "E-Bik"); scooters,
-# e-scooters, standing scooters and mopeds are Motorcycle (as "E-Sco", "SCOOT", "Moped").
+# below, in the spirit of the hand-made choices: e-bikes are Bike (as "E-Bik"); mopeds and motor
+# scooters are Motorcycle (as "SCOOT", "Moped"). E-scooters, standing scooters and similar devices
+# (hoverboards, one-wheels) are their own class Scooter (decided 2026-10-18: they ride in bike lanes);
+# this changes the hand-made row "E-Sco" (Source "hand, changed 20261018"). Plain "SCOOTER" stays
+# Motorcycle: before e-scooters it meant motor scooters.
 # Codes that match no rule are Other, so that every vehicle still counts; unknown codes Unknown.
 # The Source column says hand (2020 table) or rule (this script, with its date).
 # Without --write it prints the classification for review; with --write it saves the new table
@@ -19,7 +22,8 @@ source("R/nyc_traffic.R")
 f <- file.path(nyc_data_root(), "crashes", "reference", "NYC_vehicle_lookup_table.csv")
 lk <- fread(f, encoding = "UTF-8")
 if (!"Source" %in% names(lk)) lk[, Source := "hand"]
-lk <- lk[Source == "hand"]   # rules are re-derived each run
+lk <- lk[Source %like% "^hand"]   # rules are re-derived each run
+lk[VehicleTypeRaw == "E-Sco", `:=`(VehicleType = "Scooter", Source = "hand, changed 20261018")]
 
 # all codes in the newest crash snapshot ----
 cr <- crashes_read(select = paste("VEHICLE TYPE CODE", 1:5))
@@ -33,8 +37,10 @@ rules <- list(
   SUV0       = "^pick ?-?up with",
   Van0       = "motor ?home|motorized home|ford trans|transit",
   Truck0     = "^trac$",
-  # motorised two-wheelers before bikes, so that "Dirt Bike", "Minibike", "Motorbike" stay motorised
-  Motorcycle ="motorcy|^moto|moped|mopd|scoot|e-sco|^esst$|standing s|stand up|minibike|mini bike|minicycle|dirt ?bike|pocket bike|motor ?bike|vespa|electric s|^elec sc|e-scoot|e scoot|segway|unicycle|one wheel|onewheel|hoverboard|^mc$|^mcy",
+  # e-scooters and similar devices; then motorised two-wheelers before bikes, so that "Dirt Bike",
+  # "Minibike", "Motorbike" stay motorised (gas scooters are motor scooters)
+  Scooter    = "^e-? ?sco|^esst$|standing s|stand up|electric s|^elec sc|e-scoot|e scoot|kick ?scoot|segway|unicycle|one wheel|onewheel|hoverboard|e-skate|electric skate|motorized skate",
+  Motorcycle = "motorcy|^moto|moped|mopd|scoot|minibike|mini bike|minicycle|dirt ?bike|pocket bike|motor ?bike|vespa|^mc$|^mcy",
   Bike       = "^bicy|bicycle|^bike|^e-? ?bik|^ebik|electric bi|e-bicyc|pedal|citi ?bike|^cyc|bicyc",
   Taxi       = "taxi|yellow cab|^cab$|green cab",
   Bus        = "bus|^mta b|^schoo|school",

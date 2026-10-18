@@ -54,5 +54,5 @@ renamed to `Dropbox/1_research/nyc_traffic_data` with the flat layout, all three
       `scripts/31_vehicle_lookup.R`): e-bikes (12k vehicles, from 2020) and NYPD's 2026 four-letter
       codes were unclassified, so bike crashes were undercounted by 13-33% a year from 2020.
 - [ ] Re-run `scripts/31_vehicle_lookup.R --write` after each new crash snapshot (new codes).
-- [ ] Decide whether e-scooters / standing scooters should be their own class instead of Motorcycle
-      (the 2020 table's choice, kept for now): they ride in bike lanes.
+- [x] E-scooters and standing scooters are their own class Scooter (decided 2026-10-18; 9,326 vehicles),
+      instead of Motorcycle as in the 2020 table: they ride in bike lanes.

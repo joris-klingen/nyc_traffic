@@ -488,6 +488,9 @@ citibike_read <- function(ym, nrows = Inf) {
     data.table::set(x, j = v, value = as.POSIXct(x[[v]], format = f, tz = "America/New_York"))
   }
   for (v in c("start_lat", "start_lng", "end_lat", "end_lng")) data.table::set(x, j = v, value = as.numeric(x[[v]]))
+  # some old csv parts write station ids as "116.0" next to "116" in others (2013-06)
+  for (v in intersect(c("start_station_id", "end_station_id"), names(x)))
+    data.table::set(x, j = v, value = sub("^([0-9]+)\\.0$", "\\1", x[[v]]))
   keep <- c("started_at", "ended_at", "start_station_id", "start_station_name", "start_lat", "start_lng",
             "end_station_id", "end_station_name", "end_lat", "end_lng", "member", "rideable_type", "ride_id",
             "bikeid", "birth_year", "gender")
