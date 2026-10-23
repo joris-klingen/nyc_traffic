@@ -1,28 +1,28 @@
-# nyc_streets
+# streets/ — street network history
 
 Curated history of the NYC street network 2012 to now: what each street segment looked like at each
 date (bike lanes, travel lanes, and later bus lanes, parking, traffic rules, Citi Bike stations, ...),
 with the evidence for each date. Used by `nyc_res_bikelanes` (treatment timing) and the gender &
-cycling work. Was `nyc_bikelane_history` until 2026-10-14.
+cycling work. Part of the `nyc_transport` repo; was the separate repo `nyc_streets` until
+2026-10-23 (merged with its history) and `nyc_bikelane_history` before 2026-10-14.
 
 Raw data (LION releases, DOT bike routes, snapshots of the current-state layout sets) is downloaded
-and read by `nyc_traffic`; this repo adds what needs judgment: dating rules, manual review, and
+and read by the repo root (`R/nyc_transport.R`, `scripts/`); `streets/` adds what needs judgment: dating rules, manual review, and
 evidence. Published layout data is often current state only, and its dates are imprecise: DOT's
 bike lane install dates are often 1 January or the 1st of the month, are revised between releases,
 and before 2025 did not record what a segment was *before* an upgrade. LION's lane counts were
 recounted in 2024.
 
-The outputs go to their own store, `nyc_streets_data/` (next to `nyc_traffic_data/`; found with
-`nyc_streets_data_root()`, set `NYC_STREETS_DATA` in nyc_traffic's `config.local` to move it).
-Until 2026-10-16 they were in `nyc_traffic_data/derived/streets/`.
+The outputs go to `nyc_transport_data/derived/streets/` (found with `nyc_streets_data_root()`).
+All scripts in `streets/` run from `streets/`: `cd streets; Rscript spine/01_lion_segments.R`.
 
 ## Simulated data
 
-To develop code without nyc_streets_data, every output has a profile (`profiles/<source>.csv`,
-`<source>_values.csv`, `index.csv`; same format as in nyc_traffic) and a simulator in `sim/`:
+To develop code without the data, every output has a profile (`profiles/<source>.csv`,
+`<source>_values.csv`, `index.csv`; same format as the repo-level profiles) and a simulator in `sim/`:
 
 ```r
-source("sim/sim.R")              # needs the nyc_traffic repo next to this one
+source("sim/sim.R")              # from streets/; uses the repo's R/simulate.R
 keys <- sim_key_segments(2000, boro = 1)
 sp   <- sim_street_spells(keys)
 panel <- streets_panel("2018-01-01", "2019-12-01", spells = sp, keys = keys)   # production code
@@ -44,14 +44,14 @@ R/streets.R                      readers: streets_state(), streets_panel(), stre
                                  segment_versions_read(), bikelane_windows_keyed_read()
 build/
   01_street_spells.R             all layers as spells on the key segments
-                                 -> nyc_streets_data/spells/street_spells.parquet, key_segments.parquet
+                                 -> derived/streets/spells/street_spells.parquet, key_segments.parquet
 spine/                           LION SegmentID across the 57 quarterly releases (12a-26c) -> segment key
   01_lion_segments.R             attributes of every LION record per release (no geometry)
-                                 -> nyc_streets_data/spine/lion_segment_releases.parquet
+                                 -> derived/streets/spine/lion_segment_releases.parquet
   02_segment_versions.R          one row per SegmentID x distinct geometry, first/last release
-                                 -> nyc_streets_data/spine/segment_versions.gpkg
+                                 -> derived/streets/spine/segment_versions.gpkg
   03_segment_key.R               links between versions (overlap, same id redrawn, LegacyID) chained to 26c
-                                 -> nyc_streets_data/spine/segment_links.parquet, segment_key.parquet
+                                 -> derived/streets/spine/segment_links.parquet, segment_key.parquet
   checks_segment_key.R           unlinked versions, agreement with LegacyID, coverage of traffic counts / bike routes
 layers/                          one folder per street attribute
   bike_lanes/
@@ -75,7 +75,7 @@ layers/                          one folder per street attribute
       02_import_review_answers.py  review page export -> manual/streetview_review_answers.csv
       03_time_windows.R            build the segment x time-window facilities (Protected / Standard / Sharrows), all
                                    boroughs, from the DOT 2026 version history with the manual checks before 2020
-                                   -> nyc_streets_data/bike_lanes/bike_lanes_time_windows.RDS
+                                   -> derived/streets/bike_lanes/bike_lanes_time_windows.RDS
                                    (the earlier DOT 2020 build: bike_lanes_time_windows_dot2020.RDS,
                                    bikelane_windows_read("dot2020"))
       04_key_windows.R             the windows on the segment key (tf/ft swapped where the key segment runs the
@@ -106,7 +106,7 @@ DOT traffic count SegmentIDs and 99.5% of the DOT 2020 bike route ids reach a cu
 and 95% match current LION directly). Spells for every layer are meant to be keyed on it.
 
 ```r
-source("../nyc_streets_repo/R/streets.R")
+source("../nyc_transport_repo/R/nyc_transport.R")   # from a project; loads these readers too
 segment_key_map(c(32886, 28), date = "2016-06-01")   # 1 Av segment 32886 is now three segments
 ```
 
@@ -130,7 +130,7 @@ segments not yet in LION, and resolve overlapping sources by priority, then key_
 monthly 2012-2026 (2.6M rows) takes about 5 s.
 
 ```r
-source("../nyc_streets_repo/R/streets.R")
+source("../nyc_transport_repo/R/nyc_transport.R")   # from a project; loads these readers too
 s <- streets_state("2019-06-01", boro = 1, geometry = TRUE)
 p <- streets_panel("2012-07-01", "2026-07-01", "month", attributes = c("bike_lane", "travel_lanes"), boro = 1)
 ```
@@ -138,8 +138,8 @@ p <- streets_panel("2012-07-01", "2026-07-01", "month", attributes = c("bike_lan
 New layers (bus lanes, parking, speed limits, ...) are added as a block in `build/01_street_spells.R`
 on the key, with their attribute in `streets_attributes()`.
 
-All scripts run from the repo root. Outputs that other projects read go to
-`nyc_streets_data/<layer>/`; working files stay in the repo (`out/`).
+All scripts run from `streets/`. Outputs that other projects read go to
+`derived/streets/<layer>/`; working files stay in the repo (`out/`).
 
 ### Review page
 
@@ -157,14 +157,14 @@ Rscript layers/bike_lanes/scripts/01_export_manual_sheet.R
 ```
 
 The output is read in other projects (e.g. `nyc_res_bikelanes`) with `bikelane_windows_read()` from
-`nyc_traffic`. All bike lane classification and dating happens in this repo:
+`R/nyc_transport.R`. All bike lane classification and dating happens in `streets/`:
 
 ```bash
 Rscript layers/bike_lanes/scripts/03_time_windows.R
 ```
 
-Raw DOT releases live in the shared data store: `Dropbox/1_research/nyc_traffic_data/raw/street_layout/bike_routes/`
-(see the `nyc_traffic` repo).
+Raw DOT releases live in the shared data store: `Dropbox/1_research/nyc_transport_data/raw/street_layout/bike_routes/`
+(downloaded by `scripts/10_download_opendata.R` at the repo root).
 
 ## Classification
 

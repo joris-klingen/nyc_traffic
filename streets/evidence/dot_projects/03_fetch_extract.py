@@ -1,6 +1,6 @@
 """Download the matched bike-related DOT presentations and extract implementation timing.
 
-PDFs go to nyc_traffic_data/documents/dot_presentations/ (shared raw data, not in git). For each PDF the script
+PDFs go to nyc_transport_data/docs/dot_presentations/ (shared raw data, not in git). For each PDF the script
 keeps sentences that combine a timing word (install, implement, construct, complete, began,
 began, upgrade, timeline, next steps, post-implementation, before/after) with a date (a year,
 a season + year, or a month + year), and lane statements (travel / moving lanes, road diet, lane
@@ -11,9 +11,9 @@ Usage (from repo root): python evidence/dot_projects/03_fetch_extract.py [matche
 import csv, os, re, sys, time, urllib.request
 import fitz  # pymupdf
 
-ROOT = (os.environ.get("NYC_TRAFFIC_DATA") or os.environ.get("NYC_DATA")
-        or os.path.join(os.environ["USERPROFILE"], "Dropbox/1_research/nyc_traffic_data"))
-PDF_DIR = os.path.join(ROOT, "documents", "dot_presentations")
+ROOT = (os.environ.get("NYC_TRANSPORT_DATA") or os.environ.get("NYC_TRAFFIC_DATA") or os.environ.get("NYC_DATA")
+        or os.path.join(os.environ["USERPROFILE"], "Dropbox/1_research/nyc_transport_data"))
+PDF_DIR = os.path.join(ROOT, "docs", "dot_presentations")
 TIMING = re.compile(r"install|implement|construct|complet|began|begin|upgrad|timeline|next steps|"
                     r"post[- ]implementation|before\b.*\bafter|opened|striped|marking|phase", re.I)
 DATE = re.compile(r"\b(spring|summer|fall|autumn|winter|january|february|march|april|may|june|july|august|"

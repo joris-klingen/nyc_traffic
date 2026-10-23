@@ -10,7 +10,7 @@ library(data.table)
 library(sf)
 
 bl_root <- "../nyc_res_bikelanes_repo"
-source(Find(file.exists, c("../nyc_traffic_repo/R/nyc_traffic.R", "../nyc_traffic/R/nyc_traffic.R")))   # local folder or plain clone
+source("../R/nyc_transport.R")
 nyc_data <- nyc_data_root()
 out <- "evidence/aerial_labelling/out"
 dir.create(out, showWarnings = FALSE, recursive = TRUE)

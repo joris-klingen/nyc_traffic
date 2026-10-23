@@ -1,15 +1,14 @@
-# Readers for the street network history built in nyc_streets (outputs in nyc_streets_data/)
+# Readers for the street network history built in streets/ (outputs in nyc_transport_data/derived/streets/)
 #
-# source("../nyc_streets_repo/R/streets.R")   # also sources nyc_traffic.R for nyc_data_root()
+# Loaded automatically by R/nyc_transport.R; from streets/ scripts: source("R/streets.R")
 # k <- segment_key_map(c(32886, 9000277), date = "2014-06-01")
 
 local({
   ofiles <- unlist(lapply(sys.frames(), function(f) if (is.character(f$ofile)) f$ofile))
-  this <- tail(ofiles[grepl("streets\\.R$", ofiles)], 1)
-  repo <- if (length(this)) dirname(dirname(this)) else "."
-  # the nyc_traffic repo next to this one: nyc_traffic_repo locally, nyc_traffic in a plain clone
-  tr <- Find(dir.exists, file.path(repo, "..", c("nyc_traffic_repo", "nyc_traffic")))
-  if (!exists("nyc_data_root")) source(file.path(tr, "R", "nyc_traffic.R"), local = FALSE)
+  this <- tail(ofiles[grepl("(^|[/\\\\])streets\\.R$", ofiles)], 1)
+  streets <- if (length(this)) dirname(dirname(this)) else "."
+  # streets/ sits inside nyc_transport; the raw-data readers are in its R/ one level up
+  if (!exists("nyc_data_root")) source(file.path(streets, "..", "R", "nyc_transport.R"), local = FALSE)
 })
 
 streets_dir <- function(...) file.path(nyc_streets_data_root(), ...)

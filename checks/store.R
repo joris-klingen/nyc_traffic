@@ -13,7 +13,7 @@
 
 library(data.table)
 library(sf)
-source("R/nyc_traffic.R")
+source("R/nyc_transport.R")
 
 problems <- character()
 flag <- function(...) problems <<- c(problems, paste0(...))

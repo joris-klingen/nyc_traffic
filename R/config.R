@@ -1,11 +1,12 @@
-# Shared configuration for the NYC traffic data store
+# Shared configuration for the NYC transport data store (nyc_transport_data)
 #
-# The root is taken from the environment variable NYC_TRAFFIC_DATA, or else from
-# NYC_TRAFFIC_DATA in config.local at the repo root (copy config.example). The old name
-# NYC_DATA is still read as a fallback. Layout: raw/ (every raw source: taxi, crashes,
-# street_layout, boundaries, traffic_counts, citibike, air_pollution, congestion_pricing),
-# derived/ (computed), reference/ (lookup tables), docs/ (PDFs), _meta/ (download logs and
-# manifests), _archive/ (legacy). The nyc_opendata dirs below are relative to raw/.
+# The root is taken from the environment variable NYC_TRANSPORT_DATA, or else from
+# NYC_TRANSPORT_DATA in config.local at the repo root (copy config.example). The old names
+# NYC_TRAFFIC_DATA and NYC_DATA are still read as fallbacks. Layout: raw/ (every raw source: taxi,
+# crashes, street_layout, boundaries, traffic_counts, citibike, air_pollution, congestion_pricing),
+# derived/ (computed; derived/streets is the street network history built in streets/),
+# reference/ (lookup tables), docs/ (PDFs), _meta/ (download logs and manifests), _archive/
+# (legacy). The nyc_opendata dirs below are relative to raw/.
 
 # config.local sits one level above this file
 nyc_config_file <- local({
@@ -16,26 +17,21 @@ nyc_config_file <- local({
 })
 
 nyc_data_root <- function() {
-  d <- Sys.getenv("NYC_TRAFFIC_DATA", unset = "")
+  d <- Sys.getenv("NYC_TRANSPORT_DATA", unset = "")
   if (d == "" && file.exists(nyc_config_file)) {
     readRenviron(nyc_config_file)
-    d <- Sys.getenv("NYC_TRAFFIC_DATA", unset = "")
+    d <- Sys.getenv("NYC_TRANSPORT_DATA", unset = "")
   }
+  if (d == "") d <- Sys.getenv("NYC_TRAFFIC_DATA", unset = "")
   if (d == "") d <- Sys.getenv("NYC_DATA", unset = "")
-  if (d == "") stop("NYC_TRAFFIC_DATA not set: copy config.example to ", nyc_config_file, " and edit it")
+  if (d == "") stop("NYC_TRANSPORT_DATA not set: copy config.example to ", nyc_config_file, " and edit it")
   normalizePath(d, winslash = "/", mustWork = FALSE)
 }
 
-# Street network history built by the nyc_streets repo (spine/, spells/, bike_lanes/, travel_lanes/).
-# NYC_STREETS_DATA in the environment or config.local; by default nyc_streets_data next to the store.
+# Street network history built in streets/ (spine/, spells/, bike_lanes/, travel_lanes/), always
+# under the one store root. Was a separate store (nyc_streets_data) until 2026-10-23.
 nyc_streets_data_root <- function() {
-  d <- Sys.getenv("NYC_STREETS_DATA", unset = "")
-  if (d == "" && file.exists(nyc_config_file)) {
-    readRenviron(nyc_config_file)
-    d <- Sys.getenv("NYC_STREETS_DATA", unset = "")
-  }
-  if (d == "") d <- file.path(dirname(nyc_data_root()), "nyc_streets_data")
-  normalizePath(d, winslash = "/", mustWork = FALSE)
+  normalizePath(file.path(nyc_data_root(), "derived", "streets"), winslash = "/", mustWork = FALSE)
 }
 
 tlc_data_dir <- function() file.path(nyc_data_root(), "raw", "taxi")

@@ -6,13 +6,13 @@
 # profiles/<source>.csv (one row per column: kind, NA share, distinct values, quantiles, mean, sd)
 # and profiles/<source>_values.csv (most common values and their shares), and updates its row in
 # profiles/index.csv. Tables with more than `max_rows` rows are profiled on a random sample.
-# Profiles describe what the readers in R/nyc_traffic.R return, or the raw file when there is no
+# Profiles describe what the readers in R/nyc_transport.R return, or the raw file when there is no
 # reader. They are used by sim/ to simulate data for code development without the store.
 
 library(data.table)
 library(arrow)
 library(sf)
-source("R/nyc_traffic.R")
+source("R/nyc_transport.R")
 source("R/simulate.R")
 
 max_rows <- 1e6
@@ -235,7 +235,7 @@ for (f in legacy) local({
   }
 })
 
-# Streets (raw layers; the street network history built by nyc_streets is profiled there)
+# Streets (raw layers; the street network history in streets/ is profiled in streets/profiles)
 sources$lion <- function() {
   x <- lion_read()
   all_cols <- names(sf::st_read(lion_gdb(nyc_latest("lion")), quiet = TRUE, query = "SELECT * FROM lion WHERE 1 = 0"))

@@ -13,14 +13,14 @@
 # already reflect the project, so the pre-project count is unknown.
 #
 # Writes lanes/out/manhattan_lane_spells.csv (one row per segment), lanes/out/lane_review.csv
-# and nyc_streets_data/travel_lanes/manhattan_lanes_monthly.parquet (segment x month).
+# and nyc_transport_data/derived/streets/travel_lanes/manhattan_lanes_monthly.parquet (segment x month).
 # Run from repo root: Rscript layers/travel_lanes/02_manhattan_lane_panel.R
 
 library(data.table)
 library(arrow)
 library(sf)
 
-source("R/streets.R")   # segment_versions_read(); also sources nyc_traffic.R
+source("R/streets.R")   # segment_versions_read(); also sources nyc_transport.R
 root <- nyc_data_root()
 p <- setDT(read_parquet(file.path(nyc_streets_data_root(), "travel_lanes/lion_lanes_panel.parquet")))[boro == 1]
 

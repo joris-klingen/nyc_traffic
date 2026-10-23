@@ -1,4 +1,4 @@
-# Download Citi Bike (NYC, not Jersey City) trip data zips into nyc_traffic_data/raw/citibike/trips
+# Download Citi Bike (NYC, not Jersey City) trip data zips into nyc_transport_data/raw/citibike/trips
 #
 # Usage (from repo root):  Rscript scripts/20_download_citibike.R
 #

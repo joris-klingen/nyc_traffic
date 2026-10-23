@@ -1,23 +1,23 @@
-# Build the data profiles in profiles/ from nyc_streets_data
+# Build the data profiles in profiles/ from the street history in derived/streets
 #
-# Run from the repo root: Rscript profiles/build_profiles.R [source ...]
-# Profiles the outputs of this repo (segment key, spells, bike lane windows, travel lane panels) as
-# the readers in R/streets.R return them, in the format of the nyc_traffic profiles: per source a
+# Run from streets/: Rscript profiles/build_profiles.R [source ...]
+# Profiles the outputs of streets/ (segment key, spells, bike lane windows, travel lane panels) as
+# the readers in R/streets.R return them, in the format of the repo-level profiles: per source a
 # <source>.csv (one row per column), <source>_values.csv (common values and shares) and a row in
 # index.csv. sim/ uses them to simulate data for code development without the data. The profiling
-# and simulation functions are in nyc_traffic (R/simulate.R).
+# and simulation functions are in the repo's R/simulate.R.
 
 library(data.table)
 library(arrow)
 library(sf)
 source("R/streets.R")
-source(Find(file.exists, c("../nyc_traffic_repo/R/simulate.R", "../nyc_traffic/R/simulate.R")))
+source("../R/simulate.R")
 
 prof_dir <- normalizePath("profiles", winslash = "/")
 max_rows <- 1e6
 set.seed(20261016)
 root <- nyc_streets_data_root()
-rel <- function(f) sub(paste0("^", root, "/"), "nyc_streets_data/", normalizePath(f, winslash = "/"))
+rel <- function(f) sub(paste0("^", root, "/"), "derived/streets/", normalizePath(f, winslash = "/"))
 
 sample_rows <- function(x, n = max_rows) if (nrow(x) > n) x[sort(sample(.N, n))] else x
 
@@ -84,12 +84,12 @@ sources <- list(
   },
   bikelane_windows = function() {
     x <- as.data.table(bikelane_windows_read("dot2026"))
-    run_profile("bikelane_windows", x, "bikelane_windows_read() (nyc_traffic)", streets_dir("bike_lanes", "bike_lanes_time_windows.RDS"),
+    run_profile("bikelane_windows", x, "bikelane_windows_read()", streets_dir("bike_lanes", "bike_lanes_time_windows.RDS"),
                 notes = "SegmentID x time_window: date_from, date_to, tf_facilit / ft_facilit (Protected, Standard, Sharrows; NA no lane), all boroughs from the DOT 2026 version history")
   },
   bikelane_windows_dot2020 = function() {
     x <- as.data.table(bikelane_windows_read("dot2020"))
-    run_profile("bikelane_windows_dot2020", x, "bikelane_windows_read('dot2020') (nyc_traffic)", streets_dir("bike_lanes", "bike_lanes_time_windows_dot2020.RDS"),
+    run_profile("bikelane_windows_dot2020", x, "bikelane_windows_read('dot2020')", streets_dir("bike_lanes", "bike_lanes_time_windows_dot2020.RDS"),
                 notes = "the earlier build from the DOT 2020 release plus the Manhattan 2025 updates")
   },
   bikelane_windows_keyed = function() run_profile("bikelane_windows_keyed", bikelane_windows_keyed_read(), "bikelane_windows_keyed_read()",

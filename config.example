@@ -1,8 +1,6 @@
 # Copy to config.local (not tracked by git) and set your own path.
-# Read by R/config.R; an NYC_TRAFFIC_DATA environment variable takes precedence.
+# Read by R/config.R; an NYC_TRANSPORT_DATA environment variable takes precedence.
 
-# root of the data store (taxi/, crashes/, street_layout/, boundaries/, traffic_counts/, citibike/, ...)
-NYC_TRAFFIC_DATA=/path/to/nyc_traffic_data
-
-# street network history built by nyc_streets (default: nyc_streets_data next to the store)
-NYC_STREETS_DATA=/path/to/nyc_streets_data
+# root of the data store (raw/, derived/, reference/, docs/, _meta/, _archive/);
+# the street network history is in derived/streets
+NYC_TRANSPORT_DATA=/path/to/nyc_transport_data

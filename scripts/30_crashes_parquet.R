@@ -7,7 +7,7 @@
 # reads the parquet copy when it exists and is newer than the CSV.
 
 library(data.table)
-source("R/nyc_traffic.R")
+source("R/nyc_transport.R")
 
 out_dir <- crashes_parquet_dir()
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)

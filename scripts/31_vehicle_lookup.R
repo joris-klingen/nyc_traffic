@@ -17,7 +17,7 @@
 # and keeps the old one as NYC_vehicle_lookup_table.superseded_YYYYMMDD.csv.
 
 library(data.table)
-source("R/nyc_traffic.R")
+source("R/nyc_transport.R")
 
 f <- file.path(nyc_data_root(), "reference", "NYC_vehicle_lookup_table.csv")
 lk <- fread(f, encoding = "UTF-8")

@@ -13,3 +13,6 @@ migration_logs/
 
 # data profiles are small and tracked (the rule above is for data)
 !profiles/*.csv
+
+# streets/ tracks its manual inputs, profiles and review outputs as CSV
+!streets/**/*.csv

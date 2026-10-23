@@ -1,6 +1,6 @@
 library(data.table)
 library(sf)
-source(Find(file.exists, c("../nyc_traffic_repo/R/nyc_traffic.R", "../nyc_traffic/R/nyc_traffic.R")))   # local folder or plain clone
+source("../R/nyc_transport.R")
 S <- "C:/Users/admin/AppData/Local/Temp/claude/C--Users-admin-Dropbox-1-research-5-NYC-bikelanes/229146a7-b4e1-44e3-bc9b-8e236e87a233/scratchpad"
 setwd("C:/Users/admin/Dropbox/1_research/nyc_res_bikelanes_repo")
 

@@ -1,6 +1,7 @@
-# Access helpers for the shared NYC traffic data store (nyc_traffic_data)
+# Readers for the shared NYC transport data store (nyc_transport_data); the one file to source.
+# Also loads the street network history readers (streets/R/streets.R) at the end.
 #
-# source("../nyc_traffic_repo/R/nyc_traffic.R")       # path relative to the project root
+# source(Find(file.exists, c("../nyc_transport_repo/R/nyc_transport.R", "../nyc_transport/R/nyc_transport.R")))
 # ds <- tlc_open("fhvhv", years = 2019:2020)      # lazy arrow dataset
 # f  <- nyc_latest("crashes")                     # newest crash snapshot
 #
@@ -10,7 +11,7 @@
 # locate this file among (possibly nested) source() calls to find config.R next to it
 local({
   ofiles <- unlist(lapply(sys.frames(), function(f) if (is.character(f$ofile)) f$ofile))
-  this <- tail(ofiles[grepl("nyc_traffic\\.R$", ofiles)], 1)
+  this <- tail(ofiles[grepl("nyc_transport\\.R$", ofiles)], 1)
   source(file.path(if (length(this)) dirname(this) else "R", "config.R"), local = FALSE)
 })
 
@@ -575,7 +576,7 @@ bike_counts_read <- function(file = nyc_latest("bike_ped_counts"), sensors_file 
   x[]
 }
 
-# Bike lane history built by nyc_streets/layers/bike_lanes/scripts/03_time_windows.R: one row per
+# Bike lane history built by streets/layers/bike_lanes/scripts/03_time_windows.R: one row per
 # SegmentID x time_window with date_from, date_to and tf_facilit / ft_facilit (Protected, Standard,
 # Sharrows; NA = no lane in that direction). version "dot2026": all boroughs from the DOT 2026 version
 # history (since 2026-10-14); "dot2020": the earlier build from the DOT 2020 release plus the
@@ -584,7 +585,7 @@ bikelane_windows_read <- function(version = c("dot2026", "dot2020")) {
   version <- match.arg(version)
   f <- file.path(nyc_streets_data_root(), "bike_lanes",
                  if (version == "dot2026") "bike_lanes_time_windows.RDS" else "bike_lanes_time_windows_dot2020.RDS")
-  if (!file.exists(f)) stop(f, " not found: run layers/bike_lanes/scripts/03_time_windows.R in nyc_streets")
+  if (!file.exists(f)) stop(f, " not found: run layers/bike_lanes/scripts/03_time_windows.R in streets/")
   readRDS(f)
 }
 
@@ -613,3 +614,13 @@ air_pollution_read <- function(param, freq = c("hourly", "daily"), years = NULL,
   if (!is.null(years)) x <- x[data.table::year(date_local) %in% years]
   x[]
 }
+
+# Street network history readers ----
+# streets_state(), streets_panel(), segment_key_read(), ... from streets/R/streets.R, so one
+# source() of this file gives every reader. Skipped when streets.R is the file being sourced.
+local({
+  ofiles <- unlist(lapply(sys.frames(), function(f) if (is.character(f$ofile)) f$ofile))
+  this <- tail(ofiles[grepl("nyc_transport\\.R$", ofiles)], 1)
+  f <- file.path(if (length(this)) dirname(this) else "R", "..", "streets", "R", "streets.R")
+  if (!any(grepl("(^|[/\\\\])streets\\.R$", ofiles)) && file.exists(f)) source(f, local = FALSE)
+})

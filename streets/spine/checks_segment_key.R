@@ -10,7 +10,7 @@ library(data.table)
 library(sf)
 library(arrow)
 
-source(Find(file.exists, c("../nyc_traffic_repo/R/nyc_traffic.R", "../nyc_traffic/R/nyc_traffic.R")))   # local folder or plain clone
+source("../R/nyc_transport.R")
 dir <- file.path(nyc_streets_data_root(), "spine")
 v <- st_read(file.path(dir, "segment_versions.gpkg"), quiet = TRUE)
 d <- setDT(st_drop_geometry(v))[, row := .I]

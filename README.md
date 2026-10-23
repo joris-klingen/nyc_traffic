@@ -1,24 +1,36 @@
-# nyc_traffic
+# nyc_transport
 
-Shared download and access code for NYC data: TLC taxi and ride-hail trips, NYPD motor vehicle
-collisions, LION streets, address points, DOT bike routes, traffic and bicycle counts, Citi Bike
-trips, street layout snapshots, EPA air pollution monitors, and boundary layers (boroughs,
-community districts, NTAs, census tracts and blocks, precincts, taxi zones). The data itself lives outside this repo, in `nyc_traffic_data/`.
+Shared NYC transport data for the `nyc_res_*` research projects, in two parts:
+
+- **Raw data and readers** (repo root): download and access code for TLC taxi and ride-hail trips,
+  NYPD motor vehicle collisions, LION streets, address points, DOT bike routes, traffic and bicycle
+  counts, Citi Bike trips, street layout snapshots, EPA air pollution monitors, congestion relief
+  zone entries, and boundary layers (boroughs, community districts, NTAs, census tracts and blocks,
+  precincts, taxi zones).
+- **Street network history** ([`streets/`](streets/README.md)): what each street segment looked
+  like at each date (segment key across LION releases, bike lanes, travel lanes, …), with the
+  manual review and evidence behind the dates. Was the separate `nyc_streets` repo until 2026-10-23
+  (merged with its history; this repo was `nyc_traffic`).
+
+The data lives outside the repo, in one store: `nyc_transport_data/` (raw data under `raw/`, the
+street network history under `derived/streets/`).
 
 ## Setup
 
-Copy `config.example` to `config.local` (not tracked) and set `NYC_TRAFFIC_DATA` to the root of
-the data store. An `NYC_TRAFFIC_DATA` environment variable takes precedence (the old name
-`NYC_DATA` still works as a fallback). In R:
+Copy `config.example` to `config.local` (not tracked) and set `NYC_TRANSPORT_DATA` to the root of
+the data store. An `NYC_TRANSPORT_DATA` environment variable takes precedence (the old names
+`NYC_TRAFFIC_DATA` and `NYC_DATA` still work as fallbacks). In R, one file loads every reader,
+including the street network history:
 
 ```r
-source("path/to/nyc_traffic/R/nyc_traffic.R")   # all helpers below; needs data.table, arrow, sf
+source(Find(file.exists, c("../nyc_transport_repo/R/nyc_transport.R", "../nyc_transport/R/nyc_transport.R")))
+# needs data.table, arrow, sf
 ```
 
-Locally the repos sit next to each other with a `_repo` suffix (`nyc_traffic_repo`,
-`nyc_streets_repo`, `nyc_res_*_repo`) to tell them apart from the data folders
-(`nyc_traffic_data`, `nyc_streets_data`); `source()` calls between repos try both the suffixed
-name and the plain GitHub name, so a fresh clone works too.
+Locally the repo is `nyc_transport_repo` and the data `nyc_transport_data`, next to the research
+projects (`nyc_res_*_repo`); the `Find()` above tries both the local name and the plain GitHub name,
+so a fresh clone works too. Scripts at the repo root run from the repo root; scripts in `streets/`
+run from `streets/`.
 
 ## Simulated data (no data store)
 
@@ -26,7 +38,7 @@ To write and test code without the data (in a cloud session, for example), every
 profile and a simulator:
 
 ```r
-source("sim/sim.R")              # from this repo; ../nyc_traffic_repo/sim/sim.R from a project
+source("sim/sim.R")              # from the repo root; ../nyc_transport_repo/sim/sim.R from a project
 sim_list()                       # the simulators
 cr  <- sim_crashes(5000, from = "2018-01-01", to = "2019-12-31")
 per <- sim_crash_persons(cr)     # persons and vehicles linked to the simulated crashes
@@ -52,7 +64,7 @@ lion <- sim_lion()               # a connected Manhattan-like street grid
 - `profiles/build_profiles.R` rebuilds the profiles from the store (about 20 minutes; `Rscript
   profiles/build_profiles.R crashes lion` for some sources).
 
-The street network history of nyc_streets has the same in that repo (`sim/sim.R` there).
+The street network history has the same in `streets/` (`streets/profiles/`, `streets/sim/sim.R`).
 
 ## Sources
 
@@ -96,7 +108,7 @@ Coverage is checked by `checks/store.R`.
 
 ```r
 library(data.table); library(sf)
-source("path/to/nyc_traffic/R/nyc_traffic.R")
+source("../nyc_transport_repo/R/nyc_transport.R")
 
 cr  <- crashes_relocate(crashes_read())                   # best location per crash
 pts <- nyc_points_sf(cr, "longitude_ap", "latitude_ap")   # sf points, EPSG 2263
@@ -159,7 +171,7 @@ month twice (whole and split); the reader uses one copy.
 ## Data layout
 
 ```
-nyc_traffic_data/           top level is by KIND: raw / derived / reference / docs, and _meta / _archive
+nyc_transport_data/           top level is by KIND: raw / derived / reference / docs, and _meta / _archive
   raw/                      every raw source, as published; never edited
     taxi/
       yellow/              yellow_tripdata_YYYY-MM.parquet   2012-01 onward
@@ -227,13 +239,19 @@ nyc_traffic_data/           top level is by KIND: raw / derived / reference / do
   derived/                  made from the raw data, can be rebuilt:
     crashes_parquet/       parquet copies of the crash snapshots (scripts/30_crashes_parquet.R)
     air_pollution/         {hourly,daily}_<param>.parquet: NYC-area monitors (scripts/41_air_pollution_nyc.R)
+    streets/               street network history built in streets/ (see streets/README.md):
+      spine/               segment key across the 57 LION releases (lion_segment_releases, segment_versions,
+                           segment_links, segment_key)
+      spells/              street_spells, key_segments
+      bike_lanes/          bike lane time windows (dot2026, dot2020), keyed windows, 2025 DOT updates
+      travel_lanes/        LION lane panel, Manhattan monthly lane panel (and keyed versions)
   reference/                lookup tables (hand/rule, not raw and not rebuilt from raw alone):
     NYC_vehicle_lookup_table.csv   vehicle type code -> class (Car, SUV, Taxi, Van, Truck, Bus,
                            Motorcycle, Scooter, Bike, Other, Unknown) for every code in the data; hand
                            (2020) or rule (scripts/31_vehicle_lookup.R); 2020 table as *.superseded_20261016.csv
   docs/                     non-data material:
     dot_presentations/     DOT project presentations and street design checklists (PDF), downloaded by
-                           nyc_streets/evidence/dot_projects/03_fetch_extract.py
+                           streets/evidence/dot_projects/03_fetch_extract.py
   _meta/                    download logs and manifests (one place):
                            opendata_download_log.csv, taxi_manifest.csv, taxi_download_log.csv,
                            citibike_manifest.csv, epa_aqs_manifest.csv (epa manifest: Last-Modified and
@@ -241,10 +259,10 @@ nyc_traffic_data/           top level is by KIND: raw / derived / reference / do
   _archive/                 superseded legacy from earlier project generations (5_NYC_bikelanes_raw/)
 ```
 
-The street network history built by the nyc_streets repo (segment key, spells, bike lane windows,
-travel lane panels) has its own store, `nyc_streets_data/` next to this one (moved out of
-`derived/streets/` on 2026-10-16). `nyc_streets_data_root()` finds it: `NYC_STREETS_DATA` in the
-environment or `config.local`, else the sibling folder. `bikelane_windows_read()` reads from it.
+The street network history built in `streets/` (segment key, spells, bike lane windows, travel lane
+panels) is in `derived/streets/` (a separate store, `nyc_streets_data`, from 2026-10-16 to
+2026-10-23). `nyc_streets_data_root()` returns that folder; `bikelane_windows_read()` and the
+readers in `streets/R/streets.R` read from it.
 
 Everything under `raw/` is raw data as published, and never edited. Each file is kept once:
 read zips directly (`/vsizip/`) instead of keeping unzipped copies (removed 2026-10-14). Snapshots of updating

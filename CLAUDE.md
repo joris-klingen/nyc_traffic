@@ -1,24 +1,31 @@
-# nyc_traffic — agent signpost
+# nyc_transport — agent signpost
 
-**What this is.** The hub repo: downloads and reads *all* raw NYC data into `../nyc_traffic_data/`,
-and holds the readers for **both** data stores (including `bikelane_windows_read()`, whose data
-lives in `nyc_streets_data`).
+**What this is.** The one shared NYC repo under every `nyc_res_*` project. It downloads and reads
+all raw NYC data, and builds the street network history, into one store: `../nyc_transport_data/`.
 
-**Read this first.** [`README.md`](README.md) — sources, joins, CRS, crash geocoding, LION, scripts.
+- Repo root: download scripts (`scripts/`), readers (`R/`), profiles + simulators (`profiles/`,
+  `sim/`), store checks (`checks/`). Run from the repo root.
+- [`streets/`](streets/README.md): the curated street network history (segment key, spells, bike-lane
+  and travel-lane panels, manual review, evidence). Writes `derived/streets/` in the store. Run its
+  scripts from `streets/`.
 
-**Find a dataset + how to read it.** [`nyc_data_catalog.md`](nyc_data_catalog.md) — every dataset
-across both stores with the exact reader call. Regenerate: `Rscript scripts/50_build_catalog.R`.
+**Read this first.** [`README.md`](README.md) (sources, joins, CRS, crash geocoding, LION, data layout)
+and [`streets/README.md`](streets/README.md) (segment key, spells, bike-lane classification).
 
-**Big picture.** [`../NYC_DATA.md`](../NYC_DATA.md) — how traffic/streets/res fit together.
+**Find a dataset and how to read it.** [`nyc_data_catalog.md`](nyc_data_catalog.md): every dataset in
+the store with the exact reader call. Regenerate: `Rscript scripts/50_build_catalog.R`.
 
-**To use the readers:**
+**Big picture.** [`../NYC_DATA.md`](../NYC_DATA.md).
+
+**To use the readers** (one file loads all of them, street history included):
 ```r
-source(Find(file.exists, c("../nyc_traffic_repo/R/nyc_traffic.R", "../nyc_traffic/R/nyc_traffic.R")))
+source(Find(file.exists, c("../nyc_transport_repo/R/nyc_transport.R", "../nyc_transport/R/nyc_transport.R")))
 ```
 
-**Rules.** Raw data (everything outside `derived/`) is never edited; snapshots keep their download
-date; computed outputs go to `derived/`. Work without the store via `sim/` + `profiles/`. The data
-store is local only (not on GitHub).
+**Rules.** Everything under `raw/` in the store is as published and never edited; snapshots keep their
+download date; computed outputs go to `derived/`. Work without the store via `sim/` + `profiles/`
+(and `streets/sim/`). The store is local only (not on GitHub). Store root: `NYC_TRANSPORT_DATA` in
+`config.local`.
 
 **R style.** data.table, `dt[, col]` bracket syntax, `# Section ----` headers. Never run R inline
-(`Rscript -e`) — write a script file and run it with `Rscript`.
+(`Rscript -e`); write a script file and run it with `Rscript`.
