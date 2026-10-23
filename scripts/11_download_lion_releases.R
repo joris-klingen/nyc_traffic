@@ -1,4 +1,4 @@
-# Download quarterly LION releases (DCP BYTES of the Big Apple archive) into nyc_traffic_data/street_layout/lion
+# Download quarterly LION releases (DCP BYTES of the Big Apple archive) into nyc_traffic_data/raw/street_layout/lion
 #
 # Usage (from repo root):  Rscript scripts/11_download_lion_releases.R [first] [last]
 #   first, last  release labels, default 17a and the newest published (probed up to 29d)
@@ -12,7 +12,7 @@ source("R/config.R")
 # the archive uses nyclion_<release>.zip for recent releases and nyc_lion<release>.zip for older ones
 url_base <- c("https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/lion/nyclion_%s.zip",
               "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/lion/nyc_lion%s.zip")
-out_dir <- file.path(nyc_data_root(), "street_layout", "lion")
+out_dir <- file.path(nyc_data_root(), "raw", "street_layout", "lion")
 options(timeout = 3600)
 
 args <- commandArgs(trailingOnly = TRUE)

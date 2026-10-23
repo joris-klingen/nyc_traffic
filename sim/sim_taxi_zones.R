@@ -1,6 +1,6 @@
 # Simulated TLC taxi zones
 #
-# Real data: taxi/zones/taxi_zones_YYYYMMDD.zip (shapefile) with taxi_zone_lookup_YYYYMMDD.csv,
+# Real data: raw/taxi/zones/taxi_zones_YYYYMMDD.zip (shapefile) with taxi_zone_lookup_YYYYMMDD.csv,
 # read with taxi_zones_read(): sf in EPSG 2263 with LocationID, Borough, Zone, service_zone and
 # MULTIPOLYGON geometry, 263 zones (264/265 are "unknown" and have no polygon). PULocationID and
 # DOLocationID in all TLC trips refer to these. nyc_res_bikelanes uses the 2025 version

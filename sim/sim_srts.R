@@ -1,6 +1,6 @@
 # Simulated srts
 #
-# Real data: street_layout/calming/Speed_Reducer_Tracking_System__SRTS__20261014.csv, read with
+# Real data: raw/street_layout/calming/Speed_Reducer_Tracking_System__SRTS__20261014.csv, read with
 # data.table::fread(nyc_latest('srts')); 61,062 rows, returned as a data.table.
 # Speed Reducer Tracking System: requests for speed humps and cushions since the 1990s, one row
 # per segment of a request with project code, status, request / study / installation / closed

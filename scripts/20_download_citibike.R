@@ -1,4 +1,4 @@
-# Download Citi Bike (NYC, not Jersey City) trip data zips into nyc_traffic_data/citibike/trips
+# Download Citi Bike (NYC, not Jersey City) trip data zips into nyc_traffic_data/raw/citibike/trips
 #
 # Usage (from repo root):  Rscript scripts/20_download_citibike.R
 #
@@ -9,7 +9,7 @@ library(data.table)
 source("R/config.R")
 
 bucket <- "https://s3.amazonaws.com/tripdata"
-raw_dir <- file.path(nyc_data_root(), "citibike", "trips")
+raw_dir <- file.path(nyc_data_root(), "raw", "citibike", "trips")
 dir.create(raw_dir, recursive = TRUE, showWarnings = FALSE)
 options(timeout = 7200)
 
@@ -43,5 +43,6 @@ for (i in seq_len(nrow(files))) {
 # Manifest ----
 local <- list.files(raw_dir, pattern = "\\.zip$", full.names = TRUE)
 fwrite(data.table(file = basename(local), size = file.size(local), mtime = format(file.mtime(local))),
-       file.path(nyc_data_root(), "citibike", "manifest.csv"))
+       { dir.create(file.path(nyc_data_root(), "_meta"), showWarnings = FALSE)
+         file.path(nyc_data_root(), "_meta", "citibike_manifest.csv") })
 message("citibike: ", length(local), " files, ", round(sum(file.size(local)) / 1e9, 1), " GB")

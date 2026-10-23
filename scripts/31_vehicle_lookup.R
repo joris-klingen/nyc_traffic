@@ -19,7 +19,7 @@
 library(data.table)
 source("R/nyc_traffic.R")
 
-f <- file.path(nyc_data_root(), "crashes", "reference", "NYC_vehicle_lookup_table.csv")
+f <- file.path(nyc_data_root(), "reference", "NYC_vehicle_lookup_table.csv")
 lk <- fread(f, encoding = "UTF-8")
 if (!"Source" %in% names(lk)) lk[, Source := "hand"]
 lk <- lk[Source %like% "^hand"]   # rules are re-derived each run

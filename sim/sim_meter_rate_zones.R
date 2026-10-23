@@ -1,6 +1,6 @@
 # Simulated meter rate zones
 #
-# Real data: street_layout/parking/Parking_Meters_Citywide_Rate_Zones_20261014.geojson, read with
+# Real data: raw/street_layout/parking/Parking_Meters_Citywide_Rate_Zones_20261014.geojson, read with
 # sf::st_read(nyc_latest('meter_rate_zones')); 52 rows, returned as sf with MULTIPOLYGON
 # geometry (EPSG 4326).
 # Citywide parking meter rate zones: polygons with the hourly rates.

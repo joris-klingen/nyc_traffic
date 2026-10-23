@@ -1,14 +1,14 @@
 # Simulated historical count files (no longer updated)
 #
 # Real data, read raw with data.table::fread(file.path(nyc_data_root(), <file>)):
-#   traffic_counts/legacy/Traffic_Volume_Counts__2011-2012_.csv, __2012-2013_, __2014-2018_
+#   raw/traffic_counts/legacy/Traffic_Volume_Counts__2011-2012_.csv, __2012-2013_, __2014-2018_
 #       DOT volume counts: one row per segment, direction and day with hourly volume columns
 #       (12:00-1:00 AM ... 11:00-12:00AM), ID, Segment ID, Roadway Name, From, To, Direction, Date
-#   traffic_counts/legacy/Vehicle_Classification_Counts__2011-2012_.csv, __2012-2013_, __2014-2018_
+#   raw/traffic_counts/legacy/Vehicle_Classification_Counts__2011-2012_.csv, __2012-2013_, __2014-2018_
 #       counts by FHWA vehicle class (bikes, cars, buses, trucks of 2 to 6+ axles) per location and day
-#   traffic_counts/bicycle/Bicycle_Counts_20200204.csv, Bicycle_Counters_20200204.csv
+#   raw/traffic_counts/bicycle/Bicycle_Counts_20200204.csv, Bicycle_Counters_20200204.csv
 #       the DOT counter data as published until 2020 (counts per counter id and 15 minutes; counters)
-#   traffic_counts/bicycle/NYCDCP_Manhattan_Bike_Counts_-_On_Street_Weekday.csv, _Off_Street.csv
+#   raw/traffic_counts/bicycle/NYCDCP_Manhattan_Bike_Counts_-_On_Street_Weekday.csv, _Off_Street.csv
 #       DCP screenline cyclist counts in Manhattan, one row per location with yearly columns
 # Profiles: profiles/counts_<file name in snake case>.csv.
 #

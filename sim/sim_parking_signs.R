@@ -1,6 +1,6 @@
 # Simulated parking signs
 #
-# Real data: street_layout/parking/Parking_Regulation_Locations_and_Signs_20261014.csv, read with
+# Real data: raw/street_layout/parking/Parking_Regulation_Locations_and_Signs_20261014.csv, read with
 # data.table::fread(nyc_latest('parking_signs')); 441,509 rows, returned as a data.table.
 # Parking regulation signs: one row per sign with the DOT order number, sign description and
 # code, on / from / to street, side of street, sign position (x, y) and the date the order was

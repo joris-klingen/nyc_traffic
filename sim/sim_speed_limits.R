@@ -1,6 +1,6 @@
 # Simulated speed limits
 #
-# Real data: street_layout/traffic_rules/VZV_Speed_Limits_20261014.geojson, read with
+# Real data: raw/street_layout/traffic_rules/VZV_Speed_Limits_20261014.geojson, read with
 # sf::st_read(nyc_latest('speed_limits')); 141,444 rows, returned as sf with MULTILINESTRING
 # geometry (EPSG 4326).
 # Vision Zero speed limits: one line per street segment with its posted speed limit (postvz_sl)

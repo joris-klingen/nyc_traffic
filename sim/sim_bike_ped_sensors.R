@@ -1,6 +1,6 @@
 # Bicycle and pedestrian count sensors (real list)
 #
-# Real data: traffic_counts/bicycle/Bicycle_and_Pedestrian_Count_Sensors_YYYYMMDD.csv, read with
+# Real data: raw/traffic_counts/bicycle/Bicycle_and_Pedestrian_Count_Sensors_YYYYMMDD.csv, read with
 # bike_count_sensors(): one row per sensor (42): sensor_id, name, longitude, latitude,
 # first_data, last_data (IDate), travel_modes ("bike", "bike, pedestrian", ...), devices (number
 # of counters over time), x, y (EPSG 2263), segment_id (nearest LION centerline), segment_ft

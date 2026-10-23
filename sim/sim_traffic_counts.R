@@ -1,6 +1,6 @@
 # Simulated DOT automated traffic counts (ATR)
 #
-# Real data: traffic_counts/automated/Automated_Traffic_Volume_Counts_YYYYMMDD.csv (~1.7M rows),
+# Real data: raw/traffic_counts/automated/Automated_Traffic_Volume_Counts_YYYYMMDD.csv (~1.7M rows),
 # read with traffic_counts_read(). One row per 15 minutes, direction and count location, from
 # short campaigns (usually a week or two) at changing locations since 2006: RequestID (campaign),
 # Boro, Yr, M, D, HH, MM, Vol (vehicles in the 15 minutes), SegmentID (LION), WktGeom (point in

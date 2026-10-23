@@ -1,6 +1,6 @@
 # Simulated pavement ratings
 #
-# Real data: street_layout/pavement/Street_Pavement_Ratings_20261014.csv, read with
+# Real data: raw/street_layout/pavement/Street_Pavement_Ratings_20261014.csv, read with
 # data.table::fread(nyc_latest('pavement_ratings')); 524,928 rows, returned as a data.table.
 # Street pavement ratings: one row per rated segment with the rating and inspection date
 # (geometry as WKT).

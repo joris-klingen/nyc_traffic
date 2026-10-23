@@ -1,6 +1,6 @@
 # Simulated barnes dance
 #
-# Real data: street_layout/signals/Exclusive_Pedestrian_Signal_Locations_20261014.csv, read with
+# Real data: raw/street_layout/signals/Exclusive_Pedestrian_Signal_Locations_20261014.csv, read with
 # data.table::fread(nyc_latest('barnes_dance')); 737 rows, returned as a data.table with POINT
 # geometry as WKT text in the_geom.
 # Exclusive pedestrian signal phases (Barnes dance): one point per intersection (WKT column

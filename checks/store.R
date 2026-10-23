@@ -30,7 +30,7 @@ print(snap)
 for (n in snap[snapshots == 0, dataset]) flag("no snapshot of ", n)
 
 # Open Data download log ----
-log_file <- file.path(nyc_data_root(), "opendata_download_log.csv")
+log_file <- file.path(nyc_data_root(), "_meta", "opendata_download_log.csv")
 if (file.exists(log_file)) {
   lg <- fread(log_file)
   last <- lg[, .SD[.N], name]

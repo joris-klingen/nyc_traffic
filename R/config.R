@@ -2,8 +2,10 @@
 #
 # The root is taken from the environment variable NYC_TRAFFIC_DATA, or else from
 # NYC_TRAFFIC_DATA in config.local at the repo root (copy config.example). The old name
-# NYC_DATA is still read as a fallback. Subfolders: taxi/, crashes/, street_layout/, boundaries/,
-# traffic_counts/, citibike/, documents/, derived/.
+# NYC_DATA is still read as a fallback. Layout: raw/ (every raw source: taxi, crashes,
+# street_layout, boundaries, traffic_counts, citibike, air_pollution, congestion_pricing),
+# derived/ (computed), reference/ (lookup tables), docs/ (PDFs), _meta/ (download logs and
+# manifests), _archive/ (legacy). The nyc_opendata dirs below are relative to raw/.
 
 # config.local sits one level above this file
 nyc_config_file <- local({
@@ -36,7 +38,7 @@ nyc_streets_data_root <- function() {
   normalizePath(d, winslash = "/", mustWork = FALSE)
 }
 
-tlc_data_dir <- function() file.path(nyc_data_root(), "taxi")
+tlc_data_dir <- function() file.path(nyc_data_root(), "raw", "taxi")
 
 tlc_url_base <- "https://d37ci6vzurychx.cloudfront.net/trip-data/"
 

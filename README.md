@@ -159,83 +159,86 @@ month twice (whole and split); the reader uses one copy.
 ## Data layout
 
 ```
-nyc_traffic_data/
-  taxi/
-    yellow/                yellow_tripdata_YYYY-MM.parquet   2012-01 onward
-    green/                 green_tripdata_YYYY-MM.parquet    2014-01 onward
-    fhvhv/                 fhvhv_tripdata_YYYY-MM.parquet    2019-02 onward
-    yellow_csv_legacy/     yellow_tripdata_YYYY-MM.csv       2012-01 to 2016-06, with pickup/dropoff
+nyc_traffic_data/           top level is by KIND: raw / derived / reference / docs, and _meta / _archive
+  raw/                      every raw source, as published; never edited
+    taxi/
+      yellow/              yellow_tripdata_YYYY-MM.parquet   2012-01 onward
+      green/               green_tripdata_YYYY-MM.parquet    2014-01 onward
+      fhvhv/               fhvhv_tripdata_YYYY-MM.parquet    2019-02 onward
+      yellow_csv_legacy/   yellow_tripdata_YYYY-MM.csv       2012-01 to 2016-06, with pickup/dropoff
                                                              coordinates; no longer published this way, keep
-    zones/                 taxi_zones_YYYYMMDD.zip (shapefile), taxi_zone_lookup_YYYYMMDD.csv;
+      zones/               taxi_zones_YYYYMMDD.zip (shapefile), taxi_zone_lookup_YYYYMMDD.csv;
                            taxi_zones_20250923.zip is the 2025 version used by nyc_res_bikelanes (other
                            Manhattan LocationIDs, 3 duplicate ids)
-    manifest.csv, download_log.csv
-  crashes/                 Motor_Vehicle_Collisions_-_{Crashes,Person,Vehicles}_YYYYMMDD.csv (dated snapshots)
+    crashes/               Motor_Vehicle_Collisions_-_{Crashes,Person,Vehicles}_YYYYMMDD.csv (dated snapshots)
                            NYPD_Motor_Vehicle_Collisions_YYYYMMDD.csv (pre-2020 version of the crash table)
-    reference/             NYC_vehicle_lookup_table.csv: vehicle type code -> class (Car, SUV, Taxi, Van, Truck,
-                           Bus, Motorcycle, Scooter, Bike, Other, Unknown) for every code in the data; Source hand (2020)
-                           or rule (scripts/31_vehicle_lookup.R); the 2020 table as *.superseded_20261016.csv
-  street_layout/           (raw current-state street layout; renamed from streets/ 2026-10-23)
-    lion/                  quarterly releases nyc_lion12a.zip ... nyc_lion16d.zip, nyclion_17a.zip ...
+    street_layout/         raw current-state street layout (renamed from streets/ 2026-10-23)
+      lion/                quarterly releases nyc_lion12a.zip ... nyc_lion16d.zip, nyclion_17a.zip ...
                            nyclion_26c.zip; current snapshot nyclion_YYYYMMDD.zip;
                            nyc_lion15b.corrupt_20200630.zip (a damaged download, kept). Read the zips
                            directly with lion_gdb() / lion_read(); the extracted copies of 12a-15a, 16d
                            and 19d that used to sit here were deleted 2026-10-14
-    address_points/        AddressPoint_YYYYMMDD.csv (one point per building address)
-    bike_routes/           New York City Bike Routes_YYYYMMDD.geojson; DOT archive zips
+      address_points/      AddressPoint_YYYYMMDD.csv (one point per building address)
+      bike_routes/         New York City Bike Routes_YYYYMMDD.geojson; DOT archive zips
                            Archived_nyc_bike_routes_2019.zip, _2020.zip (shapefile, csv, metadata; read
                            with /vsizip/), nyc-bike-routes.zip (2017 release), 20190110__NYCDOT_BICYCLE_NETWORK.zip
                            (the 2019 release as first published); nyc_bike_routes_2017.csv (despite the
                            name the 2019 release, 16,672 rows) and nyc_bike_routes_2017_v2020.csv (the
                            2020 release, 18,730 rows), used by the gender paper
-    bus_lanes/             Bus_Lanes_Local_Streets_YYYYMMDD.geojson
-    parking/               Parking_Regulation_Locations_and_Signs, Parking_Meters_Locations_and_Status (csv);
+      bus_lanes/           Bus_Lanes_Local_Streets_YYYYMMDD.geojson
+      parking/             Parking_Regulation_Locations_and_Signs, Parking_Meters_Locations_and_Status (csv);
                            Parking_Meters_ParkNYC_Block_Faces, Parking_Meters_Citywide_Rate_Zones (geojson)
-    traffic_rules/         VZV_Speed_Limits, VZV_Arterial_Slow_Zones, VZV_Neighborhood_Slow_Zones,
+      traffic_rules/       VZV_Speed_Limits, VZV_Arterial_Slow_Zones, VZV_Neighborhood_Slow_Zones,
                            New_York_City_Truck_Routes (geojson); Street_Network_Changes_Historical.csv;
                            dot_VZV_Speed_Limits.zip and _20200626.csv (2020-06)
-    calming/               VZV_Speed_Humps.geojson; Speed_Reducer_Tracking_System__SRTS_.csv (from 2020-02)
-    signals/               VZV_Leading_Pedestrian_Interval_Signals, Exclusive_Pedestrian_Signal_Locations (csv)
-    public_space/          Open_Streets_Locations, NYC_DOT_Pedestrian_Plazas (geojson); Pedestrian_Space_Added.csv
-    bike_parking/          Bicycle_Parking, Bicycle_Parking_Shelters (csv)
-    pavement/              Street_Pavement_Ratings.csv (geometry as WKT)
-    closures/              Street_Closures_due_to_construction_activities_by_Block.csv (from 2020-02)
-    other/                 NYC_streets_shape.zip and NYC_Streets.csv (street centerline export, 2020-01)
-  boundaries/              borough_boundaries, community_districts, nta_2020, census_tracts_2020,
+      calming/             VZV_Speed_Humps.geojson; Speed_Reducer_Tracking_System__SRTS_.csv (from 2020-02)
+      signals/             VZV_Leading_Pedestrian_Interval_Signals, Exclusive_Pedestrian_Signal_Locations (csv)
+      public_space/        Open_Streets_Locations, NYC_DOT_Pedestrian_Plazas (geojson); Pedestrian_Space_Added.csv
+      bike_parking/        Bicycle_Parking, Bicycle_Parking_Shelters (csv)
+      pavement/            Street_Pavement_Ratings.csv (geometry as WKT)
+      closures/            Street_Closures_due_to_construction_activities_by_Block.csv (from 2020-02)
+      other/               NYC_streets_shape.zip and NYC_Streets.csv (street centerline export, 2020-01)
+    boundaries/            borough_boundaries, community_districts, nta_2020, census_tracts_2020,
                            census_blocks_2020, police_precincts (_YYYYMMDD.geojson);
                            census_tract_2020_to_nta_cdta_YYYYMMDD.csv
-    census_block_groups_2020/ tl_2020_36_bg.* (TIGER/Line block groups, New York State) and
+      census_block_groups_2020/ tl_2020_36_bg.* (TIGER/Line block groups, New York State) and
                            nyc_bg_population_2020_YYYYMMDD.json (P1_001N per block group); from nyc_res_cc
-  congestion_pricing/      MTA_Congestion_Relief_Zone_Vehicle_Entries__Beginning_2025_YYYYMMDD.csv (data.ny.gov t2rz-wjj6)
-  traffic_counts/
-    automated/             Automated_Traffic_Volume_Counts_YYYYMMDD.csv (DOT ATR counts)
-    legacy/                DOT volume and vehicle classification counts 2011-2018, Midtown 2018
-    bicycle/               Bicycle_and_Pedestrian_Counts(_Sensors)_YYYYMMDD.csv (DOT counters),
+    congestion_pricing/    MTA_Congestion_Relief_Zone_Vehicle_Entries__Beginning_2025_YYYYMMDD.csv (data.ny.gov t2rz-wjj6)
+    traffic_counts/
+      automated/           Automated_Traffic_Volume_Counts_YYYYMMDD.csv (DOT ATR counts)
+      legacy/              DOT volume and vehicle classification counts 2011-2018, Midtown 2018
+      bicycle/             Bicycle_and_Pedestrian_Counts(_Sensors)_YYYYMMDD.csv (DOT counters),
                            Bicycle_Count(er)s_20200204.csv (historical version), DCP Manhattan and
                            East River bridge counts
-  citibike/
-    trips/                 YYYY-citibike-tripdata.zip (2013-2023), YYYYMM-citibike-tripdata.zip (2024 onward);
+    citibike/
+      trips/               YYYY-citibike-tripdata.zip (2013-2023), YYYYMM-citibike-tripdata.zip (2024 onward);
                            old format with rider demographics to 2019-12, new format from 2020
-    trips_monthly_original/ YYYYMM-citibike-tripdata(.csv).zip, 2014-01 to 2019-12: original monthly releases,
+      trips_monthly_original/ YYYYMM-citibike-tripdata(.csv).zip, 2014-01 to 2019-12: original monthly releases,
                            before Citi Bike repackaged them into yearly zips in 2024. Keep: original record
                            for the gender paper.
-    stations/              station_information_YYYYMMDD.json (GBFS, from 2026-10-14);
+      stations/            station_information_YYYYMMDD.json (GBFS, from 2026-10-14);
                            citibikestationsNYC_YYYYMMDD_HHMM.json (2019)
-    manifest.csv
-  air_pollution/
-    epa_aqs/
-      hourly/              hourly_<param>_YYYY.zip, national, 2012 onward: 44201 ozone, 42602 NO2, NONOxNOy,
+    air_pollution/
+      epa_aqs/
+        hourly/            hourly_<param>_YYYY.zip, national, 2012 onward: 44201 ozone, 42602 NO2, NONOxNOy,
                            42101 CO, 42401 SO2, 88101 PM2.5 FRM/FEM, 88502 PM2.5 non-FRM, 81102 PM10, WIND, TEMP
-      daily/               daily_<param>_YYYY.zip, same parameters (daily means, AQI)
-      sites/               aqs_sites_YYYYMMDD.zip, aqs_monitors_YYYYMMDD.zip (site and monitor lists)
-      manifest.csv         Last-Modified and size per file; revised files are kept as *.superseded_YYYYMMDD.zip
-  documents/
-    dot_presentations/     DOT project presentations and street design checklists (PDF), downloaded by
-                           nyc_streets/evidence/dot_projects/03_fetch_extract.py
-  derived/                 made from the raw data, can be rebuilt:
+        daily/             daily_<param>_YYYY.zip, same parameters (daily means, AQI)
+        sites/             aqs_sites_YYYYMMDD.zip, aqs_monitors_YYYYMMDD.zip (site and monitor lists)
+  derived/                  made from the raw data, can be rebuilt:
     crashes_parquet/       parquet copies of the crash snapshots (scripts/30_crashes_parquet.R)
     air_pollution/         {hourly,daily}_<param>.parquet: NYC-area monitors (scripts/41_air_pollution_nyc.R)
-  opendata_download_log.csv
+  reference/                lookup tables (hand/rule, not raw and not rebuilt from raw alone):
+    NYC_vehicle_lookup_table.csv   vehicle type code -> class (Car, SUV, Taxi, Van, Truck, Bus,
+                           Motorcycle, Scooter, Bike, Other, Unknown) for every code in the data; hand
+                           (2020) or rule (scripts/31_vehicle_lookup.R); 2020 table as *.superseded_20261016.csv
+  docs/                     non-data material:
+    dot_presentations/     DOT project presentations and street design checklists (PDF), downloaded by
+                           nyc_streets/evidence/dot_projects/03_fetch_extract.py
+  _meta/                    download logs and manifests (one place):
+                           opendata_download_log.csv, taxi_manifest.csv, taxi_download_log.csv,
+                           citibike_manifest.csv, epa_aqs_manifest.csv (epa manifest: Last-Modified and
+                           size per file; revised files kept as *.superseded_YYYYMMDD.zip)
+  _archive/                 superseded legacy from earlier project generations (5_NYC_bikelanes_raw/)
 ```
 
 The street network history built by the nyc_streets repo (segment key, spells, bike lane windows,
@@ -243,7 +246,7 @@ travel lane panels) has its own store, `nyc_streets_data/` next to this one (mov
 `derived/streets/` on 2026-10-16). `nyc_streets_data_root()` finds it: `NYC_STREETS_DATA` in the
 environment or `config.local`, else the sibling folder. `bikelane_windows_read()` reads from it.
 
-Everything outside `derived/` is raw data as published, and never edited. Each file is kept once:
+Everything under `raw/` is raw data as published, and never edited. Each file is kept once:
 read zips directly (`/vsizip/`) instead of keeping unzipped copies (removed 2026-10-14). Snapshots of updating
 datasets carry their download date. Files the
 publisher replaced are kept as `*.superseded_YYYYMMDD.*`, damaged downloads as
@@ -255,15 +258,15 @@ Run from the repo root.
 
 | Script | Purpose |
 |---|---|
-| `scripts/01_download_tlc.R` | New TLC months (and re-check the most recent ones), taxi zones; writes `taxi/manifest.csv` |
+| `scripts/01_download_tlc.R` | New TLC months (and re-check the most recent ones), taxi zones; writes `_meta/taxi_manifest.csv` |
 | `scripts/10_download_opendata.R` | New dated snapshots of the NYC Open Data sets listed in `nyc_opendata` (`R/config.R`: crashes, LION, bike routes, street layout sets, counts, boundaries, ...) when they were updated; a download identical to the latest snapshot is dropped; logs to `opendata_download_log.csv` |
 | `scripts/21_snapshot_citibike_stations.R` | Citi Bike station list (GBFS) when it changed |
 | `scripts/11_download_lion_releases.R` | Quarterly LION releases from the DCP archive |
-| `scripts/20_download_citibike.R` | Citi Bike trip zips not yet present; writes `citibike/manifest.csv` |
+| `scripts/20_download_citibike.R` | Citi Bike trip zips not yet present; writes `_meta/citibike_manifest.csv` |
 | `scripts/40_download_epa_aqs.R` | EPA AQS hourly and daily files from 2012 that are new or revised, site and monitor lists; writes `air_pollution/epa_aqs/manifest.csv` |
 | `scripts/41_air_pollution_nyc.R` | NYC-area monitor extract per parameter in `derived/air_pollution/` |
 | `scripts/30_crashes_parquet.R` | Parquet copies of the crash snapshots in `derived/crashes_parquet/` |
-| `scripts/31_vehicle_lookup.R` | Classify vehicle type codes not yet in `crashes/reference/NYC_vehicle_lookup_table.csv` (review without `--write`); re-run after a new crash snapshot. E-bikes are Bike as in the 2020 hand-made table; e-scooters and standing scooters Scooter (since 2026-10-18); mopeds and motor scooters Motorcycle |
+| `scripts/31_vehicle_lookup.R` | Classify vehicle type codes not yet in `reference/NYC_vehicle_lookup_table.csv` (review without `--write`); re-run after a new crash snapshot. E-bikes are Bike as in the 2020 hand-made table; e-scooters and standing scooters Scooter (since 2026-10-18); mopeds and motor scooters Motorcycle |
 
 ```bash
 Rscript scripts/01_download_tlc.R yellow,green,fhvhv 3

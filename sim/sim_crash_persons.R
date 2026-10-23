@@ -1,6 +1,6 @@
 # Simulated crash persons
 #
-# Real data: crashes/Motor_Vehicle_Collisions_-_Person_YYYYMMDD.csv (~5.8M rows), read raw with
+# Real data: raw/crashes/Motor_Vehicle_Collisions_-_Person_YYYYMMDD.csv (~5.8M rows), read raw with
 # data.table::fread(nyc_latest("persons")). One row per person involved: UNIQUE_ID,
 # COLLISION_ID, CRASH_DATE (text MM/DD/YYYY), CRASH_TIME (text H:MM), PERSON_ID (UUID),
 # PERSON_TYPE (Occupant, Pedestrian, Bicyclist, Other Motorized), PERSON_INJURY (Unspecified,

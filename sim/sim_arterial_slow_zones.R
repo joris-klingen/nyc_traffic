@@ -1,6 +1,6 @@
 # Simulated arterial slow zones
 #
-# Real data: street_layout/traffic_rules/VZV_Arterial_Slow_Zones_20261014.geojson, read with
+# Real data: raw/street_layout/traffic_rules/VZV_Arterial_Slow_Zones_20261014.geojson, read with
 # sf::st_read(nyc_latest('arterial_slow_zones')); 28 rows, returned as sf with MULTILINESTRING
 # geometry (EPSG 4326).
 # Vision Zero arterial slow zones: corridors whose speed limit was lowered to 25 mph, with the

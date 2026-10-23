@@ -1,6 +1,6 @@
 # Simulated ped plazas
 #
-# Real data: street_layout/public_space/NYC_DOT_Pedestrian_Plazas_20261014.geojson, read with
+# Real data: raw/street_layout/public_space/NYC_DOT_Pedestrian_Plazas_20261014.geojson, read with
 # sf::st_read(nyc_latest('ped_plazas')); 93 rows, returned as sf with MULTIPOLYGON geometry
 # (EPSG 4326).
 # DOT pedestrian plazas: polygons with plaza name, partner and status.

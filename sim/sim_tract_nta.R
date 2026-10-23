@@ -1,6 +1,6 @@
 # Simulated tract nta
 #
-# Real data: boundaries/census_tract_2020_to_nta_cdta_20261011.csv, read with
+# Real data: raw/boundaries/census_tract_2020_to_nta_cdta_20261011.csv, read with
 # data.table::fread(nyc_latest('tract_nta')); 2,327 rows, returned as a data.table.
 # Census tract 2020 to NTA and CDTA equivalency: one row per tract with its NTA and community
 # district tabulation area codes and names.

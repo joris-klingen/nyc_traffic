@@ -48,9 +48,9 @@ nyc_snapshots <- c(
 # all snapshots of a dataset, oldest first, named by snapshot date
 nyc_snapshot_files <- function(name) {
   s <- nyc_snapshots[[name]]
-  f <- list.files(file.path(nyc_data_root(), s[1]), pattern = s[2])
+  f <- list.files(file.path(nyc_data_root(), "raw", s[1]), pattern = s[2])
   d <- sub(s[2], "\\1", f)
-  setNames(file.path(nyc_data_root(), s[1], f), d)[order(d)]
+  setNames(file.path(nyc_data_root(), "raw", s[1], f), d)[order(d)]
 }
 
 # newest snapshot, or the newest one on or before `as_of` (YYYYMMDD), for reproducibility
@@ -366,7 +366,7 @@ lion_gdb <- function(zip = nyc_latest("lion")) {
 # Quarterly LION releases on disk with their release date (newest file date inside the zip)
 lion_releases <- function() {
   stopifnot(requireNamespace("data.table", quietly = TRUE))
-  dir <- file.path(nyc_data_root(), "street_layout", "lion")
+  dir <- file.path(nyc_data_root(), "raw", "street_layout", "lion")
   f <- list.files(dir, pattern = "^(nyc_lion|nyclion_)[0-9]{2}[a-d]\\.zip$", full.names = TRUE)
   r <- data.table::data.table(release = sub("^(nyc_lion|nyclion_)([0-9]{2}[a-d])\\.zip$", "\\2", basename(f)), file = f)
   r[, release_date := as.Date(vapply(file, function(z) format(max(utils::unzip(z, list = TRUE)$Date)), character(1)))]
@@ -418,7 +418,7 @@ boundaries_read <- function(name = c("boroughs", "community_districts", "ntas", 
 # 061, 081, 085. Population per block group: nyc_latest("bg_population") (Census API JSON).
 census_block_groups_read <- function() {
   stopifnot(requireNamespace("sf", quietly = TRUE))
-  sf::st_read(file.path(nyc_data_root(), "boundaries", "census_block_groups_2020", "tl_2020_36_bg.shp"), quiet = TRUE)
+  sf::st_read(file.path(nyc_data_root(), "raw", "boundaries", "census_block_groups_2020", "tl_2020_36_bg.shp"), quiet = TRUE)
 }
 
 # TLC taxi zones (LocationID, borough, zone, service_zone) as sf in nyc_crs; the location in all
@@ -435,7 +435,7 @@ taxi_zones_read <- function() {
 
 # Citi Bike ----
 citibike_files <- function() {
-  list.files(file.path(nyc_data_root(), "citibike", "trips"),
+  list.files(file.path(nyc_data_root(), "raw", "citibike", "trips"),
              pattern = "citibike-tripdata\\.zip$", full.names = TRUE)
 }
 

@@ -1,6 +1,6 @@
 # Simulated bike shelters
 #
-# Real data: street_layout/bike_parking/Bicycle_Parking_Shelters_20261014.csv, read with
+# Real data: raw/street_layout/bike_parking/Bicycle_Parking_Shelters_20261014.csv, read with
 # data.table::fread(nyc_latest('bike_shelters')); 17 rows, returned as a data.table.
 # Bicycle parking shelters (a short list with locations).
 # Columns: BoroCode, BoroName, BoroCD, CounDist, AssemDist, StSenDist, CongDist, location,

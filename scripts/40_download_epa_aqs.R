@@ -31,9 +31,10 @@ first_year <- if (length(args) >= 1) as.integer(args[1]) else 2012L
 if (length(args) >= 2) params <- params[strsplit(args[2], ",")[[1]]]
 years <- first_year:as.integer(format(Sys.Date(), "%Y"))
 
-root <- file.path(nyc_data_root(), "air_pollution", "epa_aqs")
+root <- file.path(nyc_data_root(), "raw", "air_pollution", "epa_aqs")
 for (d in c("hourly", "daily", "sites")) dir.create(file.path(root, d), recursive = TRUE, showWarnings = FALSE)
-manifest_file <- file.path(root, "manifest.csv")
+dir.create(file.path(nyc_data_root(), "_meta"), showWarnings = FALSE)
+manifest_file <- file.path(nyc_data_root(), "_meta", "epa_aqs_manifest.csv")
 manifest <- if (file.exists(manifest_file)) fread(manifest_file, colClasses = "character") else
   data.table(file = character(), dir = character(), remote_modified = character(), size = character(), downloaded = character())
 today <- format(Sys.Date(), "%Y%m%d")

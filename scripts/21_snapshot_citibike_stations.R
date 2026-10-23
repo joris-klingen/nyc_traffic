@@ -11,7 +11,7 @@ library(data.table)
 source("R/config.R")
 
 url <- "https://gbfs.citibikenyc.com/gbfs/en/station_information.json"
-out_dir <- file.path(nyc_data_root(), "citibike", "stations")
+out_dir <- file.path(nyc_data_root(), "raw", "citibike", "stations")
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 dest <- file.path(out_dir, paste0("station_information_", format(Sys.Date(), "%Y%m%d"), ".json"))
 

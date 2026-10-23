@@ -1,6 +1,6 @@
 # Simulated Citi Bike station list (GBFS)
 #
-# Real data: citibike/stations/station_information_YYYYMMDD.json, read with
+# Real data: raw/citibike/stations/station_information_YYYYMMDD.json, read with
 # jsonlite::fromJSON(nyc_latest("citibike_stations"))[["data"]][["stations"]]; 2,519 stations in
 # 2026-10. Columns: station_id (UUID), name, short_name (the id used in the trip data, e.g.
 # "5329.03"), lon, lat, region_id, capacity, rental_uris, has_kiosk, station_type, external_id,

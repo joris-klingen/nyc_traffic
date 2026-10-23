@@ -1,6 +1,6 @@
 # Simulated NYPD motor vehicle crashes
 #
-# Real data: crashes/Motor_Vehicle_Collisions_-_Crashes_YYYYMMDD.csv (2.27M crashes from 2012-07),
+# Real data: raw/crashes/Motor_Vehicle_Collisions_-_Crashes_YYYYMMDD.csv (2.27M crashes from 2012-07),
 # read with crashes_read() (snake_case names, coordinates outside NYC as NA, crash_date IDate).
 # One row per police-reported crash (someone injured or killed, or damage over $1,000):
 # crash_date, crash_time (text "H:MM"), borough, zip_code (NA for 30%: highways, bridges),

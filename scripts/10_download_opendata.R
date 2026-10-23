@@ -26,7 +26,8 @@ if (length(args) >= 1) datasets <- datasets[name %in% strsplit(args[1], ",")[[1]
 
 root <- nyc_data_root()
 today <- format(Sys.Date(), "%Y%m%d")
-log_file <- file.path(root, "opendata_download_log.csv")
+dir.create(file.path(root, "_meta"), showWarnings = FALSE)
+log_file <- file.path(root, "_meta", "opendata_download_log.csv")
 options(timeout = 7200)
 
 last_updated <- function(id) {

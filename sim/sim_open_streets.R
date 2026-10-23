@@ -1,6 +1,6 @@
 # Simulated open streets
 #
-# Real data: street_layout/public_space/Open_Streets_Locations_20261014.geojson, read with
+# Real data: raw/street_layout/public_space/Open_Streets_Locations_20261014.geojson, read with
 # sf::st_read(nyc_latest('open_streets')); 391 rows, returned as sf with MULTILINESTRING
 # geometry (EPSG 4326).
 # Open Streets: streets closed to through traffic on given days and hours, one line per segment

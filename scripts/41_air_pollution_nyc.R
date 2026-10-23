@@ -11,7 +11,7 @@ library(data.table)
 library(arrow)
 source("R/config.R")
 
-root <- file.path(nyc_data_root(), "air_pollution", "epa_aqs")
+root <- file.path(nyc_data_root(), "raw", "air_pollution", "epa_aqs")
 out_dir <- file.path(nyc_data_root(), "derived", "air_pollution")
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 

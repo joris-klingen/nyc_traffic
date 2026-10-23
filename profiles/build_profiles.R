@@ -123,7 +123,7 @@ for (type in names(tlc_months_profiled)) local({
     }))
     fwrite(sch, file.path(sim_profiles_dir(), paste0("taxi_", tp, "_schema_by_year.csv")))
     run_profile(paste0("taxi_", tp), x, reader = sprintf("tlc_open('%s') / arrow::read_parquet(tlc_files('%s'))", tp, tp),
-                files = sprintf("taxi/%s/%s_tripdata_YYYY-MM.parquet (%d months, %s to %s)", tp, tp, length(all_files),
+                files = sprintf("raw/taxi/%s/%s_tripdata_YYYY-MM.parquet (%d months, %s to %s)", tp, tp, length(all_files),
                                 substr(basename(all_files[1]), nchar(tp) + 11, nchar(tp) + 17),
                                 substr(basename(tail(all_files, 1)), nchar(tp) + 11, nchar(tp) + 17)),
                 rows_total = rows, sample = paste("100,000 random trips from each of", paste(tlc_months_profiled[[tp]], collapse = ", ")),
@@ -136,7 +136,7 @@ sources$taxi_yellow_csv_legacy <- function() {
   files <- file.path(tlc_data_dir(), "yellow_csv_legacy", c("yellow_tripdata_2012-06.csv", "yellow_tripdata_2015-06.csv"))
   x <- rbindlist(lapply(files, fread, nrows = 2e5, header = TRUE, blank.lines.skip = TRUE), use.names = TRUE, fill = TRUE)
   run_profile("taxi_yellow_csv_legacy", x, reader = "data.table::fread(file.path(tlc_data_dir(), 'yellow_csv_legacy', ...))",
-              files = "taxi/yellow_csv_legacy/yellow_tripdata_YYYY-MM.csv (2012-01 to 2016-06)", rows_total = NA,
+              files = "raw/taxi/yellow_csv_legacy/yellow_tripdata_YYYY-MM.csv (2012-01 to 2016-06)", rows_total = NA,
               sample = "first 200,000 rows of 2012-06 and of 2015-06 (files are in time order, so early days of the month)",
               notes = "2012-2014 files use vendor_id/pickup_datetime/rate_code; 2015-16 use VendorID/tpep_pickup_datetime/RateCodeID (both sets in the profile, NA where absent). Coordinates as lon/lat.",
               raw = TRUE)
@@ -169,14 +169,14 @@ for (nm in c("persons", "vehicles")) local({
 # Citi Bike: old (to 2019-12, with rider gender and birth year) and new format (2020 on)
 sources$citibike_trips_2013_2019 <- function() {
   x <- rbindlist(lapply(c("2014-06", "2019-06"), citibike_read, nrows = 2e5), fill = TRUE)
-  run_profile("citibike_trips_2013_2019", x, reader = "citibike_read('YYYY-MM')", files = "citibike/trips/YYYY-citibike-tripdata.zip (2013-06 to 2019-12)",
+  run_profile("citibike_trips_2013_2019", x, reader = "citibike_read('YYYY-MM')", files = "raw/citibike/trips/YYYY-citibike-tripdata.zip (2013-06 to 2019-12)",
               rows_total = NA, sample = "first 200,000 trips of each csv part of 2014-06 and 2019-06",
               notes = "station ids are numbers stored as text; gender 0 unknown, 1 male, 2 female", xy = list(c("start_lng", "start_lat"), c("end_lng", "end_lat")), cell = 0.005, time_col = "started_at")
   citibike_station_table(x, "citibike_trips_2013_2019")
 }
 sources$citibike_trips_2020_on <- function() {
   x <- rbindlist(lapply(c("2021-06", "2025-06"), citibike_read, nrows = 1e5), fill = TRUE)
-  run_profile("citibike_trips_2020_on", x, reader = "citibike_read('YYYY-MM')", files = "citibike/trips/YYYYMM-citibike-tripdata.zip (2020-01 on; 2020-2023 inside yearly zips)",
+  run_profile("citibike_trips_2020_on", x, reader = "citibike_read('YYYY-MM')", files = "raw/citibike/trips/YYYYMM-citibike-tripdata.zip (2020-01 on; 2020-2023 inside yearly zips)",
               rows_total = NA, sample = "first 100,000 trips of each csv part of 2021-06 and 2025-06",
               notes = "station ids like 5329.03 (text); ride_id 16 hex characters", xy = list(c("start_lng", "start_lat"), c("end_lng", "end_lat")), cell = 0.005, time_col = "started_at")
   citibike_station_table(x, "citibike_trips_2020_on")
@@ -240,7 +240,7 @@ sources$lion <- function() {
   x <- lion_read()
   all_cols <- names(sf::st_read(lion_gdb(nyc_latest("lion")), quiet = TRUE, query = "SELECT * FROM lion WHERE 1 = 0"))
   run_profile("lion", x, reader = "lion_read() (centerlines, default columns)", files = rel(nyc_latest("lion")),
-              notes = paste("LION street segments in EPSG 2263; 57 quarterly releases in street_layout/lion (lion_releases(), nyc_lion_for_date()).",
+              notes = paste("LION street segments in EPSG 2263; 57 quarterly releases in raw/street_layout/lion (lion_releases(), nyc_lion_for_date()).",
                             "All columns of the lion layer:", paste(all_cols, collapse = " ")))
 }
 sources$lion_releases <- function() {
@@ -269,7 +269,7 @@ for (nm in c("boroughs", "community_districts", "ntas", "tracts", "blocks", "pre
 sources$census_block_groups <- function() {
   x <- census_block_groups_read()
   run_profile("census_block_groups", x, reader = "census_block_groups_read()",
-              files = "boundaries/census_block_groups_2020/tl_2020_36_bg.shp",
+              files = "raw/boundaries/census_block_groups_2020/tl_2020_36_bg.shp",
               notes = "TIGER/Line 2020 block groups of New York State as published (EPSG 4269); NYC counties 005, 047, 061, 081, 085")
   p <- jsonlite::fromJSON(nyc_latest("bg_population"))
   pop <- setnames(as.data.table(p[-1, , drop = FALSE]), p[1, ])

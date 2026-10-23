@@ -1,6 +1,6 @@
 # Simulated crash vehicles
 #
-# Real data: crashes/Motor_Vehicle_Collisions_-_Vehicles_YYYYMMDD.csv (~4.5M rows), read raw with
+# Real data: raw/crashes/Motor_Vehicle_Collisions_-_Vehicles_YYYYMMDD.csv (~4.5M rows), read raw with
 # data.table::fread(nyc_latest("vehicles")). One row per vehicle in a crash: UNIQUE_ID,
 # COLLISION_ID (crashes collision_id), CRASH_DATE (text MM/DD/YYYY), CRASH_TIME (text H:MM),
 # VEHICLE_ID (text, a number or a UUID), STATE_REGISTRATION, VEHICLE_TYPE, VEHICLE_MAKE,

@@ -1,6 +1,6 @@
 # Simulated parking meters
 #
-# Real data: street_layout/parking/Parking_Meters_Locations_and_Status_20261014.csv, read with
+# Real data: raw/street_layout/parking/Parking_Meters_Locations_and_Status_20261014.csv, read with
 # data.table::fread(nyc_latest('parking_meters')); 15,598 rows, returned as a data.table with
 # POINT geometry as WKT text in Location.
 # Parking meters: one row per meter with meter number, status, pay-by-cell zone, borough, on

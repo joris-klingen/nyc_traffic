@@ -1,6 +1,6 @@
 # Simulated high-volume for-hire trips (Uber, Lyft, Via, Juno)
 #
-# Real data: taxi/fhvhv/fhvhv_tripdata_YYYY-MM.parquet, 2019-02 onward (91 months, ~20 million trips
+# Real data: raw/taxi/fhvhv/fhvhv_tripdata_YYYY-MM.parquet, 2019-02 onward (91 months, ~20 million trips
 # a month), read with tlc_open("fhvhv"). One row per trip: hvfhs_license_num (HV0003 Uber, HV0005
 # Lyft, HV0002 Juno, HV0004 Via), dispatching_base_num, originating_base_num, request_datetime,
 # on_scene_datetime (NA for some), pickup_datetime, dropoff_datetime (local clock stored as UTC),

@@ -1,6 +1,6 @@
 # Simulated yellow taxi trips
 #
-# Real data: taxi/yellow/yellow_tripdata_YYYY-MM.parquet, 2012-01 onward (176 months, ~1.6 billion
+# Real data: raw/taxi/yellow/yellow_tripdata_YYYY-MM.parquet, 2012-01 onward (176 months, ~1.6 billion
 # trips), read with tlc_open("yellow") or arrow::read_parquet(tlc_files("yellow")). One row per
 # trip: VendorID, tpep_pickup_datetime, tpep_dropoff_datetime (local clock time stored as UTC),
 # passenger_count, trip_distance (miles), RatecodeID, store_and_fwd_flag, PULocationID,

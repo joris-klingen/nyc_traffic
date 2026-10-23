@@ -1,7 +1,7 @@
 # Simulated street closures
 #
 # Real data:
-# street_layout/closures/Street_Closures_due_to_construction_activities_by_Block_20261014.csv, read
+# raw/street_layout/closures/Street_Closures_due_to_construction_activities_by_Block_20261014.csv, read
 # with data.table::fread(nyc_latest('street_closures')); 3,895 rows, returned as a data.table.
 # Street closures for construction, by block: on / from / to street, start and end dates and
 # purpose.

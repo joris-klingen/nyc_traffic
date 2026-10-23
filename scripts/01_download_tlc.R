@@ -17,7 +17,8 @@ recheck_months <- if (length(args) >= 2) as.integer(args[2]) else 3
 data_dir <- tlc_data_dir()
 # trip files sit in one folder per type: taxi/yellow, taxi/green, ...
 raw_dir <- data_dir
-log_file <- file.path(data_dir, "download_log.csv")
+dir.create(file.path(nyc_data_root(), "_meta"), showWarnings = FALSE)
+log_file <- file.path(nyc_data_root(), "_meta", "taxi_download_log.csv")
 
 options(timeout = 3600)
 
@@ -100,6 +101,6 @@ manifest <- data.table(
 )
 manifest[, type := sub("/.*", "", file)]
 manifest[, ym := regmatches(file, regexpr("\\d{4}-\\d{2}", file))]
-fwrite(manifest[order(type, ym)], file.path(data_dir, "manifest.csv"))
+fwrite(manifest[order(type, ym)], file.path(nyc_data_root(), "_meta", "taxi_manifest.csv"))
 
 print(manifest[, .(files = .N, first = min(ym), last = max(ym), GB = round(sum(size) / 1e9, 1)), by = type])

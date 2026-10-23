@@ -1,6 +1,6 @@
 # Simulated green taxi (boro taxi) trips
 #
-# Real data: taxi/green/green_tripdata_YYYY-MM.parquet, 2014-01 onward (152 months), read with
+# Real data: raw/taxi/green/green_tripdata_YYYY-MM.parquet, 2014-01 onward (152 months), read with
 # tlc_open("green"). One row per trip, mostly outside Manhattan below 110th St: VendorID,
 # lpep_pickup_datetime, lpep_dropoff_datetime (local clock stored as UTC), store_and_fwd_flag,
 # RatecodeID, PULocationID, DOLocationID, passenger_count, trip_distance, fare_amount, extra,

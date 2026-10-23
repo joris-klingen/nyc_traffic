@@ -1,6 +1,6 @@
 # Simulated bicycle and pedestrian counts
 #
-# Real data: traffic_counts/bicycle/Bicycle_and_Pedestrian_Counts_YYYYMMDD.csv (21.4M rows from
+# Real data: raw/traffic_counts/bicycle/Bicycle_and_Pedestrian_Counts_YYYYMMDD.csv (21.4M rows from
 # 2012), read with bike_counts_read() (~17 minutes). One row per sensor, flow (direction) and 15
 # minutes: sensor_id, name, travel_mode (bike, pedestrian, scooter), direction (in, out),
 # flow_id, flow_name, time (start of the interval, NYC local time), counts, status (raw,
