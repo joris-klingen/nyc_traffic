@@ -6,8 +6,8 @@ renamed to `Dropbox/1_research/nyc_traffic_data` with the flat layout, all three
 
 State on 2026-10-23: `nyc_traffic` and `nyc_streets` merged into one repo, `nyc_transport` (streets
 in `streets/`, history kept), and the two stores into one, `nyc_transport_data` (street history in
-`derived/streets/`). Store root `NYC_TRANSPORT_DATA`. GitHub rename and archive of `nyc_streets`
-still to do.
+`derived/streets/`). Store root `NYC_TRANSPORT_DATA`. GitHub: nyc_traffic renamed to nyc_transport,
+nyc_streets archived (both 2026-10-23).
 
 ## After the rename
 
