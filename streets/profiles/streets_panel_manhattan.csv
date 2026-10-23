@@ -1,0 +1,11 @@
+column,kind,class,n,na_share,n_distinct,min,q001,q01,q05,q10,q25,median,q75,q90,q95,q99,q999,max,mean,sd,whole,values_kept,values_share,nchar_min,nchar_max,id_pattern,example
+key_id,integer,integer,529692,0,22302,17956,18048,23215,32308,34159,123181,195060,308672,9000077,9006036,9009548,9017066,9024037,1095595,2685310,TRUE,,,,,,
+date,Date,IDate,529692,0,24,2018-01-01,2018-01-01,2018-01-01,2018-02-01,2018-03-01,2018-07-01,2019-01-01,2019-07-01,2019-10-01,2019-11-01,2019-12-01,2019-12-01,2019-12-01,2018-12-16,210.723,TRUE,24,1,,,,
+bike_lane_ft,character,character,529692,0.716525830105042,4,,,,,,,,,,,,,,,,,4,1,4,9,alnum,Protected
+bike_lane_tf,character,character,529692,0.716525830105042,4,,,,,,,,,,,,,,,,,4,1,4,9,alnum,Protected
+in_lion,logical,logical,529692,0,1,,,,,,,,,,,,,,1,,,,,,,,
+parking_lanes,numeric,numeric,529692,0.516275495948589,3,1,1,1,1,1,2,2,2,2,2,2,2,4,1.790317,0.413928,TRUE,3,1,,,,
+street_width,numeric,numeric,529692,0.367392748993755,51,0,0,12,20,22,30,34,48,60,68,70,80,85,38.51646,14.6694,TRUE,,,,,,
+total_lanes,numeric,numeric,529692,0.371210061696231,7,1,1,1,1,2,2,3,4,6,6,7,7,7,3.445454,1.45331,TRUE,7,1,,,,
+traffic_dir,character,character,529692,0.315558853069331,4,,,,,,,,,,,,,,,,,4,1,1,1,alnum,T
+travel_lanes,numeric,numeric,529692,0.36439855614206,7,1,1,1,1,1,1,2,3,4,4,5,6,7,2.071369,1.12974,TRUE,7,1,,,,

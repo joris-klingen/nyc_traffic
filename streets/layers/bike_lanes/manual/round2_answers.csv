@@ -1,0 +1,919 @@
+item_id,kind,street,SegmentID,verdict,protected_date,protected_precision,protected_last_without,protected_first_with,before_type,upgrade_date,upgrade_precision,upgrade_last_without,upgrade_first_with,lanes_before,lanes_after,lanes_source,lanes_date,lanes_precision,lanes_last_before,lanes_first_after,bus_change,bus_date,bus_last_without,bus_first_with,lanes_before_project,n_bike_changes,n_lane_changes,note,by,saved_at
+D001,C,PIKE ST,24145,corrected,,,,,,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:24.661Z
+D001,C,PIKE ST,24153,corrected,,,,,,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:24.661Z
+D001,C,PIKE ST,162686,corrected,,,,,,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:24.661Z
+D002,C,CHRISTOPHER ST,31702,confirmed_ours,2019-12-20,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:03.917Z
+D003,C,GREENWICH ST,31954,confirmed_ours,2019-12-20,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:48.965Z
+D003,C,GREENWICH ST,31955,confirmed_ours,2019-12-20,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:48.965Z
+D004,C,GRAND ST,32102,confirmed_dot,2008-11-04,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:44.821Z
+D004,C,GRAND ST,32106,confirmed_dot,2008-11-04,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:44.821Z
+D004,C,GRAND ST,32111,confirmed_dot,2008-11-04,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:44.821Z
+D004,C,GRAND ST,32115,confirmed_dot,2008-11-04,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:44.821Z
+D004,C,GRAND ST,32327,confirmed_dot,2008-11-04,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:44.821Z
+D004,C,GRAND ST,32333,confirmed_dot,2008-11-04,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:44.821Z
+D004,C,GRAND ST,32340,confirmed_dot,2008-11-04,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:44.821Z
+D004,C,GRAND ST,32342,confirmed_dot,2008-11-04,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:44.821Z
+D004,C,GRAND ST,32344,confirmed_dot,2008-11-04,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:44.821Z
+D004,C,GRAND ST,32349,confirmed_dot,2008-11-04,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:44.821Z
+D004,C,GRAND ST,32493,confirmed_dot,2008-11-04,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:44.821Z
+D004,C,GRAND ST,32497,confirmed_dot,2008-11-04,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:44.821Z
+D004,C,GRAND ST,32502,confirmed_dot,2008-11-04,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:44.821Z
+D005,C,8 AV,32270,confirmed_ours,2008-12-01,month,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:06.309Z
+D006,C,8 AV,32283,confirmed_ours,2008-12-01,month,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:07.997Z
+D007,C,5 AV,32589,confirmed_ours,2019-12-20,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:10.541Z
+D008,C,LAFAYETTE ST,32767,confirmed_ours,2019-12-20,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:50.013Z
+D008,C,LAFAYETTE ST,105037,confirmed_ours,2019-12-20,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:50.013Z
+D009,C,W 29 ST,33557,confirmed_ours,2018-08-31,verified,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:42.645Z
+D009,C,W 29 ST,237000,confirmed_ours,2018-08-31,verified,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:42.645Z
+D009,C,W 29 ST,237001,confirmed_ours,2018-08-31,verified,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:42.645Z
+D010,C,BROADWAY,33879,confirmed_ours,2009-05-22,verified,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:04.541Z
+D010,C,BROADWAY,33881,confirmed_ours,2009-05-22,verified,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:04.541Z
+D010,C,BROADWAY,33903,confirmed_ours,2009-05-22,verified,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:04.541Z
+D010,C,BROADWAY,33905,confirmed_ours,2009-05-22,verified,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:04.541Z
+D010,C,BROADWAY,33907,confirmed_ours,2009-05-22,verified,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:04.541Z
+D011,C,BROADWAY,33921,confirmed_ours,,,,,,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:11.853Z
+D012,C,BROADWAY,33933,confirmed_ours,2022-01-14,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:51.197Z
+D012,C,BROADWAY,33935,confirmed_ours,2022-01-14,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:51.197Z
+D013,C,BROADWAY,33947,confirmed_ours,2022-01-14,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:52.589Z
+D013,C,BROADWAY,33951,confirmed_ours,2022-01-14,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:52.589Z
+D014,C,E 29 ST,34129,confirmed_ours,2019-12-20,verified,,,Standard,,,,,,,,,,,,,,,,,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:08.933Z
+D014,C,E 29 ST,164768,confirmed_ours,2019-12-20,verified,,,Standard,,,,,,,,,,,,,,,,,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:08.933Z
+D014,C,E 29 ST,164769,confirmed_ours,2019-12-20,verified,,,Standard,,,,,,,,,,,,,,,,,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:08.933Z
+D014,C,E 29 ST,164774,confirmed_ours,2019-12-20,verified,,,Standard,,,,,,,,,,,,,,,,,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:08.933Z
+D014,C,E 29 ST,164775,confirmed_ours,2019-12-20,verified,,,Standard,,,,,,,,,,,,,,,,,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:08.933Z
+D015,C,WEST LOOP RD,36613,confirmed_ours,2017-07-01,month,,,none,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:55.741Z
+D015,C,WEST LOOP RD,36616,confirmed_ours,2017-07-01,month,,,none,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:55.741Z
+D015,C,WEST LOOP RD,272979,confirmed_ours,2017-07-01,month,,,none,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:55.741Z
+D015,C,WEST LOOP RD,272980,confirmed_ours,2017-07-01,month,,,none,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:55.741Z
+D015,C,WEST LOOP RD,272985,confirmed_ours,2017-07-01,month,,,none,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:55.741Z
+D015,C,WEST LOOP RD,272987,confirmed_ours,2017-07-01,month,,,none,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:55.741Z
+D015,C,WEST LOOP RD,272991,confirmed_ours,2017-07-01,month,,,none,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:55.741Z
+D015,C,WEST LOOP RD,312128,confirmed_ours,2017-07-01,month,,,none,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:55.741Z
+D016,C,ST NICHOLAS AV,70680,confirmed_ours,2019-12-20,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:54.421Z
+D016,C,ST NICHOLAS AV,70681,confirmed_ours,2019-12-20,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:54.421Z
+D017,C,C P W 96 APPR,106212,confirmed_ours,2018-06-27,verified,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:13.678Z
+D018,C,ALLEN ST,110893,confirmed_ours,2019-12-20,verified,,,Sharrows,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:14.790Z
+D019,C,C P W 100 APPR,114444,confirmed_ours,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:15.390Z
+D020,C,EAST DR,115269,confirmed_ours,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:15.782Z
+D021,C,W 55 ST,142694,confirmed_ours,2019-11-06,verified,,,Standard,,,,,,,,,,,,,,,,,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:13.085Z
+D021,C,W 55 ST,142695,confirmed_ours,2019-11-06,verified,,,Standard,,,,,,,,,,,,,,,,,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:13.085Z
+D021,C,W 55 ST,164756,confirmed_ours,2019-11-06,verified,,,Standard,,,,,,,,,,,,,,,,,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:13.085Z
+D021,C,W 55 ST,164757,confirmed_ours,2019-11-06,verified,,,Standard,,,,,,,,,,,,,,,,,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:13.085Z
+D021,C,W 55 ST,240989,confirmed_ours,2019-11-06,verified,,,Standard,,,,,,,,,,,,,,,,,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:13.085Z
+D022,C,ALLEN ST,164364,confirmed_ours,2009-08-01,month,,,Standard,,,,,,,,,,,,,,,,,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:44.693Z
+D022,C,ALLEN ST,164366,confirmed_ours,2009-08-01,month,,,Standard,,,,,,,,,,,,,,,,,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:44.693Z
+D022,C,ALLEN ST,9006474,confirmed_ours,2009-08-01,month,,,Standard,,,,,,,,,,,,,,,,,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:44.693Z
+D023,C,W 29 ST,164568,confirmed_ours,2023-09-01,month,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:16.157Z
+D024,C,PIKE SLIP,182691,confirmed_ours,2009-08-01,month,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:01.765Z
+D024,C,PIKE SLIP,182693,confirmed_ours,2009-08-01,month,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:01.765Z
+D024,C,PIKE SLIP,239488,confirmed_ours,2009-08-01,month,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:01.765Z
+D024,C,PIKE SLIP,239497,confirmed_ours,2009-08-01,month,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:01.765Z
+D024,C,PIKE SLIP,283563,confirmed_ours,2009-08-01,month,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:01.765Z
+D024,C,PIKE SLIP,283564,confirmed_ours,2009-08-01,month,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:01.765Z
+D024,C,PIKE SLIP,283569,confirmed_ours,2009-08-01,month,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:01.765Z
+D024,C,PIKE SLIP,283570,confirmed_ours,2009-08-01,month,,,Standard,,,,,,,,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:11:01.765Z
+D025,C,2 AV,184512,confirmed_ours,2019-12-20,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:16.557Z
+D026,C,WILLIAMSBURG BR,238542,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,238548,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,238555,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,238563,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,238578,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,238587,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,238590,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,239190,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,239207,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,239214,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,239217,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,240452,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,240453,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,256789,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,256791,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,276470,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,276472,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,276473,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,276474,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,276476,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,276478,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,276480,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,276482,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,276484,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,276485,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,276486,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,276487,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,276520,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,306955,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,306956,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,308221,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D026,C,WILLIAMSBURG BR,308222,confirmed_ours,2010-04-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:10:26.364Z
+D027,C,WILLIS AVENUE BRIDGE APPROACH,259083,confirmed_ours,2014-07-02,verified,,,none,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:16.885Z
+D028,C,WILLIS AVENUE BRIDGE,259084,confirmed_ours,2014-07-02,verified,,,none,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:47.469Z
+D028,C,WILLIS AVENUE BRIDGE,259117,confirmed_ours,2014-07-02,verified,,,none,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:47.469Z
+D028,C,WILLIS AVENUE BRIDGE,299456,confirmed_ours,2014-07-02,verified,,,none,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:47.469Z
+D029,C,C P LENOX APPR,262545,confirmed_ours,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:17.245Z
+D030,C,6 AV,310191,confirmed_ours,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:57.621Z
+D030,C,6 AV,310192,confirmed_ours,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:12:57.621Z
+D031,C,BOWERY,310625,confirmed_ours,2019-12-20,verified,,,Standard,,,,,,,,,,,,,,,,,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:17.862Z
+L001,B,1 AVENUE,164368,confirmed,2010-10-01,month,,,none,,,,,4,3,reviewer,2010-10-01,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:53.404Z
+L001,B,1 AVENUE,313028,confirmed,2010-10-01,month,,,none,,,,,4,3,reviewer,2010-10-01,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:53.404Z
+L001,B,1 AVENUE,313030,confirmed,2010-10-01,month,,,none,,,,,4,3,reviewer,2010-10-01,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:53.404Z
+L001,B,1 AVENUE,313031,confirmed,2010-10-01,month,,,none,,,,,4,3,reviewer,2010-10-01,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:53.404Z
+L002,B,1 AVENUE,165376,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:05:52.004Z
+L002,B,1 AVENUE,222928,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:05:52.004Z
+L002,B,1 AVENUE,222929,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:05:52.004Z
+L002,B,1 AVENUE,273775,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:05:52.004Z
+L002,B,1 AVENUE,273776,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:05:52.004Z
+L003,B,1 AVENUE,321375,confirmed,2010-10-01,month,,,none,,,,,5,4,"LION, confirmed",2010-10-01,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:16.126Z
+L003,B,1 AVENUE,321378,confirmed,2010-10-01,month,,,none,,,,,5,4,"LION, confirmed",2010-10-01,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:16.126Z
+L003,B,1 AVENUE,321379,confirmed,2010-10-01,month,,,none,,,,,5,4,"LION, confirmed",2010-10-01,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:16.126Z
+L004,B,1 AVENUE,326151,confirmed,2015-12-09,verified,,,none,,,,,5,4,"LION, confirmed",2015-12-09,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:33.381Z
+L004,B,1 AVENUE,326152,confirmed,2015-12-09,verified,,,none,,,,,5,4,"LION, confirmed",2015-12-09,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:33.381Z
+L005,B,1 AVENUE,329813,confirmed,2013-11-06,verified,,,none,,,,,5,4,"LION, confirmed",2013-11-06,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:37.142Z
+L005,B,1 AVENUE,329814,confirmed,2013-11-06,verified,,,none,,,,,5,4,"LION, confirmed",2013-11-06,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:37.142Z
+L006,B,1 AVENUE,328618,confirmed,2013-10-10,verified,,,Standard,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:41.406Z
+L006,B,1 AVENUE,328619,confirmed,2013-10-10,verified,,,Standard,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:41.406Z
+L007,B,1 AVENUE,350505,confirmed,2015-12-09,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:21.477Z
+L007,B,1 AVENUE,350506,confirmed,2015-12-09,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:21.477Z
+L007,B,1 AVENUE,350507,confirmed,2015-12-09,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:21.477Z
+L008,B,10 AVENUE,72727,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,72729,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,111270,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,267309,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,267318,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,278487,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,278488,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,311171,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,311172,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,9004221,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,9004222,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,9004223,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,9004226,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,9004227,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,9004228,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,9004229,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,9004230,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,9004231,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,9004232,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,9004246,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,9004247,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,9004248,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,9004249,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,9004250,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L008,B,10 AVENUE,9004251,corrected,,,,,,,,,,3,3,observed,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:31.760Z
+L009,B,3 AVENUE,134999,confirmed,2026-05-07,verified,,,none,,,,,4,3,"LION, confirmed",2026-05-07,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:45.582Z
+L009,B,3 AVENUE,135002,confirmed,2026-05-07,verified,,,none,,,,,4,3,"LION, confirmed",2026-05-07,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:45.582Z
+L010,B,3 DRIVE,246437,confirmed,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:50.022Z
+L011,B,4 AVENUE,314571,confirmed,2014-10-01,month,,,none,,,,,,,,,,,,,,,,3,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:28.877Z
+L011,B,4 AVENUE,314577,confirmed,2014-10-01,month,,,none,,,,,,,,,,,,,,,,3,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:28.877Z
+L011,B,4 AVENUE,314578,confirmed,2014-10-01,month,,,none,,,,,,,,,,,,,,,,3,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:28.877Z
+L012,B,5 AVENUE,34017,confirmed,,,,,,,,,,4,3,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:56.190Z
+L013,B,8 AVENUE,32003,confirmed,2008-12-01,month,,,Standard,,,,,4,3,"LION, confirmed",2008-12-01,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:04.532Z
+L013,B,8 AVENUE,32009,confirmed,2008-12-01,month,,,Standard,,,,,4,3,"LION, confirmed",2008-12-01,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:04.532Z
+L013,B,8 AVENUE,32274,confirmed,2008-12-01,month,,,Standard,,,,,4,3,"LION, confirmed",2008-12-01,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:04.532Z
+L013,B,8 AVENUE,32280,confirmed,2008-12-01,month,,,Standard,,,,,4,3,"LION, confirmed",2008-12-01,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:04.532Z
+L014,B,8 AVENUE,32298,confirmed,2009-04-06,verified,,,Standard,,,,,4,3,"LION, confirmed",2009-04-06,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:13.005Z
+L014,B,8 AVENUE,32302,confirmed,2009-04-06,verified,,,Standard,,,,,4,3,"LION, confirmed",2009-04-06,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:13.005Z
+L014,B,8 AVENUE,32465,confirmed,2009-04-06,verified,,,Standard,,,,,4,3,"LION, confirmed",2009-04-06,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:13.005Z
+L014,B,8 AVENUE,33537,confirmed,2009-04-06,verified,,,Standard,,,,,4,3,"LION, confirmed",2009-04-06,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:13.005Z
+L015,B,9 AVENUE,271934,confirmed,,,,,,,,,,2,2,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:16:03.686Z
+L016,B,9 AVENUE,329215,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:49.830Z
+L016,B,9 AVENUE,329216,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:49.830Z
+L017,B,9 AVENUE,330143,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:56.886Z
+L017,B,9 AVENUE,330144,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:13:56.886Z
+L018,B,9 AVENUE,349221,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:16:05.789Z
+L019,B,ADAM CLAYTON POWELL JR BOULEVARD,293985,confirmed,,,,,,,,,,2,2,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:31.996Z
+L019,B,ADAM CLAYTON POWELL JR BOULEVARD,293986,confirmed,,,,,,,,,,2,2,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:31.996Z
+L019,B,ADAM CLAYTON POWELL JR BOULEVARD,293989,confirmed,,,,,,,,,,2,2,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:31.996Z
+L019,B,ADAM CLAYTON POWELL JR BOULEVARD,293990,confirmed,,,,,,,,,,2,2,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:31.996Z
+L020,B,ADAM CLAYTON POWELL JR BOULEVARD,9006631,confirmed,,,,,,,,,,2,2,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:41.108Z
+L020,B,ADAM CLAYTON POWELL JR BOULEVARD,9006633,confirmed,,,,,,,,,,2,2,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:41.108Z
+L020,B,ADAM CLAYTON POWELL JR BOULEVARD,9006634,confirmed,,,,,,,,,,2,2,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:41.108Z
+L020,B,ADAM CLAYTON POWELL JR BOULEVARD,9006636,confirmed,,,,,,,,,,2,2,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:41.108Z
+L021,B,ALLEN STREET,24157,confirmed,2009-08-01,month,,,Standard,,,,,3,3,reviewer,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:16:16.662Z
+L022,B,ALLEN STREET,32857,confirmed,2009-08-01,month,,,Standard,,,,,3,2,"LION, confirmed",2009-08-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:19.124Z
+L022,B,ALLEN STREET,32859,confirmed,2009-08-01,month,,,Standard,,,,,3,2,"LION, confirmed",2009-08-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:19.124Z
+L022,B,ALLEN STREET,312063,confirmed,2009-08-01,month,,,Standard,,,,,3,2,"LION, confirmed",2009-08-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:19.124Z
+L022,B,ALLEN STREET,312064,confirmed,2009-08-01,month,,,Standard,,,,,3,2,"LION, confirmed",2009-08-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:19.124Z
+L022,B,ALLEN STREET,9006455,confirmed,2009-08-01,month,,,Standard,,,,,3,2,"LION, confirmed",2009-08-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:19.124Z
+L022,B,ALLEN STREET,9006466,confirmed,2009-08-01,month,,,Standard,,,,,3,2,"LION, confirmed",2009-08-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:19.124Z
+L022,B,ALLEN STREET,9006468,confirmed,2009-08-01,month,,,Standard,,,,,3,2,"LION, confirmed",2009-08-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:19.124Z
+L023,B,AMSTERDAM AVENUE,70683,confirmed,,,,,,,,,,3,3,reviewer,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:14:04.773Z
+L023,B,AMSTERDAM AVENUE,70871,confirmed,,,,,,,,,,3,3,reviewer,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:14:04.773Z
+L024,B,AMSTERDAM AVENUE,71072,confirmed,,,,,,,,,,4,3,"LION, confirmed",2015-05-18,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:34.045Z
+L024,B,AMSTERDAM AVENUE,71078,confirmed,,,,,,,,,,4,3,"LION, confirmed",2015-05-18,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:34.045Z
+L024,B,AMSTERDAM AVENUE,327898,confirmed,,,,,,,,,,4,3,"LION, confirmed",2015-05-18,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:34.045Z
+L025,B,AMSTERDAM AVENUE,71367,confirmed,,,,,,,,,,4,2,"LION, confirmed",,2016-2024,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:16:21.430Z
+L026,B,AMSTERDAM AVENUE,71387,confirmed,2015-05-19,verified,,,Standard,,,,,3,3,reviewer,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:14:12.005Z
+L026,B,AMSTERDAM AVENUE,326064,confirmed,2015-05-19,verified,,,Standard,,,,,3,3,reviewer,,,,,,,,,,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:14:12.005Z
+L027,B,BROADWAY,34079,confirmed,2009-05-22,verified,,,Standard,,,,,4,2,LION,2009-05-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:46.064Z
+L027,B,BROADWAY,34083,confirmed,2009-05-22,verified,,,Standard,,,,,4,2,LION,2009-05-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:46.064Z
+L027,B,BROADWAY,34085,confirmed,2009-05-22,verified,,,Standard,,,,,4,2,LION,2009-05-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:46.064Z
+L027,B,BROADWAY,34088,confirmed,2009-05-22,verified,,,Standard,,,,,4,2,LION,2009-05-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:46.064Z
+L027,B,BROADWAY,34093,confirmed,2009-05-22,verified,,,Standard,,,,,4,2,LION,2009-05-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:46.064Z
+L027,B,BROADWAY,34107,confirmed,2009-05-22,verified,,,Standard,,,,,4,2,LION,2009-05-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:46.064Z
+L027,B,BROADWAY,34217,confirmed,2009-05-22,verified,,,Standard,,,,,4,2,LION,2009-05-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:46.064Z
+L027,B,BROADWAY,34221,confirmed,2009-05-22,verified,,,Standard,,,,,4,2,LION,2009-05-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:46.064Z
+L027,B,BROADWAY,34223,confirmed,2009-05-22,verified,,,Standard,,,,,4,2,LION,2009-05-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:46.064Z
+L027,B,BROADWAY,34237,confirmed,2009-05-22,verified,,,Standard,,,,,4,2,LION,2009-05-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:46.064Z
+L027,B,BROADWAY,34239,confirmed,2009-05-22,verified,,,Standard,,,,,4,2,LION,2009-05-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:46.064Z
+L027,B,BROADWAY,260349,confirmed,2009-05-22,verified,,,Standard,,,,,4,2,LION,2009-05-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:46.064Z
+L027,B,BROADWAY,260350,confirmed,2009-05-22,verified,,,Standard,,,,,4,2,LION,2009-05-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:46.064Z
+L028,B,CANAL STREET,323268,confirmed,,,,,,,,,,2,2,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:14:18.989Z
+L028,B,CANAL STREET,323269,confirmed,,,,,,,,,,2,2,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:14:18.989Z
+L029,B,CENTRAL PARK ENTRANCE E 102 ST,114471,confirmed,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:43.405Z
+L029,B,CENTRAL PARK ENTRANCE E 102 ST,115311,confirmed,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:43.405Z
+L029,B,CENTRAL PARK ENTRANCE E 102 ST,300233,confirmed,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:43.405Z
+L029,B,CENTRAL PARK ENTRANCE E 102 ST,300234,confirmed,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:43.405Z
+L030,B,CENTRAL PARK EXIT POWELL BLVD,300249,confirmed,2018-06-27,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:16:23.606Z
+L031,B,CENTRAL PARK EXIT WEST 72 ST,341385,confirmed,2012-07-09,verified,,,none,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:16:27.342Z
+L032,B,CHAMBERS STREET,31478,confirmed,,,,,,,,,,2,2,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:14:25.221Z
+L032,B,CHAMBERS STREET,31536,confirmed,,,,,,,,,,2,2,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:14:25.221Z
+L033,B,CHERRY HILL PATH,37183,confirmed,,,,,,,,,,1,1,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:14:32.029Z
+L033,B,CHERRY HILL PATH,37185,confirmed,,,,,,,,,,1,1,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:14:32.029Z
+L034,B,CLINTON STREET,323318,confirmed,2015-09-01,month,,,none,,,,,,,,,,,,,,,,1,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:36.956Z
+L034,B,CLINTON STREET,323319,confirmed,2015-09-01,month,,,none,,,,,,,,,,,,,,,,1,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:36.956Z
+L034,B,CLINTON STREET,323320,confirmed,2015-09-01,month,,,none,,,,,,,,,,,,,,,,1,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:36.956Z
+L035,B,CLINTON STREET,332676,confirmed,2015-09-01,month,,,Standard,,,,,,,,,,,,,,,,2,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:03:53.148Z
+L035,B,CLINTON STREET,332677,confirmed,2015-09-01,month,,,Standard,,,,,,,,,,,,,,,,2,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:03:53.148Z
+L035,B,CLINTON STREET,333336,confirmed,2015-09-01,month,,,Standard,,,,,,,,,,,,,,,,2,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:03:53.148Z
+L035,B,CLINTON STREET,333337,confirmed,2015-09-01,month,,,Standard,,,,,,,,,,,,,,,,2,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:03:53.148Z
+L035,B,CLINTON STREET,333342,confirmed,2015-09-01,month,,,Standard,,,,,,,,,,,,,,,,2,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:03:53.148Z
+L035,B,CLINTON STREET,333343,confirmed,2015-09-01,month,,,Standard,,,,,,,,,,,,,,,,2,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:03:53.148Z
+L035,B,CLINTON STREET,333344,confirmed,2015-09-01,month,,,Standard,,,,,,,,,,,,,,,,2,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:03:53.148Z
+L035,B,CLINTON STREET,333356,confirmed,2015-09-01,month,,,Standard,,,,,,,,,,,,,,,,2,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:03:53.148Z
+L035,B,CLINTON STREET,333357,confirmed,2015-09-01,month,,,Standard,,,,,,,,,,,,,,,,2,3,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:03:53.148Z
+L036,B,COOPER SQUARE,110949,confirmed,,,,,,,,,,1,1,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:14:38.910Z
+L036,B,COOPER SQUARE,339581,confirmed,,,,,,,,,,1,1,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:14:38.910Z
+L037,B,CPW 72 APPROACH,37175,confirmed,2012-07-09,verified,,,none,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:16:29.910Z
+L038,B,DELANCEY STREET,152580,confirmed,,,,,,,,,,4,3,reviewer,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:14:49.509Z
+L038,B,DELANCEY STREET,158690,confirmed,,,,,,,,,,4,3,reviewer,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:14:49.509Z
+L039,B,EAST 10 STREET,32933,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:43.405Z
+L039,B,EAST 10 STREET,32937,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:43.405Z
+L039,B,EAST 10 STREET,33111,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:43.405Z
+L040,B,EAST 106 STREET,9000993,confirmed,,,,,,,,,,3,2,reviewer,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:53.740Z
+L040,B,EAST 106 STREET,9000994,confirmed,,,,,,,,,,3,2,reviewer,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:53.740Z
+L040,B,EAST 106 STREET,9000995,confirmed,,,,,,,,,,3,2,reviewer,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:53.740Z
+L041,B,EAST 11 STREET,32927,confirmed,,,,,,,,,,2,2,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:14:59.661Z
+L041,B,EAST 11 STREET,32930,confirmed,,,,,,,,,,2,2,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:14:59.661Z
+L042,B,EAST 120 STREET,287565,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:05.366Z
+L042,B,EAST 120 STREET,287566,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:05.366Z
+L043,B,EAST 120 STREET,9001055,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:14.500Z
+L043,B,EAST 120 STREET,9001056,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:14.500Z
+L043,B,EAST 120 STREET,9001057,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:14.500Z
+L043,B,EAST 120 STREET,9001058,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:14.500Z
+L043,B,EAST 120 STREET,9001083,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:14.500Z
+L044,B,EAST 126 STREET,69290,confirmed,,,,,,,,,,1,3,"LION, confirmed",,2016-2024,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:16:39.558Z
+L045,B,EAST 13 STREET,9003350,confirmed,,,,,,,,,,1,2,"LION, confirmed",,2016-2024,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:26.300Z
+L045,B,EAST 13 STREET,9003351,confirmed,,,,,,,,,,1,2,"LION, confirmed",,2016-2024,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:26.300Z
+L045,B,EAST 13 STREET,9003352,confirmed,,,,,,,,,,1,2,"LION, confirmed",,2016-2024,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:26.300Z
+L045,B,EAST 13 STREET,9003353,confirmed,,,,,,,,,,1,2,"LION, confirmed",,2016-2024,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:26.300Z
+L045,B,EAST 13 STREET,9003354,confirmed,,,,,,,,,,1,2,"LION, confirmed",,2016-2024,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:26.300Z
+L045,B,EAST 13 STREET,9003355,confirmed,,,,,,,,,,1,2,"LION, confirmed",,2016-2024,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:26.300Z
+L045,B,EAST 13 STREET,9003356,confirmed,,,,,,,,,,1,2,"LION, confirmed",,2016-2024,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:26.300Z
+L046,B,EAST 2 STREET,288445,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:16:59.870Z
+L047,B,EAST 37 STREET,35903,confirmed,2014-12-12,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:17:06.526Z
+L048,B,EAST 52 STREET,118732,confirmed,,,,,,,,,,1,2,"LION, confirmed",,2016-2024,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:17:10.397Z
+L049,B,EAST 59 STREET,36371,confirmed,2013-11-06,verified,,,none,,,,,2,1,"LION, confirmed",2013-11-06,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:09.973Z
+L049,B,EAST 59 STREET,165611,confirmed,2013-11-06,verified,,,none,,,,,2,1,"LION, confirmed",2013-11-06,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:09.973Z
+L050,B,EAST HOUSTON STREET,152570,confirmed,2019-01-01,year,,,none,,,,,1,2,"LION, confirmed",2019-01-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:20.148Z
+L050,B,EAST HOUSTON STREET,341680,confirmed,2019-01-01,year,,,none,,,,,1,2,"LION, confirmed",2019-01-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:20.148Z
+L050,B,EAST HOUSTON STREET,341686,confirmed,2019-01-01,year,,,none,,,,,1,2,"LION, confirmed",2019-01-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:20.148Z
+L050,B,EAST HOUSTON STREET,341689,confirmed,2019-01-01,year,,,none,,,,,1,2,"LION, confirmed",2019-01-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:20.148Z
+L050,B,EAST HOUSTON STREET,341699,confirmed,2019-01-01,year,,,none,,,,,1,2,"LION, confirmed",2019-01-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:20.148Z
+L051,B,EAST HOUSTON STREET,159202,confirmed,2022-09-30,verified,,,Standard,,,,,2,3,"LION, confirmed",2022-09-30,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:17:14.535Z
+L052,B,FORT GEORGE AVENUE,72575,confirmed,2014-12-01,month,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:17:19.191Z
+L053,B,FRANKLIN D ROOSEVELT DRIVE,194426,confirmed,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:18.782Z
+L053,B,FRANKLIN D ROOSEVELT DRIVE,194621,confirmed,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:18.782Z
+L054,B,GOLD STREET,23516,confirmed,,,,,,,,,,1,2,"LION, confirmed",2018-06-15,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:25.686Z
+L054,B,GOLD STREET,187995,confirmed,,,,,,,,,,1,2,"LION, confirmed",2018-06-15,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:25.686Z
+L055,B,GRAND STREET,24548,confirmed,2023-11-10,verified,,,Standard,,,,,2,2,reviewer,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:53.675Z
+L055,B,GRAND STREET,310669,confirmed,2023-11-10,verified,,,Standard,,,,,2,2,reviewer,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:53.675Z
+L055,B,GRAND STREET,310671,confirmed,2023-11-10,verified,,,Standard,,,,,2,2,reviewer,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:53.675Z
+L055,B,GRAND STREET,310672,confirmed,2023-11-10,verified,,,Standard,,,,,2,2,reviewer,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:53.675Z
+L055,B,GRAND STREET,9009148,confirmed,2023-11-10,verified,,,Standard,,,,,2,2,reviewer,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:53.675Z
+L055,B,GRAND STREET,9009149,confirmed,2023-11-10,verified,,,Standard,,,,,2,2,reviewer,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:53.675Z
+L056,B,GRAND STREET,32837,confirmed,2023-11-10,verified,,,Standard,,,,,2,3,"LION, confirmed",2023-11-10,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:17:30.478Z
+L057,B,GREENWICH STREET,23087,confirmed,,,,,,,,,,3,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:17:35.799Z
+L058,B,HORATIO STREET,32279,confirmed,,,,,,,,,,1,2,"LION, confirmed",2018-12-26,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:17:38.702Z
+L059,B,HUDSON STREET,32002,confirmed,2014-07-09,verified,,,Standard,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:28.446Z
+L059,B,HUDSON STREET,104937,confirmed,2014-07-09,verified,,,Standard,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:28.446Z
+L060,B,LAFAYETTE STREET,327163,confirmed,2014-04-25,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:27.023Z
+L060,B,LAFAYETTE STREET,327164,confirmed,2014-04-25,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:27.023Z
+L060,B,LAFAYETTE STREET,329195,confirmed,2014-04-25,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:27.023Z
+L060,B,LAFAYETTE STREET,330338,confirmed,2014-04-25,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:27.023Z
+L060,B,LAFAYETTE STREET,330339,confirmed,2014-04-25,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:27.023Z
+L061,B,MADISON AVENUE,69054,confirmed,,,,,,,,,,3,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:33.523Z
+L061,B,MADISON AVENUE,69073,confirmed,,,,,,,,,,3,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:33.523Z
+L061,B,MADISON AVENUE,313163,confirmed,,,,,,,,,,3,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:33.523Z
+L061,B,MADISON AVENUE,313165,confirmed,,,,,,,,,,3,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:33.523Z
+L061,B,MADISON AVENUE,313166,confirmed,,,,,,,,,,3,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:33.523Z
+L061,B,MADISON AVENUE,319822,confirmed,,,,,,,,,,3,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:33.523Z
+L061,B,MADISON AVENUE,319823,confirmed,,,,,,,,,,3,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:33.523Z
+L062,B,MORNINGSIDE AVENUE,38356,confirmed,,,,,,,,,,3,3,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:52.532Z
+L062,B,MORNINGSIDE AVENUE,38482,confirmed,,,,,,,,,,3,3,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:52.532Z
+L062,B,MORNINGSIDE AVENUE,38484,confirmed,,,,,,,,,,3,3,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:52.532Z
+L062,B,MORNINGSIDE AVENUE,38487,confirmed,,,,,,,,,,3,3,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:52.532Z
+L063,B,MORNINGSIDE AVENUE,38504,confirmed,,,,,,,,,,4,3,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:17:42.086Z
+L064,B,MORRIS STREET,162302,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:17:43.967Z
+L065,B,NAGLE AVENUE,302464,confirmed,,,,,,,,,,2,2,"LION, confirmed",,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:30.966Z
+L065,B,NAGLE AVENUE,302472,confirmed,,,,,,,,,,2,2,"LION, confirmed",,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:30.966Z
+L066,B,NORTH END AVENUE,287918,confirmed,,,,,,,,,,3,2,"LION, confirmed",,2016-2024,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:17:46.070Z
+L067,B,PEARL STREET,311917,confirmed,2018-06-15,verified,,,none,,,,,1,3,"LION, confirmed",2018-06-15,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:17:48.006Z
+L068,B,RIVERSIDE DRIVE,38965,confirmed,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:59.052Z
+L068,B,RIVERSIDE DRIVE,338102,confirmed,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:59.052Z
+L068,B,RIVERSIDE DRIVE,338109,confirmed,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:59.052Z
+L069,B,RIVERSIDE DRIVE,72544,confirmed,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:17:50.710Z
+L070,B,RIVERSIDE DRIVE WEST,294274,confirmed,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:34.485Z
+L070,B,RIVERSIDE DRIVE WEST,294275,confirmed,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:34.485Z
+L070,B,RIVERSIDE DRIVE WEST,315470,confirmed,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:34.485Z
+L070,B,RIVERSIDE DRIVE WEST,315471,confirmed,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:34.485Z
+L070,B,RIVERSIDE DRIVE WEST,9009023,confirmed,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:06:34.485Z
+L071,B,SHERMAN AVENUE,72522,confirmed,,,,,,,,,,4,3,"LION, confirmed",2015-07-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:05.557Z
+L071,B,SHERMAN AVENUE,72590,confirmed,,,,,,,,,,4,3,"LION, confirmed",2015-07-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:05.557Z
+L071,B,SHERMAN AVENUE,72594,confirmed,,,,,,,,,,4,3,"LION, confirmed",2015-07-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:05.557Z
+L071,B,SHERMAN AVENUE,72597,confirmed,,,,,,,,,,4,3,"LION, confirmed",2015-07-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:05.557Z
+L071,B,SHERMAN AVENUE,72652,confirmed,,,,,,,,,,4,3,"LION, confirmed",2015-07-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:05.557Z
+L071,B,SHERMAN AVENUE,72656,confirmed,,,,,,,,,,4,3,"LION, confirmed",2015-07-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:05.557Z
+L071,B,SHERMAN AVENUE,72742,confirmed,,,,,,,,,,4,3,"LION, confirmed",2015-07-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:05.557Z
+L071,B,SHERMAN AVENUE,72749,confirmed,,,,,,,,,,4,3,"LION, confirmed",2015-07-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:04:05.557Z
+L072,B,SPRING STREET,294093,confirmed,2015-07-13,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:37.685Z
+L072,B,SPRING STREET,294094,confirmed,2015-07-13,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:37.685Z
+L073,B,ST NICHOLAS AVENUE,184518,confirmed,,,,,,,,,,1,1,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:59.028Z
+L073,B,ST NICHOLAS AVENUE,9003885,confirmed,,,,,,,,,,1,1,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:59.028Z
+L073,B,ST NICHOLAS AVENUE,9003886,confirmed,,,,,,,,,,1,1,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:59.028Z
+L073,B,ST NICHOLAS AVENUE,9003887,confirmed,,,,,,,,,,1,1,reviewer,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:07:59.028Z
+L074,B,SUFFOLK STREET,164342,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:17:52.759Z
+L075,B,WARREN STREET,164105,confirmed,2008-07-18,verified,,,none,,,,,2,1,"LION, confirmed",2008-07-18,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:02.605Z
+L075,B,WARREN STREET,313729,confirmed,2008-07-18,verified,,,none,,,,,2,1,"LION, confirmed",2008-07-18,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:02.605Z
+L075,B,WARREN STREET,315197,confirmed,2008-07-18,verified,,,none,,,,,2,1,"LION, confirmed",2008-07-18,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:02.605Z
+L075,B,WARREN STREET,315198,confirmed,2008-07-18,verified,,,none,,,,,2,1,"LION, confirmed",2008-07-18,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:02.605Z
+L076,B,WASHINGTON SQUARE SOUTH,32415,confirmed,2014-06-16,verified,,,none,,,,,,,,,,,,,,,,1,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:39.606Z
+L076,B,WASHINGTON SQUARE SOUTH,32416,confirmed,2014-06-16,verified,,,none,,,,,,,,,,,,,,,,1,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:39.606Z
+L077,B,WEST 106 STREET,294413,confirmed,2008-08-22,verified,,,none,,,,,4,2,"LION, confirmed",2008-08-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:04.228Z
+L077,B,WEST 106 STREET,294415,confirmed,2008-08-22,verified,,,none,,,,,4,2,"LION, confirmed",2008-08-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:04.228Z
+L077,B,WEST 106 STREET,294416,confirmed,2008-08-22,verified,,,none,,,,,4,2,"LION, confirmed",2008-08-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:04.228Z
+L078,B,WEST 126 STREET,166553,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:17:59.174Z
+L079,B,WEST 158 STREET,127665,confirmed,2015-08-11,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:08.604Z
+L079,B,WEST 158 STREET,166670,confirmed,2015-08-11,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:08.604Z
+L079,B,WEST 158 STREET,346845,confirmed,2015-08-11,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:08.604Z
+L080,B,WEST 170 STREET,70904,confirmed,2015-08-11,verified,,,none,,,,,,,,,,,,,,,,1,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:06.821Z
+L080,B,WEST 170 STREET,70912,confirmed,2015-08-11,verified,,,none,,,,,,,,,,,,,,,,1,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:06.821Z
+L080,B,WEST 170 STREET,70914,confirmed,2015-08-11,verified,,,none,,,,,,,,,,,,,,,,1,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:06.821Z
+L080,B,WEST 170 STREET,71073,confirmed,2015-08-11,verified,,,none,,,,,,,,,,,,,,,,1,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:06.821Z
+L081,B,WEST 177 STREET,70792,confirmed,2013-10-21,verified,,,none,,,,,,,,,,,,,,,,1,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:41.918Z
+L081,B,WEST 177 STREET,70799,confirmed,2013-10-21,verified,,,none,,,,,,,,,,,,,,,,1,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:41.918Z
+L082,B,WEST 185 STREET,71149,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:18:02.895Z
+L083,B,WEST 187 STREET,71382,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:13.261Z
+L083,B,WEST 187 STREET,72434,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:13.261Z
+L083,B,WEST 187 STREET,72480,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:13.261Z
+L084,B,WEST 190 STREET,72488,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:23.037Z
+L084,B,WEST 190 STREET,72559,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:23.037Z
+L084,B,WEST 190 STREET,72565,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:23.037Z
+L085,B,WEST 33 STREET,297865,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:26.037Z
+L085,B,WEST 33 STREET,297867,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:26.037Z
+L085,B,WEST 33 STREET,297868,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:26.037Z
+L086,B,WEST 34 STREET,271329,confirmed,,,,,,,,,,4,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:27.861Z
+L086,B,WEST 34 STREET,271330,confirmed,,,,,,,,,,4,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:27.861Z
+L086,B,WEST 34 STREET,9017022,confirmed,,,,,,,,,,4,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:27.861Z
+L087,B,WEST 43 STREET,33954,confirmed,,,,,,,,,,2,1,"LION, confirmed",2013-04-09,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:05:04.980Z
+L087,B,WEST 43 STREET,313107,confirmed,,,,,,,,,,2,1,"LION, confirmed",2013-04-09,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:05:04.980Z
+L087,B,WEST 43 STREET,313109,confirmed,,,,,,,,,,2,1,"LION, confirmed",2013-04-09,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:05:04.980Z
+L087,B,WEST 43 STREET,313110,confirmed,,,,,,,,,,2,1,"LION, confirmed",2013-04-09,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:05:04.980Z
+L087,B,WEST 43 STREET,331242,confirmed,,,,,,,,,,2,1,"LION, confirmed",2013-04-09,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:05:04.980Z
+L087,B,WEST 43 STREET,331243,confirmed,,,,,,,,,,2,1,"LION, confirmed",2013-04-09,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:05:04.980Z
+L088,B,WEST 43 STREET,34063,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:18:06.198Z
+L089,B,WEST 44 STREET,33845,confirmed,,,,,,,,,,2,1,"LION, confirmed",2013-04-11,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:44.670Z
+L089,B,WEST 44 STREET,33956,confirmed,,,,,,,,,,2,1,"LION, confirmed",2013-04-11,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:44.670Z
+L090,B,WEST 44 STREET,164632,confirmed,,,,,,,,,,2,1,"LION, confirmed",2013-04-11,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:18:09.590Z
+L091,B,WEST 46 STREET,343506,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:46.638Z
+L091,B,WEST 46 STREET,343509,confirmed,,,,,,,,,,2,1,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:15:46.638Z
+L092,B,WEST 54 STREET,269867,confirmed,,,,,,,,,,2,1,"LION, confirmed",2012-09-12,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:30.133Z
+L092,B,WEST 54 STREET,269870,confirmed,,,,,,,,,,2,1,"LION, confirmed",2012-09-12,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:30.133Z
+L092,B,WEST 54 STREET,269871,confirmed,,,,,,,,,,2,1,"LION, confirmed",2012-09-12,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:30.133Z
+L093,B,WEST 79 STREET,34427,confirmed,2014-11-22,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:09.021Z
+L093,B,WEST 79 STREET,34429,confirmed,2014-11-22,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:09.021Z
+L093,B,WEST 79 STREET,34434,confirmed,2014-11-22,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:09.021Z
+L093,B,WEST 79 STREET,103483,confirmed,2014-11-22,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:08:09.021Z
+L094,B,WEST END AVENUE,34408,confirmed,,,,,,,,,,4,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:32.957Z
+L094,B,WEST END AVENUE,34421,confirmed,,,,,,,,,,4,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:32.957Z
+L094,B,WEST END AVENUE,34524,confirmed,,,,,,,,,,4,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:32.957Z
+L095,B,WEST END AVENUE,34548,confirmed,,,,,,,,,,4,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:35.572Z
+L095,B,WEST END AVENUE,302515,confirmed,,,,,,,,,,4,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:35.572Z
+L095,B,WEST END AVENUE,302516,confirmed,,,,,,,,,,4,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:09:35.572Z
+L096,B,WEST END AVENUE,37140,confirmed,,,,,,,,,,4,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:05:09.445Z
+L096,B,WEST END AVENUE,37250,confirmed,,,,,,,,,,4,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:05:09.445Z
+L096,B,WEST END AVENUE,294368,confirmed,,,,,,,,,,4,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:05:09.445Z
+L096,B,WEST END AVENUE,294369,confirmed,,,,,,,,,,4,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:05:09.445Z
+L096,B,WEST END AVENUE,302504,confirmed,,,,,,,,,,4,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:05:09.445Z
+L096,B,WEST END AVENUE,302505,confirmed,,,,,,,,,,4,2,"LION, confirmed",,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:05:09.445Z
+L097,B,WEST END AVENUE,37277,confirmed,,,,,,,,,,4,2,LION,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:48:01.816Z
+L097,B,WEST END AVENUE,37346,confirmed,,,,,,,,,,4,2,LION,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:48:01.816Z
+L097,B,WEST END AVENUE,294519,confirmed,,,,,,,,,,4,2,LION,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:48:01.816Z
+L097,B,WEST END AVENUE,294521,confirmed,,,,,,,,,,4,2,LION,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:48:01.816Z
+L097,B,WEST END AVENUE,294522,confirmed,,,,,,,,,,4,2,LION,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:48:01.816Z
+L097,B,WEST END AVENUE,294523,confirmed,,,,,,,,,,4,2,LION,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:48:01.816Z
+L097,B,WEST END AVENUE,310051,confirmed,,,,,,,,,,4,2,LION,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:48:01.816Z
+L097,B,WEST END AVENUE,310052,confirmed,,,,,,,,,,4,2,LION,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:48:01.816Z
+L097,B,WEST END AVENUE,310091,confirmed,,,,,,,,,,4,2,LION,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:48:01.816Z
+L097,B,WEST END AVENUE,310092,confirmed,,,,,,,,,,4,2,LION,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:48:01.816Z
+L097,B,WEST END AVENUE,313290,confirmed,,,,,,,,,,4,2,LION,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:48:01.816Z
+L097,B,WEST END AVENUE,313291,confirmed,,,,,,,,,,4,2,LION,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:48:01.816Z
+L097,B,WEST END AVENUE,313292,confirmed,,,,,,,,,,4,2,LION,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:48:01.816Z
+L098,B,WILLIS AVENUE BRIDGE APPROACH,259074,confirmed,2014-07-02,verified,,,none,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T19:18:12.238Z
+M001,A,1 AVENUE,32897,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,32899,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,32901,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,32903,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,33095,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,33105,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,33106,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,33108,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,33110,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,33119,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,33121,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,33123,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,190857,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,190858,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,145963,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,145967,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,145966,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,251807,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,251808,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,251818,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,251819,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,145970,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,146050,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,251826,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,251827,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,146053,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,146052,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,145701,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,145700,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,146054,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,34643,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,34645,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,34650,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,34654,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,34656,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,271370,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,271371,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,34667,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,9009466,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,245151,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,245152,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M001,A,1 AVENUE,35887,corrected,2010-10-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2010-10-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:54.644Z
+M002,A,1 AVENUE,35888,confirmed,2011-07-22,verified,,,Standard,,,,,5,4,LION,2011-07-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:10.917Z
+M002,A,1 AVENUE,35892,confirmed,2011-07-22,verified,,,Standard,,,,,5,4,LION,2011-07-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:10.917Z
+M002,A,1 AVENUE,35895,confirmed,2011-07-22,verified,,,Standard,,,,,5,4,LION,2011-07-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:10.917Z
+M002,A,1 AVENUE,36068,confirmed,2011-07-22,verified,,,Standard,,,,,5,4,LION,2011-07-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:10.917Z
+M002,A,1 AVENUE,36073,confirmed,2011-07-22,verified,,,Standard,,,,,5,4,LION,2011-07-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:10.917Z
+M002,A,1 AVENUE,165427,confirmed,2011-07-22,verified,,,Standard,,,,,5,4,LION,2011-07-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:10.917Z
+M002,A,1 AVENUE,147490,confirmed,2011-07-22,verified,,,Standard,,,,,5,4,LION,2011-07-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:10.917Z
+M002,A,1 AVENUE,193764,confirmed,2011-07-22,verified,,,Standard,,,,,5,4,LION,2011-07-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:10.917Z
+M002,A,1 AVENUE,193765,confirmed,2011-07-22,verified,,,Standard,,,,,5,4,LION,2011-07-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:10.917Z
+M002,A,1 AVENUE,147483,confirmed,2011-07-22,verified,,,Standard,,,,,5,4,LION,2011-07-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:10.917Z
+M002,A,1 AVENUE,36104,confirmed,2011-07-22,verified,,,Standard,,,,,5,4,LION,2011-07-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:10.917Z
+M002,A,1 AVENUE,36108,confirmed,2011-07-22,verified,,,Standard,,,,,5,4,LION,2011-07-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:10.917Z
+M002,A,1 AVENUE,36109,confirmed,2011-07-22,verified,,,Standard,,,,,5,4,LION,2011-07-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:10.917Z
+M002,A,1 AVENUE,36228,confirmed,2011-07-22,verified,,,Standard,,,,,5,4,LION,2011-07-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:10.917Z
+M002,A,1 AVENUE,165521,confirmed,2011-07-22,verified,,,Standard,,,,,5,4,LION,2011-07-22,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:10.917Z
+M003,A,1 AVENUE,36533,confirmed,2012-06-11,verified,,,none,,,,,5,4,LION,2012-06-11,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:24.477Z
+M003,A,1 AVENUE,36535,confirmed,2012-06-11,verified,,,none,,,,,5,4,LION,2012-06-11,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:24.477Z
+M003,A,1 AVENUE,36538,confirmed,2012-06-11,verified,,,none,,,,,5,4,LION,2012-06-11,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:24.477Z
+M003,A,1 AVENUE,36551,confirmed,2012-06-11,verified,,,none,,,,,5,4,LION,2012-06-11,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:24.477Z
+M003,A,1 AVENUE,36553,confirmed,2012-06-11,verified,,,none,,,,,5,4,LION,2012-06-11,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:24.477Z
+M003,A,1 AVENUE,36555,confirmed,2012-06-11,verified,,,none,,,,,5,4,LION,2012-06-11,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:24.477Z
+M003,A,1 AVENUE,36557,confirmed,2012-06-11,verified,,,none,,,,,5,4,LION,2012-06-11,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:24.477Z
+M003,A,1 AVENUE,36568,confirmed,2012-06-11,verified,,,none,,,,,5,4,LION,2012-06-11,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:24.477Z
+M003,A,1 AVENUE,36661,confirmed,2012-06-11,verified,,,none,,,,,5,4,LION,2012-06-11,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:24.477Z
+M003,A,1 AVENUE,36662,confirmed,2012-06-11,verified,,,none,,,,,5,4,LION,2012-06-11,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:24.477Z
+M003,A,1 AVENUE,36665,confirmed,2012-06-11,verified,,,none,,,,,5,4,LION,2012-06-11,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:24.477Z
+M004,A,1 AVENUE,36672,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,36674,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,36676,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,36678,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,36681,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,37732,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,37733,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,37735,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,217980,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,217981,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,37747,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,37749,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,37751,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,37856,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,37868,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,37870,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,37871,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,37873,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,37881,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,37883,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,37885,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001681,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001682,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001683,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001684,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001685,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001717,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001718,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001720,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001723,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001724,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001725,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,38026,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,38028,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,38035,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,38059,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,68335,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,68337,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,68353,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,68354,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,68355,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9000990,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9000991,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9000992,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,68358,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,68367,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,68436,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,68437,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,68439,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,68452,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9006132,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9006133,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9006134,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9006135,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9006136,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,129760,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9006137,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9006138,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9006139,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9006140,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9006141,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9006142,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9006143,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,129761,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9006144,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9006145,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9006146,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9006147,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9006148,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,68463,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,68531,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,68532,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,68534,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,68537,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,287634,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,287635,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001096,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,260786,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001098,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001099,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001100,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001101,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001102,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001103,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001104,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001105,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001106,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001107,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001108,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,9001109,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,108717,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M004,A,1 AVENUE,69436,corrected,,,,,,2013-10-10,verified,2012 photo,2014 photo,4,3,observed,2013-10-10,verified,2012 photo,2014 photo,added,2014-06-01,2012 photo,2014 photo,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:03.515Z
+M005,A,1 AVENUE,36393,corrected,2013-11-06,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-11-06,verified,2012 photo,2014 photo,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:39.221Z
+M005,A,1 AVENUE,165625,corrected,2013-11-06,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-11-06,verified,2012 photo,2014 photo,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:39.221Z
+M005,A,1 AVENUE,165626,corrected,2013-11-06,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-11-06,verified,2012 photo,2014 photo,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:39.221Z
+M005,A,1 AVENUE,165627,corrected,2013-11-06,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-11-06,verified,2012 photo,2014 photo,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:39.221Z
+M005,A,1 AVENUE,165628,corrected,2013-11-06,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-11-06,verified,2012 photo,2014 photo,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:39.221Z
+M005,A,1 AVENUE,165629,corrected,2013-11-06,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-11-06,verified,2012 photo,2014 photo,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:39.221Z
+M005,A,1 AVENUE,165630,corrected,2013-11-06,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-11-06,verified,2012 photo,2014 photo,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:39.221Z
+M005,A,1 AVENUE,36401,corrected,2013-11-06,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-11-06,verified,2012 photo,2014 photo,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:39.221Z
+M005,A,1 AVENUE,36403,corrected,2013-11-06,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-11-06,verified,2012 photo,2014 photo,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:39.221Z
+M006,A,1 AVENUE,36235,confirmed,2015-12-09,verified,,,Sharrows,,,,,5,4,LION,2015-12-09,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:15.741Z
+M006,A,1 AVENUE,36237,confirmed,2015-12-09,verified,,,Sharrows,,,,,5,4,LION,2015-12-09,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:15.741Z
+M006,A,1 AVENUE,36239,confirmed,2015-12-09,verified,,,Sharrows,,,,,5,4,LION,2015-12-09,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:15.741Z
+M006,A,1 AVENUE,36252,confirmed,2015-12-09,verified,,,Sharrows,,,,,5,4,LION,2015-12-09,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:15.741Z
+M006,A,1 AVENUE,36255,confirmed,2015-12-09,verified,,,Sharrows,,,,,5,4,LION,2015-12-09,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:15.741Z
+M006,A,1 AVENUE,36342,confirmed,2015-12-09,verified,,,Sharrows,,,,,5,4,LION,2015-12-09,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:15.741Z
+M006,A,1 AVENUE,36345,confirmed,2015-12-09,verified,,,Sharrows,,,,,5,4,LION,2015-12-09,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:15.741Z
+M010,A,1 AVENUE,147491,corrected,2012-06-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2012-06-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:43.660Z
+M010,A,1 AVENUE,193762,corrected,2012-06-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2012-06-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:43.660Z
+M010,A,1 AVENUE,193763,corrected,2012-06-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2012-06-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:43.660Z
+M010,A,1 AVENUE,190901,corrected,2012-06-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2012-06-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:43.660Z
+M010,A,1 AVENUE,190902,corrected,2012-06-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2012-06-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:43.660Z
+M010,A,1 AVENUE,146130,corrected,2012-06-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2012-06-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:43.660Z
+M010,A,1 AVENUE,146128,corrected,2012-06-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2012-06-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:43.660Z
+M010,A,1 AVENUE,146126,corrected,2012-06-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2012-06-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:43.660Z
+M010,A,1 AVENUE,134693,corrected,2012-06-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2012-06-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:43.660Z
+M010,A,1 AVENUE,146121,corrected,2012-06-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2012-06-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:43.660Z
+M010,A,1 AVENUE,146120,corrected,2012-06-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2012-06-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:43.660Z
+M010,A,1 AVENUE,146117,corrected,2012-06-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2012-06-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:43.660Z
+M010,A,1 AVENUE,146123,corrected,2012-06-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2012-06-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:43.660Z
+M010,A,1 AVENUE,146116,corrected,2012-06-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2012-06-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:43.660Z
+M010,A,1 AVENUE,147502,corrected,2012-06-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2012-06-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:43.660Z
+M010,A,1 AVENUE,147499,corrected,2012-06-01,verified,2010 photo,2012 photo,none,,,,,4,3,observed,2012-06-01,verified,2010 photo,2012 photo,added,2012-06-15,2010 photo,2012 photo,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:43.660Z
+M018,A,2 AVENUE,33290,confirmed,2010-10-01,month,,,none,,,,,5,4,LION,2010-10-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:31.037Z
+M018,A,2 AVENUE,33292,confirmed,2010-10-01,month,,,none,,,,,5,4,LION,2010-10-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:31.037Z
+M018,A,2 AVENUE,33294,confirmed,2010-10-01,month,,,none,,,,,5,4,LION,2010-10-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:31.037Z
+M018,A,2 AVENUE,33297,confirmed,2010-10-01,month,,,none,,,,,5,4,LION,2010-10-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:31.037Z
+M018,A,2 AVENUE,34659,confirmed,2010-10-01,month,,,none,,,,,5,4,LION,2010-10-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:31.037Z
+M018,A,2 AVENUE,34660,confirmed,2010-10-01,month,,,none,,,,,5,4,LION,2010-10-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:31.037Z
+M018,A,2 AVENUE,34661,confirmed,2010-10-01,month,,,none,,,,,5,4,LION,2010-10-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:31.037Z
+M018,A,2 AVENUE,34663,confirmed,2010-10-01,month,,,none,,,,,5,4,LION,2010-10-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:31.037Z
+M018,A,2 AVENUE,34666,confirmed,2010-10-01,month,,,none,,,,,5,4,LION,2010-10-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:31.037Z
+M018,A,2 AVENUE,35743,confirmed,2010-10-01,month,,,none,,,,,5,4,LION,2010-10-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:31.037Z
+M018,A,2 AVENUE,35744,confirmed,2010-10-01,month,,,none,,,,,5,4,LION,2010-10-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:31.037Z
+M019,A,2 AVENUE,9005743,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9005744,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9005745,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,68361,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9009545,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9009546,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,68364,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,68372,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,68374,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,68376,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9000205,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9000206,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9000207,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9000209,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9000211,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9006089,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9006090,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9006091,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9006092,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9006094,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9006096,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9006097,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9006098,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9006099,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,9006100,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,68456,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,68458,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,68461,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,69166,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,69168,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,287447,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,287502,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,287503,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,287460,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,287461,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,287462,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,287465,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,287466,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,287470,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,287473,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,287476,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,287477,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,287478,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,287639,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,287640,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,287618,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,287480,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M019,A,2 AVENUE,69277,confirmed,2012-10-26,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:36:13.732Z
+M020,A,2 AVENUE,33128,confirmed,2013-11-07,verified,,,Standard,,,,,4,3,LION,2013-11-07,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:04.077Z
+M020,A,2 AVENUE,33132,confirmed,2013-11-07,verified,,,Standard,,,,,4,3,LION,2013-11-07,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:04.077Z
+M020,A,2 AVENUE,33137,confirmed,2013-11-07,verified,,,Standard,,,,,4,3,LION,2013-11-07,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:04.077Z
+M020,A,2 AVENUE,33155,confirmed,2013-11-07,verified,,,Standard,,,,,4,3,LION,2013-11-07,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:04.077Z
+M020,A,2 AVENUE,33275,confirmed,2013-11-07,verified,,,Standard,,,,,4,3,LION,2013-11-07,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:04.077Z
+M020,A,2 AVENUE,33276,confirmed,2013-11-07,verified,,,Standard,,,,,4,3,LION,2013-11-07,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:04.077Z
+M020,A,2 AVENUE,33278,confirmed,2013-11-07,verified,,,Standard,,,,,4,3,LION,2013-11-07,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:04.077Z
+M020,A,2 AVENUE,33280,confirmed,2013-11-07,verified,,,Standard,,,,,4,3,LION,2013-11-07,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:04.077Z
+M025,A,2 AVENUE,32735,confirmed,2019-12-20,verified,,,Sharrows,,,,,3,4,LION,2019-12-20,with bike lane,,,,,,,,2,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:45:40.903Z
+M029,A,3 AVENUE,34142,corrected,,,,,,,,,,,,,,,,,,,,,,0,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:46:16.503Z
+M031,A,4 AVENUE,32777,confirmed,2014-10-01,month,,,none,,,,,,,,,,,,,,,,3,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:46:27.199Z
+M035,A,7 AVENUE,33949,corrected,2016-12-12,verified,2016 photo,2018 photo,none,,,,,2,4,observed,2016-12-12,verified,2016 photo,2018 photo,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:16.102Z
+M035,A,7 AVENUE,34056,corrected,2016-12-12,verified,2016 photo,2018 photo,none,,,,,2,4,observed,2016-12-12,verified,2016 photo,2018 photo,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:16.102Z
+M035,A,7 AVENUE,34068,corrected,2016-12-12,verified,2016 photo,2018 photo,none,,,,,2,4,observed,2016-12-12,verified,2016 photo,2018 photo,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:16.102Z
+M035,A,7 AVENUE,34073,corrected,2016-12-12,verified,2016 photo,2018 photo,none,,,,,2,4,observed,2016-12-12,verified,2016 photo,2018 photo,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:16.102Z
+M039,A,7 AVENUE,271269,confirmed,2024-11-05,verified,,,none,,,,,4,3,LION,2024-11-05,with bike lane,,,,,,,,1,1,no post picture,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:52.229Z
+M039,A,7 AVENUE,271274,confirmed,2024-11-05,verified,,,none,,,,,4,3,LION,2024-11-05,with bike lane,,,,,,,,1,1,no post picture,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:52.229Z
+M039,A,7 AVENUE,271275,confirmed,2024-11-05,verified,,,none,,,,,4,3,LION,2024-11-05,with bike lane,,,,,,,,1,1,no post picture,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:52.229Z
+M039,A,7 AVENUE,33821,confirmed,2024-11-05,verified,,,none,,,,,4,3,LION,2024-11-05,with bike lane,,,,,,,,1,1,no post picture,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:52.229Z
+M039,A,7 AVENUE,33927,confirmed,2024-11-05,verified,,,none,,,,,4,3,LION,2024-11-05,with bike lane,,,,,,,,1,1,no post picture,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:52.229Z
+M039,A,7 AVENUE,33929,confirmed,2024-11-05,verified,,,none,,,,,4,3,LION,2024-11-05,with bike lane,,,,,,,,1,1,no post picture,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:52.229Z
+M039,A,7 AVENUE,33931,confirmed,2024-11-05,verified,,,none,,,,,4,3,LION,2024-11-05,with bike lane,,,,,,,,1,1,no post picture,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:52.229Z
+M039,A,7 AVENUE,33941,confirmed,2024-11-05,verified,,,none,,,,,4,3,LION,2024-11-05,with bike lane,,,,,,,,1,1,no post picture,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:52.229Z
+M039,A,7 AVENUE,33943,confirmed,2024-11-05,verified,,,none,,,,,4,3,LION,2024-11-05,with bike lane,,,,,,,,1,1,no post picture,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:52.229Z
+M039,A,7 AVENUE,33945,confirmed,2024-11-05,verified,,,none,,,,,4,3,LION,2024-11-05,with bike lane,,,,,,,,1,1,no post picture,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:39:52.229Z
+M042,A,8 AVENUE,33815,confirmed,2012-07-06,verified,,,Standard,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:58.094Z
+M042,A,8 AVENUE,33817,confirmed,2012-07-06,verified,,,Standard,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:58.094Z
+M042,A,8 AVENUE,33819,confirmed,2012-07-06,verified,,,Standard,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:58.094Z
+M042,A,8 AVENUE,33823,confirmed,2012-07-06,verified,,,Standard,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:58.094Z
+M042,A,8 AVENUE,33825,confirmed,2012-07-06,verified,,,Standard,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:58.094Z
+M047,A,9 AVENUE,33660,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33662,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33677,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33687,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33689,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33693,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33697,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33699,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,164747,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,164746,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,164748,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,164749,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,164750,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33836,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33838,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33840,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33842,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33846,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33848,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33850,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33852,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33964,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33974,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33976,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33978,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33980,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33984,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33986,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,33988,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,34109,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,34117,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M047,A,9 AVENUE,34119,confirmed,2012-10-05,verified,,,none,,,,,,,,,,,,,,,,4,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:41.404Z
+M050,A,AMSTERDAM AVENUE,34500,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,34512,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,34516,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,34518,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,218226,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,218227,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,34536,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37099,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37101,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37103,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37111,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37113,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37115,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37117,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37220,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37224,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37226,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,9002853,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,9002854,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,9002855,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37230,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37242,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37244,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37246,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,9002876,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,9002878,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,9002879,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,301932,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,301933,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37340,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37342,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37344,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37358,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37362,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,9002966,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,9002967,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,9002968,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,37431,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,9002951,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,9002953,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,9002954,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,9002955,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,9002957,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,9002958,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,9002959,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,38164,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,38166,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,38168,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,294461,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,294462,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M050,A,AMSTERDAM AVENUE,294458,corrected,,,,,,2016-12-23,verified,2016 photo,2018 photo,4,4,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:35:56.027Z
+M060,A,AVENUE OF THE AMERICAS,31778,corrected,2022-03-18,window,2016 photo,2022 photo,none,,,,,3,3,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:44:27.327Z
+M060,A,AVENUE OF THE AMERICAS,31814,corrected,2022-03-18,window,2016 photo,2022 photo,none,,,,,3,3,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:44:27.327Z
+M060,A,AVENUE OF THE AMERICAS,31816,corrected,2022-03-18,window,2016 photo,2022 photo,none,,,,,3,3,observed,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:44:27.327Z
+M063,A,BROADWAY,32827,confirmed,2010-09-01,month,,,Standard,,,,,2,1,LION,2010-09-01,with bike lane,,,,,,,,3,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:34.174Z
+M063,A,BROADWAY,32979,confirmed,2010-09-01,month,,,Standard,,,,,2,1,LION,2010-09-01,with bike lane,,,,,,,,3,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:34.174Z
+M063,A,BROADWAY,32982,confirmed,2010-09-01,month,,,Standard,,,,,2,1,LION,2010-09-01,with bike lane,,,,,,,,3,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:34.174Z
+M063,A,BROADWAY,250751,confirmed,2010-09-01,month,,,Standard,,,,,2,1,LION,2010-09-01,with bike lane,,,,,,,,3,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:34.174Z
+M068,A,BROADWAY,33939,confirmed,,,,,,,,,,4,1,LION,,2016-2024,,,,,,,,0,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:46:36.727Z
+M069,A,BROADWAY,32809,confirmed,2024-09-17,verified,,,Standard,,,,,2,1,LION,2024-09-17,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:46:48.215Z
+M074,A,CENTRAL PARK LENOX AVENUE APPR,262551,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:20.277Z
+M074,A,CENTRAL PARK LENOX AVENUE APPR,145340,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:20.277Z
+M074,A,CENTRAL PARK LENOX AVENUE APPR,150949,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:20.277Z
+M074,A,CENTRAL PARK LENOX AVENUE APPR,262550,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:20.277Z
+M074,A,CENTRAL PARK LENOX AVENUE APPR,150950,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:20.277Z
+M074,A,CENTRAL PARK LENOX AVENUE APPR,150952,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:20.277Z
+M074,A,CENTRAL PARK LENOX AVENUE APPR,114451,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:20.277Z
+M075,A,CENTRAL PARK POWELL BLVD APPR,282154,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:38.806Z
+M075,A,CENTRAL PARK POWELL BLVD APPR,282152,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:38.806Z
+M075,A,CENTRAL PARK POWELL BLVD APPR,300250,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:38.806Z
+M075,A,CENTRAL PARK POWELL BLVD APPR,300254,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:38.806Z
+M085,A,CLINTON STREET,33028,confirmed,2012-09-01,month,,,Sharrows,,,,,,,,,,,,,,,,1,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:44:40.103Z
+M085,A,CLINTON STREET,33031,confirmed,2012-09-01,month,,,Sharrows,,,,,,,,,,,,,,,,1,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:44:40.103Z
+M085,A,CLINTON STREET,164416,confirmed,2012-09-01,month,,,Sharrows,,,,,,,,,,,,,,,,1,2,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:44:40.103Z
+M086,A,CLINTON STREET,107730,confirmed,2015-09-01,month,,,none,,,,,2,1,LION,2015-09-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:03.245Z
+M086,A,CLINTON STREET,9003300,confirmed,2015-09-01,month,,,none,,,,,2,1,LION,2015-09-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:03.245Z
+M086,A,CLINTON STREET,9003299,confirmed,2015-09-01,month,,,none,,,,,2,1,LION,2015-09-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:03.245Z
+M086,A,CLINTON STREET,9003297,confirmed,2015-09-01,month,,,none,,,,,2,1,LION,2015-09-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:03.245Z
+M086,A,CLINTON STREET,9003296,confirmed,2015-09-01,month,,,none,,,,,2,1,LION,2015-09-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:03.245Z
+M086,A,CLINTON STREET,9003295,confirmed,2015-09-01,month,,,none,,,,,2,1,LION,2015-09-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:03.245Z
+M086,A,CLINTON STREET,24375,confirmed,2015-09-01,month,,,none,,,,,2,1,LION,2015-09-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:03.245Z
+M086,A,CLINTON STREET,24377,confirmed,2015-09-01,month,,,none,,,,,2,1,LION,2015-09-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:03.245Z
+M086,A,CLINTON STREET,9009142,confirmed,2015-09-01,month,,,none,,,,,2,1,LION,2015-09-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:03.245Z
+M086,A,CLINTON STREET,9009138,confirmed,2015-09-01,month,,,none,,,,,2,1,LION,2015-09-01,with bike lane,,,,,,,,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:03.245Z
+M088,A,COLUMBUS AVENUE,34486,corrected,2013-09-01,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-01,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:55.381Z
+M088,A,COLUMBUS AVENUE,34502,corrected,2013-09-01,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-01,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:55.381Z
+M088,A,COLUMBUS AVENUE,34504,corrected,2013-09-01,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-01,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:55.381Z
+M088,A,COLUMBUS AVENUE,37083,corrected,2013-09-01,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-01,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:55.381Z
+M088,A,COLUMBUS AVENUE,37085,corrected,2013-09-01,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-01,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:55.381Z
+M088,A,COLUMBUS AVENUE,37087,corrected,2013-09-01,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-01,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:55.381Z
+M088,A,COLUMBUS AVENUE,37091,corrected,2013-09-01,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-01,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:55.381Z
+M088,A,COLUMBUS AVENUE,218228,corrected,2013-09-01,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-01,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:55.381Z
+M088,A,COLUMBUS AVENUE,218229,corrected,2013-09-01,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-01,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:55.381Z
+M089,A,COLUMBUS AVENUE,37427,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9017049,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9017050,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9009641,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007752,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007753,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007754,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007755,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007756,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007757,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007758,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007759,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007760,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007761,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007762,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007763,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007764,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007765,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007766,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007767,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007768,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007769,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007770,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007771,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007772,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007773,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007774,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,9007775,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,37515,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,38221,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,38223,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,38225,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,38229,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M089,A,COLUMBUS AVENUE,38239,corrected,2013-09-25,verified,2012 photo,2014 photo,none,,,,,4,3,observed,2013-09-25,verified,2012 photo,2014 photo,,,,,4,1,1,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:37:24.316Z
+M090,A,COLUMBUS AVENUE,34482,confirmed,2015-09-01,month,,,Standard,,,,,,,,,,,,,,,,3,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:44:51.127Z
+M090,A,COLUMBUS AVENUE,34484,confirmed,2015-09-01,month,,,Standard,,,,,,,,,,,,,,,,3,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:44:51.127Z
+M092,A,CPW 85 APPROACH,300230,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:44:53.903Z
+M092,A,CPW 85 APPROACH,300229,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:44:53.903Z
+M095,A,EDGECOMBE AVENUE,70883,confirmed,2015-08-11,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:00.422Z
+M095,A,EDGECOMBE AVENUE,70888,confirmed,2015-08-11,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:00.422Z
+M095,A,EDGECOMBE AVENUE,106946,confirmed,2015-08-11,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:00.422Z
+M095,A,EDGECOMBE AVENUE,106947,confirmed,2015-08-11,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:00.422Z
+M095,A,EDGECOMBE AVENUE,111235,confirmed,2015-08-11,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:00.422Z
+M098,A,FT GEORGE HILL,261820,confirmed,2015-06-10,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:40.166Z
+M098,A,FT GEORGE HILL,261821,confirmed,2015-06-10,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:40.166Z
+M098,A,FT GEORGE HILL,119268,confirmed,2015-06-10,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:40.166Z
+M098,A,FT GEORGE HILL,278309,confirmed,2015-06-10,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:40.166Z
+M098,A,FT GEORGE HILL,278310,confirmed,2015-06-10,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:40.166Z
+M098,A,FT GEORGE HILL,9010043,confirmed,2015-06-10,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:40.166Z
+M098,A,FT GEORGE HILL,300066,confirmed,2015-06-10,verified,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:40.166Z
+M101,A,HUDSON STREET,31918,corrected,2014-07-01,verified,2014 photo,2016 photo,conventional,,,,,2,2,observed,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:09.077Z
+M101,A,HUDSON STREET,31933,corrected,2014-07-01,verified,2014 photo,2016 photo,conventional,,,,,2,2,observed,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:09.077Z
+M101,A,HUDSON STREET,31935,corrected,2014-07-01,verified,2014 photo,2016 photo,conventional,,,,,2,2,observed,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:09.077Z
+M101,A,HUDSON STREET,31938,corrected,2014-07-01,verified,2014 photo,2016 photo,conventional,,,,,2,2,observed,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:09.077Z
+M101,A,HUDSON STREET,31940,corrected,2014-07-01,verified,2014 photo,2016 photo,conventional,,,,,2,2,observed,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:09.077Z
+M101,A,HUDSON STREET,31963,corrected,2014-07-01,verified,2014 photo,2016 photo,conventional,,,,,2,2,observed,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:09.077Z
+M101,A,HUDSON STREET,31966,corrected,2014-07-01,verified,2014 photo,2016 photo,conventional,,,,,2,2,observed,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:09.077Z
+M101,A,HUDSON STREET,31968,corrected,2014-07-01,verified,2014 photo,2016 photo,conventional,,,,,2,2,observed,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:09.077Z
+M101,A,HUDSON STREET,31970,corrected,2014-07-01,verified,2014 photo,2016 photo,conventional,,,,,2,2,observed,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:09.077Z
+M101,A,HUDSON STREET,31991,corrected,2014-07-01,verified,2014 photo,2016 photo,conventional,,,,,2,2,observed,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:09.077Z
+M101,A,HUDSON STREET,31993,corrected,2014-07-01,verified,2014 photo,2016 photo,conventional,,,,,2,2,observed,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:09.077Z
+M101,A,HUDSON STREET,31997,corrected,2014-07-01,verified,2014 photo,2016 photo,conventional,,,,,2,2,observed,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:09.077Z
+M101,A,HUDSON STREET,31999,corrected,2014-07-01,verified,2014 photo,2016 photo,conventional,,,,,2,2,observed,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:09.077Z
+M101,A,HUDSON STREET,32029,corrected,2014-07-01,verified,2014 photo,2016 photo,conventional,,,,,2,2,observed,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:09.077Z
+M101,A,HUDSON STREET,32031,corrected,2014-07-01,verified,2014 photo,2016 photo,conventional,,,,,2,2,observed,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:09.077Z
+M101,A,HUDSON STREET,32033,corrected,2014-07-01,verified,2014 photo,2016 photo,conventional,,,,,2,2,observed,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:09.077Z
+M101,A,HUDSON STREET,32035,corrected,2014-07-01,verified,2014 photo,2016 photo,conventional,,,,,2,2,observed,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:38:09.077Z
+M103,A,LAFAYETTE STREET,32521,confirmed,2014-04-25,verified,,,Standard,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:16.053Z
+M103,A,LAFAYETTE STREET,164260,confirmed,2014-04-25,verified,,,Standard,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:16.053Z
+M103,A,LAFAYETTE STREET,164261,confirmed,2014-04-25,verified,,,Standard,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:16.053Z
+M103,A,LAFAYETTE STREET,164266,confirmed,2014-04-25,verified,,,Standard,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:16.053Z
+M103,A,LAFAYETTE STREET,164267,confirmed,2014-04-25,verified,,,Standard,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:16.053Z
+M103,A,LAFAYETTE STREET,32553,confirmed,2014-04-25,verified,,,Standard,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:16.053Z
+M103,A,LAFAYETTE STREET,32556,confirmed,2014-04-25,verified,,,Standard,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:16.053Z
+M103,A,LAFAYETTE STREET,32580,confirmed,2014-04-25,verified,,,Standard,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:16.053Z
+M103,A,LAFAYETTE STREET,32740,confirmed,2014-04-25,verified,,,Standard,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:16.053Z
+M103,A,LAFAYETTE STREET,32742,confirmed,2014-04-25,verified,,,Standard,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:40:16.053Z
+M104,A,LAFAYETTE STREET,105036,confirmed,2014-10-01,month,,,none,,,,,,,,,,,,,,,,2,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:47:00.800Z
+M118,A,WEST DRIVE,37193,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:42.366Z
+M118,A,WEST DRIVE,300209,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:42.366Z
+M118,A,WEST DRIVE,300210,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:42.366Z
+M118,A,WEST DRIVE,37197,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:42.366Z
+M119,A,WEST DRIVE,37401,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:42.598Z
+M119,A,WEST DRIVE,37411,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:42.598Z
+M119,A,WEST DRIVE,300197,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:42.598Z
+M119,A,WEST DRIVE,300198,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:42.598Z
+M119,A,WEST DRIVE,300190,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:42.598Z
+M119,A,WEST DRIVE,37500,confirmed,2015-06-01,month,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:41:42.598Z
+M120,A,WEST DRIVE,38320,confirmed,2012-09-15,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:44.062Z
+M120,A,WEST DRIVE,38453,confirmed,2012-09-15,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:44.062Z
+M120,A,WEST DRIVE,115310,confirmed,2012-09-15,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:44.062Z
+M120,A,WEST DRIVE,282210,confirmed,2012-09-15,verified,,,Standard,,,,,,,,,,,,,,,,,1,0,,u_FB8Xls9ePEqrHdGUs5VeSg,2026-10-14T18:42:44.062Z

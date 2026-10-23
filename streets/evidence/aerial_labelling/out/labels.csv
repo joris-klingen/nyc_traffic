@@ -1,0 +1,125 @@
+proj_id,y2008,y2010,y2012,y2014,y2016,y2018,y2020,y2022,y2024,first_protected_year,note
+M001,N,?,P,P,P,P,P,P,P,2012,construction 2010; buffered lane on left 2012; green with parking buffer from 2014
+M002,?,?,?,?,?,?,?,?,?,,large intersection at tunnel approach; no lane stretch visible
+M003,N,N,P,P?,P,P,P,,P?,2012,bus lane only 2008-2010; hatched buffered lane on left from 2012; 2022 image missing
+M004,N,N,N,?,P,P,P,P,P,2016,no lane 2008-2012; shadow 2014; left-curb lane with hatched buffer and parking from 2016
+M005,?,?,?,?,?,?,?,?,?,,bridge approach under structure
+M006,N,N,N,?,P,P,P,?,?,2016,no lane 2008-2012; shadow 2014; buffered left lane 2016; green with parking buffer 2018
+M007,N,N,N,N,N,P,?,P,P?,2018,under overpass; no lane 2008-2016 (construction 2016); green buffered lane on left from 2018
+M008,N,N,N,?,N?,P?,P,?,?,2018?,Midtown avenue; no lane to 2016; green strip with parking buffer 2018; hatched buffered lane 2020
+M009,N,N,N,N,N,P,?,P,?,2018,avenue at tunnel ramp; green buffered lane on left from 2018
+M010,N,N,?,P?,P?,P,?,P,P,2014?,hatched area on left 2012-2016 (buffered lane?); green with parking buffer from 2018
+M011,N,N,N,N,N,N,P?,P,P,2020?,no lane to 2018; buffered lane on left 2020; parking buffer 2022-2024
+M012,N,N,N,N,N,N,?,N,N,,Hudson Yards area construction; no bike lane in frame any year
+M013,N,N,N,N,N,N,N,P,P,2022,hatched centre median only to 2020; green lane with parking buffer on left from 2022
+M014,N,N,N,N,N,N,N,P?,P?,2022?,intersection; no lane to 2020; green strip on left curb 2022-2024
+M015,N,N,N,N,N,N,N?,N?,P,2024,no lane to 2018; centre median 2020-2022; green strip on left curb 2024
+M016,N,N,N,N,N,N,N,N,N,,industrial avenue; parking both sides; no bike lane any year
+M017,?,?,?,?,P,P,?,?,?,2016,unclear before 2016; hatched buffered lane on right 2016; green hatched 2018 next to red bus lane
+M018,N,N,P,?,P,P,P,P?,?,2012,no lane 2008-2010; buffered lane on right from 2012; green with parking buffer 2016-2020
+M019,N,N,P?,?,P,P,P?,?,?,2012?,intersection; buffered lane on right 2012-2018
+M020,N,N,N,N?,P,P,P,P?,?,2016,no lane to 2012; hatched buffered lane on right 2016; green with parking buffer 2018-2020
+M021,?,?,?,?,?,?,?,?,?,,complex intersection; construction 2012-2016; no lane identifiable
+M022,N,N,N,N,N?,P,P,P,P?,2018,construction 2010-2016; green lane with buffer on right from 2018
+M023,N,N,N,N,N,?,P,P,?,2020,no lane to 2016; shadow 2018; green lane with buffer on left 2020-2022
+M024,N,N,N,?,N,P,P,P?,?,2018,median construction 2010-2016; green lane with parking buffer on right from 2018
+M025,N,N,N,N,N,N?,N?,N?,?,,no visible lane any year; construction 2016
+M026,N,N,N,N,N,P,P,P,P?,2018,construction 2012-2016; parking-protected lane on right from 2018
+M027,N,N,N,N,N,N?,N?,N?,?,,red bus lane on left from 2018 but no bike lane visible
+M028,N,N,N,N,N,N,N,P,P,2022,red bus lane on left from 2012; green buffered lane on right from 2022
+M029,N,N,?,?,N,?,N,N?,?,,heavy shadow; no lane visible where readable
+M030,N,N,N,N,N,N,N,N?,P?,2024?,no lane to 2022; possible red/green lane on right 2024 in dark image
+M031,N,N,N,N,N,P,?,P?,P,2018,no lane to 2016; green lane with parking buffer on left from 2018
+M032,N,N,N,N,N,P,?,P,P,2018,Broadway-type diagonal; green lane with buffer on left from 2018
+M033,N,N,N,?,C?,?,P,?,?,2020?,Midtown avenue; lane markings 2016; hatched buffered lane on right 2020; mostly shadow later
+M034,N,N,N,N,N,N,N,P,P,2022,residential avenue; parking both sides to 2020; green lane with parking buffer on right from 2022
+M035,?,?,?,?,?,?,?,?,?,,Times Square plaza area; pedestrian treatments only; no bike lane identifiable
+M036,N,N,N,N,N,P,P,?,?,2018,no lane to 2016; hatched buffered lane on right from 2018
+M037,N,?,?,?,N,?,?,?,?,,deep Midtown shadow; no lane where visible 2008/2016
+M038,N,?,N?,?,N,?,?,?,?,,deep Midtown shadow; construction 2016; undecidable
+M039,N,?,N,?,N,?,N?,?,?,,Midtown shadow; no lane where visible
+M040,N,N,N,N,P?,P,P,P,P?,2016?,complex plaza intersection (Union Sq/Broadway?); central protected path from 2016
+M041,N,N,P,P,?,P,P,P,P,2012,hatched buffer on left 2012-2014; trees 2016; parking-protected lane on left from 2018
+M042,N,?,P?,?,P,?,P?,?,?,2012?,Midtown avenue in shadow; hatched buffered lane on left visible 2012 and 2016
+M043,N,?,P,?,P,P,?,?,P?,2012,green lane on left curb 2012; buffered lane 2016-2018; mostly shadow
+M044,N,?,P?,?,N?,?,N?,?,?,,Midtown avenue in shadow; possible hatched lane on left 2012; unclear
+M045,N,?,?,?,N,?,P,P?,P?,2020,no lane 2008/2016; green protected lane on left from 2020
+M046,N,?,N?,?,N,?,?,?,?,,Midtown avenue in shadow; no lane where visible 2008/2016
+M047,N,N,N,?,N?,P,P?,?,P,2018,hatched buffer on right 2014-2016; green with parking buffer on right from 2018
+M048,C,C?,C?,?,?,?,?,?,?,,contraflow bus/bike markings 2008-2012; construction 2020; shadow
+M049,N,N,N,N,N,N?,?,?,P?,2024?,avenue along rail yards; Hudson Yards construction 2018-2022; possible protected lane 2024
+M050,N,?,N,?,N?,P,P?,P,?,2018,no lane to 2016; green lane with parking buffer on left from 2018
+M051,N,N,N,?,N,P,P,P,P,2018,trees to 2016; green lane with hatched parking buffer on left from 2018
+M052,N,N,N,N,N,N,N,?,P,2024,wide avenue; no lane to 2020; shadow 2022; green lane with buffer on left 2024
+M053,N,N,N,N,C?,C,C,C,P?,2024?,two-way street; road diet with centre turn lane 2016; possible protected lane on right 2024
+M054,N,N,N,N,C?,C?,C?,?,?,,uptown avenue; bike markings from 2016 but no buffer or green paint
+M055,N,N,N,N,N,C?,?,?,?,,uptown two-way avenue; no buffer or green paint visible
+M056,N,N,N,N,N,N,N?,?,P,2024,wide avenue; no lane to 2018; green protected lane on left 2024
+M057,N,N,N,?,N,P,?,P,?,2018,no lane 2008-2016; green lane with parking buffer on left from 2018
+M058,?,?,?,?,N?,?,?,P,P,2022,plaza intersection in shadow; green protected lane on left 2022-2024
+M059,?,?,N?,?,N,?,?,P,P,2022,Midtown avenue in shadow; green protected lane with barrier on left 2022-2024
+M060,N,N,N,N,N,N?,?,P,?,2022,wide avenue; no lane to 2018; green protected lane on left 2022; construction 2024
+M061,?,?,N?,?,N,?,?,P?,P?,2022?,Midtown avenue along plaza; possible protected lane on left 2022-2024; mostly shadow
+M062,N,N,N,N,N,N,N,N,N,,two-way avenue with parking both sides; no bike lane any year
+M063,?,?,N?,?,N?,?,N?,P,P,2022,narrow street; parking both sides to 2020; green protected lane on left 2022-2024
+M064,?,N,N,?,N,C?,?,P?,?,,narrow street; hatched lane on left 2018-2022; became pedestrian street by 2024
+M065,?,?,?,?,?,?,P?,?,?,,Lower Manhattan in deep shadow; red bus lane and possible bike lane only in 2020
+M066,N,N,N,N,N,N,N,P,P,2022,uptown two-way avenue with centre median; green protected lane on right from 2022
+M067,?,?,C?,?,N?,?,?,P,P,2022,Broadway plaza segment; pedestrian plaza 2010-2016; green protected lane 2022-2024
+M068,N,?,N,?,C?,?,?,P,P,2022,Broadway plaza segment; green lane through plaza 2022-2024
+M069,N,N,N,N,N,C?,C?,?,?,,diagonal street with sidewalk extensions; no protected lane visible
+M070,N,N,N?,?,N,P?,?,P,P?,2018?,Lower Manhattan plaza approach; lane on right 2018; green protected lane 2022
+M071,?,?,?,?,?,?,?,?,?,,park drive junction under trees and shadow; park drives marked throughout
+M072,?,?,?,?,?,?,?,?,?,,Columbus Circle / park entrance; plaza and park drive; no separable lane
+M073,P,P,P,P,P,P,P,P,P,before 2008,Central Park drive with marked bike/ped lanes all years (car-free change not visible)
+M074,P?,P?,P,P,P,P,P,?,?,before 2012?,park drive junction; marked lanes; construction 2022-2024
+M075,?,P?,P?,P,P,P,P,P,P,before 2012?,park drive near park edge; marked bike lane on drive from 2010-2014; trees early years
+M076,N,N,N,N,N,P,P,P,P,2018,avenue along park; parking both sides to 2016; buffered lane next to park from 2018
+M077,N,N,N,N,N,P?,P,P,?,2018?,avenue along park; lane next to park from 2018-2022 (trees)
+M078,N,N,N,N,N,P,P,?,?,2018,curved avenue at park/plaza; green protected lane on left from 2018
+M079,N,?,?,?,N,?,N,P,P,2022,Lower Manhattan plaza approach; green protected lane on right 2022-2024
+M080,N,N,N,?,N,N?,N?,P,?,2022,plaza with circular fountain; green lane on left 2022
+M081,N,N,N,N,N,N,N,N,N?,,short street between wide crosstown roads; parking both sides; no bike lane any year
+M082,N,C?,C?,C?,C?,C?,C?,C?,C?,,avenue along park; hatched median buffer from 2010 but no bike lane markings visible
+M083,N,N,N,N,N,N,N,P,P?,2022,narrow avenue; parking both sides to 2020; green protected lane on left 2022
+M084,N,N,N,N,P?,P,P?,P?,P,2016?,diagonal avenue with median plaza; bike corral/lane in median from 2016; separated path 2024
+M085,N,N,N,P,P,P,P?,P,P,2014,green protected lane on left from 2014 (parking lots then new buildings)
+M086,N,N,N,?,P,P,?,P,P,2016,residential avenue; green protected lane on left from 2016
+M087,N,N,N,N,N,C?,C?,C?,C?,,residential street; hatched buffer on right from 2012; no green or protected lane
+M088,N,N,N,N,N,N,N,N,N,,avenue with parking both sides; no bike lane any year
+M089,N,N,N,P,P,P,P,P,P,2014,avenue along park; green parking-protected lane on right from 2014
+M090,N,N,N,N,N,?,C?,C?,?,,tree-lined street; hatched buffer on right 2020-2022; no green or protected lane
+M091,?,P,P,P,P,P,P,P,P,before 2010,riverside greenway path alongside avenue from 2010 (construction 2008); avenue itself no lane
+M092,P?,P?,P?,P?,P?,P,P,P,P,before 2008?,park drive curve with separate path; trees early years
+M093,N,N,N,N,N,N,P?,P?,P?,2020?,intersection under elevated rail; green lane markings from 2020
+M094,N,N,N,N,N,N,N,P,P,2022,street converted from parking to green two-way protected path 2022
+M095,N,N,N,N,P,P,P,P,P,2016,green parking-protected lane on right from 2016
+M096,P?,P?,P?,P?,P?,P?,P?,P?,?,before 2008?,highway with waterside esplanade path all years; avenue itself no lane
+M097,P?,P?,P?,P?,P?,P?,P,P?,P,before 2008?,riverside highway with esplanade; greenway marked path in median area 2020-2024
+M098,N,N,N,N,N,P,P,P,P,2018,road along rail line; green parking-protected lane on right from 2018
+M099,N,N,N,N,N,N,C?,?,?,,two-way street; bike markings 2020; no protected lane visible
+M100,?,N,N,N,?,N?,?,?,?,,diagonal intersection in shadow; no lane visible where readable
+M101,N,N,N,N,N,N,N,C?,N?,,residential avenue; no bike lane visible; construction 2022
+M102,N,N,N,N,N,N,N,P?,P,2022?,intersection; no lane to 2020; green protected lane on left 2022-2024
+M103,N,N,N,P,P,P,P,P,P,2014,construction 2010; green parking-protected lane on left from 2014
+M104,N,N,N,N,N,P,?,P,P,2018,avenue next to plaza/park; green protected path on left from 2018
+M105,N,N,N,N,N,N,N,P,P?,2022,avenue at plaza with fountain; green protected lane on right 2022
+M106,N,N,N,N,N,N,N,N,N,,narrow street; parking both sides; no bike lane any year
+M107,N,N,N,N,N,N,C?,C?,?,,street along track field; buffered markings on right 2020-2022; construction 2024
+M108,N,N,N,N,N,N,P,P,P,2020,two-way street; green parking-protected lane on right from 2020
+M109,N,N,N,N,N,N,P,P,P,2020,two-way street between parks; green parking-protected lanes both sides from 2020
+M110,N,N,N?,?,P?,P?,?,P?,P,2016?,complex diagonal intersection; plaza from 2012; green lane on right visible 2016-2018 and 2024
+M111,N,N,N,N,N,N,N,N,N?,,complex diagonal intersection; crosswalk redesigns only; no bike lane visible
+M112,N,N,N,N,N,N,N,P,P,2022,avenue next to plaza; green protected lane with parking buffer on left from 2022
+M113,N,N,?,?,N,N,N,?,C?,,two-way avenue; no lane to 2020; hatched median 2022; bike markings 2024
+M114,N,N,P?,N?,N?,P,?,P?,P?,2018,avenue along park; green lane on park side visible 2012 and clearly 2018 with parking buffer
+M115,N,N,N,N,N,N,N,N,N,,street next to large plaza/market; no bike lane visible
+M116,N,N,N,N,N,N,N,P,P,2022,avenue next to plaza parking; green protected lane on right 2022-2024
+M117,N,N,N,N,N,N,N,?,?,,Midtown avenue; no bike lane visible where readable; shadow 2022-2024
+M118,P,P,P,P,P,P,P,P,P,before 2008,Central Park drive with marked bike lane all years; road diet with bike and runner lanes 2018-2020
+M119,P,P,P,P,P,P,P,P,P,before 2008,Central Park drive with marked bike lane all years; redesigned car-free lanes 2018
+M120,C?,C?,C?,C?,C?,P,P,P,P,2018,park drive under canopy; plain lane lines to 2016; dedicated bike lane markings from 2018
+M121,P,P,P,P,P,P,P,P,P,before 2008,park drive with buffered bike lane all years
+M122,C?,C?,C?,P,P,P,P,P,P,2014,park drive; plain two-lane road to 2012; buffered bike lane from 2014
+M123,N,N,N,?,N,N,?,P,P,2022,Lower Manhattan street next to plaza; green protected lane on left from 2022 (construction)
+M124,?,N,N,N,N,N,N,N,N,,highway ramp / bridge approach area; no bike lane visible

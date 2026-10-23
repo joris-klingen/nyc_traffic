@@ -1,0 +1,9 @@
+proj_id,street,segments,share_north,carfree_from,source
+M121,WEST DRIVE,6,0,2018-06,Rest of the loop car-free from 2018-06-27 (Central Park Conservancy)
+M118,WEST DRIVE,4,1,2015-06,"Car-free north of 72nd St from 2015-06-29 (NYC Mayor's Office, 18 June 2015)"
+M119,WEST DRIVE,6,1,2015-06,"Car-free north of 72nd St from 2015-06-29 (NYC Mayor's Office, 18 June 2015)"
+M073,CENTER DRIVE,4,0,2018-06,Rest of the loop car-free from 2018-06-27 (Central Park Conservancy)
+M122,WEST DRIVE,2,0,2018-06,Rest of the loop car-free from 2018-06-27 (Central Park Conservancy)
+M074,CENTRAL PARK LENOX AVENUE APPR,7,1,2015-06,"Car-free north of 72nd St from 2015-06-29 (NYC Mayor's Office, 18 June 2015)"
+M075,CENTRAL PARK POWELL BLVD APPR,4,1,2015-06,"Car-free north of 72nd St from 2015-06-29 (NYC Mayor's Office, 18 June 2015)"
+M092,CPW 85 APPROACH,2,1,2015-06,"Car-free north of 72nd St from 2015-06-29 (NYC Mayor's Office, 18 June 2015)"

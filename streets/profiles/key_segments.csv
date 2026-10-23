@@ -1,0 +1,9 @@
+column,kind,class,n,na_share,n_distinct,min,q001,q01,q05,q10,q25,median,q75,q90,q95,q99,q999,max,mean,sd,whole,values_kept,values_share,nchar_min,nchar_max,id_pattern,example
+key_id,integer,integer,180800,0,180800,10,280,3083,13738,28169,72390,141781,247011,341939,9002325,9012466,9014782,9024302,698275.8,2141270,TRUE,,,,,,
+length_ft,numeric,numeric,180800,0,179970,1.340178,7.426120,13.245787,20.694202,28.898504,78.648051,204.791827,304.020561,549.137902,705.289174,926.807874,1755.895765,12484.330540,244.7335,229.732,FALSE,,,,,,
+boro,integer,integer,180800,0,5,1,1,1,1,1,2,3,4,5,5,5,5,5,3.192367,1.22449,TRUE,5,1,,,,
+street,character,character,180800,0,10605,,,,,,,,,,,,,,,,,400,0.442871,5,32,alnum,HYLAN BOULEVARD
+street_code,character,character,180800,0,11344,,,,,,,,,,,,,,,,,400,0.428573,6,6,digits,534100
+rw_type,character,character,180800,0,12,,,,,,,,,,,,,,,,,12,1,1,2,digits,6
+feature_typ,character,character,180800,0,5,,,,,,,,,,,,,,,,,5,1,1,1,alnum,W
+rb_layer,character,character,180800,0,4,,,,,,,,,,,,,,,,,4,1,1,1,alnum,B

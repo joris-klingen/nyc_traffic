@@ -1,0 +1,2414 @@
+{
+ "M007": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "East 61st Street, East 62nd Street, Fifth Avenue to First Avenue, East 60th Street, First Avenue to York Avenue",
+    "link_text": "East 61st Street, East 62nd Street, Fifth Avenue to First Avenue, East 60th Street, First Avenue to York Avenue - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/ues-crosstown-e61-st-e62-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "58th Street, First Avenue to Second Avenue",
+    "link_text": "58th Street, First Avenue to Second Avenue - Street Design Checklist ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/58-st-1st-ave-2nd-ave-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "38th Street & 39th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "38th Street & 39th Street Midtown Crosstown Protected Bike Lanes - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/38th-st-39th-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2011-08",
+    "title": "West 29th and West 30th Street Greenway Connections",
+    "link_text": "Download a slideshow about the project (pdf) (Presented to Manhattan Community Board 4 in August 2011)",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/201108_w29_w30_cb4_slides.pdf",
+    "snippets": [
+     {
+      "page": "7",
+      "text": "Expected installation: Fall 2011"
+     },
+     {
+      "page": "2",
+      "text": "routes installed (2007-2010)"
+     }
+    ],
+    "relevance": 1
+   },
+   {
+    "presented": "2014-05",
+    "title": "Manhattan Waterfront Greenway - East 37th Street Connector",
+    "link_text": "Manhattan Waterfront Greenway - East 37th Street Connector - presented to Manhattan Community Board 6 May 2014 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2014-05-e37-greenway-connector-mn-cb6.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2015-05",
+    "title": "First Avenue Parking Protected Bicycle Lane",
+    "link_text": "First Avenue Parking Protected Bicycle Lane - presented to the Manhattan Community Board 6 in May 2015 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2015-05-1st-ave-protected-bicycle-lane.pdf",
+    "snippets": [],
+    "relevance": 3
+   },
+   {
+    "presented": "2016-02",
+    "title": "First Avenue & East 124th Street – Bicycle & Pedestrian Safety Improvements",
+    "link_text": "First Avenue & East 124th Street – Bicycle & Pedestrian Safety Improvements - presented to Manhattan Community Board 11 in February 2016 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/1ave-124St-cb11-feb2016.pdf",
+    "snippets": [
+     {
+      "page": "3",
+      "text": "2014 NYCDOT project added shared path signage and markings to bridge"
+     }
+    ],
+    "relevance": 3
+   },
+   {
+    "presented": "2016-06",
+    "title": "First Avenue Protected Bicycle Lane",
+    "link_text": "1st Avenue Protected Bicycle Lane - presented to Manhattan CB 6 in June 2016 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/first-ave-protected-bike-lane-jun2016.pdf",
+    "snippets": [],
+    "relevance": 3
+   }
+  ],
+  "report2014": [
+   {
+    "corridor": "1 AVENUE",
+    "from_street": "E HOUSTON ST",
+    "to_street": "E 34 ST",
+    "install_year": "2010",
+    "source": "NYC DOT (2014) p.5"
+   }
+  ]
+ },
+ "M010": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "East 61st Street, East 62nd Street, Fifth Avenue to First Avenue, East 60th Street, First Avenue to York Avenue",
+    "link_text": "East 61st Street, East 62nd Street, Fifth Avenue to First Avenue, East 60th Street, First Avenue to York Avenue - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/ues-crosstown-e61-st-e62-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "58th Street, First Avenue to Second Avenue",
+    "link_text": "58th Street, First Avenue to Second Avenue - Street Design Checklist ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/58-st-1st-ave-2nd-ave-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2020-06",
+    "title": "38th Street & 39th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "38th Street & 39th Street Midtown Crosstown Protected Bike Lanes - presented to Manhattan Community Board 5 in June 2020 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/38th-st-39th-st-cb5-jun2020.pdf",
+    "snippets": [
+     {
+      "page": "4",
+      "text": "Implemented Fall 2018"
+     },
+     {
+      "page": "4",
+      "text": "Implemented Summer 2018"
+     },
+     {
+      "page": "4",
+      "text": "Implemented Summer 2019"
+     }
+    ],
+    "relevance": 1
+   },
+   {
+    "presented": "2020-07",
+    "title": "38th Street & 39th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "38th Street & 39th Street Midtown Crosstown Protected Bike Lanes - presented to Manhattan Community Board 4 in July 2020 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/38th-st-39th-st-cb4-jul2020.pdf",
+    "snippets": [
+     {
+      "page": "4",
+      "text": "Implemented Fall 2018"
+     },
+     {
+      "page": "4",
+      "text": "Implemented Summer 2018"
+     },
+     {
+      "page": "4",
+      "text": "Implemented Summer 2019"
+     }
+    ],
+    "relevance": 1
+   },
+   {
+    "presented": "2020-07",
+    "title": "38th Street & 39th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "38th Street & 39th Street Midtown Crosstown Protected Bike Lanes - presented to Manhattan Community Board 6 in July 2020 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/38th-st-39th-st-cb6-jul2020.pdf",
+    "snippets": [
+     {
+      "page": "4",
+      "text": "Implemented Fall 2018"
+     },
+     {
+      "page": "4",
+      "text": "Implemented Summer 2018"
+     },
+     {
+      "page": "4",
+      "text": "Implemented Summer 2019"
+     }
+    ],
+    "relevance": 1
+   },
+   {
+    "presented": "2021-03",
+    "title": "East 61st Street, East 62nd Street, Fifth Avenue to First Avenue, East 60th Street, First Avenue to York Avenue",
+    "link_text": "East 61st Street, East 62nd Street, Fifth Avenue to First Avenue, East 60th Street, First Avenue to York Avenue - presented to Manhattan Community Board 8 in March 2021 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/ues-crosstown-e61-st-e62-st-cb8-mar2021.pdf",
+    "snippets": [
+     {
+      "page": "12",
+      "text": "Data from 25 separate protected bicycle lane projects installed from 2007-2014 with 3 years of after data."
+     },
+     {
+      "page": "12",
+      "text": "Before and After Crash Data, 2007-2017"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "2021-04",
+    "title": "East 61st Street, East 62nd Street, Fifth Avenue to First Avenue, East 60th Street, First Avenue to York Avenue",
+    "link_text": "East 61st Street, East 62nd Street, Fifth Avenue to First Avenue, East 60th Street, First Avenue to York Avenue - presented to Manhattan Community Board 8 in April 2021 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/ues-crosstown-e61-st-e62-st-cb8-apr2021.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2023-06",
+    "title": "East 54th Street, First Avenue to Sutton Place and Sutton Place, East 54th Street to East 55th Street",
+    "link_text": "Sutton Place and East 54 Street East River Greenway Connection - presented to Community Board 6 Transportation Committee in June 2023 ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/sutton-pl-e54-st-jun2023.pdf",
+    "snippets": [
+     {
+      "page": "7",
+      "text": "installed in 2022"
+     },
+     {
+      "page": "14",
+      "text": "Potential 2023 implementation"
+     },
+     {
+      "page": "9",
+      "text": "• Since 2010, the NYC DOT has completed over 900 street improvement projects"
+     }
+    ],
+    "relevance": 2
+   }
+  ],
+  "report2014": [
+   {
+    "corridor": "1 AVENUE",
+    "from_street": "E HOUSTON ST",
+    "to_street": "E 34 ST",
+    "install_year": "2010",
+    "source": "NYC DOT (2014) p.5"
+   }
+  ]
+ },
+ "M013": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "38th Street & 39th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "38th Street & 39th Street Midtown Crosstown Protected Bike Lanes - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/38th-st-39th-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "",
+    "title": "20th Street, 21st Street & Connections",
+    "link_text": "20th Street. 3rd Avenue to 10th Avenue - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/20th-st-3rd-ave-10th-ave-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 0
+   },
+   {
+    "presented": "2020-06",
+    "title": "38th Street & 39th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "38th Street & 39th Street Midtown Crosstown Protected Bike Lanes - presented to Manhattan Community Board 5 in June 2020 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/38th-st-39th-st-cb5-jun2020.pdf",
+    "snippets": [
+     {
+      "page": "4",
+      "text": "Implemented Fall 2018"
+     },
+     {
+      "page": "4",
+      "text": "Implemented Summer 2018"
+     },
+     {
+      "page": "4",
+      "text": "Implemented Summer 2019"
+     }
+    ],
+    "relevance": 1
+   },
+   {
+    "presented": "2020-07",
+    "title": "38th Street & 39th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "38th Street & 39th Street Midtown Crosstown Protected Bike Lanes - presented to Manhattan Community Board 4 in July 2020 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/38th-st-39th-st-cb4-jul2020.pdf",
+    "snippets": [
+     {
+      "page": "4",
+      "text": "Implemented Fall 2018"
+     },
+     {
+      "page": "4",
+      "text": "Implemented Summer 2018"
+     },
+     {
+      "page": "4",
+      "text": "Implemented Summer 2019"
+     }
+    ],
+    "relevance": 1
+   },
+   {
+    "presented": "2020-07",
+    "title": "38th Street & 39th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "38th Street & 39th Street Midtown Crosstown Protected Bike Lanes - presented to Manhattan Community Board 6 in July 2020 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/38th-st-39th-st-cb6-jul2020.pdf",
+    "snippets": [
+     {
+      "page": "4",
+      "text": "Implemented Fall 2018"
+     },
+     {
+      "page": "4",
+      "text": "Implemented Summer 2018"
+     },
+     {
+      "page": "4",
+      "text": "Implemented Summer 2019"
+     }
+    ],
+    "relevance": 1
+   }
+  ],
+  "report2014": []
+ },
+ "M016": {
+  "presentations": [
+   {
+    "presented": "2018-01",
+    "title": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes - presented to Manhattan Community Boards 4, 5 & 6 Transportation Committees in January 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/midtown-crosstown-bike-lanes-jan18.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-03",
+    "title": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes - presented to Manhattan Community Board 5 Transportation Committee in March 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/midtown-crosstown-bike-lanes-mar2018.pdf",
+    "snippets": [],
+    "relevance": 1
+   }
+  ],
+  "report2014": []
+ },
+ "M026": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "58th Street, First Avenue to Second Avenue",
+    "link_text": "58th Street, First Avenue to Second Avenue - Street Design Checklist ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/58-st-1st-ave-2nd-ave-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2014-05",
+    "title": "Manhattan Waterfront Greenway - East 37th Street Connector",
+    "link_text": "Manhattan Waterfront Greenway - East 37th Street Connector - presented to Manhattan Community Board 6 May 2014 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2014-05-e37-greenway-connector-mn-cb6.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2016-02",
+    "title": "First Avenue & East 124th Street – Bicycle & Pedestrian Safety Improvements",
+    "link_text": "First Avenue & East 124th Street – Bicycle & Pedestrian Safety Improvements - presented to Manhattan Community Board 11 in February 2016 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/1ave-124St-cb11-feb2016.pdf",
+    "snippets": [
+     {
+      "page": "3",
+      "text": "2014 NYCDOT project added shared path signage and markings to bridge"
+     }
+    ],
+    "relevance": 1
+   },
+   {
+    "presented": "2016-05",
+    "title": "Union Square Bike Network Improvements",
+    "link_text": "Union Square Bike Network Improvements - presented to Manhattan CB 5 Transportation Committee in May 2016 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/union-sq-may2016.pdf",
+    "snippets": [
+     {
+      "page": "2",
+      "text": "6th Ave (to be installed 2016)"
+     }
+    ],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-07",
+    "title": "Second Avenue Protected Bike Lane Update – Analysis of 2017 Project & Proposal for 68th St to 59th Street",
+    "link_text": "2nd Avenue Protected Bike Lane Update - presented to Manhattan Community Board 6 in July 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2nd-ave-update-july2018.pdf",
+    "snippets": [
+     {
+      "page": "13",
+      "text": "Data from 25 separate protected bicycle lane projects installed from 2007-2014 with 3 years of after data."
+     }
+    ],
+    "relevance": 3
+   },
+   {
+    "presented": "2018-07",
+    "title": "Second Avenue Protected Bike Lane Update – Analysis of 2017 Project & Proposal for 68th St to 59th Street",
+    "link_text": "2nd Avenue Protected Bike Lane Update - presented to Manhattan Community Board 8 Transportation Committee in July 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2nd-ave-bike-lane-july2018.pdf",
+    "snippets": [],
+    "relevance": 3
+   },
+   {
+    "presented": "2018-09",
+    "title": "Second Avenue Protected Bike Lane Update – Analysis of 2017 Project & Proposal for 68th St to 59th Street",
+    "link_text": "2nd Avenue Protected Bike Lane Update - presented to Manhattan Community Board 8 in September 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2nd-ave-bike-lane-cb8-sept2018.pdf",
+    "snippets": [],
+    "relevance": 3
+   },
+   {
+    "presented": "2018-09",
+    "title": "Second Avenue Protected Bike Lane Update – Analysis of 2017 Project & Proposal for 68th St to 59th Street",
+    "link_text": "2nd Avenue Protected Bike Lane Update - presented to Manhattan Community Board 6 in September 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2nd-ave-bike-lane-sept2018.pdf",
+    "snippets": [],
+    "relevance": 3
+   }
+  ],
+  "report2014": [
+   {
+    "corridor": "2 AVENUE",
+    "from_street": "E 2 ST",
+    "to_street": "E 14 ST",
+    "install_year": "2010",
+    "source": "NYC DOT (2014) p.5"
+   },
+   {
+    "corridor": "2 AVENUE",
+    "from_street": "E 23 ST",
+    "to_street": "E 32 ST",
+    "install_year": "2010",
+    "source": "NYC DOT (2014) p.5"
+   }
+  ]
+ },
+ "M029": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Schermerhorn Street, Clinton Street to 3rd Avenue",
+    "link_text": "Schermerhorn Street, Clinton Street to Flatbush Avenue - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/schermerhorn-st-clinton-st-flatbush-ave-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Third Avenue, East 59th to East 96th Streets",
+    "link_text": "Third Avenue, East 59th to East 96th Streets - Street Design Checklist ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/3rd-ave-e59-st-e96-st-mtp.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Boston Road, Third Avenue to East 169th Street",
+    "link_text": "Boston Road, Third Avenue to East 169th Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/boston-rd-third-ave-e169-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Third Avenue, East 24th Street to East 59th Street",
+    "link_text": "Third Avenue, 23rd Street to 34th Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/3rd-ave-23st-34-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Third Avenue, East 96th Street to East 128th Street",
+    "link_text": "Third Avenue, East 96th Street to East 128th Street - Street Design Checklist ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/3rd-ave-96-st-128-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "20th Street, 21st Street & Connections",
+    "link_text": "20th Street. 3rd Avenue to 10th Avenue - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/20th-st-3rd-ave-10th-ave-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 0
+   },
+   {
+    "presented": "",
+    "title": "Ashland Place, Lafayette Avenue & Hanson Place",
+    "link_text": "Ashland Place & Hanson Place - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/ashland-pl-hanson-pl-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 0
+   }
+  ],
+  "report2014": []
+ },
+ "M031": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Lafayette Street/4th Avenue, Astor Place, East 8th Street, West 13th Street",
+    "link_text": "Astor Place, Broadway to Lafayette Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/astor-pl-broadway-lafayette-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Lafayette Street/4th Avenue, Astor Place, East 8th Street, West 13th Street",
+    "link_text": "Lafayette Street, 4th Avenue, East 15th Street to Spring Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/lafayette-st-4th-ave-e15-st-spring-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Lafayette Street/4th Avenue, Astor Place, East 8th Street, West 13th Street",
+    "link_text": "East 8th Street, Lafayette Street to Avenue A (Repaving & Bike Lane Extension) - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/e8-st-st-marks-pl-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Ashland Place, Lafayette Avenue & Hanson Place",
+    "link_text": "Ashland Place & Hanson Place - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/ashland-pl-hanson-pl-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 0
+   },
+   {
+    "presented": "2014-03",
+    "title": "Lafayette Street & Fourth Avenue Parking Protected Bicycle Path",
+    "link_text": "Lafayette Street & Fourth Avenue Parking Protected Bicycle Path - presented to Manhattan CB 2 Transportation Committee in March 2014 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2014-03-lafayette-st-fourth-ave-mn-cb2.pdf",
+    "snippets": [],
+    "relevance": 3
+   },
+   {
+    "presented": "2016-05",
+    "title": "Union Square Bike Network Improvements",
+    "link_text": "Union Square Bike Network Improvements - presented to Manhattan CB 5 Transportation Committee in May 2016 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/union-sq-may2016.pdf",
+    "snippets": [
+     {
+      "page": "2",
+      "text": "6th Ave (to be installed 2016)"
+     }
+    ],
+    "relevance": 1
+   }
+  ],
+  "report2014": []
+ },
+ "M043": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Eighth Avenue, 31st Street and 38th Street",
+    "link_text": "Eighth Avenue, 31st Street and 38th Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/8th-ave-31st-st-38th-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "38th Street & 39th Street, 8th Avenue to Madison Avenue",
+    "link_text": "38th Street and 39th Street, 8th Avenue to Madison Avenue - What's Happening Here? Flyer ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/38-st-39-st-8th-ave-madison-ave-whh.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2008-03",
+    "title": "8th Avenue Complete Street Redesign",
+    "link_text": "Download a slideshow about the 8th Avenue project (pdf) (Presented to Manhattan CB 2 Transportation Committee in March 2008)",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/8thave.pdf",
+    "snippets": [
+     {
+      "page": "16",
+      "text": "• Implementation Fall 2008"
+     },
+     {
+      "page": "16",
+      "text": "Implementation Fall 2008 (November"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "2013-02",
+    "title": "West Midtown Crosstown Route Extensions",
+    "link_text": "Download a slideshow about the West Midtown project (pdf) (Presented to CB 4 Transportation Committee in February 2013)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2013-02-west-midtown-crosstown-bike-routes-cb4.pdf",
+    "snippets": [],
+    "relevance": 0
+   },
+   {
+    "presented": "2014-04",
+    "title": "Hudson Street Parking - Protected Bicycle Path",
+    "link_text": "Hudson Street Parking - Protected Bicycle Path - presented to Manhattan Community Board 2 in April 2014 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2014-04-hudson-bicycle-path-mn-cb2.pdf",
+    "snippets": [
+     {
+      "page": "2",
+      "text": "2013: DOT begins coordination"
+     }
+    ],
+    "relevance": 1
+   }
+  ],
+  "report2014": [
+   {
+    "corridor": "8 AVENUE",
+    "from_street": "BANK ST",
+    "to_street": "W 14 ST",
+    "install_year": "2008",
+    "source": "NYC DOT (2014) p.5"
+   },
+   {
+    "corridor": "8 AVENUE",
+    "from_street": "W 14 ST",
+    "to_street": "W 23 ST",
+    "install_year": "2009",
+    "source": "NYC DOT (2014) p.5"
+   },
+   {
+    "corridor": "8 AVENUE",
+    "from_street": "W 23 ST",
+    "to_street": "W 34 ST",
+    "install_year": "2010",
+    "source": "NYC DOT (2014) p.5"
+   }
+  ]
+ },
+ "M052": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Amsterdam Avenue, Laurel Hill Terrace to West 188th Street",
+    "link_text": "Amsterdam Avenue, Laurel Hill Terrace to West 188th Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/amsterdam-ave-laurel-hill-terrace-w188-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2017-03",
+    "title": "Amsterdam Avenue, 110th Street to 162nd Street",
+    "link_text": "Amsterdam Avenue Safety Improvements - presented to Manhattan Community Board 12 in March 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/amsterdam-110-162-sts-cb12-mar2017.pdf",
+    "snippets": [
+     {
+      "page": "15",
+      "text": "bays installed at 140 intersections (2009-2011):"
+     },
+     {
+      "page": "4",
+      "text": "Phase II expansion scheduled for summer 2017 up to 130th St"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "2017-03",
+    "title": "Amsterdam Avenue, 110th Street to 162nd Street",
+    "link_text": "Amsterdam Avenue Safety Improvements - presented to Manhattan Community Board 9 in March 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/amsterdam-110-162-sts-mar2017.pdf",
+    "snippets": [
+     {
+      "page": "15",
+      "text": "bays installed at 140 intersections (2009-2011):"
+     },
+     {
+      "page": "4",
+      "text": "Phase II expansion scheduled for summer 2017 up to 130th St"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "2017-05",
+    "title": "Amsterdam Avenue, 110th Street to 162nd Street",
+    "link_text": "Amsterdam Avenue Safety Improvements - presented to Manhattan Community Board 9 Executive Committee in May 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/amsterdam-110-155-cb9-may2017.pdf",
+    "snippets": [
+     {
+      "page": "16",
+      "text": "bays installed at 140 intersections (2009-2011):"
+     },
+     {
+      "page": "4",
+      "text": "Phase II expansion scheduled for summer 2017 up to 130th St"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "2017-06",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 11 in June 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-june2017.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2017-12",
+    "title": "Amsterdam Avenue, 110th Street to 162nd Street",
+    "link_text": "Amsterdam Avenue Safety Improvements - presented to Manhattan Community Board 9 Transportation Committee in December 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/amsterdam-110-155-cb9-dec2017.pdf",
+    "snippets": [
+     {
+      "page": "23",
+      "text": "bays installed at 140 intersections (2009-2011):"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "2018-06",
+    "title": "Tenth Avenue / Amsterdam Avenue",
+    "link_text": "10th Avenue / Amsterdam Avenue Protected Bike Lanes - presented to Manhattan Community Board 4 in June 2018 and Manhattan Community Board 7 in July 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/amsterdam-10th-ave-june2018.pdf",
+    "snippets": [
+     {
+      "page": "9",
+      "text": "Data from 25 separate protected bicycle lane projects installed from 2007-2014 with 3 years of"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "2019-01",
+    "title": "Amsterdam Avenue, 110th Street to 162nd Street",
+    "link_text": "Amsterdam Avenue Safety Improvements - presented to Manhattan Community Board 9 in January 2019 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/amsterdam-110-162-sts-jan2019.pdf",
+    "snippets": [],
+    "relevance": 2
+   }
+  ],
+  "report2014": []
+ },
+ "M056": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Sixth Avenue, Lispenard Street to West 14th Street",
+    "link_text": "Sixth Avenue, Lispenard Street to West 13th Street - What's Happening Here? Flyer ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/6th-ave-lispenard-st-w13th-st-whh.pdf",
+    "snippets": [
+     {
+      "page": "1",
+      "text": "Implementation begins September 2024"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Sixth Avenue, West 14th Street to West 35th Street",
+    "link_text": "Sixth Avenue, West 14th Street to West 35th Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/6th-ave-14-st-35-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2013-09",
+    "title": "West Broadway and Church Street Bicycle Facilities",
+    "link_text": "Download a slideshow about the West Broadway and Church Stree project (pdf) (Presented to Manhattan Community Board's 1 & 2 in September 2013)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2013-09-10-w-broadway-church-mn-cb1-2.pdf",
+    "snippets": [
+     {
+      "page": "48",
+      "text": "Planned implementation in October 2013"
+     },
+     {
+      "page": "38",
+      "text": "Total number of trips beginning or ending at 6th Ave/Canal St Citibike station, 8/25/2013 to 8/31/2013"
+     },
+     {
+      "page": "4",
+      "text": "Total number of trips beginning or ending at Church St/Leonard St Citibike station, 8/25/2013 to 8/31/2013"
+     }
+    ],
+    "relevance": 1
+   },
+   {
+    "presented": "2015-11",
+    "title": "Sixth Avenue, West 8th Street – West 33rd Street – Parking Protected Bike Lane & Traffic Calming",
+    "link_text": "6th Avenue, W 8th St – W 33rd St – Parking Protected Bike Lane & Traffic Calming - presented to the Manhattan Community Board 4 in November 2015 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/6th-ave-cb-4-2015-11-18.pdf",
+    "snippets": [],
+    "relevance": 3
+   },
+   {
+    "presented": "2016-01",
+    "title": "Sixth Avenue, West 8th Street – West 33rd Street – Parking Protected Bike Lane & Traffic Calming",
+    "link_text": "6th Avenue, W 8th St – W 33rd St – Parking Protected Bike Lane & Traffic Calming - presented to Manhattan Community Board 2 in January 2016 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/6th-ave-cb2-01-07-16.pdf",
+    "snippets": [],
+    "relevance": 3
+   },
+   {
+    "presented": "2016-05",
+    "title": "Union Square Bike Network Improvements",
+    "link_text": "Union Square Bike Network Improvements - presented to Manhattan CB 5 Transportation Committee in May 2016 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/union-sq-may2016.pdf",
+    "snippets": [
+     {
+      "page": "2",
+      "text": "6th Ave (to be installed 2016)"
+     }
+    ],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-07",
+    "title": "3rd Street, 4th Street, Sixth Avenue to Avenue D Traffic Calming with Bicycle Lanes",
+    "link_text": "3rd, 4th Street, 6th Avenue to Avenue D Traffic Calming with Bicycle Lanes - presented to Manhattan Community Board 2 Transportation Committee in July 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/3rd-4th-st-ave-d-6th-ave-cb2-july2018.pdf",
+    "snippets": [],
+    "relevance": 3
+   },
+   {
+    "presented": "2018-07",
+    "title": "3rd Street, 4th Street, Sixth Avenue to Avenue D Traffic Calming with Bicycle Lanes",
+    "link_text": "3rd, 4th Street, 6th Avenue to Avenue D Traffic Calming with Bicycle Lanes - presented to Manhattan Community Board 3 Transportation Committee in July 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/3rd-4th-st-ave-d-6th-ave-july2018.pdf",
+    "snippets": [],
+    "relevance": 3
+   }
+  ],
+  "report2014": []
+ },
+ "M060": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Sixth Avenue, Lispenard Street to West 14th Street",
+    "link_text": "Sixth Avenue, Lispenard Street to West 13th Street - What's Happening Here? Flyer ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/6th-ave-lispenard-st-w13th-st-whh.pdf",
+    "snippets": [
+     {
+      "page": "1",
+      "text": "Implementation begins September 2024"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Sixth Avenue, West 14th Street to West 35th Street",
+    "link_text": "Sixth Avenue, West 14th Street to West 35th Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/6th-ave-14-st-35-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Tribeca/WTC Bicycle Network Enhancements",
+    "link_text": "Varick Street, West Broadway, Church Street & 6th Avenue - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/varick-st-west-broadway-church-st-6th-ave-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-07",
+    "title": "3rd Street, 4th Street, Sixth Avenue to Avenue D Traffic Calming with Bicycle Lanes",
+    "link_text": "3rd, 4th Street, 6th Avenue to Avenue D Traffic Calming with Bicycle Lanes - presented to Manhattan Community Board 2 Transportation Committee in July 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/3rd-4th-st-ave-d-6th-ave-cb2-july2018.pdf",
+    "snippets": [],
+    "relevance": 3
+   },
+   {
+    "presented": "2018-07",
+    "title": "3rd Street, 4th Street, Sixth Avenue to Avenue D Traffic Calming with Bicycle Lanes",
+    "link_text": "3rd, 4th Street, 6th Avenue to Avenue D Traffic Calming with Bicycle Lanes - presented to Manhattan Community Board 3 Transportation Committee in July 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/3rd-4th-st-ave-d-6th-ave-july2018.pdf",
+    "snippets": [],
+    "relevance": 3
+   },
+   {
+    "presented": "2020-02",
+    "title": "Tribeca/WTC Bicycle Network Enhancements",
+    "link_text": "Tribeca/WTC Bicycle Network Enhancements - presented to Manhattan Community Board 1 Transportation Committee in February 2020 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/tribeca-wtc-bikenetwork-cb1-feb2020.pdf",
+    "snippets": [
+     {
+      "page": "9",
+      "text": "planned 2020 implementation"
+     },
+     {
+      "page": "13",
+      "text": "Data from 25 separate protected bicycle lane projects installed from 2007-2014 with 3 years of after data."
+     },
+     {
+      "page": "13",
+      "text": "Before and After Crash Data, 2007 - 2017"
+     }
+    ],
+    "relevance": 1
+   },
+   {
+    "presented": "2020-03",
+    "title": "Sixth Avenue, 35th Street to Central Park South Protected Bike Lane",
+    "link_text": "6th Avenue, 35th Steet to Central Park South Protected Bike Lane - presentation to Manhattan Community Board 5 in March 2020 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/6th-ave-35th-st-cps-cb5-mar2020.pdf",
+    "snippets": [
+     {
+      "page": "6",
+      "text": "on streets where protected bike lanes were installed 2007-2017"
+     },
+     {
+      "page": "6",
+      "text": "Data from 25 separate protected bicycle lane projects installed from 2007-2014"
+     },
+     {
+      "page": "6",
+      "text": "Before and After Crash Data, 2007 - 2017"
+     }
+    ],
+    "relevance": 3
+   },
+   {
+    "presented": "2024-06",
+    "title": "Sixth Avenue, Lispenard Street to West 14th Street",
+    "link_text": "Sixth Avenue, Lispenard Street to West 14th Street - presented to Manhattan Community Board 2 in June 2024 ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/6th-ave-lispenard-st-14th-st-jun2024.pdf",
+    "snippets": [
+     {
+      "page": "19",
+      "text": "Implementation in Summer 2024"
+     },
+     {
+      "page": "14",
+      "text": "installed in 2016"
+     },
+     {
+      "page": "5",
+      "text": "and 33rd St installed in 2016"
+     }
+    ],
+    "relevance": 2
+   }
+  ],
+  "report2014": []
+ },
+ "M068": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Northern Boulevard and Broadway, 41st Avenue to 60th Street",
+    "link_text": "Broadway, Northern Boulevard to 60th Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/broadway-northern-blvd-60-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Northern Boulevard and Broadway, 41st Avenue to 60th Street",
+    "link_text": "Northern Boulevard and Broadway, 41st Avenue to 60th Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/northern-blvd-broadway-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Riverside Drive, Broadway to Staff Street",
+    "link_text": "Riverside Drive, Staff Street to Dyckman Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/riverside-dr-staff-st-dyckman-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2008-03",
+    "title": "Broadway Boulevard",
+    "link_text": "Download the 2008 slideshow about the Broadway Boulevard project (pdf) (Presented to Manhattan Community Board 5 in March 2008)",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/madisonsqimprov.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2008-05",
+    "title": "Broadway Boulevard",
+    "link_text": "Download details on Broadway Boulevard around Times Square to Herald Square (Presented in May 2008)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/broadwayblvd.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2010-04",
+    "title": "Broadway and Union Square Improvements",
+    "link_text": "Broadway and Union Square Improvements Fact Sheet (Presented in April 2010)",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/20100426_broadway_union_sq_factsheet.pdf",
+    "snippets": [
+     {
+      "page": "2",
+      "text": "Project implementation planned for Summer 2010"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "2011-08",
+    "title": "Broadway and Union Square Improvements",
+    "link_text": "Union Square post-project data (Presented in August 2011)",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/20110822_union_square_update.pdf",
+    "snippets": [
+     {
+      "page": "2",
+      "text": "Implemented September 2010:"
+     },
+     {
+      "page": "8",
+      "text": "Before results were taken in July 2010 while after results were taken in"
+     },
+     {
+      "page": "11",
+      "text": "Before: Oct 22-25, 2009, After: Oct 21-24 2010"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "2013-09",
+    "title": "West Broadway and Church Street Bicycle Facilities",
+    "link_text": "Download a slideshow about the West Broadway and Church Stree project (pdf) (Presented to Manhattan Community Board's 1 & 2 in September 2013)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2013-09-10-w-broadway-church-mn-cb1-2.pdf",
+    "snippets": [
+     {
+      "page": "48",
+      "text": "Planned implementation in October 2013"
+     },
+     {
+      "page": "38",
+      "text": "Total number of trips beginning or ending at 6th Ave/Canal St Citibike station, 8/25/2013 to 8/31/2013"
+     },
+     {
+      "page": "4",
+      "text": "Total number of trips beginning or ending at Church St/Leonard St Citibike station, 8/25/2013 to 8/31/2013"
+     }
+    ],
+    "relevance": 3
+   }
+  ],
+  "report2014": [
+   {
+    "corridor": "BROADWAY",
+    "from_street": "W 59 ST",
+    "to_street": "W 47 ST",
+    "install_year": "2009",
+    "source": "NYC DOT (2014) p.5"
+   },
+   {
+    "corridor": "BROADWAY",
+    "from_street": "W 33 ST",
+    "to_street": "W 26 ST",
+    "install_year": "2009",
+    "source": "NYC DOT (2014) p.5"
+   },
+   {
+    "corridor": "BROADWAY",
+    "from_street": "W 23 ST",
+    "to_street": "W 18 ST",
+    "install_year": "2010",
+    "source": "NYC DOT (2014) p.5"
+   }
+  ]
+ },
+ "M073": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Central Park Drives",
+    "link_text": "Central Park Drives Repaving and Redesign - What's Happening Here? Flyer (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/central-park-drives-whh.pdf",
+    "snippets": [
+     {
+      "page": "1",
+      "text": "Implementation begins March 2025"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Seventh Avenue, Central Park South to West 46th Street",
+    "link_text": "Seventh Avenue, Central Park South to West 46th Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/7th-ave-w59-st-w46-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2017-06",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 11 in June 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-june2017.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2017-10",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 10 in October 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-oct2017.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-01",
+    "title": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes - presented to Manhattan Community Boards 4, 5 & 6 Transportation Committees in January 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/midtown-crosstown-bike-lanes-jan18.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-02",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 11 in February 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-feb2018.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2020-03",
+    "title": "Sixth Avenue, 35th Street to Central Park South Protected Bike Lane",
+    "link_text": "6th Avenue, 35th Steet to Central Park South Protected Bike Lane - presentation to Manhattan Community Board 5 in March 2020 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/6th-ave-35th-st-cps-cb5-mar2020.pdf",
+    "snippets": [
+     {
+      "page": "6",
+      "text": "on streets where protected bike lanes were installed 2007-2017"
+     },
+     {
+      "page": "6",
+      "text": "Data from 25 separate protected bicycle lane projects installed from 2007-2014"
+     },
+     {
+      "page": "6",
+      "text": "Before and After Crash Data, 2007 - 2017"
+     }
+    ],
+    "relevance": 3
+   },
+   {
+    "presented": "2021-05",
+    "title": "Seventh Avenue, Central Park South to West 46th Street",
+    "link_text": "Seventh Avenue, Central Park South to West 46th Street - presented to Manhattan Community Board 5 in May 2021 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/7th-ave-cps-w46-st-cb5-may2021.pdf",
+    "snippets": [
+     {
+      "page": "3",
+      "text": "7th Ave bike lane installed between W 46th St/W 42nd St in 2016"
+     }
+    ],
+    "relevance": 2
+   }
+  ],
+  "report2014": []
+ },
+ "M074": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Central Park Drives",
+    "link_text": "Central Park Drives Repaving and Redesign - What's Happening Here? Flyer (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/central-park-drives-whh.pdf",
+    "snippets": [
+     {
+      "page": "1",
+      "text": "Implementation begins March 2025"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Seventh Avenue, Central Park South to West 46th Street",
+    "link_text": "Seventh Avenue, Central Park South to West 46th Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/7th-ave-w59-st-w46-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2017-06",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 11 in June 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-june2017.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2017-10",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 10 in October 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-oct2017.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-01",
+    "title": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes - presented to Manhattan Community Boards 4, 5 & 6 Transportation Committees in January 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/midtown-crosstown-bike-lanes-jan18.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-02",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 11 in February 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-feb2018.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-03",
+    "title": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes - presented to Manhattan Community Board 5 Transportation Committee in March 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/midtown-crosstown-bike-lanes-mar2018.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2020-03",
+    "title": "Sixth Avenue, 35th Street to Central Park South Protected Bike Lane",
+    "link_text": "6th Avenue, 35th Steet to Central Park South Protected Bike Lane - presentation to Manhattan Community Board 5 in March 2020 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/6th-ave-35th-st-cps-cb5-mar2020.pdf",
+    "snippets": [
+     {
+      "page": "6",
+      "text": "on streets where protected bike lanes were installed 2007-2017"
+     },
+     {
+      "page": "6",
+      "text": "Data from 25 separate protected bicycle lane projects installed from 2007-2014"
+     },
+     {
+      "page": "6",
+      "text": "Before and After Crash Data, 2007 - 2017"
+     }
+    ],
+    "relevance": 3
+   }
+  ],
+  "report2014": []
+ },
+ "M075": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Central Park Drives",
+    "link_text": "Central Park Drives Repaving and Redesign - What's Happening Here? Flyer (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/central-park-drives-whh.pdf",
+    "snippets": [
+     {
+      "page": "1",
+      "text": "Implementation begins March 2025"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Seventh Avenue, Central Park South to West 46th Street",
+    "link_text": "Seventh Avenue, Central Park South to West 46th Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/7th-ave-w59-st-w46-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2017-06",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 11 in June 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-june2017.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2017-10",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 10 in October 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-oct2017.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-01",
+    "title": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes - presented to Manhattan Community Boards 4, 5 & 6 Transportation Committees in January 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/midtown-crosstown-bike-lanes-jan18.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-02",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 11 in February 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-feb2018.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-03",
+    "title": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes - presented to Manhattan Community Board 5 Transportation Committee in March 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/midtown-crosstown-bike-lanes-mar2018.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2020-03",
+    "title": "Sixth Avenue, 35th Street to Central Park South Protected Bike Lane",
+    "link_text": "6th Avenue, 35th Steet to Central Park South Protected Bike Lane - presentation to Manhattan Community Board 5 in March 2020 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/6th-ave-35th-st-cps-cb5-mar2020.pdf",
+    "snippets": [
+     {
+      "page": "6",
+      "text": "on streets where protected bike lanes were installed 2007-2017"
+     },
+     {
+      "page": "6",
+      "text": "Data from 25 separate protected bicycle lane projects installed from 2007-2014"
+     },
+     {
+      "page": "6",
+      "text": "Before and After Crash Data, 2007 - 2017"
+     }
+    ],
+    "relevance": 3
+   }
+  ],
+  "report2014": []
+ },
+ "M076": {
+  "presentations": [
+   {
+    "presented": "2018-06",
+    "title": "Eighth Avenue & Columbus Circle",
+    "link_text": "8th Avenue & Columbus Circle - presented to Manhattan Community Board 4 and 5 in June 2018 and Manhattan Community Board 7 in July 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/columbus-circle-8th-ave-june2018.pdf",
+    "snippets": [
+     {
+      "page": "7",
+      "text": "Data from 25 separate protected bicycle lane projects installed from 2007-2014 with 3 years of"
+     }
+    ],
+    "relevance": 0
+   }
+  ],
+  "report2014": []
+ },
+ "M077": {
+  "presentations": [
+   {
+    "presented": "2018-06",
+    "title": "Eighth Avenue & Columbus Circle",
+    "link_text": "8th Avenue & Columbus Circle - presented to Manhattan Community Board 4 and 5 in June 2018 and Manhattan Community Board 7 in July 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/columbus-circle-8th-ave-june2018.pdf",
+    "snippets": [
+     {
+      "page": "7",
+      "text": "Data from 25 separate protected bicycle lane projects installed from 2007-2014 with 3 years of"
+     }
+    ],
+    "relevance": 0
+   }
+  ],
+  "report2014": []
+ },
+ "M083": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Tribeca/WTC Bicycle Network Enhancements",
+    "link_text": "Varick Street, West Broadway, Church Street & 6th Avenue - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/varick-st-west-broadway-church-st-6th-ave-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2020-02",
+    "title": "Tribeca/WTC Bicycle Network Enhancements",
+    "link_text": "Tribeca/WTC Bicycle Network Enhancements - presented to Manhattan Community Board 1 Transportation Committee in February 2020 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/tribeca-wtc-bikenetwork-cb1-feb2020.pdf",
+    "snippets": [
+     {
+      "page": "9",
+      "text": "planned 2020 implementation"
+     },
+     {
+      "page": "13",
+      "text": "Data from 25 separate protected bicycle lane projects installed from 2007-2014 with 3 years of after data."
+     },
+     {
+      "page": "13",
+      "text": "Before and After Crash Data, 2007 - 2017"
+     }
+    ],
+    "relevance": 1
+   }
+  ],
+  "report2014": []
+ },
+ "M087": {
+  "presentations": [
+   {
+    "presented": "2010-05",
+    "title": "Columbus Avenue Parking-Protected Bicycle Path",
+    "link_text": "Download a slideshow about the project (pdf) (Presented to Manhattan Community Board 7 in May 2010)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/20100511_columbus_ave_cb7.pdf",
+    "snippets": [],
+    "relevance": 3
+   },
+   {
+    "presented": "2011-10",
+    "title": "Columbus Avenue Parking-Protected Bicycle Path",
+    "link_text": "Download a preliminary assessment of the project (Presented to Manhattan Community Board 7 in October 2011)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2011_columbus_assessment.pdf",
+    "snippets": [
+     {
+      "page": "2",
+      "text": "August 2010: Implementation begins"
+     },
+     {
+      "page": "2",
+      "text": "March 2011: Split-phase signals at two-way crosstown streets completed"
+     },
+     {
+      "page": "8",
+      "text": "Signals installed on West 86th, West 81st and West 77th Streets Feb-March 2011; project considered complete: 03/31/11"
+     }
+    ],
+    "relevance": 3
+   },
+   {
+    "presented": "2012-12",
+    "title": "Columbus Avenue Parking-Protected Bicycle Path",
+    "link_text": "Download the post-implementation presentation (pdf) (Presented to Manhattan Community Board 7 in December 2012)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2102-12-columbus-ave-post-implementation.pdf",
+    "snippets": [
+     {
+      "page": "2",
+      "text": "August 2010: Implementation begins"
+     },
+     {
+      "page": "2",
+      "text": "March 2011: Split‐phase signals at two‐way crosstown streets installed, project is"
+     },
+     {
+      "page": "11",
+      "text": "implementation period of August 1 , 2010 to March 31, 2011 is excluded."
+     }
+    ],
+    "relevance": 3
+   },
+   {
+    "presented": "2012-12",
+    "title": "Columbus Avenue Bicycle Path and Mobility Enhancements",
+    "link_text": "Download a slideshow about the Columbus Avenue project (pdf) (Presented to Manhattan Community Board 7 in December 2012)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2012-12-columbus-ave-extension.pdf",
+    "snippets": [
+     {
+      "page": "22",
+      "text": "DEP water main project: Late 2013 Completion"
+     }
+    ],
+    "relevance": 3
+   }
+  ],
+  "report2014": [
+   {
+    "corridor": "COLUMBUS AVENUE",
+    "from_street": "W 96 ST",
+    "to_street": "W 77 ST",
+    "install_year": "2010/2011",
+    "source": "NYC DOT (2014) p.5"
+   }
+  ]
+ },
+ "M088": {
+  "presentations": [
+   {
+    "presented": "2010-05",
+    "title": "Columbus Avenue Parking-Protected Bicycle Path",
+    "link_text": "Download a slideshow about the project (pdf) (Presented to Manhattan Community Board 7 in May 2010)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/20100511_columbus_ave_cb7.pdf",
+    "snippets": [],
+    "relevance": 3
+   },
+   {
+    "presented": "2011-10",
+    "title": "Columbus Avenue Parking-Protected Bicycle Path",
+    "link_text": "Download a preliminary assessment of the project (Presented to Manhattan Community Board 7 in October 2011)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2011_columbus_assessment.pdf",
+    "snippets": [
+     {
+      "page": "2",
+      "text": "August 2010: Implementation begins"
+     },
+     {
+      "page": "2",
+      "text": "March 2011: Split-phase signals at two-way crosstown streets completed"
+     },
+     {
+      "page": "8",
+      "text": "Signals installed on West 86th, West 81st and West 77th Streets Feb-March 2011; project considered complete: 03/31/11"
+     }
+    ],
+    "relevance": 3
+   },
+   {
+    "presented": "2012-12",
+    "title": "Columbus Avenue Parking-Protected Bicycle Path",
+    "link_text": "Download the post-implementation presentation (pdf) (Presented to Manhattan Community Board 7 in December 2012)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2102-12-columbus-ave-post-implementation.pdf",
+    "snippets": [
+     {
+      "page": "2",
+      "text": "August 2010: Implementation begins"
+     },
+     {
+      "page": "2",
+      "text": "March 2011: Split‐phase signals at two‐way crosstown streets installed, project is"
+     },
+     {
+      "page": "11",
+      "text": "implementation period of August 1 , 2010 to March 31, 2011 is excluded."
+     }
+    ],
+    "relevance": 3
+   },
+   {
+    "presented": "2012-12",
+    "title": "Columbus Avenue Bicycle Path and Mobility Enhancements",
+    "link_text": "Download a slideshow about the Columbus Avenue project (pdf) (Presented to Manhattan Community Board 7 in December 2012)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2012-12-columbus-ave-extension.pdf",
+    "snippets": [
+     {
+      "page": "22",
+      "text": "DEP water main project: Late 2013 Completion"
+     }
+    ],
+    "relevance": 3
+   },
+   {
+    "presented": "2013-01",
+    "title": "Columbus Avenue Bicycle Path and Mobility Enhancements",
+    "link_text": "Download an update on the Columbus Avenue project (pdf) (Presented to Manhattan Community Board 7 in January 2013)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2013-01-columbus-outreach-cb-7.pdf",
+    "snippets": [],
+    "relevance": 3
+   }
+  ],
+  "report2014": [
+   {
+    "corridor": "COLUMBUS AVENUE",
+    "from_street": "W 96 ST",
+    "to_street": "W 77 ST",
+    "install_year": "2010/2011",
+    "source": "NYC DOT (2014) p.5"
+   }
+  ]
+ },
+ "M090": {
+  "presentations": [
+   {
+    "presented": "2011-10",
+    "title": "Columbus Avenue Parking-Protected Bicycle Path",
+    "link_text": "Download a preliminary assessment of the project (Presented to Manhattan Community Board 7 in October 2011)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2011_columbus_assessment.pdf",
+    "snippets": [
+     {
+      "page": "2",
+      "text": "August 2010: Implementation begins"
+     },
+     {
+      "page": "2",
+      "text": "March 2011: Split-phase signals at two-way crosstown streets completed"
+     },
+     {
+      "page": "8",
+      "text": "Signals installed on West 86th, West 81st and West 77th Streets Feb-March 2011; project considered complete: 03/31/11"
+     }
+    ],
+    "relevance": 3
+   },
+   {
+    "presented": "2012-12",
+    "title": "Columbus Avenue Parking-Protected Bicycle Path",
+    "link_text": "Download the post-implementation presentation (pdf) (Presented to Manhattan Community Board 7 in December 2012)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2102-12-columbus-ave-post-implementation.pdf",
+    "snippets": [
+     {
+      "page": "2",
+      "text": "August 2010: Implementation begins"
+     },
+     {
+      "page": "2",
+      "text": "March 2011: Split‐phase signals at two‐way crosstown streets installed, project is"
+     },
+     {
+      "page": "11",
+      "text": "implementation period of August 1 , 2010 to March 31, 2011 is excluded."
+     }
+    ],
+    "relevance": 3
+   },
+   {
+    "presented": "2012-12",
+    "title": "Columbus Avenue Bicycle Path and Mobility Enhancements",
+    "link_text": "Download a slideshow about the Columbus Avenue project (pdf) (Presented to Manhattan Community Board 7 in December 2012)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2012-12-columbus-ave-extension.pdf",
+    "snippets": [
+     {
+      "page": "22",
+      "text": "DEP water main project: Late 2013 Completion"
+     }
+    ],
+    "relevance": 3
+   },
+   {
+    "presented": "2013-01",
+    "title": "Columbus Avenue Bicycle Path and Mobility Enhancements",
+    "link_text": "Download an update on the Columbus Avenue project (pdf) (Presented to Manhattan Community Board 7 in January 2013)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2013-01-columbus-outreach-cb-7.pdf",
+    "snippets": [],
+    "relevance": 3
+   }
+  ],
+  "report2014": [
+   {
+    "corridor": "COLUMBUS AVENUE",
+    "from_street": "W 96 ST",
+    "to_street": "W 77 ST",
+    "install_year": "2010/2011",
+    "source": "NYC DOT (2014) p.5"
+   }
+  ]
+ },
+ "M091": {
+  "presentations": [
+   {
+    "presented": "2012-12",
+    "title": "Columbus Avenue Parking-Protected Bicycle Path",
+    "link_text": "Download the post-implementation presentation (pdf) (Presented to Manhattan Community Board 7 in December 2012)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2102-12-columbus-ave-post-implementation.pdf",
+    "snippets": [
+     {
+      "page": "2",
+      "text": "August 2010: Implementation begins"
+     },
+     {
+      "page": "2",
+      "text": "March 2011: Split‐phase signals at two‐way crosstown streets installed, project is"
+     },
+     {
+      "page": "11",
+      "text": "implementation period of August 1 , 2010 to March 31, 2011 is excluded."
+     }
+    ],
+    "relevance": 3
+   },
+   {
+    "presented": "2012-12",
+    "title": "Columbus Avenue Bicycle Path and Mobility Enhancements",
+    "link_text": "Download a slideshow about the Columbus Avenue project (pdf) (Presented to Manhattan Community Board 7 in December 2012)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2012-12-columbus-ave-extension.pdf",
+    "snippets": [
+     {
+      "page": "22",
+      "text": "DEP water main project: Late 2013 Completion"
+     }
+    ],
+    "relevance": 3
+   },
+   {
+    "presented": "2013-01",
+    "title": "Columbus Avenue Bicycle Path and Mobility Enhancements",
+    "link_text": "Download an update on the Columbus Avenue project (pdf) (Presented to Manhattan Community Board 7 in January 2013)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2013-01-columbus-outreach-cb-7.pdf",
+    "snippets": [],
+    "relevance": 3
+   },
+   {
+    "presented": "2018-06",
+    "title": "Tenth Avenue / Amsterdam Avenue",
+    "link_text": "10th Avenue / Amsterdam Avenue Protected Bike Lanes - presented to Manhattan Community Board 4 in June 2018 and Manhattan Community Board 7 in July 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/amsterdam-10th-ave-june2018.pdf",
+    "snippets": [
+     {
+      "page": "9",
+      "text": "Data from 25 separate protected bicycle lane projects installed from 2007-2014 with 3 years of"
+     }
+    ],
+    "relevance": 0
+   }
+  ],
+  "report2014": [
+   {
+    "corridor": "COLUMBUS AVENUE",
+    "from_street": "W 96 ST",
+    "to_street": "W 77 ST",
+    "install_year": "2010/2011",
+    "source": "NYC DOT (2014) p.5"
+   }
+  ]
+ },
+ "M092": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Central Park Drives",
+    "link_text": "Central Park Drives Repaving and Redesign - What's Happening Here? Flyer (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/central-park-drives-whh.pdf",
+    "snippets": [
+     {
+      "page": "1",
+      "text": "Implementation begins March 2025"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Seventh Avenue, Central Park South to West 46th Street",
+    "link_text": "Seventh Avenue, Central Park South to West 46th Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/7th-ave-w59-st-w46-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2017-06",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 11 in June 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-june2017.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2017-10",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 10 in October 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-oct2017.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-01",
+    "title": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes - presented to Manhattan Community Boards 4, 5 & 6 Transportation Committees in January 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/midtown-crosstown-bike-lanes-jan18.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-02",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 11 in February 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-feb2018.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-03",
+    "title": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes - presented to Manhattan Community Board 5 Transportation Committee in March 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/midtown-crosstown-bike-lanes-mar2018.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2020-03",
+    "title": "Sixth Avenue, 35th Street to Central Park South Protected Bike Lane",
+    "link_text": "6th Avenue, 35th Steet to Central Park South Protected Bike Lane - presentation to Manhattan Community Board 5 in March 2020 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/6th-ave-35th-st-cps-cb5-mar2020.pdf",
+    "snippets": [
+     {
+      "page": "6",
+      "text": "on streets where protected bike lanes were installed 2007-2017"
+     },
+     {
+      "page": "6",
+      "text": "Data from 25 separate protected bicycle lane projects installed from 2007-2014"
+     },
+     {
+      "page": "6",
+      "text": "Before and After Crash Data, 2007 - 2017"
+     }
+    ],
+    "relevance": 3
+   }
+  ],
+  "report2014": []
+ },
+ "M093": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Riverside Drive, Broadway to Staff Street",
+    "link_text": "Riverside Drive, Staff Street to Dyckman Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/riverside-dr-staff-st-dyckman-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 0
+   },
+   {
+    "presented": "2016-06",
+    "title": "Dyckman Street Traffic Calming, Pedestrian Safety & Bike Network Improvement",
+    "link_text": "Dyckman Street Traffic Calming, Pedestrian Safety & Bike Network Improvements - presented to Manhattan CB 12 Transportation Committee in June 2016 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/dyckman-st-bike-lanes-jun2016.pdf",
+    "snippets": [
+     {
+      "page": "4",
+      "text": "Upgraded 2015"
+     }
+    ],
+    "relevance": 3
+   },
+   {
+    "presented": "2016-12",
+    "title": "Dyckman Street Traffic Calming, Pedestrian Safety & Bike Network Improvement",
+    "link_text": "Dyckman Street Traffic Calming, Pedestrian Safety & Bike Network Improvements - presented to Manhattan CB 12 Transportation Committee in December 2016 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/dyckman-st-bike-lanes-dec2016.pdf",
+    "snippets": [
+     {
+      "page": "3",
+      "text": "upgrades June 2016"
+     },
+     {
+      "page": "6",
+      "text": "Upgraded 2015"
+     }
+    ],
+    "relevance": 3
+   },
+   {
+    "presented": "2017-04",
+    "title": "Dyckman Street Traffic Calming, Pedestrian Safety & Bike Network Improvement",
+    "link_text": "Dyckman Street Traffic Calming, Pedestrian Safety & Bike Network Improvements - introduction to Community Design Workshop in April 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/dyckman-street-apr2017.pdf",
+    "snippets": [
+     {
+      "page": "8",
+      "text": "Ave and 10th Ave, implementation planned for Summer 2017"
+     },
+     {
+      "page": "4",
+      "text": "105 projects installed in 2016, across the five"
+     }
+    ],
+    "relevance": 3
+   },
+   {
+    "presented": "2017-06",
+    "title": "Dyckman Street Traffic Calming, Pedestrian Safety & Bike Network Improvement",
+    "link_text": "Dyckman Street Traffic Calming, Pedestrian Safety & Bike Network Improvements - presented to Manhattan CB 12 Transportation Committee in June 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/dyckman-street-june2017.pdf",
+    "snippets": [
+     {
+      "page": "8",
+      "text": "Marking refurbishment scheduled for 2017,"
+     },
+     {
+      "page": "2",
+      "text": "safety upgrades (Nagle Ave to 10th Ave) scheduled for 2017"
+     }
+    ],
+    "relevance": 3
+   }
+  ],
+  "report2014": []
+ },
+ "M101": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Hudson Square/West Village Transportation Study",
+    "link_text": "Hudson Square/West Village Transportation Study - Final Study Report (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/hudson-square-west-village-final-report.pdf",
+    "snippets": [],
+    "relevance": 0
+   },
+   {
+    "presented": "2014-04",
+    "title": "Hudson Street Parking - Protected Bicycle Path",
+    "link_text": "Hudson Street Parking - Protected Bicycle Path - presented to Manhattan Community Board 2 in April 2014 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2014-04-hudson-bicycle-path-mn-cb2.pdf",
+    "snippets": [
+     {
+      "page": "2",
+      "text": "2013: DOT begins coordination"
+     }
+    ],
+    "relevance": 3
+   }
+  ],
+  "report2014": []
+ },
+ "M104": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Lafayette Street/4th Avenue, Astor Place, East 8th Street, West 13th Street",
+    "link_text": "Astor Place, Broadway to Lafayette Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/astor-pl-broadway-lafayette-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Lafayette Street/4th Avenue, Astor Place, East 8th Street, West 13th Street",
+    "link_text": "Lafayette Street, 4th Avenue, East 15th Street to Spring Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/lafayette-st-4th-ave-e15-st-spring-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Lafayette Street/4th Avenue, Astor Place, East 8th Street, West 13th Street",
+    "link_text": "East 8th Street, Lafayette Street to Avenue A (Repaving & Bike Lane Extension) - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/e8-st-st-marks-pl-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2014-03",
+    "title": "Lafayette Street & Fourth Avenue Parking Protected Bicycle Path",
+    "link_text": "Lafayette Street & Fourth Avenue Parking Protected Bicycle Path - presented to Manhattan CB 2 Transportation Committee in March 2014 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2014-03-lafayette-st-fourth-ave-mn-cb2.pdf",
+    "snippets": [],
+    "relevance": 3
+   },
+   {
+    "presented": "2015-03",
+    "title": "Spring Street Bicycle Lane",
+    "link_text": "Spring Street Bicycle Lane - presented to Manhattan CB 3 in March 2015 and CB 2 in April 2015 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2015-03-spring-st.pdf",
+    "snippets": [
+     {
+      "page": "2",
+      "text": "bicycle lanes installed 2010"
+     },
+     {
+      "page": "2",
+      "text": "bicycle lanes installed 2007"
+     }
+    ],
+    "relevance": 1
+   }
+  ],
+  "report2014": []
+ },
+ "M106": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Lafayette Street/4th Avenue, Astor Place, East 8th Street, West 13th Street",
+    "link_text": "Astor Place, Broadway to Lafayette Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/astor-pl-broadway-lafayette-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Lafayette Street/4th Avenue, Astor Place, East 8th Street, West 13th Street",
+    "link_text": "Lafayette Street, 4th Avenue, East 15th Street to Spring Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/lafayette-st-4th-ave-e15-st-spring-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Lafayette Street/4th Avenue, Astor Place, East 8th Street, West 13th Street",
+    "link_text": "East 8th Street, Lafayette Street to Avenue A (Repaving & Bike Lane Extension) - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/e8-st-st-marks-pl-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   }
+  ],
+  "report2014": []
+ },
+ "M111": {
+  "presentations": [
+   {
+    "presented": "2015-05",
+    "title": "Sherman Avenue & St. Nicholas Avenue Safety Improvements & Bicycle Lanes",
+    "link_text": "Sherman Avenue & St. Nicholas Avenue Safety Improvements & Bicycle Lanes - presented to Manhattan Community Board 12 in May 2015 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2015-05-04-sherman-and-st-nicholas-cb12.pdf",
+    "snippets": [
+     {
+      "page": "2",
+      "text": "implementation in 2014"
+     },
+     {
+      "page": "2",
+      "text": "• CB 12 approved Phase 1 bike routes and DOT began implementation in 2014"
+     }
+    ],
+    "relevance": 3
+   },
+   {
+    "presented": "2015-09",
+    "title": "Sherman Avenue & St. Nicholas Avenue Safety Improvements & Bicycle Lanes",
+    "link_text": "Sherman Avenue & St. Nicholas Avenue Safety Improvements & Bicycle Lanes - presented to Manhattan Community Board 12 in September 2015 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2015-09-10-st-nicholas-mn-cb12.pdf",
+    "snippets": [
+     {
+      "page": "2",
+      "text": "implementation in 2014"
+     },
+     {
+      "page": "2",
+      "text": "• CB 12 approved Phase 1 bike routes and DOT began implementation in 2014"
+     }
+    ],
+    "relevance": 3
+   }
+  ],
+  "report2014": []
+ },
+ "M115": {
+  "presentations": [
+   {
+    "presented": "2016-05",
+    "title": "Union Square Bike Network Improvements",
+    "link_text": "Union Square Bike Network Improvements - presented to Manhattan CB 5 Transportation Committee in May 2016 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/union-sq-may2016.pdf",
+    "snippets": [
+     {
+      "page": "2",
+      "text": "6th Ave (to be installed 2016)"
+     }
+    ],
+    "relevance": 3
+   }
+  ],
+  "report2014": []
+ },
+ "M116": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Tribeca/WTC Bicycle Network Enhancements",
+    "link_text": "Varick Street, West Broadway, Church Street & 6th Avenue - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/varick-st-west-broadway-church-st-6th-ave-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "",
+    "title": "Hudson Square/West Village Transportation Study",
+    "link_text": "Hudson Square/West Village Transportation Study - Final Study Report (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/hudson-square-west-village-final-report.pdf",
+    "snippets": [],
+    "relevance": 0
+   },
+   {
+    "presented": "2020-02",
+    "title": "Tribeca/WTC Bicycle Network Enhancements",
+    "link_text": "Tribeca/WTC Bicycle Network Enhancements - presented to Manhattan Community Board 1 Transportation Committee in February 2020 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/tribeca-wtc-bikenetwork-cb1-feb2020.pdf",
+    "snippets": [
+     {
+      "page": "9",
+      "text": "planned 2020 implementation"
+     },
+     {
+      "page": "13",
+      "text": "Data from 25 separate protected bicycle lane projects installed from 2007-2014 with 3 years of after data."
+     },
+     {
+      "page": "13",
+      "text": "Before and After Crash Data, 2007 - 2017"
+     }
+    ],
+    "relevance": 1
+   },
+   {
+    "presented": "2021-06",
+    "title": "Hudson Square/West Village Transportation Study",
+    "link_text": "Hudson Square/West Village Transportation Study - presented to Manhattan Community Board 2 Transportation Committee in June 2021 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/hudson-square-west-village-study-cb2-jun2021.pdf",
+    "snippets": [
+     {
+      "page": "29",
+      "text": "(TO BE IMPLEMENTED IN 2021)"
+     }
+    ],
+    "relevance": 0
+   }
+  ],
+  "report2014": []
+ },
+ "M118": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Central Park Drives",
+    "link_text": "Central Park Drives Repaving and Redesign - What's Happening Here? Flyer (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/central-park-drives-whh.pdf",
+    "snippets": [
+     {
+      "page": "1",
+      "text": "Implementation begins March 2025"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Seventh Avenue, Central Park South to West 46th Street",
+    "link_text": "Seventh Avenue, Central Park South to West 46th Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/7th-ave-w59-st-w46-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Sixth Avenue, Lispenard Street to West 14th Street",
+    "link_text": "Sixth Avenue, Lispenard Street to West 13th Street - What's Happening Here? Flyer ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/6th-ave-lispenard-st-w13th-st-whh.pdf",
+    "snippets": [
+     {
+      "page": "1",
+      "text": "Implementation begins September 2024"
+     }
+    ],
+    "relevance": 0
+   },
+   {
+    "presented": "2012-10",
+    "title": "Central Park Drives Safety Improvements",
+    "link_text": "Download a slideshow about the Central Park Drives project (pdf) (Presented in October 2012)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2012-09-28-central-park-loop.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2014-04",
+    "title": "East 106th Street to Randall's Island: Street Safety & Improved Access",
+    "link_text": "East 106th Street to Randall's Island: Street Safety & Improved Access - presented Presented to Manhattan Community Board 11 in April 2014 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2014-04-01-e106-randalls-mn-cb11.pdf",
+    "snippets": [],
+    "relevance": 0
+   },
+   {
+    "presented": "2014-05",
+    "title": "East 106th Street to Randall's Island: Street Safety & Improved Access",
+    "link_text": "East 106th Street to Randall's Island: Street Safety & Improved Access - presented to Manhattan Community Board 11 in May 2014 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2014-05-14-e106-randalls-update-mn-cb11.pdf",
+    "snippets": [],
+    "relevance": 0
+   }
+  ],
+  "report2014": []
+ },
+ "M119": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Central Park Drives",
+    "link_text": "Central Park Drives Repaving and Redesign - What's Happening Here? Flyer (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/central-park-drives-whh.pdf",
+    "snippets": [
+     {
+      "page": "1",
+      "text": "Implementation begins March 2025"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Seventh Avenue, Central Park South to West 46th Street",
+    "link_text": "Seventh Avenue, Central Park South to West 46th Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/7th-ave-w59-st-w46-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Sixth Avenue, Lispenard Street to West 14th Street",
+    "link_text": "Sixth Avenue, Lispenard Street to West 13th Street - What's Happening Here? Flyer ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/6th-ave-lispenard-st-w13th-st-whh.pdf",
+    "snippets": [
+     {
+      "page": "1",
+      "text": "Implementation begins September 2024"
+     }
+    ],
+    "relevance": 0
+   },
+   {
+    "presented": "2012-10",
+    "title": "Central Park Drives Safety Improvements",
+    "link_text": "Download a slideshow about the Central Park Drives project (pdf) (Presented in October 2012)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2012-09-28-central-park-loop.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2014-04",
+    "title": "East 106th Street to Randall's Island: Street Safety & Improved Access",
+    "link_text": "East 106th Street to Randall's Island: Street Safety & Improved Access - presented Presented to Manhattan Community Board 11 in April 2014 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2014-04-01-e106-randalls-mn-cb11.pdf",
+    "snippets": [],
+    "relevance": 0
+   },
+   {
+    "presented": "2014-05",
+    "title": "East 106th Street to Randall's Island: Street Safety & Improved Access",
+    "link_text": "East 106th Street to Randall's Island: Street Safety & Improved Access - presented to Manhattan Community Board 11 in May 2014 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2014-05-14-e106-randalls-update-mn-cb11.pdf",
+    "snippets": [],
+    "relevance": 0
+   }
+  ],
+  "report2014": []
+ },
+ "M121": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Central Park Drives",
+    "link_text": "Central Park Drives Repaving and Redesign - What's Happening Here? Flyer (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/central-park-drives-whh.pdf",
+    "snippets": [
+     {
+      "page": "1",
+      "text": "Implementation begins March 2025"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Seventh Avenue, Central Park South to West 46th Street",
+    "link_text": "Seventh Avenue, Central Park South to West 46th Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/7th-ave-w59-st-w46-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2017-06",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 11 in June 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-june2017.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2017-10",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 10 in October 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-oct2017.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-01",
+    "title": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes - presented to Manhattan Community Boards 4, 5 & 6 Transportation Committees in January 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/midtown-crosstown-bike-lanes-jan18.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-02",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 11 in February 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-feb2018.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-03",
+    "title": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes - presented to Manhattan Community Board 5 Transportation Committee in March 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/midtown-crosstown-bike-lanes-mar2018.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2020-03",
+    "title": "Sixth Avenue, 35th Street to Central Park South Protected Bike Lane",
+    "link_text": "6th Avenue, 35th Steet to Central Park South Protected Bike Lane - presentation to Manhattan Community Board 5 in March 2020 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/6th-ave-35th-st-cps-cb5-mar2020.pdf",
+    "snippets": [
+     {
+      "page": "6",
+      "text": "on streets where protected bike lanes were installed 2007-2017"
+     },
+     {
+      "page": "6",
+      "text": "Data from 25 separate protected bicycle lane projects installed from 2007-2014"
+     },
+     {
+      "page": "6",
+      "text": "Before and After Crash Data, 2007 - 2017"
+     }
+    ],
+    "relevance": 3
+   }
+  ],
+  "report2014": []
+ },
+ "M122": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Central Park Drives",
+    "link_text": "Central Park Drives Repaving and Redesign - What's Happening Here? Flyer (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/central-park-drives-whh.pdf",
+    "snippets": [
+     {
+      "page": "1",
+      "text": "Implementation begins March 2025"
+     }
+    ],
+    "relevance": 2
+   },
+   {
+    "presented": "",
+    "title": "Seventh Avenue, Central Park South to West 46th Street",
+    "link_text": "Seventh Avenue, Central Park South to West 46th Street - Street Design Checklist (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/7th-ave-w59-st-w46-st-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2012-10",
+    "title": "Central Park Drives Safety Improvements",
+    "link_text": "Download a slideshow about the Central Park Drives project (pdf) (Presented in October 2012)",
+    "url": "https://nyc.gov/html/dot/downloads/pdf/2012-09-28-central-park-loop.pdf",
+    "snippets": [],
+    "relevance": 2
+   },
+   {
+    "presented": "2017-06",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 11 in June 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-june2017.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2017-10",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 10 in October 2017 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-oct2017.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-01",
+    "title": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes",
+    "link_text": "26th Street & 29th Street Midtown Crosstown Protected Bike Lanes - presented to Manhattan Community Boards 4, 5 & 6 Transportation Committees in January 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/midtown-crosstown-bike-lanes-jan18.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2018-02",
+    "title": "Harlem Bicycle Network & Safety Improvements",
+    "link_text": "Harlem Bicycle Network & Safety Improvements - presented to Manhattan Community Board 11 in February 2018 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/harlem-bike-network-feb2018.pdf",
+    "snippets": [],
+    "relevance": 1
+   },
+   {
+    "presented": "2020-03",
+    "title": "Sixth Avenue, 35th Street to Central Park South Protected Bike Lane",
+    "link_text": "6th Avenue, 35th Steet to Central Park South Protected Bike Lane - presentation to Manhattan Community Board 5 in March 2020 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/6th-ave-35th-st-cps-cb5-mar2020.pdf",
+    "snippets": [
+     {
+      "page": "6",
+      "text": "on streets where protected bike lanes were installed 2007-2017"
+     },
+     {
+      "page": "6",
+      "text": "Data from 25 separate protected bicycle lane projects installed from 2007-2014"
+     },
+     {
+      "page": "6",
+      "text": "Before and After Crash Data, 2007 - 2017"
+     }
+    ],
+    "relevance": 3
+   }
+  ],
+  "report2014": []
+ },
+ "M124": {
+  "presentations": [
+   {
+    "presented": "",
+    "title": "Bruckner Boulevard, Lincoln Avenue to Cypress Place",
+    "link_text": "Bruckner Boulevard School Safety Improvements - Street Design Checklist ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/bruckner-blvd-school-safety-improvements-street-design-checklist.pdf",
+    "snippets": [],
+    "relevance": 0
+   },
+   {
+    "presented": "2014-03",
+    "title": "Willis Avenue Connections",
+    "link_text": "Willis Avenue Connections - presented to Manhattan Community Board 11 Transportation Committee in March 2014 (pdf) ",
+    "url": "https://www.nyc.gov/html/dot/downloads/pdf/2014-03-willis-ave-bridge-bicycle-mn-cb11.pdf",
+    "snippets": [],
+    "relevance": 0
+   }
+  ],
+  "report2014": []
+ }
+}

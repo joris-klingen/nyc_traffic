@@ -1,0 +1,16 @@
+.Rproj.user
+.Rhistory
+.RData
+Rplots.pdf
+evidence/pilot_aerial/out/cache/
+evidence/aerial_labelling/out/sheets/
+evidence/aerial_labelling/out/review_sheets/
+evidence/aerial_labelling/review_app/sheets/
+evidence/dot_projects/html/
+layers/bike_lanes/manual/review_export/
+__pycache__/
+evidence/review_round2/out/sheets/
+evidence/review_round2/app/sheets2/
+evidence/review_round2/app/index.html
+evidence/review_round2/out/sheets_views/
+evidence/review_round2/app/sheets3/

@@ -1,0 +1,836 @@
+<meta charset="utf-8">
+<title>Street Change Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  /* One screen per item: the photo timeline across the top, two photos large on the left, the
+     decision on the right. Magenta is the street line drawn on the aerial sheets, so it is the accent. */
+  :root {
+    --bg: #eef1f0; --surface: #ffffff; --fg: #17201d; --muted: #5d6a65; --line: #d7deda;
+    --accent: #b5179e; --accent-soft: #f6e3f2; --ok: #1f7a4d; --ok-soft: #e1f2e8; --warn: #a15c00;
+    --dot: #2f5fa7; --lion: #8a6d1f; --sv: #0f766e;
+    --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+    --font-body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #101614; --surface: #19211f; --fg: #e5ebe8; --muted: #9aa7a2; --line: #2c3633;
+      --accent: #e45fcd; --accent-soft: #3a1f35; --ok: #5cc28d; --ok-soft: #173326; --warn: #e0a24a;
+      --dot: #8fb0e6; --lion: #d9b45c; --sv: #4fd1c5; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #101614; --surface: #19211f; --fg: #e5ebe8; --muted: #9aa7a2; --line: #2c3633;
+    --accent: #e45fcd; --accent-soft: #3a1f35; --ok: #5cc28d; --ok-soft: #173326; --warn: #e0a24a;
+    --dot: #8fb0e6; --lion: #d9b45c; --sv: #4fd1c5; color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 14px/1.45 var(--font-body); }
+  button { font: inherit; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .app { height: 100vh; display: grid; grid-template-columns: 250px minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); }
+  header.top { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; padding: 8px 16px; background: var(--surface); border-bottom: 1px solid var(--line); }
+  h1 { font: 700 1.35rem/1 var(--font-display); letter-spacing: .03em; text-transform: uppercase; margin: 0; }
+  .progress { display: flex; align-items: center; gap: 8px; font: 500 .85rem var(--font-mono); font-variant-numeric: tabular-nums; }
+  .bar { width: 120px; height: 5px; background: var(--line); border-radius: 3px; overflow: hidden; }
+  .bar > i { display: block; height: 100%; background: var(--ok); width: 0; }
+  .status { color: var(--muted); font-size: .82rem; flex: 1; min-width: 200px; }
+  .status.warn { color: var(--warn); }
+  .keys { color: var(--muted); font-size: .8rem; }
+  kbd { font: 500 .75rem var(--font-mono); border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 3px; padding: 0 4px; background: var(--bg); }
+
+  .rail { overflow: auto; background: var(--surface); border-right: 1px solid var(--line); }
+  .filters { display: flex; gap: 4px; padding: 8px; position: sticky; top: 0; background: var(--surface); border-bottom: 1px solid var(--line); z-index: 1; }
+  .filters button { flex: 1; font: 600 .72rem var(--font-body); letter-spacing: .05em; text-transform: uppercase; padding: 5px 2px; border: 1px solid var(--line); background: transparent; color: var(--muted); border-radius: 4px; cursor: pointer; }
+  .filters button[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+  .group { font: 600 .68rem var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding: 10px 12px 3px; }
+  .rail ol { list-style: none; margin: 0; padding: 0 0 4px; }
+  .rail li button { width: 100%; text-align: left; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 0 8px; align-items: center; padding: 5px 10px; border: 0; border-left: 3px solid transparent; background: transparent; color: var(--fg); cursor: pointer; }
+  .rail li button:hover { background: var(--bg); }
+  .rail li button[aria-current="true"] { border-left-color: var(--accent); background: var(--accent-soft); }
+  .rail .nm { font-size: .86rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .rail .ex { grid-column: 2; font-size: .74rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pid { font: 500 .74rem var(--font-mono); color: var(--muted); }
+  .dot { width: 9px; height: 9px; border-radius: 50%; border: 2px solid var(--line); grid-row: span 2; }
+  .dot.done { background: var(--ok); border-color: var(--ok); }
+  .dot.check { background: var(--warn); border-color: var(--warn); }
+  .lanecheck { color: var(--warn); font-weight: 600; }
+
+  main.item { min-width: 0; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) 380px; grid-template-rows: auto auto minmax(0, 1fr); }
+  .ihead { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; padding: 10px 16px 6px; }
+  h2 { font: 700 1.7rem/1 var(--font-display); text-transform: uppercase; letter-spacing: .01em; margin: 0; }
+  .extent { font: 600 1rem var(--font-body); }
+  .meta { color: var(--muted); font-size: .82rem; }
+  .chip { font: 600 .68rem var(--font-body); letter-spacing: .06em; text-transform: uppercase; padding: 2px 7px; border-radius: 3px; border: 1px solid currentColor; color: var(--muted); }
+  .chip.done { color: var(--ok); background: var(--ok-soft); border-color: transparent; }
+
+  .timeline { grid-column: 1 / -1; padding: 0 16px 4px; }
+  .strip { position: relative; }
+  .thumb { position: absolute; top: 0; padding: 0; border: 2px solid transparent; border-radius: 4px; background: var(--line); cursor: pointer; overflow: hidden; }
+  .thumb canvas { display: block; width: 100%; height: 100%; }
+  .thumb[aria-pressed="true"] { border-color: var(--accent); }
+  .thumb .yr { position: absolute; left: 0; bottom: 0; font: 600 .7rem var(--font-mono); background: rgba(0,0,0,.65); color: #fff; padding: 1px 4px; border-top-right-radius: 3px; }
+  .thumb .tag { position: absolute; right: 2px; top: 2px; font: 600 .68rem var(--font-mono); background: var(--sv); color: #fff; padding: 0 4px; border-radius: 3px; }
+  svg.axis { display: block; width: 100%; overflow: visible; }
+  svg.axis text { font: 500 11px var(--font-body); fill: var(--fg); }
+  svg.axis text.small { font-size: 10px; fill: var(--muted); }
+  .tagctl { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; padding: 0 0 5px; font-size: .82rem; }
+  .tagctl .stepper { display: inline-flex; align-items: center; border: 1px solid var(--line); border-radius: 4px; overflow: hidden; background: var(--surface); }
+  .tagctl .stepper button { border: 0; background: transparent; color: var(--fg); width: 1.9em; height: 1.9em; cursor: pointer; font-weight: 700; }
+  .tagctl .stepper output { min-width: 1.6em; text-align: center; font: 600 .9rem var(--font-mono); }
+  .tagctl select { font: 500 .82rem var(--font-body); color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 3px 4px; }
+  .tagctl .chk, .svrow .chk { display: inline-flex; gap: 4px; align-items: center; white-space: nowrap; }
+  .tagctl .clear { border: 0; background: transparent; color: var(--muted); cursor: pointer; text-decoration: underline; font-size: .78rem; }
+
+  .compare { min-height: 0; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: minmax(0, 1fr) auto; gap: 6px 8px; padding: 6px 8px 8px 16px; }
+  .ph { position: relative; min-height: 0; display: grid; grid-template-rows: auto auto minmax(0, 1fr); align-content: start; }
+  .ph .cap { font: 600 .82rem var(--font-body); padding: 0 0 3px; display: flex; justify-content: space-between; gap: 8px; }
+  .ph .cap span { color: var(--muted); font-weight: 500; }
+  .phbar { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; font-size: .82rem; }
+  .phbar .chk { display: inline-flex; gap: 5px; align-items: center; }
+  .locs { display: inline-flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+  .locs .btn[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
+  .ph canvas { aspect-ratio: 1 / 1; height: 100%; width: auto; max-width: 100%; max-height: 100%; justify-self: center; background: var(--line); border-radius: 4px; display: block; }
+
+  .panel { min-height: 0; overflow: auto; padding: 4px 16px 16px 8px; display: grid; gap: 12px; align-content: start; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; display: grid; gap: 8px; }
+  .q { font-weight: 600; }
+  .lbl { font: 600 .68rem var(--font-body); letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
+  .tl { list-style: none; margin: 0; padding: 0; display: grid; gap: 5px; }
+  .tl li { display: grid; grid-template-columns: 6.6em minmax(0, 1fr); gap: 8px; align-items: baseline; }
+  .tl .d { font: 500 .85rem var(--font-mono); font-variant-numeric: tabular-nums; }
+  .tl .w { font-weight: 600; }
+  .tl small { display: block; font-size: .76rem; color: var(--muted); font-weight: 400; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .btns { display: flex; flex-wrap: wrap; gap: 8px; }
+  .btn { font: 600 .9rem var(--font-body); padding: 8px 14px; border-radius: 4px; border: 1px solid var(--fg); background: var(--fg); color: var(--bg); cursor: pointer; }
+  .btn.ok { background: var(--ok); border-color: var(--ok); color: #fff; }
+  .btn.ghost { background: transparent; color: var(--fg); }
+  .btn.small { padding: 4px 9px; font-size: .8rem; }
+  .btn:disabled { opacity: .45; cursor: not-allowed; }
+  .num { width: 4em; font: 500 .95rem var(--font-mono); padding: 5px 6px; border: 1px solid var(--line); border-radius: 4px; background: var(--bg); color: var(--fg); }
+  .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .svrow { display: grid; grid-template-columns: minmax(0, 1.4fr) 3.4em 3.2em minmax(0, 1.3fr) auto; gap: 4px; align-items: center; }
+  .svrow input[type="checkbox"] { width: auto; }
+  .svrow input, .svrow select { min-width: 0; width: 100%; font: 500 .82rem var(--font-body); padding: 4px; border: 1px solid var(--line); border-radius: 4px; background: var(--bg); color: var(--fg); }
+  .svrow button { border: 0; background: transparent; color: var(--muted); cursor: pointer; font-size: 1rem; }
+  .derived { background: var(--bg); border-radius: 4px; padding: 8px 10px; font-size: .86rem; }
+  .derived p { margin: 2px 0; }
+  .derived .warn { color: var(--warn); }
+  .links { display: flex; flex-wrap: wrap; gap: 6px; }
+  .links a { font: 600 .8rem var(--font-body); color: var(--accent); border: 1px solid var(--accent); padding: 4px 9px; border-radius: 4px; text-decoration: none; white-space: nowrap; }
+  .links a:hover, .links a:focus-visible { background: var(--accent); color: var(--surface); }
+  .hint { font-size: .78rem; color: var(--muted); margin: 0; }
+  details summary { cursor: pointer; font: 600 .84rem var(--font-body); }
+  .pres { margin: 6px 0 0; padding-left: 16px; font-size: .82rem; }
+  .pres li { margin: 5px 0; overflow-wrap: anywhere; }
+  .pres a { color: var(--accent); }
+  .snips { margin: 2px 0 0; padding-left: 14px; color: var(--muted); }
+  .snips li.lane { color: var(--fg); }
+  textarea { width: 100%; min-height: 54px; resize: vertical; font: .86rem var(--font-body); padding: 6px; border: 1px solid var(--line); border-radius: 4px; background: var(--bg); color: var(--fg); }
+  .answer { background: var(--ok-soft); }
+  .answer p { margin: 0; }
+  .saved { font-size: .8rem; color: var(--muted); }
+
+  /* narrow screens: one column, the page scrolls */
+  @media (max-width: 980px) {
+    .app { height: auto; display: block; }
+    .rail { max-height: 220px; border-right: 0; border-bottom: 1px solid var(--line); }
+    main.item { display: block; }
+    .compare { height: 62vw; padding: 6px 16px; }
+    .panel { overflow: visible; padding: 4px 16px 24px; }
+    .keys { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="app">
+  <header class="top">
+    <h1>Street Change Review</h1>
+    <div class="progress"><span id="progress">0 of 0</span><div class="bar"><i id="bar"></i></div></div>
+    <span class="status" id="status">Connecting to the shared answers…</span>
+    <span class="keys"><kbd>Y</kbd> matches · <kbd>N</kbd> correct · <kbd>J</kbd>/<kbd>K</kbd> next / previous · <kbd>B</kbd> brighten · <kbd>Z</kbd> unzoom · <kbd>L</kbd> location</span>
+  </header>
+  <nav class="rail" aria-label="Items">
+    <div class="filters" role="group" aria-label="Show">
+      <button type="button" data-filter="todo" aria-pressed="true">To do</button>
+      <button type="button" data-filter="done" aria-pressed="false">Done</button>
+      <button type="button" data-filter="all" aria-pressed="false">All</button>
+    </div>
+    <div id="list"></div>
+  </nav>
+  <main class="item" id="item" aria-live="polite"></main>
+</div>
+
+<script id="items" type="application/json">/*DATA*/</script>
+<script id="evidence" type="application/json">/*EVIDENCE*/</script>
+<script>
+(function () {
+  const ITEMS = JSON.parse(document.getElementById("items").textContent);
+  const EVIDENCE = JSON.parse(document.getElementById("evidence").textContent);
+  const COLLECTION = "round2";
+  // aerial photos: one image per item (sheets3/), a row of 9 photo years per location, 320 px panels
+  const PHOTOS = [
+    ["2008", "Jun 2008", "2008-06-01", "2008-06-30"], ["2010", "15 Jun 2010", "2010-06-15", "2010-06-15"],
+    ["2012", "15-20 Jun 2012", "2012-06-15", "2012-06-20"], ["2014", "1 Jun 2014", "2014-06-01", "2014-06-01"],
+    ["2016", "26 Mar-5 Apr 2016", "2016-03-26", "2016-04-05"], ["2018", "14 Apr-2 May 2018", "2018-04-14", "2018-05-02"],
+    ["2020", "21 Mar-11 Apr 2020", "2020-03-21", "2020-04-11"], ["2022", "18 Mar 2022", "2022-03-18", "2022-03-18"],
+    ["2024", "14-24 Mar 2024", "2024-03-14", "2024-03-24"]].map(([y, label, lo, hi], i) => ({ i, y, label, lo, hi, sx: i * 320 }));
+  const P = 320;
+  const T0 = Date.UTC(2007, 0, 1), T1 = Date.UTC(2026, 11, 31);
+  const START = "2008-01-01";   // changes before the photos are the starting state
+  const BIKE = [["none", "none", "none"], ["sharrows", "shared", "Sharrows"], ["conventional", "painted", "Standard"],
+                ["buffered", "buffered", "Protected"], ["protected", "protected", "Protected"]];
+  const BIKE_CLASS = Object.fromEntries(BIKE.map(b => [b[0], b[2]]));
+  const TYPE_NAME = { none: "no bike lane", sharrows: "shared lane", conventional: "painted lane", buffered: "painted buffer", protected: "physical protection" };
+  const BADGE = { none: "none", sharrows: "shr", conventional: "paint", buffered: "buff", protected: "prot" };
+  const badge = t => (t.lanes ?? "?") + "·" + (BADGE[t.bike] || "?") + (t.bus ? "·bus" : "");
+  const CLASS_KEY = { Protected: "protected", Standard: "conventional", Sharrows: "sharrows", none: "none" };
+  const NAME = { Protected: "protected", Standard: "painted lane", Sharrows: "shared lane", none: "no bike lane" };
+  const GROUPS = [[1, "Projects"], [2, "Lane changes · 3+ segments"], [3, "Date conflicts"], [4, "Lane changes · 1–2 segments"]];
+  const PREC = { day: "exact day", month: "month only", year: "year only" };
+
+  let reviews = {};
+  let current = ITEMS[0] ? ITEMS[0].item_id : null;
+  let filter = "todo";
+  let mode = "view";           // view | correct
+  let pick = [null, null];     // photo indices in the compare view
+  let tags = {};               // correct mode: photo index -> {lanes, bike}
+  let svRows = [];             // correct mode: Street View panoramas
+  let editing = null;          // item whose saved answer is being changed
+  let bright = true;           // lift shadows in the large photos (Midtown streets are in shadow most years)
+  let zoom = null;             // {cx, cy} in panel pixels (0-320) when the large photos are zoomed in
+  let loc = 0;                 // photo location: 0 the item's middle, 1-3 the Street View points
+  let db = null, user = null, myId = null, canWrite = true, names = {};
+  const sheets = {};           // item_id -> Image
+
+  const $ = (s, r = document) => r.querySelector(s);
+  const el = (tag, attrs = {}, ...kids) => {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) {
+      if (k === "class") n.className = v; else if (k === "text") n.textContent = v;
+      else if (v !== null && v !== undefined && v !== false) n.setAttribute(k, v === true ? "" : v);
+    }
+    for (const k of kids) if (k !== null && k !== undefined && k !== false) n.append(k);
+    return n;
+  };
+  const svgEl = (tag, attrs = {}) => { const n = document.createElementNS("http://www.w3.org/2000/svg", tag); for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v); return n; };
+  const isDone = id => !!reviews[id];
+  // answers confirmed before the lane counts were editable carry LION's counts
+  const needsLaneCheck = p => { const r = reviews[p.item_id]; return !!(r && p.ask_lanes && !p.pre_project && r.verdict === "confirmed" && !r.lanes_counted); };
+  const short = s => (s || "").toUpperCase().replace(/\bEAST\b/g, "E").replace(/\bWEST\b/g, "W").replace(/\bSTREET\b/g, "St").replace(/\bAVENUE\b/g, "Av")
+    .replace(/\bBOULEVARD\b/g, "Blvd").replace(/\bPLACE\b/g, "Pl").replace(/\bDRIVE\b/g, "Dr").replace(/\bAPPROACH\b/g, "Appr")
+    .toLowerCase().replace(/\b([a-z])/g, m => m.toUpperCase()).replace(/\b(St|Av|Blvd|Pl|Dr)\b/gi, m => m[0].toUpperCase() + m.slice(1).toLowerCase());
+  const extent = p => p.from_street && p.to_street ? (p.from_street === p.to_street ? short(p.from_street) : short(p.from_street) + " → " + short(p.to_street)) : "";
+  const tx = (d, w) => (Date.parse(d) - T0) / (T1 - T0) * w;
+  const photoMid = ph => new Date((Date.parse(ph.lo) + Date.parse(ph.hi)) / 2).toISOString().slice(0, 10);
+  const typing = () => { const a = document.activeElement; return a && /^(INPUT|SELECT|TEXTAREA)$/.test(a.tagName); };
+
+  // Proposal ----
+  // the same change recorded on nearby days (block by block) is one change: merge within 4 months
+  function merged(evs) {
+    const out = [];
+    for (const e of evs.slice().sort((a, b) => a.date < b.date ? -1 : 1)) {
+      const m = out.find(o => o.from === e.from && o.to === e.to && (Date.parse(e.date) - Date.parse(o.last)) / 864e5 <= 122);
+      if (m) { m.segments = Math.min(m.of, m.segments + e.segments); m.last = e.date; m.n += 1; }
+      else out.push(Object.assign({}, e, { last: e.date, n: 1 }));
+    }
+    return out;
+  }
+  const after2008 = evs => merged(evs).filter(e => e.date >= START);
+  function startState(evs) { const pre = merged(evs).filter(e => e.date < START); return pre.length ? pre[pre.length - 1] : null; }
+  function mainEvent(evs) {
+    const c = after2008(evs).filter(e => e.to === "Protected" || e.to === "Standard");
+    return c.length ? c.slice().sort((a, b) => b.segments - a.segments || (a.date < b.date ? 1 : -1))[0] : null;
+  }
+  function laneProposal(p) {
+    if (!p.ask_lanes) return null;
+    const lb = p.lion_before === "" ? null : +p.lion_before, la = p.lion_after === "" ? null : +p.lion_after;
+    if (p.pre_project) return { pre: true, after: lb };
+    const ev = mainEvent(p.bike_events);
+    return { pre: false, before: lb, after: la, with_bike: ev ? ev.date : null };
+  }
+  function question(p) {
+    if (p.kind === "C") return "Which timeline does Street View confirm?";
+    if (p.item_id === "M029") return "When does protection first appear? Log the last panorama without it and the first with it.";
+    const l = laneProposal(p);
+    if (l && l.pre) return "How many travel lanes did cars have before the protected lane?";
+    if (l) return "Does the timeline below match what the photos and Street View show?";
+    return "Does the bike lane timeline below match Street View?";
+  }
+
+  // Rail ----
+  function renderList() {
+    const box = $("#list"); box.replaceChildren();
+    for (const [pr, title] of GROUPS) {
+      const items = ITEMS.filter(p => +p.priority === pr && (filter === "all" || (filter === "done") === isDone(p.item_id)));
+      if (!items.length) continue;
+      box.append(el("div", { class: "group", text: title + " · " + items.length }));
+      const ol = el("ol");
+      for (const p of items) {
+        const b = el("button", { type: "button", "aria-current": p.item_id === current ? "true" : "false" },
+          el("span", { class: "dot" + (needsLaneCheck(p) ? " check" : isDone(p.item_id) ? " done" : ""), "aria-hidden": "true", title: needsLaneCheck(p) ? "Lane counts are LION's: check them" : null }),
+          el("span", { class: "nm", text: short(p.street) }), el("span", { class: "pid", text: p.item_id }),
+          el("span", { class: "ex", text: extent(p) || (p.n_segments + " segments") }));
+        b.addEventListener("click", () => go(p.item_id));
+        ol.append(el("li", {}, b));
+      }
+      box.append(ol);
+    }
+    if (!box.children.length) box.append(el("p", { class: "group", text: filter === "done" ? "Nothing checked yet." : "All items checked." }));
+    const cur = box.querySelector('[aria-current="true"]');
+    if (cur) cur.scrollIntoView({ block: "nearest" });
+  }
+  function renderProgress() {
+    const n = ITEMS.filter(p => isDone(p.item_id)).length;
+    $("#progress").textContent = n + " of " + ITEMS.length + " checked";
+    $("#bar").style.width = (ITEMS.length ? 100 * n / ITEMS.length : 0) + "%";
+  }
+  function go(id) {
+    current = id; mode = "view"; tags = {}; svRows = []; pick = [null, null]; editing = null; zoom = null; loc = 0;
+    renderList(); renderItem();
+  }
+  function step(d) {
+    const order = ITEMS.filter(p => filter === "all" || (filter === "done") === isDone(p.item_id) || p.item_id === current);
+    const i = order.findIndex(p => p.item_id === current);
+    const n = order[i + d];
+    if (n) go(n.item_id);
+  }
+
+  // Photos ----
+  function sheet(p, cb) {
+    let img = sheets[p.item_id];
+    if (!img) { img = new Image(); img.src = "sheets3/" + p.item_id + ".jpg"; sheets[p.item_id] = img; }
+    if (img.complete && img.naturalWidth) cb(img); else img.addEventListener("load", () => cb(img), { once: true });
+  }
+  const GAMMA = (() => { const t = new Uint8ClampedArray(256); for (let v = 0; v < 256; v++) t[v] = Math.round(255 * Math.pow(v / 255, 0.55)); return t; })();
+  function draw(canvas, p, ph, large) {
+    sheet(p, img => {
+      const r = canvas.getBoundingClientRect(), dpr = window.devicePixelRatio || 1;
+      const s = Math.max(10, Math.floor(Math.min(r.width, r.height || r.width) * dpr));
+      canvas.width = s; canvas.height = s;
+      const ctx = canvas.getContext("2d");
+      ctx.imageSmoothingQuality = "high";
+      const row = Math.min(loc, Math.round(img.naturalHeight / P) - 1);
+      let sx = ph.sx, sy = row * P, sw = P;
+      if (large && zoom) {   // 2.5x around the clicked point, kept inside the panel
+        sw = P / 2.5;
+        sx = ph.sx + Math.min(P - sw, Math.max(0, zoom.cx - sw / 2));
+        sy = row * P + Math.min(P - sw, Math.max(0, zoom.cy - sw / 2));
+      }
+      ctx.drawImage(img, sx, sy, sw, sw, 0, 0, s, s);
+      if (large && bright) {
+        try {
+          const d = ctx.getImageData(0, 0, s, s), a = d.data;
+          for (let i = 0; i < a.length; i += 4) { a[i] = GAMMA[a[i]]; a[i + 1] = GAMMA[a[i + 1]]; a[i + 2] = GAMMA[a[i + 2]]; }
+          ctx.putImageData(d, 0, 0);
+        } catch (e) {   // pixels not readable: a plain brightness filter instead
+          ctx.filter = "brightness(1.6) contrast(1.05)";
+          ctx.drawImage(img, sx, sy, sw, sw, 0, 0, s, s);
+          ctx.filter = "none";
+        }
+      }
+    });
+  }
+  function defaultPick(p) {
+    const ev = mainEvent(p.kind === "C" ? p.dot_events.concat(p.bike_events) : p.bike_events);
+    if (ev) {
+      let a = 0; PHOTOS.forEach(ph => { if (ph.hi < ev.date) a = ph.i; });
+      a = Math.min(a, PHOTOS.length - 2);   // a change after the last photo: the last two photos
+      return [a, a + 1];
+    }
+    if (p.ask_lanes) return [4, 8];
+    return [2, 8];
+  }
+
+  // Item ----
+  function renderItem() {
+    const box = $("#item"); box.replaceChildren();
+    const p = ITEMS.find(x => x.item_id === current);
+    if (!p) { box.append(el("p", { class: "meta", text: "Pick an item on the left." })); return; }
+    const r = reviews[p.item_id];
+    if (pick[0] === null) pick = defaultPick(p);
+    if (mode === "correct" && !Object.keys(tags).length && !svRows.length && r && r.verdict === "corrected") loadCorrection(r);
+
+    box.append(el("div", { class: "ihead" },
+      el("h2", { text: short(p.street) }), el("span", { class: "extent", text: extent(p) }),
+      el("span", { class: "meta", text: p.n_segments + " segments" + (p.ask_lanes && p.lion_counts ? " · LION lanes 2016 → 2024: " + p.lion_counts : "") }),
+      el("span", { class: "chip", text: p.item_id }), r ? el("span", { class: "chip done", text: "Checked" }) : null));
+    box.append(buildTimeline(p));
+    box.append(buildCompare(p));
+    box.append(buildPanel(p, r));
+    requestAnimationFrame(() => layoutTimeline(p));
+  }
+
+  function buildTimeline(p) {
+    const wrap = el("section", { class: "timeline", "aria-label": "Aerial photos on a timeline" });
+    const strip = el("div", { class: "strip", id: "strip" });
+    for (const ph of PHOTOS) {
+      const b = el("button", { type: "button", class: "thumb", title: ph.label + " · click to compare", "aria-label": "Show the " + ph.label + " photo large", "aria-pressed": pick.includes(ph.i) ? "true" : "false" },
+        el("canvas"), el("span", { class: "yr", text: ph.y }));
+      if (tags[ph.i]) b.append(el("span", { class: "tag", text: badge(tags[ph.i]) }));
+      b.addEventListener("click", () => choosePhoto(p, ph.i));
+      strip.append(b);
+    }
+    wrap.append(strip);
+    wrap.append(svgEl("svg", { class: "axis", id: "axis", height: "56" }));
+    return wrap;
+  }
+
+  function layoutTimeline(p) {
+    const strip = $("#strip"), axis = $("#axis");
+    if (!strip || !axis) return;
+    const w = strip.getBoundingClientRect().width;
+    const spacing = tx("2010-01-01", w) - tx("2008-01-01", w);
+    const tw = Math.min(150, spacing * 0.92), th = tw;
+    strip.style.height = (th + 4) + "px";
+    [...strip.children].forEach((b, i) => {
+      const x = tx(photoMid(PHOTOS[i]), w) - tw / 2;
+      b.style.left = x + "px"; b.style.width = tw + "px"; b.style.height = th + "px";
+      draw(b.querySelector("canvas"), p, PHOTOS[i]);
+    });
+    drawAxis(p, axis, w);
+  }
+
+  function drawAxis(p, svg, w) {
+    svg.replaceChildren();
+    svg.setAttribute("viewBox", "0 0 " + w + " 56");
+    svg.append(svgEl("line", { x1: 0, x2: w, y1: 8, y2: 8, stroke: "currentColor", "stroke-opacity": ".35" }));
+    for (let y = 2008; y <= 2026; y += 2) {
+      const x = tx(y + "-01-01", w);
+      svg.append(svgEl("line", { x1: x, x2: x, y1: 4, y2: 12, stroke: "currentColor", "stroke-opacity": ".35" }));
+    }
+    const marks = [];
+    const evs = p.kind === "C" ? after2008(p.bike_events).map(e => Object.assign({ who: "ours" }, e)).concat(after2008(p.dot_events).map(e => Object.assign({ who: "DOT" }, e))) : after2008(p.bike_events);
+    for (const e of evs) marks.push({ d: e.date, text: (e.who ? e.who + " " : "") + e.date.slice(0, 7) + " " + NAME[e.to], color: "var(--dot)" });
+    if (p.ask_lanes && p.lion_before !== "") {
+      marks.push({ d: "2016-02-15", text: "LION " + p.lion_before + " lanes", color: "var(--lion)" });
+      if (!p.pre_project && p.lion_after !== "") marks.push({ d: "2024-04-29", text: "LION " + p.lion_after, color: "var(--lion)" });
+    }
+    for (const o of svRows) if (/^\d{4}-\d{2}$/.test(o.date)) marks.push({ d: o.date + "-15", text: "SV " + o.date, color: "var(--sv)" });
+    marks.sort((a, b) => a.d < b.d ? -1 : 1);
+    let lastEnd = [-1e9, -1e9];
+    for (const m of marks) {
+      const x = tx(m.d, w);
+      const est = m.text.length * 6;
+      let row = x - est / 2 > lastEnd[0] + 4 ? 0 : 1;
+      if (row === 1 && x - est / 2 <= lastEnd[1] + 4) row = 0;
+      lastEnd[row] = x + est / 2;
+      svg.append(svgEl("circle", { cx: x, cy: 8, r: 4.5, fill: m.color }));
+      const t = svgEl("text", { x: Math.min(Math.max(x, est / 2), w - est / 2), y: 26 + row * 16, "text-anchor": "middle" });
+      t.style.fill = m.color; t.textContent = m.text;
+      svg.append(t);
+    }
+  }
+
+  // correct mode: what this photo shows (travel lanes, bike lane), under the large photo
+  function tagControls(p, ph) {
+    const t = tags[ph.i] || {};
+    const box = el("div", { class: "tagctl" });
+    if (p.ask_lanes) {
+      const out = el("output", { text: t.lanes ?? "–", "aria-live": "polite" });
+      const set = v => { setTag(ph.i, { lanes: v }); out.textContent = v ?? "–"; };
+      const minus = el("button", { type: "button", "aria-label": "Fewer travel lanes in " + ph.y, text: "−" });
+      const plus = el("button", { type: "button", "aria-label": "More travel lanes in " + ph.y, text: "+" });
+      minus.addEventListener("click", () => set(Math.max(0, (tags[ph.i] && tags[ph.i].lanes != null ? tags[ph.i].lanes : 1) - 1)));
+      plus.addEventListener("click", () => set(Math.min(8, (tags[ph.i] && tags[ph.i].lanes != null ? tags[ph.i].lanes : 0) + 1)));
+      box.append(el("span", { text: "Travel lanes" }), el("span", { class: "stepper" }, minus, out, plus));
+      const bus = el("input", { type: "checkbox", checked: !!t.bus, "aria-label": "Bus lane in " + ph.y });
+      bus.addEventListener("change", () => setTag(ph.i, { bus: bus.checked }));
+      box.append(el("label", { class: "chk" }, bus, document.createTextNode("+ bus lane")));
+    }
+    const s = el("select", { "aria-label": "Bike lane in " + ph.y });
+    s.append(el("option", { value: "", text: "bike lane: not tagged" }));
+    for (const [v, txt] of BIKE) s.append(el("option", { value: v, text: "bike lane: " + txt, selected: t.bike === v }));
+    s.addEventListener("change", () => setTag(ph.i, { bike: s.value || null }));
+    const clear = el("button", { type: "button", class: "clear", text: "clear" });
+    clear.addEventListener("click", () => { delete tags[ph.i]; renderItem(); });
+    box.append(s, clear);
+    return box;
+  }
+
+  function setLoc(p, k) {
+    const n = (p.locs || ["middle"]).length;
+    loc = ((k % n) + n) % n; zoom = null;
+    renderItem();
+  }
+  function redrawLarge(p) {
+    document.querySelectorAll(".compare canvas").forEach((cv, k) => {
+      draw(cv, p, PHOTOS[pick[k]], true);
+      cv.style.cursor = zoom ? "zoom-out" : "zoom-in";
+      cv.title = zoom ? "Click to zoom out" : "Click to zoom in here";
+    });
+    const b = $("#f-bright"); if (b) b.checked = bright;
+  }
+
+  function choosePhoto(p, i) {
+    if (pick.includes(i)) return;
+    if (i < pick[0]) pick[0] = i; else if (i > pick[1]) pick[1] = i;
+    else if (i - pick[0] < pick[1] - i) pick[0] = i; else pick[1] = i;
+    renderItem();
+  }
+
+  function buildCompare(p) {
+    const c = el("section", { class: "compare", "aria-label": "Two photos compared" });
+    for (const k of [0, 1]) {
+      const ph = PHOTOS[pick[k]];
+      const canvas = el("canvas", { role: "img", title: zoom ? "Click to zoom out" : "Click to zoom in here", "aria-label": "Aerial photo " + ph.label + " of " + short(p.street) + ", the item's segments in magenta" });
+      canvas.style.cursor = zoom ? "zoom-out" : "zoom-in";
+      canvas.addEventListener("click", ev => {
+        if (zoom) zoom = null;
+        else { const rc = canvas.getBoundingClientRect(); zoom = { cx: (ev.clientX - rc.left) / rc.width * P, cy: (ev.clientY - rc.top) / rc.height * P }; }
+        redrawLarge(p);
+      });
+      c.append(el("div", { class: "ph" }, el("div", { class: "cap" }, ph.label, el("span", { text: k === 0 ? "earlier" : "later" })),
+        mode === "correct" ? tagControls(p, ph) : el("span"), canvas));
+      requestAnimationFrame(() => draw(canvas, p, ph, true));
+    }
+    const bb = el("label", { class: "chk" }, el("input", { type: "checkbox", id: "f-bright", checked: bright }), document.createTextNode("Brighten shadows (B)"));
+    bb.querySelector("input").addEventListener("change", e => { bright = e.target.checked; redrawLarge(p); });
+    const locs = el("span", { class: "locs", role: "group", "aria-label": "Photo location" }, el("span", { class: "lbl", text: "Location (L)" }));
+    (p.locs || ["middle"]).forEach((name, k) => {
+      const b = el("button", { type: "button", class: "btn ghost small", "aria-pressed": k === loc ? "true" : "false", text: k === 0 ? "middle" : short(name) });
+      b.addEventListener("click", () => setLoc(p, k));
+      locs.append(b);
+    });
+    c.append(el("div", { class: "phbar" }, locs, bb, el("span", { class: "hint", text: "Click a photo to zoom both in on that spot (Z resets)." })));
+    return c;
+  }
+
+  // Panel ----
+  function timelineList(evs) {
+    const ul = el("ul", { class: "tl" });
+    const st = startState(evs);
+    ul.append(el("li", {}, el("span", { class: "d", text: "before 2008" }),
+      el("span", { class: "w", text: st ? NAME[st.to] : "no bike lane" }, st ? el("small", { text: st.source + " " + st.date + " · " + PREC[st.precision] }) : null)));
+    for (const e of after2008(evs)) {
+      ul.append(el("li", {}, el("span", { class: "d", text: e.date }),
+        el("span", { class: "w", text: NAME[e.from] + " → " + NAME[e.to] }, el("small", { text: e.source + " · " + PREC[e.precision] + " · " + e.segments + "/" + e.of + " segments" + (e.n > 1 ? " · block by block to " + e.last : "") }))));
+    }
+    return ul;
+  }
+
+  function buildPanel(p, r) {
+    const panel = el("section", { class: "panel", "aria-label": "Decision" });
+    const lanes = laneProposal(p);
+    if (r && mode !== "correct" && editing !== p.item_id) panel.append(buildAnswer(p, r));
+    else if (mode === "correct") panel.append(buildCorrect(p, r, lanes));
+    else {
+      const card = el("div", { class: "card" }, el("div", { class: "q", text: question(p) }));
+      if (p.kind === "C") {
+        card.append(el("div", { class: "lbl", text: "Ours (manual checks before 2020, then DOT)" }), timelineList(p.bike_events),
+          el("div", { class: "lbl", text: "DOT 2026 history" }), timelineList(p.dot_events));
+      } else if (p.item_id !== "M029" || p.bike_events.length) {
+        card.append(el("div", { class: "lbl", text: "Bike lane" }), timelineList(p.bike_events));
+      }
+      if (lanes) {
+        card.append(el("div", { class: "lbl", text: "Travel lanes for cars" }));
+        if (lanes.pre) {
+          const n = el("input", { type: "number", class: "num", id: "f-pre", min: "0", max: "8", inputmode: "numeric", value: lanes.after ?? "" });
+          card.append(el("div", { class: "row" }, el("label", { for: "f-pre", text: "Before the project:" }), n, el("span", { class: "hint", text: "LION's first count (2016), after it: " + (lanes.after ?? "–") })));
+        } else {
+          const nb = el("input", { type: "number", class: "num", id: "f-lb", min: "0", max: "8", inputmode: "numeric", value: lanes.before ?? "" });
+          const na = el("input", { type: "number", class: "num", id: "f-la", min: "0", max: "8", inputmode: "numeric", value: lanes.after ?? "" });
+          card.append(el("div", { class: "row" }, el("label", { for: "f-lb", text: "Before" }), nb, el("label", { for: "f-la", text: "after" }), na,
+            el("span", { class: "hint", text: lanes.with_bike ? "changed with the bike lane (" + lanes.with_bike + ")" : "changed between LION 16a (Feb 2016) and the 24b recount (Apr 2024)" })),
+            el("p", { class: "hint", text: "Pre-filled with LION (" + lanes.before + " → " + lanes.after + "), which is often off: set what you see. Same number twice = no change." }));
+        }
+      }
+      const b = el("div", { class: "btns" });
+      if (p.kind === "C") b.append(button("Ours matches  1", "ok", () => saveConfirmed(p, "ours")), button("DOT matches  2", "ok", () => saveConfirmed(p, "dot")));
+      else if (p.item_id !== "M029") b.append(button("Matches  Y", "ok", () => saveConfirmed(p, "proposal")));
+      b.append(button((p.kind === "C" ? "Neither" : "Doesn't match") + "  N", "ghost", startCorrect));
+      card.append(b, el("span", { class: "saved", id: "saved-line" }));
+      panel.append(card);
+    }
+    panel.append(buildLinks(p), buildNote(r), buildEvidence(p));
+    if (!db || !canWrite) {
+      panel.querySelectorAll(".btn.ok, .btn.save").forEach(x => x.disabled = true);
+      const s = panel.querySelector("#saved-line"); if (s) s.textContent = !db ? "Answers can't be saved in this view: open the page on claude.ai while signed in." : "Read-only: you can't change answers.";
+    }
+    return panel;
+  }
+
+  function button(text, cls, fn) { const b = el("button", { type: "button", class: "btn " + cls, text }); b.addEventListener("click", fn); return b; }
+
+  function buildLinks(p) {
+    const box = el("div", { class: "card" }, el("div", { class: "lbl", text: "Street View (opens a new tab; \"See more dates\" top left)" }));
+    const links = el("div", { class: "links" });
+    [1, 2, 3].forEach(k => { const u = p["streetview_" + k]; if (u) links.append(el("a", { href: u, target: "_blank", rel: "noopener", text: (p["sv_label_" + k] ? "at " + short(p["sv_label_" + k]) : "point " + k) + " ↗" })); });
+    box.append(links, el("p", { class: "hint", text: "Count moving lanes for cars only: not parking, bus-only or bike lanes. Bus lanes have their own tick box." }));
+    return box;
+  }
+  function buildNote(r) {
+    const d = el("details", { class: "card" }, el("summary", { text: "Note" + (r && r.note ? " ·" : "") }));
+    const t = el("textarea", { id: "f-note", placeholder: "Cross streets where it differs, lanes that vary along the item, construction…" });
+    t.value = r ? (r.note || "") : "";
+    d.append(t);
+    if (r && r.note) d.open = true;
+    return d;
+  }
+  function buildEvidence(p) {
+    const ev = EVIDENCE[p.item_id];
+    const n = ev ? ev.presentations.length : 0;
+    const d = el("details", { class: "card" }, el("summary", { text: "DOT records · " + n + " presentation" + (n === 1 ? "" : "s") }));
+    if (!ev) return d;
+    if (ev.report2014.length) d.append(el("p", { class: "hint", text: "DOT 2014 report: " + ev.report2014.map(x => x.from_street + "–" + x.to_street + " installed " + x.install_year).join("; ") }));
+    const ol = el("ol", { class: "pres" });
+    for (const pr of ev.presentations) {
+      const li = el("li", {}, el("span", { class: "pid", text: (pr.presented || "undated") + " " }), el("a", { href: pr.url, target: "_blank", rel: "noopener", text: pr.title + " ↗" }));
+      const all = (pr.lanes || []).map(s => [s, "lane"]).concat(pr.snippets.map(s => [s, ""]));
+      if (all.length) { const q = el("ul", { class: "snips" }); for (const [s, cls] of all) q.append(el("li", { class: cls, text: "p." + s.page + ": " + s.text })); li.append(q); }
+      ol.append(li);
+    }
+    d.append(ol);
+    return d;
+  }
+
+  // Correct mode: tag photos, add Street View panoramas ----
+  function startCorrect() { mode = "correct"; const p = ITEMS.find(x => x.item_id === current); prefillTags(p); renderItem(); }
+  function prefillTags(p) {
+    if (Object.keys(tags).length || svRows.length) return;
+    const r = reviews[p.item_id];
+    if (r && r.verdict === "corrected") { loadCorrection(r); return; }
+    const ev = mainEvent(p.bike_events) || mainEvent(p.dot_events);
+    const l = laneProposal(p);
+    if (ev || l) {
+      const before = { bike: ev ? CLASS_KEY[ev.from] : null, lanes: l ? (l.pre ? null : l.before) : null };
+      const after = { bike: ev ? CLASS_KEY[ev.to] : null, lanes: l ? l.after : null };
+      tags[pick[0]] = before; tags[pick[1]] = after;
+    }
+  }
+  function loadCorrection(r) {
+    for (const o of r.observations || []) {
+      if (o.source === "aerial") { const ph = PHOTOS.find(x => x.y === o.photo); if (ph) tags[ph.i] = { lanes: o.lanes, bus: !!o.bus, bike: o.bike }; }
+      else svRows.push({ date: o.date, lanes: o.lanes, bus: !!o.bus, bike: o.bike });
+    }
+  }
+  function setTag(i, patch) {
+    tags[i] = Object.assign({}, tags[i] || {}, patch, { loc: (ITEMS.find(x => x.item_id === current).locs || ["middle"])[loc] });
+    if (tags[i].lanes == null && !tags[i].bike && !tags[i].bus) delete tags[i];
+    const p = ITEMS.find(x => x.item_id === current);
+    const b = $("#strip").children[i];
+    const old = b.querySelector(".tag"); if (old) old.remove();
+    if (tags[i]) b.append(el("span", { class: "tag", text: badge(tags[i]) }));
+    refreshDerived(p);
+  }
+
+  function observations(p) {
+    const obs = [];
+    for (const [i, t] of Object.entries(tags)) { const ph = PHOTOS[+i]; obs.push({ source: "aerial", photo: ph.y, loc: t.loc || "middle", lo: ph.lo, hi: ph.hi, label: ph.label, lanes: t.lanes ?? null, bus: t.lanes != null || t.bus ? !!t.bus : null, bike: t.bike || null }); }
+    for (const o of svRows) if (/^\d{4}-\d{2}$/.test(o.date)) {
+      const end = new Date(Date.UTC(+o.date.slice(0, 4), +o.date.slice(5, 7), 0)).toISOString().slice(0, 10);
+      obs.push({ source: "streetview", date: o.date, lo: o.date + "-01", hi: end, label: "Street View " + o.date, lanes: o.lanes ?? null, bus: o.lanes != null || o.bus ? !!o.bus : null, bike: o.bike || null });
+    }
+    return obs.sort((a, b) => a.lo < b.lo ? -1 : 1);
+  }
+  // a change lies between two observations; DOT or pipeline days inside that window date it (verified),
+  // else the window is kept and the first observation showing the change is the date
+  function derive(p) {
+    const obs = observations(p);
+    const cands = merged(p.bike_events).concat(merged(p.dot_events));   // a block-by-block change counts from its first day
+    const bike = [], lanes = [];
+    const withBike = obs.filter(o => o.bike), withLanes = obs.filter(o => o.lanes != null);
+    for (let i = 1; i < withBike.length; i++) {
+      const a = withBike[i - 1], b = withBike[i], ca = BIKE_CLASS[a.bike], cb = BIKE_CLASS[b.bike];
+      if (a.bike === b.bike) continue;
+      const hit = cands.filter(e => e.to === cb && e.date > a.hi && e.date <= b.hi).sort((x, y) => x.date < y.date ? -1 : 1)[0];
+      bike.push({ from: ca, to: cb, from_type: a.bike, to_type: b.bike, last_without: a.label, first_with: b.label, window: [a.hi, b.lo],
+                  date: hit ? hit.date : b.lo, precision: hit ? "verified" : "window", source: hit ? hit.source : b.source });
+    }
+    for (let i = 1; i < withLanes.length; i++) {
+      const a = withLanes[i - 1], b = withLanes[i];
+      if (a.lanes === b.lanes) continue;
+      const bc = bike.find(c => c.window[0] < b.hi && c.window[1] > a.lo);
+      lanes.push({ before: a.lanes, after: b.lanes, last_before: a.label, first_after: b.label, window: [a.hi, b.lo],
+                   date: bc ? bc.date : b.lo, precision: bc ? (bc.precision === "verified" ? "verified" : "window") : "window", with_bike: !!bc });
+    }
+    // a bus lane is known wherever the lanes were counted (unticked = none)
+    const bus = [], withBus = obs.filter(o => o.bus != null);
+    for (let i = 1; i < withBus.length; i++) {
+      const a = withBus[i - 1], b = withBus[i];
+      if (a.bus === b.bus) continue;
+      bus.push({ from: a.bus ? "bus lane" : "no bus lane", to: b.bus ? "bus lane" : "no bus lane", last_without: a.label, first_with: b.label, date: b.lo, precision: "window" });
+    }
+    return { obs, bike, lanes, bus };
+  }
+
+  function buildCorrect(p, r, lanes) {
+    const card = el("div", { class: "card" });
+    card.append(el("div", { class: "q", text: "Tag what the photos show" }),
+      el("p", { class: "hint", text: "Under each photo, set the " + (p.ask_lanes ? "travel lanes for cars, tick a bus lane, and the " : "") + "bike lane where you can read them; the two photos around the proposal are pre-filled. Add Street View panoramas below for the gaps between photos." }));
+    const list = el("div", { id: "svlist" });
+    const head = el("div", { class: "svrow" }, el("span", { class: "lbl", text: "Street View (month)" }), el("span", { class: "lbl", text: p.ask_lanes ? "lanes" : "" }),
+      el("span", { class: "lbl", text: p.ask_lanes ? "bus" : "" }), el("span", { class: "lbl", text: "bike lane" }), el("span"));
+    card.append(head, list);
+    const add = button("+ panorama", "ghost small", () => { const last = svRows[svRows.length - 1] || {}; svRows.push({ date: "", lanes: last.lanes ?? null, bus: !!last.bus, bike: last.bike || null }); renderSv(p); });
+    card.append(el("div", { class: "row" }, add));
+    card.append(el("div", { class: "derived", id: "derived" }));
+    const b = el("div", { class: "btns" }, button("Save  S", "save", () => saveCorrected(p)), button("Cancel", "ghost", () => { mode = "view"; tags = {}; svRows = []; renderItem(); }));
+    card.append(b, el("span", { class: "saved", id: "saved-line" }));
+    requestAnimationFrame(() => { renderSv(p); });
+    return card;
+  }
+  function renderSv(p) {
+    const list = $("#svlist"); if (!list) return;
+    list.replaceChildren();
+    svRows.forEach((o, k) => {
+      const d = el("input", { type: "month", min: "2007-01", max: "2026-12", value: o.date || "", "aria-label": "Panorama month" });
+      const n = el("input", { type: "number", min: "0", max: "8", inputmode: "numeric", value: o.lanes ?? "", "aria-label": "Travel lanes", disabled: !p.ask_lanes });
+      const bus = el("input", { type: "checkbox", checked: !!o.bus, "aria-label": "Bus lane", disabled: !p.ask_lanes });
+      bus.addEventListener("change", () => { o.bus = bus.checked; refreshDerived(p); });
+      const s = el("select", { "aria-label": "Bike lane" });
+      s.append(el("option", { value: "", text: "—" }));
+      for (const [v, t] of BIKE) s.append(el("option", { value: v, text: t, selected: o.bike === v }));
+      const x = el("button", { type: "button", "aria-label": "Remove panorama", text: "×" });
+      d.addEventListener("input", () => { o.date = d.value; refreshDerived(p); drawAxis(p, $("#axis"), $("#strip").getBoundingClientRect().width); });
+      n.addEventListener("input", () => { o.lanes = n.value === "" ? null : +n.value; refreshDerived(p); });
+      s.addEventListener("change", () => { o.bike = s.value || null; refreshDerived(p); });
+      x.addEventListener("click", () => { svRows.splice(k, 1); renderSv(p); drawAxis(p, $("#axis"), $("#strip").getBoundingClientRect().width); });
+      list.append(el("div", { class: "svrow" }, d, n, el("span", { class: "chk" }, bus), s, x));
+    });
+    refreshDerived(p);
+  }
+  function refreshDerived(p) {
+    const box = $("#derived"); if (!box) return;
+    const d = derive(p);
+    const out = [];
+    if (d.obs.length < 2) out.push(el("p", { text: "Tag at least two photos or panoramas to bracket a change." }));
+    for (const c of d.bike) out.push(el("p", { text: "Bike lane " + TYPE_NAME[c.from_type] + " → " + TYPE_NAME[c.to_type] + ": between " + c.last_without + " and " + c.first_with + (c.precision === "verified" ? ". " + c.source + " date " + c.date + " falls inside, so it is used." : ". No DOT date inside: the window is kept.") }));
+    for (const c of d.lanes) out.push(el("p", { text: "Travel lanes " + c.before + " → " + c.after + ": between " + c.last_before + " and " + c.first_after + (c.with_bike ? ", with the bike lane (" + c.date + ")." : ".") }));
+    for (const c of d.bus) out.push(el("p", { text: (c.to === "bus lane" ? "Bus lane added" : "Bus lane removed") + ": between " + c.last_without + " and " + c.first_with + "." }));
+    if (d.obs.length >= 2 && !d.bike.length && !d.lanes.length && !d.bus.length) out.push(el("p", { text: "No change between the tagged photos and panoramas." }));
+    box.replaceChildren(...out);
+  }
+
+  // Saving ----
+  const base = p => ({ item_id: p.item_id, kind: p.kind, street: p.street, by: myId || "", saved_at: new Date().toISOString(), note: ($("#f-note") ? $("#f-note").value.trim().slice(0, 2000) : "") });
+  function say(t) { const s = $("#saved-line"); if (s) s.textContent = t; }
+  async function saveConfirmed(p, which) {
+    if (!db || !canWrite) return;
+    const body = base(p), lanes = laneProposal(p);
+    const events = which === "dot" ? p.dot_events : p.bike_events;
+    body.verdict = which === "proposal" ? "confirmed" : "confirmed_" + which;
+    body.observations = [];
+    body.bike_changes = after2008(events).map(e => ({ from: e.from, to: e.to, date: e.date, precision: e.precision === "day" ? "verified" : e.precision, source: e.source }));
+    const st = startState(events); body.start_state = st ? st.to : "none";
+    body.lane_changes = [];
+    if (lanes && lanes.pre) {
+      const v = $("#f-pre").value;
+      if (!/^\d$/.test(v)) { say("Enter the number of travel lanes before the project."); return; }
+      body.lanes_before_project = +v;
+      const ev = mainEvent(p.bike_events);
+      if (+v !== lanes.after) body.lane_changes.push({ before: +v, after: lanes.after, date: ev ? ev.date : "", precision: ev ? "with bike lane" : "unknown", with_bike: !!ev });
+    } else if (lanes) {
+      const vb = $("#f-lb").value, va = $("#f-la").value;
+      if (!/^\d$/.test(vb) || !/^\d$/.test(va)) { say("Enter the travel lanes before and after."); return; }
+      body.lanes_counted = { before: +vb, after: +va, edited: +vb !== lanes.before || +va !== lanes.after };
+      if (+vb !== +va) body.lane_changes.push({ before: +vb, after: +va, date: lanes.with_bike || "", precision: lanes.with_bike ? "with bike lane" : "2016-2024", with_bike: !!lanes.with_bike });
+    }
+    await write(p, body);
+  }
+  async function saveCorrected(p) {
+    if (!db || !canWrite) return;
+    const d = derive(p);
+    if (d.obs.length < 1) { say("Tag at least one photo or add a panorama."); return; }
+    const body = base(p);
+    body.verdict = "corrected";
+    body.observations = d.obs.map(o => ({ source: o.source, photo: o.photo || "", loc: o.loc || "", date: o.date || o.lo.slice(0, 7), lanes: o.lanes, bus: o.bus, bike: o.bike }));
+    body.bus_changes = d.bus;
+    body.bike_changes = d.bike.map(c => ({ from: c.from, to: c.to, from_type: c.from_type, to_type: c.to_type, last_without: c.last_without, first_with: c.first_with, date: c.date, precision: c.precision, source: c.source }));
+    body.lane_changes = d.lanes.map(c => ({ before: c.before, after: c.after, last_before: c.last_before, first_after: c.first_after, date: c.date, precision: c.precision, with_bike: c.with_bike }));
+    const l = laneProposal(p);
+    if (l && l.pre) { const first = d.obs.find(o => o.lanes != null); if (first) body.lanes_before_project = first.lanes; }
+    await write(p, body);
+  }
+  async function write(p, body) {
+    say("Saving…");
+    try {
+      await db.collection(COLLECTION).doc(p.item_id).set(body);
+      reviews[p.item_id] = body;
+      renderProgress();
+      const next = ITEMS.find(x => !isDone(x.item_id) && +x.priority >= +p.priority && x.item_id !== p.item_id) || ITEMS.find(x => !isDone(x.item_id));
+      if (next) go(next.item_id); else { mode = "view"; renderList(); renderItem(); }
+    } catch (e) {
+      if (e && e.code === "invalid_argument") { canWrite = false; say("Your access level doesn't allow saving answers."); }
+      else if (e && e.code === "unavailable") say("The connection dropped. Try saving again.");
+      else say("Couldn't save (" + ((e && e.code) || "error") + ").");
+    }
+  }
+
+  function buildAnswer(p, r) {
+    const card = el("div", { class: "card answer" });
+    const v = { confirmed: "Confirmed: matches", confirmed_ours: "Confirmed: our timeline", confirmed_dot: "Confirmed: DOT's timeline", corrected: "Corrected from photos and panoramas" }[r.verdict] || r.verdict;
+    card.append(el("p", {}, el("strong", { text: v })));
+    for (const c of r.bike_changes || []) card.append(el("p", { text: "Bike lane " + (TYPE_NAME[c.from_type] || NAME[c.from] || c.from) + " → " + (TYPE_NAME[c.to_type] || NAME[c.to] || c.to) + ": " + c.date + " · " + c.precision + (c.last_without ? " (between " + c.last_without + " and " + c.first_with + ")" : "") }));
+    for (const c of r.lane_changes || []) card.append(el("p", { text: "Travel lanes " + c.before + " → " + c.after + ": " + (c.date || "undated") + " · " + c.precision }));
+    for (const c of r.bus_changes || []) card.append(el("p", { text: (c.to === "bus lane" ? "Bus lane added" : "Bus lane removed") + ": " + c.date + " · window (between " + c.last_without + " and " + c.first_with + ")" }));
+    if (r.lanes_counted) card.append(el("p", { text: "Travel lanes counted: " + r.lanes_counted.before + " → " + r.lanes_counted.after + (r.lanes_counted.edited ? "" : " (as LION)") }));
+    if (r.lanes_before_project != null) card.append(el("p", { text: "Travel lanes before the project: " + r.lanes_before_project }));
+    card.append(el("p", { class: "saved", text: "Saved " + new Date(r.saved_at).toLocaleString() + (r.by ? " by " + (names[r.by] || "a reviewer") : "") }));
+    if (needsLaneCheck(p)) card.append(el("p", { class: "lanecheck", text: "The travel lanes in this answer are LION's, not yours. Reopen it, set the lanes you see and confirm again." }));
+    const ch = button(needsLaneCheck(p) ? "Check lane counts" : "Change answer", needsLaneCheck(p) ? "save small" : "ghost small", () => { editing = p.item_id; if (r.verdict === "corrected") startCorrect(); else renderItem(); });
+    ch.disabled = !db || !canWrite;
+    card.append(el("div", { class: "btns" }, ch));
+    return card;
+  }
+
+  // Keys and wiring ----
+  document.addEventListener("keydown", e => {
+    if (typing() || e.ctrlKey || e.metaKey || e.altKey) return;
+    const p = ITEMS.find(x => x.item_id === current); if (!p) return;
+    const k = e.key.toLowerCase();
+    if (k === "b") { bright = !bright; redrawLarge(p); e.preventDefault(); return; }
+    if (k === "z") { zoom = null; redrawLarge(p); e.preventDefault(); return; }
+    if (k === "l") { setLoc(p, loc + 1); e.preventDefault(); return; }
+    if (k === "j") step(1);
+    else if (k === "k") step(-1);
+    else if (mode === "view" && (!reviews[p.item_id] || editing === p.item_id)) {
+      if (k === "y" && p.kind !== "C" && p.item_id !== "M029") saveConfirmed(p, "proposal");
+      else if (k === "1" && p.kind === "C") saveConfirmed(p, "ours");
+      else if (k === "2" && p.kind === "C") saveConfirmed(p, "dot");
+      else if (k === "n") startCorrect();
+      else return;
+    } else if (mode === "correct" && k === "s") saveCorrected(p);
+    else return;
+    e.preventDefault();
+  });
+  document.querySelectorAll(".filters button").forEach(b => b.addEventListener("click", () => {
+    filter = b.dataset.filter;
+    document.querySelectorAll(".filters button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    renderList();
+  }));
+  let rt = null;
+  window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(renderItem, 150); });
+
+  renderProgress(); renderList(); renderItem();
+
+  async function resolveNames() {
+    if (!user) return;
+    const ids = [...new Set(Object.values(reviews).map(r => r && r.by).filter(Boolean))];
+    if (!ids.length) return;
+    try { const ps = await user.profiles(ids); for (const id of ids) names[id] = (ps[id] && ps[id].name) || ""; } catch (e) { /* names stay blank */ }
+  }
+  function setStatus(msg, warn) { const s = $("#status"); s.textContent = msg; s.classList.toggle("warn", !!warn); }
+  (async () => {
+    try { db = await claude.use("db"); user = await claude.use("user"); } catch (e) { db = null; }
+    if (!db) { setStatus("Answers can't load in this view. Open the page on claude.ai while signed in to save answers.", true); renderItem(); return; }
+    if (user) {
+      try { myId = await user.id(); } catch (e) { myId = null; }
+      try { const c = await user.can("data.write"); if (c === false) canWrite = false; } catch (e) {}
+    }
+    setStatus(canWrite ? "Answers are shared with everyone who has access." : "Read-only: you can see the answers but not change them.");
+    db.collection(COLLECTION).onSnapshot(async snap => {
+      const next = {};
+      for (const d of snap.docs) next[d.id] = d.data();
+      reviews = next;
+      await resolveNames();
+      renderProgress(); renderList();
+      if (!typing() && mode === "view") renderItem();
+    }, e => setStatus("Lost the connection to the shared answers. Reload the page to reconnect.", true));
+  })();
+})();
+</script>

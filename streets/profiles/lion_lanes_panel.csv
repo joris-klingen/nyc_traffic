@@ -1,0 +1,16 @@
+column,kind,class,n,na_share,n_distinct,min,q001,q01,q05,q10,q25,median,q75,q90,q95,q99,q999,max,mean,sd,whole,nchar_min,nchar_max,id_pattern,example,values_kept,values_share
+SegmentID,integer,integer,1000000,0,147692,11,254,2324,10533,20952,53378,111502,173884,301392,9002316,9008100,9014691,9024302,702180.3,2208210,TRUE,,,,,,
+SegmentTyp,character,character,1000000,0,9,,,,,,,,,,,,,,,,,1,1,alnum,U,9,1
+boro,integer,integer,1000000,0,5,1,1,1,1,1,2,4,4,5,5,5,5,5,3.28686,1.18971,TRUE,,,,,5,1
+Street,character,character,1000000,0,9140,,,,,,,,,,,,,,,,,4,32,alnum,CANTER AVENUE,400,0.421653
+FeatureTyp,character,character,1000000,0,6,,,,,,,,,,,,,,,,,1,1,digits,0,6,1
+RW_TYPE,character,character,1000000,0,1,,,,,,,,,,,,,,,,,1,1,digits,1,1,1
+TrafDir,character,character,1000000,0,5,,,,,,,,,,,,,,,,,0,1,alnum,T,5,1
+trav,numeric,numeric,1000000,0.307881,11,1,1,1,1,1,1,2,2,3,4,4,6,16,1.754717,0.913749,TRUE,,,,,11,1
+park,numeric,numeric,1000000,0.454019,3,1,1,1,1,1,2,2,2,2,2,2,2,4,1.803944,0.39798,TRUE,,,,,3,1
+tot,numeric,numeric,1000000,0.308138,11,1,1,1,1,2,3,3,4,4,6,6,7,16,3.178804,1.07775,TRUE,,,,,11,1
+width_min,numeric,numeric,1000000,0.355979,92,0,0,14,20,24,30,30,40,50,60,70,80,300,35.16421,11.4628,TRUE,,,,,,
+width_max,numeric,numeric,1000000,0.356676,128,0,8,16,22,26,30,34,44,54,62,74,108,300,37.72409,12.7202,TRUE,,,,,,
+bikelane,character,character,1000000,0,12,,,,,,,,,,,,,,,,,0,2,alnum,"",12,1
+release,character,character,1000000,0,57,,,,,,,,,,,,,,,,,3,3,hex,12a,57,1
+release_date,Date,Date,1000000,0,57,2012-05-04,2012-05-04,2012-05-04,2013-01-04,2013-09-24,2015-11-06,2019-08-20,2023-04-28,2025-05-12,2026-02-25,2026-08-10,2026-08-10,2026-08-10,2019-07-13,1528.01,TRUE,,,,,,

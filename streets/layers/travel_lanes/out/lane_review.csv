@@ -1,0 +1,103 @@
+street,segments,cases,lanes,pre2016
+1 AVENUE,187,"constant, decrease_dated_by_facility, review_decrease_no_facility",5->4 5->5 4->4 3->2 6->4 2->2,115
+2 AVENUE,66,"constant, review_decrease_no_facility, review_increase_with_facility",3->4 4->4 4->3 5->4 2->2,54
+WEST DRIVE,54,"constant, decrease_dated_by_carfree",2->1 2->2,54
+COLUMBUS AVENUE,43,constant,3->3,43
+9 AVENUE,34,"constant, correction_increase, review_decrease_no_facility",4->4 4->5 3->2,33
+WEST END AVENUE,25,review_decrease_no_facility,4->2 4->3,0
+10 AVENUE,25,review_decrease_no_facility,4->3 4->2,0
+CLINTON STREET,22,"constant, review_decrease_no_facility",1->1 2->2 2->1,22
+HUDSON STREET,19,"constant, review_decrease_no_facility",2->2 3->2,19
+BROADWAY,16,review_decrease_no_facility,2->1 4->1 4->2 4->3,0
+ANDES ROAD,15,constant,1->1,15
+LAFAYETTE STREET,15,constant,2->2,15
+8 AVENUE,13,"constant, review_decrease_no_facility",4->3 4->4,5
+COMFORT ROAD,10,constant,1->1,10
+7 AVENUE,10,"review_decrease_no_facility, review_increase_with_facility",4->3 2->4 3->5,0
+AMSTERDAM AVENUE,9,"review_decrease_no_facility, review_increase_with_facility",2->3 4->3 4->2,1
+HAY ROAD,8,constant,2->2 1->1,8
+BARRY ROAD,8,constant,1->1,8
+ALLEN STREET,8,review_decrease_no_facility,3->2,0
+SHERMAN AVENUE,8,review_decrease_no_facility,4->2 4->3,0
+ADAM CLAYTON POWELL JR BOULEVARD,8,review_decrease_no_facility,3->2,0
+CLAYTON ROAD,7,constant,1->1,7
+CRAIG ROAD NORTH,7,constant,1->1,7
+GRAND STREET,7,review_increase_with_facility,2->3,0
+WEST 43 STREET,7,review_decrease_no_facility,2->1,0
+MADISON AVENUE,7,review_decrease_no_facility,3->2,0
+EAST 120 STREET,7,review_decrease_no_facility,2->1,0
+EAST 13 STREET,7,review_increase_with_facility,1->2,0
+CRAIG ROAD SOUTH,6,constant,1->1,6
+WHEELER AVENUE,6,constant,1->1,6
+FORT GEORGE HILL,6,constant,2->2,6
+EAST HOUSTON STREET,6,review_increase_with_facility,2->3 1->2,0
+EVANS ROAD,5,constant,1->1,5
+MORNINGSIDE AVENUE,5,review_decrease_no_facility,4->3 4->2,0
+EDGECOMBE AVENUE,5,constant,2->2,5
+RIVERSIDE DRIVE WEST,5,review_decrease_no_facility,4->3,0
+4 AVENUE,4,constant,3->3,4
+WEST 79 STREET,4,constant,2->2,4
+RIVERSIDE DRIVE,4,review_decrease_no_facility,4->2,0
+WEST 170 STREET,4,constant,2->2 1->1,4
+CENTRAL PARK ENTRANCE E 102 ST,4,review_decrease_no_facility,2->1,0
+LENOX AVENUE,4,constant,2->2,4
+WARREN STREET,4,review_decrease_no_facility,2->1,0
+ST NICHOLAS AVENUE,4,review_decrease_no_facility,2->1,0
+EAST 10 STREET,3,review_decrease_no_facility,2->1,0
+WEST 44 STREET,3,review_decrease_no_facility,2->1,0
+WEST 187 STREET,3,review_decrease_no_facility,2->1,0
+WEST 190 STREET,3,review_decrease_no_facility,2->1,0
+CENTRAL PARK LENOX AVE ACCESS RD,3,constant,1->1 2->2,3
+WEST 158 STREET,3,constant,2->2,3
+WEST 54 STREET,3,review_decrease_no_facility,2->1,0
+WEST 34 STREET,3,review_decrease_no_facility,4->2,0
+CENTRAL PARK EXIT POWELL BLVD,3,"correction_increase, review_increase_with_facility",2->3,2
+WEST 106 STREET,3,review_decrease_no_facility,4->2,0
+WEST 33 STREET,3,review_decrease_no_facility,2->1,0
+EAST 106 STREET,3,review_decrease_no_facility,4->2,0
+KING AVENUE,2,constant,2->2 1->1,2
+OWASCO ROAD,2,constant,1->1 2->2,2
+TAMPA ROAD,2,constant,1->1,2
+GOLD STREET,2,review_increase_with_facility,1->2,0
+CHAMBERS STREET,2,review_decrease_no_facility,3->2,0
+WASHINGTON SQUARE SOUTH,2,constant,1->1,2
+EAST 11 STREET,2,review_decrease_no_facility,2->1,0
+EAST 59 STREET,2,review_decrease_no_facility,2->1,2
+CHERRY HILL PATH,2,review_decrease_no_facility,2->1,0
+WEST 177 STREET,2,constant,1->1,2
+SHORT AVENUE,2,constant,1->1,2
+COOPER SQUARE,2,review_decrease_no_facility,2->1,0
+3 AVENUE,2,review_decrease_no_facility,4->3,0
+DELANCEY STREET,2,review_decrease_no_facility,4->2 4->3,0
+FRANKLIN D ROOSEVELT DRIVE,2,review_decrease_no_facility,2->1,0
+CENTRAL PARK EN POWELL BLVD,2,constant,1->1,2
+SPRING STREET,2,constant,2->2,2
+CENTRAL PARK ENTRANCE W 85 ST,2,constant,2->2,2
+NAGLE AVENUE,2,review_other,2->2,0
+CANAL STREET,2,review_decrease_no_facility,3->2,0
+WEST 46 STREET,2,review_decrease_no_facility,2->1,0
+CARTIGAN ROAD,1,constant,1->1,1
+EARLYBIRD ROAD,1,constant,1->1,1
+KIMBALL ROAD,1,constant,1->1,1
+FERRY LINE ROAD,1,constant,2->2,1
+GREENWICH STREET,1,review_decrease_no_facility,3->2,0
+AVENUE OF THE AMERICAS,1,review_increase_with_facility,2->3,0
+HORATIO STREET,1,review_increase_with_facility,1->2,0
+5 AVENUE,1,review_decrease_no_facility,4->3,0
+EAST 37 STREET,1,constant,2->2,1
+CPW 72 APPROACH,1,constant,3->3,1
+EAST 126 STREET,1,review_increase_with_facility,1->3,0
+WEST 185 STREET,1,review_decrease_no_facility,2->1,0
+FORT GEORGE AVENUE,1,constant,2->2,1
+EAST 52 STREET,1,review_increase_with_facility,1->2,0
+MORRIS STREET,1,review_decrease_no_facility,2->1,0
+SUFFOLK STREET,1,review_decrease_no_facility,2->1,0
+WEST 126 STREET,1,review_decrease_no_facility,2->1,0
+3 DRIVE,1,review_decrease_no_facility,2->1,0
+WILLIS AVENUE BRIDGE APPROACH,1,constant,4->4,1
+NORTH END AVENUE,1,review_decrease_no_facility,3->2,0
+EAST 2 STREET,1,review_decrease_no_facility,2->1,0
+FT GEORGE HILL,1,constant,2->2,1
+PEARL STREET,1,review_increase_with_facility,1->3,0
+ENRIGHT ROAD,1,constant,1->1,1
+CENTRAL PARK EXIT WEST 72 ST,1,constant,3->3,1

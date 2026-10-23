@@ -1,0 +1,13 @@
+column,rank,value,share
+time_window,1,1,0.481145
+time_window,2,2,0.458132
+time_window,3,3,0.0570538
+time_window,4,4,0.00366979
+tf_facilit,1,Standard,0.42459
+tf_facilit,2,Protected,0.399679
+tf_facilit,3,Sharrows,0.175731
+ft_facilit,1,Standard,0.417864
+ft_facilit,2,Protected,0.405847
+ft_facilit,3,Sharrows,0.176289
+key_status,1,current,0.972973
+key_status,2,continued,0.0270265

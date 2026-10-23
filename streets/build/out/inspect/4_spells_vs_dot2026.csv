@@ -1,0 +1,21 @@
+borough,spells,Protected,Sharrows,Standard,not in DOT 2026,other
+Manhattan,Protected,3259,1,258,2,0
+Manhattan,Sharrows,0,717,0,0,0
+Manhattan,Standard,86,1,1390,0,150
+Manhattan,none,4,353,0,150,0
+Bronx,Protected,1461,0,320,16,0
+Bronx,Sharrows,0,507,0,0,0
+Bronx,Standard,128,0,1858,0,109
+Bronx,none,0,88,0,82,0
+Brooklyn,Protected,1600,0,322,0,0
+Brooklyn,Sharrows,0,1034,0,0,0
+Brooklyn,Standard,104,2,2899,0,26
+Brooklyn,none,4,403,0,157,0
+Queens,Protected,1849,0,392,0,0
+Queens,Sharrows,0,1117,0,0,0
+Queens,Standard,188,0,2149,0,51
+Queens,none,10,170,0,71,0
+Staten Island,Protected,296,0,159,0,0
+Staten Island,Sharrows,0,279,0,0,0
+Staten Island,Standard,240,0,288,0,2
+Staten Island,none,0,20,0,12,0

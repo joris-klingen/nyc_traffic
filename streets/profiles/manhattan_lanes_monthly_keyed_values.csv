@@ -1,0 +1,16 @@
+column,rank,value,share
+lanes,1,1,0.386719
+lanes,2,2,0.349169
+lanes,3,4,0.146679
+lanes,4,3,0.09709
+lanes,5,5,0.017224
+lanes,6,6,0.002591
+lanes,7,7,0.000528
+lanes_flag,1,"",0.967843
+lanes_flag,2,undated,0.032157
+n_sources,1,1,0.990176
+n_sources,2,2,0.009158
+n_sources,3,3,0.000487
+n_sources,4,4,0.000133
+n_sources,5,5,4.5e-05
+n_sources,6,6,1e-06

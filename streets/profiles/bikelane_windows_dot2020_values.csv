@@ -1,0 +1,10 @@
+column,rank,value,share
+time_window,1,1,0.478592
+time_window,2,2,0.476913
+time_window,3,3,0.0444951
+tf_facilit,1,Standard,0.462692
+tf_facilit,2,Protected,0.352246
+tf_facilit,3,Sharrows,0.185063
+ft_facilit,1,Standard,0.461538
+ft_facilit,2,Protected,0.360227
+ft_facilit,3,Sharrows,0.178235

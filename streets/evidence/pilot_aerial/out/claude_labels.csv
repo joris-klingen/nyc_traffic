@@ -1,0 +1,31 @@
+pilot_id,y2008,y2010,y2012,y2014,y2016,y2018,y2020,y2022,y2024,first_protected_year,note
+P01,N?,?,N,?,?,P,?,P,P,2018,parking-protected lane on left curb from 2018; trees in leaf hide 2014-2016
+P02,C?,C?,N?,N?,C?,?,P,P,P,2020,green lane with parking buffer on right from 2020
+P03,N?,?,?,?,?,?,P?,P,?,2020,shadows/trees; hatched buffer on right in 2020-2022
+P04,N,N,N,P,P,P,P,P,P,2014,green buffered lane on left curb from 2014; parking-protected by 2018
+P05,?,?,?,?,?,C?,?,?,?,,narrow street under trees and shadow; undecidable
+P06,N?,N?,N?,N?,N?,P,P,P,P?,2018,separated strip along park side from 2018
+P07,P,P,P,P,P,P,P,P,P,before 2008,waterfront greenway path visible all years
+P08,?,?,?,?,?,?,?,?,?,,narrow street in shadow; undecidable
+P09,C,C,C,C,C,P,P,P,P,2018,bike stencils 2008-2016; green lane with parking buffer on right from 2018
+P10,?,?,?,?,?,?,?,?,?,,Queensboro Bridge truss; lane hidden under structure
+P11,?,?,?,?,?,?,?,?,?,,narrow tree-lined street; undecidable
+P12,P,P,P,P,P,P,P,P,P,before 2008,bridge with central path visible all years
+P13,N?,N?,N?,N?,N?,?,?,?,?,,Midtown avenue; no green lane 2008-2016; deep shadow from 2018
+P14,P?,P?,?,?,?,P,?,?,?,before 2008?,green strip on right curb 2008-2010 and with parking buffer 2018; trees/shadow otherwise
+P15,P,P,P,P,P,P,P,P,P,before 2008,Hudson River Greenway separated path all years (rebuilt 2018-2020)
+P16,N?,N?,N?,N?,?,?,?,?,?,,narrow Midtown street mostly in shadow; no lane where visible
+P17,?,?,P?,?,?,P,?,?,?,before 2012?,park path under trees; visible 2012 and 2018
+P18,N?,N?,N?,N?,N?,?,?,?,?,,trees then construction then shadow
+P19,N,N,P,P,P,P,?,?,?,2012,bus lane only 2008-2010; hatched buffered lane on left from 2012; green with parking buffer 2018
+P20,P?,P?,P?,P?,P?,P?,P?,P?,P?,before 2008?,highway along river; narrow waterside strip all years (esplanade?)
+P21,P,P,P,P,P,P,P,P,P,before 2008,wide waterfront path all years (rebuilt ~2014)
+P22,?,?,?,?,?,C?,?,?,?,,tree-lined residential street; painted line visible only 2018
+P23,N,N,N,N,N,P,P,P,P,2018,boulevard; buffered lane next to median from 2018
+P24,?,N?,N?,N?,N?,P,P,P,P,2018,park drive; plain road before 2018; marked buffered lanes from 2018
+P25,?,?,?,?,?,P,P,P,P,2018?,park drive under trees before 2018; marked buffered lanes from 2018
+P26,P?,P?,P?,P?,P?,P?,P?,P?,P?,before 2008?,highway with parallel strip all years (riverside greenway?)
+P27,?,?,?,?,?,C?,?,?,?,,industrial street mostly in shadow; possible painted lane 2018
+P28,N,N,N,N,N,P,P,?,?,2018,no lane 2008-2016; green lane with hatched buffer on right from 2018
+P29,P,P,P,P,P,P,P,P,P,before 2008,park paths visible all years; construction 2020
+P30,N,N,N,N,N,P?,P,P,P,2020,no lane 2008-2016; buffered lane along park side faint 2018 clear from 2020

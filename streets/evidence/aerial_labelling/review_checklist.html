@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bike lane date review</title>
+<style>
+  :root { --bg: #fafaf8; --fg: #1d1d1b; --muted: #6b6b66; --card: #fff; --line: #e3e3de; --p1: #c2410c; --p2: #2563eb; --p3: #6b7280; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #161615; --fg: #ececea; --muted: #a3a39e; --card: #1f1f1e; --line: #333331; } }
+  body { background: var(--bg); color: var(--fg); font: 15px/1.5 system-ui, sans-serif; margin: 0 auto; max-width: 1000px; padding: 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-left: 5px solid var(--p3); border-radius: 6px; padding: 12px 16px; margin: 16px 0; }
+  .card.p1 { border-left-color: var(--p1); } .card.p2 { border-left-color: var(--p2); }
+  h2 { font-size: 1.1rem; margin: 0 0 8px; } .tag { color: var(--muted); font-weight: normal; font-size: .85rem; }
+  table { border-collapse: collapse; font-size: .9rem; } th { text-align: left; color: var(--muted); font-weight: normal; padding-right: 6px; } td { padding-right: 18px; }
+  .what { margin: 8px 0; } .links a { margin-right: 12px; }
+  img { width: 100%; height: auto; border-radius: 4px; margin-top: 6px; }
+</style></head><body>
+<h1>Bike lane installation dates: Street View review</h1>
+<p>36 Manhattan projects where the aerial photos (2008&ndash;2024, every two years, flown in spring) conflict with the
+pipeline or DOT date. For each: open the Street View links, use <em>See more dates</em> to step back in time, find the first
+panorama with the protected lane, and record <code>protected_from</code> (YYYY-MM), <code>before_type</code> (none / conventional /
+buffered), <code>confidence</code> (high / medium / low) and a note in <code>out/review_checklist.csv</code>.
+Magenta lines on the photos mark the project segments.</p>
+
+<section class="card p1">
+  <h2>M056 &middot; AVENUE OF THE AMERICAS <span class="tag">priority 1 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>25</td><th>pipeline date</th><td>1978-07-01</td><th>DOT 2026 date</th><td>2016-11-12</td></tr>
+    <tr><th>aerial window</th><td colspan="5">2018-05 .. 2024-05 &middot; <em>wide avenue; no lane to 2018; green protected lane on left 2024</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.736355,-73.997575&amp;heading=28&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.740735,-73.994375&amp;heading=28&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.744055,-73.991970&amp;heading=28&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M056.jpg" target="_blank"><img src="out/review_sheets/M056.jpg" alt="aerial photos M056" loading="lazy"></a>
+</section>
+<section class="card p1">
+  <h2>M087 &middot; COLUMBUS AVENUE <span class="tag">priority 1 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>24</td><th>pipeline date</th><td>2010-08-01</td><th>DOT 2026 date</th><td>&ndash;</td></tr>
+    <tr><th>aerial window</th><td colspan="5">no protection seen &middot; <em>residential street; hatched buffer on right from 2012; no green or protected lane</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.784220,-73.973830&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.788105,-73.970990&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.789930,-73.969660&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M087.jpg" target="_blank"><img src="out/review_sheets/M087.jpg" alt="aerial photos M087" loading="lazy"></a>
+</section>
+<section class="card p1">
+  <h2>M052 &middot; AMSTERDAM AVENUE <span class="tag">priority 1 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>23</td><th>pipeline date</th><td>2019-09-17</td><th>DOT 2026 date</th><td>2019-09-17</td></tr>
+    <tr><th>aerial window</th><td colspan="5">2020-05 .. 2024-05 &middot; <em>wide avenue; no lane to 2020; shadow 2022; green lane with buffer on left 2024</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.772150,-73.986345&amp;heading=31&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.772895,-73.985800&amp;heading=31&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.773310,-73.985495&amp;heading=31&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M052.jpg" target="_blank"><img src="out/review_sheets/M052.jpg" alt="aerial photos M052" loading="lazy"></a>
+</section>
+<section class="card p1">
+  <h2>M101 &middot; HUDSON STREET <span class="tag">priority 1 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>17</td><th>pipeline date</th><td>2014-07-09</td><th>DOT 2026 date</th><td>2014-07-09</td></tr>
+    <tr><th>aerial window</th><td colspan="5">no protection seen &middot; <em>residential avenue; no bike lane visible; construction 2022</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.731310,-74.006680&amp;heading=7&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.734090,-74.006235&amp;heading=7&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.737845,-74.005640&amp;heading=7&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M101.jpg" target="_blank"><img src="out/review_sheets/M101.jpg" alt="aerial photos M101" loading="lazy"></a>
+</section>
+<section class="card p1">
+  <h2>M013 &middot; 11 AVENUE <span class="tag">priority 1 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>15</td><th>pipeline date</th><td>2019-10-25</td><th>DOT 2026 date</th><td>2019-10-25</td></tr>
+    <tr><th>aerial window</th><td colspan="5">2020-05 .. 2022-05 &middot; <em>hatched centre median only to 2020; green lane with parking buffer on left from 2022</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.763065,-73.996685&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.765565,-73.994860&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.767445,-73.993490&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M013.jpg" target="_blank"><img src="out/review_sheets/M013.jpg" alt="aerial photos M013" loading="lazy"></a>
+</section>
+<section class="card p1">
+  <h2>M106 &middot; LAFAYETTE STREET <span class="tag">priority 1 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>13</td><th>pipeline date</th><td>2023-07-16</td><th>DOT 2026 date</th><td>2023-07-17</td></tr>
+    <tr><th>aerial window</th><td colspan="5">no protection seen &middot; <em>narrow street; parking both sides; no bike lane any year</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.716455,-74.002320&amp;heading=35&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.717740,-74.001165&amp;heading=35&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.720550,-73.998630&amp;heading=35&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M106.jpg" target="_blank"><img src="out/review_sheets/M106.jpg" alt="aerial photos M106" loading="lazy"></a>
+</section>
+<section class="card p1">
+  <h2>M093 &middot; DYCKMAN STREET <span class="tag">priority 1 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>10</td><th>pipeline date</th><td>2017-12-21</td><th>DOT 2026 date</th><td>&ndash;</td></tr>
+    <tr><th>aerial window</th><td colspan="5">no protection seen &middot; <em>intersection under elevated rail; green lane markings from 2020</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.861020,-73.924375&amp;heading=333&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.861575,-73.924730&amp;heading=333&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.863075,-73.925690&amp;heading=333&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M093.jpg" target="_blank"><img src="out/review_sheets/M093.jpg" alt="aerial photos M093" loading="lazy"></a>
+</section>
+<section class="card p1">
+  <h2>M077 &middot; CENTRAL PARK WEST <span class="tag">priority 1 &middot; claim too late</span></h2>
+  <table>
+    <tr><th>segments</th><td>25</td><th>pipeline date</th><td>2020-10-01</td><th>DOT 2026 date</th><td>&ndash;</td></tr>
+    <tr><th>aerial window</th><td colspan="5">2016-05 .. 2020-05 &middot; <em>avenue along park; lane next to park from 2018-2022 (trees)</em></td></tr>
+  </table>
+  <p class="what">A buffered/protected lane is visible before the claimed date. Find when protection first appeared and what was there before (buffered paint vs physical protection).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.784950,-73.969585&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.789420,-73.966325&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.796900,-73.960865&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M077.jpg" target="_blank"><img src="out/review_sheets/M077.jpg" alt="aerial photos M077" loading="lazy"></a>
+</section>
+<section class="card p1">
+  <h2>M076 &middot; CENTRAL PARK WEST <span class="tag">priority 1 &middot; claim too late</span></h2>
+  <table>
+    <tr><th>segments</th><td>17</td><th>pipeline date</th><td>2019-08-19</td><th>DOT 2026 date</th><td>&ndash;</td></tr>
+    <tr><th>aerial window</th><td colspan="5">2016-05 .. 2018-05 &middot; <em>avenue along park; parking both sides to 2016; buffered lane next to park from 2018</em></td></tr>
+  </table>
+  <p class="what">A buffered/protected lane is visible before the claimed date. Find when protection first appeared and what was there before (buffered paint vs physical protection).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.770845,-73.979880&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.773345,-73.978055&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.776560,-73.975710&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M076.jpg" target="_blank"><img src="out/review_sheets/M076.jpg" alt="aerial photos M076" loading="lazy"></a>
+</section>
+<section class="card p1">
+  <h2>M010 &middot; 1 AVENUE <span class="tag">priority 1 &middot; claim too late</span></h2>
+  <table>
+    <tr><th>segments</th><td>16</td><th>pipeline date</th><td>2024-10-04</td><th>DOT 2026 date</th><td>&ndash;</td></tr>
+    <tr><th>aerial window</th><td colspan="5">2010-05 .. 2018-05 &middot; <em>hatched area on left 2012-2016 (buffered lane?); green with parking buffer from 2018</em></td></tr>
+  </table>
+  <p class="what">A buffered/protected lane is visible before the claimed date. Find when protection first appeared and what was there before (buffered paint vs physical protection).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.749190,-73.969615&amp;heading=30&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.751085,-73.968250&amp;heading=30&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.751825,-73.967715&amp;heading=30&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M010.jpg" target="_blank"><img src="out/review_sheets/M010.jpg" alt="aerial photos M010" loading="lazy"></a>
+</section>
+<section class="card p1">
+  <h2>M043 &middot; 8 AVENUE <span class="tag">priority 1 &middot; claim too late</span></h2>
+  <table>
+    <tr><th>segments</th><td>13</td><th>pipeline date</th><td>2012-07-06</td><th>DOT 2026 date</th><td>2012-07-06</td></tr>
+    <tr><th>aerial window</th><td colspan="5">2008-05 .. 2012-05 &middot; <em>green lane on left curb 2012; buffered lane 2016-2018; mostly shadow</em></td></tr>
+  </table>
+  <p class="what">A buffered/protected lane is visible before the claimed date. Find when protection first appeared and what was there before (buffered paint vs physical protection).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.759475,-73.988160&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.761350,-73.986790&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.763855,-73.984960&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M043.jpg" target="_blank"><img src="out/review_sheets/M043.jpg" alt="aerial photos M043" loading="lazy"></a>
+</section>
+<section class="card p1">
+  <h2>M003 &middot; 1 AVENUE <span class="tag">priority 1 &middot; claim too late</span></h2>
+  <table>
+    <tr><th>segments</th><td>11</td><th>pipeline date</th><td>2012-06-11</td><th>DOT 2026 date</th><td>2012-06-11</td></tr>
+    <tr><th>aerial window</th><td colspan="5">2010-05 .. 2012-05 &middot; <em>bus lane only 2008-2010; hatched buffered lane on left from 2012; 2022 image missing</em></td></tr>
+  </table>
+  <p class="what">A buffered/protected lane is visible before the claimed date. Find when protection first appeared and what was there before (buffered paint vs physical protection).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.762425,-73.959915&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.764305,-73.958550&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.765555,-73.957640&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M003.jpg" target="_blank"><img src="out/review_sheets/M003.jpg" alt="aerial photos M003" loading="lazy"></a>
+</section>
+<section class="card p2">
+  <h2>M088 &middot; COLUMBUS AVENUE <span class="tag">priority 2 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>9</td><th>pipeline date</th><td>2013-09-25</td><th>DOT 2026 date</th><td>2013-09-25</td></tr>
+    <tr><th>aerial window</th><td colspan="5">no protection seen &middot; <em>avenue with parking both sides; no bike lane any year</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.776420,-73.979515&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.777755,-73.978545&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.779680,-73.977135&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M088.jpg" target="_blank"><img src="out/review_sheets/M088.jpg" alt="aerial photos M088" loading="lazy"></a>
+</section>
+<section class="card p2">
+  <h2>M124 &middot; WILLIS AVENUE BRIDGE APPROACH <span class="tag">priority 2 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>5</td><th>pipeline date</th><td>2014-07-02</td><th>DOT 2026 date</th><td>&ndash;</td></tr>
+    <tr><th>aerial window</th><td colspan="5">no protection seen &middot; <em>highway ramp / bridge approach area; no bike lane visible</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.801875,-73.931110&amp;heading=30&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.802020,-73.931005&amp;heading=30&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.802760,-73.930330&amp;heading=30&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M124.jpg" target="_blank"><img src="out/review_sheets/M124.jpg" alt="aerial photos M124" loading="lazy"></a>
+</section>
+<section class="card p2">
+  <h2>M007 &middot; 1 AVENUE <span class="tag">priority 2 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>3</td><th>pipeline date</th><td>2013-10-18</td><th>DOT 2026 date</th><td>2016-10-06</td></tr>
+    <tr><th>aerial window</th><td colspan="5">2016-05 .. 2018-05 &middot; <em>under overpass; no lane 2008-2016 (construction 2016); green buffered lane on left from 2018</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.801220,-73.931595&amp;heading=30&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.801480,-73.931405&amp;heading=30&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a></p>
+  <a href="out/review_sheets/M007.jpg" target="_blank"><img src="out/review_sheets/M007.jpg" alt="aerial photos M007" loading="lazy"></a>
+</section>
+<section class="card p2">
+  <h2>M016 &middot; 12 AVENUE <span class="tag">priority 2 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>2</td><th>pipeline date</th><td>2017-08-01</td><th>DOT 2026 date</th><td>&ndash;</td></tr>
+    <tr><th>aerial window</th><td colspan="5">no protection seen &middot; <em>industrial avenue; parking both sides; no bike lane any year</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.819070,-73.959545&amp;heading=28&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.819695,-73.959095&amp;heading=28&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a></p>
+  <a href="out/review_sheets/M016.jpg" target="_blank"><img src="out/review_sheets/M016.jpg" alt="aerial photos M016" loading="lazy"></a>
+</section>
+<section class="card p2">
+  <h2>M090 &middot; COLUMBUS AVENUE <span class="tag">priority 2 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>2</td><th>pipeline date</th><td>2015-10-01</td><th>DOT 2026 date</th><td>2015-10-01</td></tr>
+    <tr><th>aerial window</th><td colspan="5">no protection seen &middot; <em>tree-lined street; hatched buffer on right 2020-2022; no green or protected lane</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.774540,-73.980885&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.775165,-73.980430&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a></p>
+  <a href="out/review_sheets/M090.jpg" target="_blank"><img src="out/review_sheets/M090.jpg" alt="aerial photos M090" loading="lazy"></a>
+</section>
+<section class="card p2">
+  <h2>M110 &middot; ST NICHOLAS AVENUE <span class="tag">priority 2 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>2</td><th>pipeline date</th><td>1996-04-01</td><th>DOT 2026 date</th><td>2010-08-01</td></tr>
+    <tr><th>aerial window</th><td colspan="5">2010-05 .. 2024-05 &middot; <em>complex diagonal intersection; plaza from 2012; green lane on right visible 2016-2018 and 2024</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.835935,-73.939920&amp;heading=351&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.836515,-73.940025&amp;heading=351&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a></p>
+  <a href="out/review_sheets/M110.jpg" target="_blank"><img src="out/review_sheets/M110.jpg" alt="aerial photos M110" loading="lazy"></a>
+</section>
+<section class="card p2">
+  <h2>M115 &middot; UNION SQUARE WEST <span class="tag">priority 2 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>2</td><th>pipeline date</th><td>&ndash;</td><th>DOT 2026 date</th><td>2019-11-18</td></tr>
+    <tr><th>aerial window</th><td colspan="5">no protection seen &middot; <em>street next to large plaza/market; no bike lane visible</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.735555,-73.991460&amp;heading=28&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.736830,-73.990540&amp;heading=28&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a></p>
+  <a href="out/review_sheets/M115.jpg" target="_blank"><img src="out/review_sheets/M115.jpg" alt="aerial photos M115" loading="lazy"></a>
+</section>
+<section class="card p2">
+  <h2>M029 &middot; 3 AVENUE <span class="tag">priority 2 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>1</td><th>pipeline date</th><td>&ndash;</td><th>DOT 2026 date</th><td>2019-08-28</td></tr>
+    <tr><th>aerial window</th><td colspan="5">no protection seen &middot; <em>heavy shadow; no lane visible where readable</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.744135,-73.979285&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a></p>
+  <a href="out/review_sheets/M029.jpg" target="_blank"><img src="out/review_sheets/M029.jpg" alt="aerial photos M029" loading="lazy"></a>
+</section>
+<section class="card p2">
+  <h2>M031 &middot; 4 AVENUE <span class="tag">priority 2 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>1</td><th>pipeline date</th><td>2014-10-01</td><th>DOT 2026 date</th><td>2014-10-01</td></tr>
+    <tr><th>aerial window</th><td colspan="5">2016-05 .. 2018-05 &middot; <em>no lane to 2016; green lane with parking buffer on left from 2018</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.731645,-73.990300&amp;heading=11&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a></p>
+  <a href="out/review_sheets/M031.jpg" target="_blank"><img src="out/review_sheets/M031.jpg" alt="aerial photos M031" loading="lazy"></a>
+</section>
+<section class="card p2">
+  <h2>M068 &middot; BROADWAY <span class="tag">priority 2 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>1</td><th>pipeline date</th><td>2021-10-21</td><th>DOT 2026 date</th><td>2008-07-17</td></tr>
+    <tr><th>aerial window</th><td colspan="5">2012-05 .. 2022-05 &middot; <em>Broadway plaza segment; green lane through plaza 2022-2024</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.753965,-73.986980&amp;heading=13&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a></p>
+  <a href="out/review_sheets/M068.jpg" target="_blank"><img src="out/review_sheets/M068.jpg" alt="aerial photos M068" loading="lazy"></a>
+</section>
+<section class="card p2">
+  <h2>M104 &middot; LAFAYETTE STREET <span class="tag">priority 2 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>1</td><th>pipeline date</th><td>2014-10-01</td><th>DOT 2026 date</th><td>2014-10-01</td></tr>
+    <tr><th>aerial window</th><td colspan="5">2016-05 .. 2018-05 &middot; <em>avenue next to plaza/park; green protected path on left from 2018</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.730955,-73.990515&amp;heading=16&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a></p>
+  <a href="out/review_sheets/M104.jpg" target="_blank"><img src="out/review_sheets/M104.jpg" alt="aerial photos M104" loading="lazy"></a>
+</section>
+<section class="card p2">
+  <h2>M111 &middot; ST NICHOLAS AVENUE <span class="tag">priority 2 &middot; claim too early</span></h2>
+  <table>
+    <tr><th>segments</th><td>1</td><th>pipeline date</th><td>&ndash;</td><th>DOT 2026 date</th><td>2015-06-10</td></tr>
+    <tr><th>aerial window</th><td colspan="5">no protection seen &middot; <em>complex diagonal intersection; crosswalk redesigns only; no bike lane visible</em></td></tr>
+  </table>
+  <p class="what">Photos show no lane after the claimed date. Check whether protection existed at the claimed date (note: unpainted parking-protected lanes are easy to miss from the air).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.856990,-73.928250&amp;heading=5&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a></p>
+  <a href="out/review_sheets/M111.jpg" target="_blank"><img src="out/review_sheets/M111.jpg" alt="aerial photos M111" loading="lazy"></a>
+</section>
+<section class="card p2">
+  <h2>M091 &middot; COLUMBUS AVENUE <span class="tag">priority 2 &middot; claim too late</span></h2>
+  <table>
+    <tr><th>segments</th><td>8</td><th>pipeline date</th><td>2016-11-23</td><th>DOT 2026 date</th><td>&ndash;</td></tr>
+    <tr><th>aerial window</th><td colspan="5"><2008-05 .. 2010-05 &middot; <em>riverside greenway path alongside avenue from 2010 (construction 2008); avenue itself no lane</em></td></tr>
+  </table>
+  <p class="what">A buffered/protected lane is visible before the claimed date. Find when protection first appeared and what was there before (buffered paint vs physical protection).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.770165,-73.984085&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.771410,-73.983190&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.772470,-73.982410&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M091.jpg" target="_blank"><img src="out/review_sheets/M091.jpg" alt="aerial photos M091" loading="lazy"></a>
+</section>
+<section class="card p2">
+  <h2>M026 &middot; 2 AVENUE <span class="tag">priority 2 &middot; claim too late</span></h2>
+  <table>
+    <tr><th>segments</th><td>5</td><th>pipeline date</th><td>2018-12-24</td><th>DOT 2026 date</th><td>&ndash;</td></tr>
+    <tr><th>aerial window</th><td colspan="5">2016-05 .. 2018-05 &middot; <em>construction 2012-2016; parking-protected lane on right from 2018</em></td></tr>
+  </table>
+  <p class="what">A buffered/protected lane is visible before the claimed date. Find when protection first appeared and what was there before (buffered paint vs physical protection).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.766555,-73.960005&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.767805,-73.959090&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.769140,-73.958115&amp;heading=29&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M026.jpg" target="_blank"><img src="out/review_sheets/M026.jpg" alt="aerial photos M026" loading="lazy"></a>
+</section>
+<section class="card p2">
+  <h2>M116 &middot; VARICK STREET <span class="tag">priority 2 &middot; claim too late</span></h2>
+  <table>
+    <tr><th>segments</th><td>5</td><th>pipeline date</th><td>2023-09-12</td><th>DOT 2026 date</th><td>2023-09-13</td></tr>
+    <tr><th>aerial window</th><td colspan="5">2020-05 .. 2022-05 &middot; <em>avenue next to plaza parking; green protected lane on right 2022-2024</em></td></tr>
+  </table>
+  <p class="what">A buffered/protected lane is visible before the claimed date. Find when protection first appeared and what was there before (buffered paint vs physical protection).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.719455,-74.006875&amp;heading=7&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.720110,-74.006750&amp;heading=7&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.721275,-74.006550&amp;heading=7&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M116.jpg" target="_blank"><img src="out/review_sheets/M116.jpg" alt="aerial photos M116" loading="lazy"></a>
+</section>
+<section class="card p2">
+  <h2>M084 &middot; CLEVELAND PLACE <span class="tag">priority 2 &middot; claim too late</span></h2>
+  <table>
+    <tr><th>segments</th><td>1</td><th>pipeline date</th><td>2023-07-16</td><th>DOT 2026 date</th><td>2023-07-17</td></tr>
+    <tr><th>aerial window</th><td colspan="5">2014-05 .. 2018-05 &middot; <em>diagonal avenue with median plaza; bike corral/lane in median from 2016; separated path 2024</em></td></tr>
+  </table>
+  <p class="what">A buffered/protected lane is visible before the claimed date. Find when protection first appeared and what was there before (buffered paint vs physical protection).</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.721875,-73.997260&amp;heading=14&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a></p>
+  <a href="out/review_sheets/M084.jpg" target="_blank"><img src="out/review_sheets/M084.jpg" alt="aerial photos M084" loading="lazy"></a>
+</section>
+<section class="card p3">
+  <h2>M074 &middot; CENTRAL PARK LENOX AVENUE APPR <span class="tag">priority 3 &middot; park drive definition</span></h2>
+  <table>
+    <tr><th>segments</th><td>7</td><th>pipeline date</th><td>2018-06-27</td><th>DOT 2026 date</th><td>2018-06-27</td></tr>
+    <tr><th>aerial window</th><td colspan="5"><2008-05 .. 2012-05 &middot; <em>park drive junction; marked lanes; construction 2022-2024</em></td></tr>
+  </table>
+  <p class="what">Park drive: decision taken (2026-10-11) to date protection from the car-free date. Only confirm the car-free date for this section.</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.798040,-73.952590&amp;heading=237&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.798110,-73.954000&amp;heading=237&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.798125,-73.952455&amp;heading=237&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M074.jpg" target="_blank"><img src="out/review_sheets/M074.jpg" alt="aerial photos M074" loading="lazy"></a>
+</section>
+<section class="card p3">
+  <h2>M119 &middot; WEST DRIVE <span class="tag">priority 3 &middot; park drive definition</span></h2>
+  <table>
+    <tr><th>segments</th><td>6</td><th>pipeline date</th><td>2012-09-15</td><th>DOT 2026 date</th><td>&ndash;</td></tr>
+    <tr><th>aerial window</th><td colspan="5"><2008-05 .. 2008-05 &middot; <em>Central Park drive with marked bike lane all years; redesigned car-free lanes 2018</em></td></tr>
+  </table>
+  <p class="what">Park drive: decision taken (2026-10-11) to date protection from the car-free date. Only confirm the car-free date for this section.</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.786895,-73.967110&amp;heading=43&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.787860,-73.966710&amp;heading=43&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.788150,-73.966275&amp;heading=43&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M119.jpg" target="_blank"><img src="out/review_sheets/M119.jpg" alt="aerial photos M119" loading="lazy"></a>
+</section>
+<section class="card p3">
+  <h2>M121 &middot; WEST DRIVE <span class="tag">priority 3 &middot; park drive definition</span></h2>
+  <table>
+    <tr><th>segments</th><td>6</td><th>pipeline date</th><td>2018-06-27</td><th>DOT 2026 date</th><td>&ndash;</td></tr>
+    <tr><th>aerial window</th><td colspan="5"><2008-05 .. 2008-05 &middot; <em>park drive with buffered bike lane all years</em></td></tr>
+  </table>
+  <p class="what">Park drive: decision taken (2026-10-11) to date protection from the car-free date. Only confirm the car-free date for this section.</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.768350,-73.979405&amp;heading=24&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.769425,-73.979845&amp;heading=24&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.769985,-73.979350&amp;heading=24&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M121.jpg" target="_blank"><img src="out/review_sheets/M121.jpg" alt="aerial photos M121" loading="lazy"></a>
+</section>
+<section class="card p3">
+  <h2>M073 &middot; CENTER DRIVE <span class="tag">priority 3 &middot; park drive definition</span></h2>
+  <table>
+    <tr><th>segments</th><td>4</td><th>pipeline date</th><td>2019-06-27</td><th>DOT 2026 date</th><td>2019-06-27</td></tr>
+    <tr><th>aerial window</th><td colspan="5"><2008-05 .. 2008-05 &middot; <em>Central Park drive with marked bike/ped lanes all years (car-free change not visible)</em></td></tr>
+  </table>
+  <p class="what">Park drive: decision taken (2026-10-11) to date protection from the car-free date. Only confirm the car-free date for this section.</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.767225,-73.977085&amp;heading=123&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.767355,-73.977785&amp;heading=123&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.767550,-73.978295&amp;heading=123&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M073.jpg" target="_blank"><img src="out/review_sheets/M073.jpg" alt="aerial photos M073" loading="lazy"></a>
+</section>
+<section class="card p3">
+  <h2>M075 &middot; CENTRAL PARK POWELL BLVD APPR <span class="tag">priority 3 &middot; park drive definition</span></h2>
+  <table>
+    <tr><th>segments</th><td>4</td><th>pipeline date</th><td>2018-06-27</td><th>DOT 2026 date</th><td>2018-06-27</td></tr>
+    <tr><th>aerial window</th><td colspan="5"><2008-05 .. 2014-05 &middot; <em>park drive near park edge; marked bike lane on drive from 2010-2014; trees early years</em></td></tr>
+  </table>
+  <p class="what">Park drive: decision taken (2026-10-11) to date protection from the car-free date. Only confirm the car-free date for this section.</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.799030,-73.955265&amp;heading=101&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.799265,-73.955845&amp;heading=101&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.799335,-73.955270&amp;heading=101&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M075.jpg" target="_blank"><img src="out/review_sheets/M075.jpg" alt="aerial photos M075" loading="lazy"></a>
+</section>
+<section class="card p3">
+  <h2>M118 &middot; WEST DRIVE <span class="tag">priority 3 &middot; park drive definition</span></h2>
+  <table>
+    <tr><th>segments</th><td>4</td><th>pipeline date</th><td>2012-09-15</td><th>DOT 2026 date</th><td>&ndash;</td></tr>
+    <tr><th>aerial window</th><td colspan="5"><2008-05 .. 2008-05 &middot; <em>Central Park drive with marked bike lane all years; road diet with bike and runner lanes 2018-2020</em></td></tr>
+  </table>
+  <p class="what">Park drive: decision taken (2026-10-11) to date protection from the car-free date. Only confirm the car-free date for this section.</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.776415,-73.974060&amp;heading=23&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.777345,-73.974110&amp;heading=23&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.777885,-73.973555&amp;heading=23&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 3</a></p>
+  <a href="out/review_sheets/M118.jpg" target="_blank"><img src="out/review_sheets/M118.jpg" alt="aerial photos M118" loading="lazy"></a>
+</section>
+<section class="card p3">
+  <h2>M092 &middot; CPW 85 APPROACH <span class="tag">priority 3 &middot; park drive definition</span></h2>
+  <table>
+    <tr><th>segments</th><td>2</td><th>pipeline date</th><td>2018-06-27</td><th>DOT 2026 date</th><td>2018-06-27</td></tr>
+    <tr><th>aerial window</th><td colspan="5"><2008-05 .. 2018-05 &middot; <em>park drive curve with separate path; trees early years</em></td></tr>
+  </table>
+  <p class="what">Park drive: decision taken (2026-10-11) to date protection from the car-free date. Only confirm the car-free date for this section.</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.783865,-73.969145&amp;heading=138&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.784330,-73.969500&amp;heading=138&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a></p>
+  <a href="out/review_sheets/M092.jpg" target="_blank"><img src="out/review_sheets/M092.jpg" alt="aerial photos M092" loading="lazy"></a>
+</section>
+<section class="card p3">
+  <h2>M122 &middot; WEST DRIVE <span class="tag">priority 3 &middot; park drive definition</span></h2>
+  <table>
+    <tr><th>segments</th><td>2</td><th>pipeline date</th><td>2012-07-09</td><th>DOT 2026 date</th><td>2018-06-27</td></tr>
+    <tr><th>aerial window</th><td colspan="5"><2008-05 .. 2014-05 &middot; <em>park drive; plain two-lane road to 2012; buffered bike lane from 2014</em></td></tr>
+  </table>
+  <p class="what">Park drive: decision taken (2026-10-11) to date protection from the car-free date. Only confirm the car-free date for this section.</p>
+  <p class="links">Street View along the project: <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.775345,-73.975475&amp;heading=178&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 1</a> <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.775895,-73.975530&amp;heading=178&amp;pitch=-10&amp;fov=90" target="_blank" rel="noopener">view 2</a></p>
+  <a href="out/review_sheets/M122.jpg" target="_blank"><img src="out/review_sheets/M122.jpg" alt="aerial photos M122" loading="lazy"></a>
+</section>
+</body></html>

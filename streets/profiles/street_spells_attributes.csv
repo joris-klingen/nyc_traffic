@@ -1,0 +1,10 @@
+attribute,side,source,keys_share,spells_per_key,changed_share,first_from,priority,precision
+bike_lane,ft,bike_lanes,0.137223,1.80234,0.723297,1908-01-08,1,open|day|month|year|verified
+bike_lane,tf,bike_lanes,0.137223,1.79109,0.708827,1908-01-08,1,open|day|month|year|verified
+in_lion,both,lion,1,1.0007,0.000702434,2012-08-17,1,open|release
+parking_lanes,both,lion,0.575929,1.02103,0.020955,2016-02-25,2,release
+street_width,both,lion,0.726355,1.01729,0.0171635,2016-11-10,2,release
+total_lanes,both,lion,0.726322,1.2201,0.21894,2016-02-25,2,release
+traffic_dir,both,lion,0.787008,1.0837,0.0781567,2012-05-04,2,release
+travel_lanes,both,lion,0.726521,1.19849,0.197648,2016-02-25,2,release
+travel_lanes,both,manhattan_lane_panel,0.0781637,1.07253,0.0638975,2012-07-01,1,month|undated
