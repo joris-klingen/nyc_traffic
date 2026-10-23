@@ -1,6 +1,6 @@
 # Simulated truck routes
 #
-# Real data: streets/traffic_rules/New_York_City_Truck_Routes_20261014.geojson, read with
+# Real data: street_layout/traffic_rules/New_York_City_Truck_Routes_20261014.geojson, read with
 # sf::st_read(nyc_latest('truck_routes')); 32,939 rows, returned as sf with MULTILINESTRING
 # geometry (EPSG 4326).
 # Designated truck routes: one line per segment with the route type (local, through, limited).

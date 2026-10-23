@@ -1,6 +1,6 @@
 # Simulated bus lanes
 #
-# Real data: streets/bus_lanes/Bus_Lanes_Local_Streets_20261014.geojson, read with
+# Real data: street_layout/bus_lanes/Bus_Lanes_Local_Streets_20261014.geojson, read with
 # sf::st_read(nyc_latest('bus_lanes')); 4,068 rows, returned as sf with MULTILINESTRING
 # geometry (EPSG 4326).
 # DOT bus lanes on local streets: one line per bus lane segment with street, from / to street,

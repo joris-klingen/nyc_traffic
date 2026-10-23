@@ -1,6 +1,6 @@
 # Simulated lpi signals
 #
-# Real data: streets/signals/VZV_Leading_Pedestrian_Interval_Signals_20261014.csv, read with
+# Real data: street_layout/signals/VZV_Leading_Pedestrian_Interval_Signals_20261014.csv, read with
 # data.table::fread(nyc_latest('lpi_signals')); 6,803 rows, returned as a data.table with POINT
 # geometry as WKT text in the_geom.
 # Leading pedestrian interval signals: one point per intersection with the install date (WKT

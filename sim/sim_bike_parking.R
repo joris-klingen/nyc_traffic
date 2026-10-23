@@ -1,6 +1,6 @@
 # Simulated bike parking
 #
-# Real data: streets/bike_parking/Bicycle_Parking_20261014.csv, read with
+# Real data: street_layout/bike_parking/Bicycle_Parking_20261014.csv, read with
 # data.table::fread(nyc_latest('bike_parking')); 38,107 rows, returned as a data.table.
 # Bicycle parking racks: one row per site with rack type, number of racks, install date and
 # location.

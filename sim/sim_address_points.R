@@ -1,6 +1,6 @@
 # Simulated address points
 #
-# Real data: streets/address_points/AddressPoint_YYYYMMDD.csv (~970k building addresses), read
+# Real data: street_layout/address_points/AddressPoint_YYYYMMDD.csv (~970k building addresses), read
 # with address_points_read(): borough (MANHATTAN ... STATEN ISLAND), b5sc (borough + 5-digit
 # street code, shared by all names of a street), street (full street name), hn_lo, hn_hi (house
 # number range; Queens "137-70" becomes 137070), parity (0 even side, 1 odd), longitude, latitude.

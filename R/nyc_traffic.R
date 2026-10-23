@@ -366,7 +366,7 @@ lion_gdb <- function(zip = nyc_latest("lion")) {
 # Quarterly LION releases on disk with their release date (newest file date inside the zip)
 lion_releases <- function() {
   stopifnot(requireNamespace("data.table", quietly = TRUE))
-  dir <- file.path(nyc_data_root(), "streets", "lion")
+  dir <- file.path(nyc_data_root(), "street_layout", "lion")
   f <- list.files(dir, pattern = "^(nyc_lion|nyclion_)[0-9]{2}[a-d]\\.zip$", full.names = TRUE)
   r <- data.table::data.table(release = sub("^(nyc_lion|nyclion_)([0-9]{2}[a-d])\\.zip$", "\\2", basename(f)), file = f)
   r[, release_date := as.Date(vapply(file, function(z) format(max(utils::unzip(z, list = TRUE)$Date)), character(1)))]

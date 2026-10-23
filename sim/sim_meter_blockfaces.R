@@ -1,6 +1,6 @@
 # Simulated meter blockfaces
 #
-# Real data: streets/parking/Parking_Meters_ParkNYC_Block_Faces_20261014.geojson, read with
+# Real data: street_layout/parking/Parking_Meters_ParkNYC_Block_Faces_20261014.geojson, read with
 # sf::st_read(nyc_latest('meter_blockfaces')); 11,185 rows, returned as sf with MULTILINESTRING
 # geometry (EPSG 4326).
 # ParkNYC metered block faces: one line per block face with its rate zone, rates and hours.

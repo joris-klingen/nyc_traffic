@@ -1,6 +1,6 @@
 # Simulated ped space added
 #
-# Real data: streets/public_space/Pedestrian_Space_Added_20261014.csv, read with
+# Real data: street_layout/public_space/Pedestrian_Space_Added_20261014.csv, read with
 # data.table::fread(nyc_latest('ped_space_added')); 757 rows, returned as a data.table.
 # Pedestrian space added by DOT per year (a short table).
 # Columns: Project Title, City FY, Total Former Roadbed Space (profiles/ped_space_added.csv).

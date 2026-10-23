@@ -1,6 +1,6 @@
 # Simulated LION street centerlines
 #
-# Real data: streets/lion/nyclion_*.zip / nyc_lion*.zip (57 quarterly releases 2012-2026 and a
+# Real data: street_layout/lion/nyclion_*.zip / nyc_lion*.zip (57 quarterly releases 2012-2026 and a
 # current snapshot), read with lion_read() (centerlines: FeatureTyp 0, 6, A, C on the generic and
 # both-roadbed layers; 165,139 segments citywide in 26c), sf in EPSG 2263 with SegmentID, Street,
 # StreetCode, LBoro, FeatureTyp, RB_Layer, RW_TYPE, TrafDir (T two-way, W with, A against the

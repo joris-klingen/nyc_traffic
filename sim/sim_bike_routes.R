@@ -1,6 +1,6 @@
 # Simulated DOT bike routes
 #
-# Real data: streets/bike_routes/New York City Bike Routes_YYYYMMDD.geojson (29,682 rows in 2026),
+# Real data: street_layout/bike_routes/New York City Bike Routes_YYYYMMDD.geojson (29,682 rows in 2026),
 # read with bike_routes_read(): sf in EPSG 2263, one row per bike route segment version since the
 # 2025 release (status Current or Retired, ret_date, bikeid, prevbikeid): segmentid (LION
 # SegmentID, integer), street, fromstreet, tostreet, boro, facilitycl (I protected, II

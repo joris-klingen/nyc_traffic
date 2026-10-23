@@ -1,6 +1,6 @@
 # Simulated neighborhood slow zones
 #
-# Real data: streets/traffic_rules/VZV_Neighborhood_Slow_Zones_20261014.geojson, read with
+# Real data: street_layout/traffic_rules/VZV_Neighborhood_Slow_Zones_20261014.geojson, read with
 # sf::st_read(nyc_latest('neighborhood_slow_zones')); 28 rows, returned as sf with MULTIPOLYGON
 # geometry (EPSG 4326).
 # Vision Zero neighborhood slow zones: 20 mph zones as polygons, with the year they were set

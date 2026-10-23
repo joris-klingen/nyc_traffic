@@ -1,6 +1,6 @@
 # Simulated street network changes
 #
-# Real data: streets/traffic_rules/Street_Network_Changes_Historical_20261014.csv, read with
+# Real data: street_layout/traffic_rules/Street_Network_Changes_Historical_20261014.csv, read with
 # data.table::fread(nyc_latest('street_network_changes')); 281 rows, returned as a data.table.
 # Historical street network changes: renamed, opened and closed streets with their dates.
 # Columns: On Street, From St, To Street, Completion Date, Type of Change, New Direction, Boro,

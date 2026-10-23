@@ -240,7 +240,7 @@ sources$lion <- function() {
   x <- lion_read()
   all_cols <- names(sf::st_read(lion_gdb(nyc_latest("lion")), quiet = TRUE, query = "SELECT * FROM lion WHERE 1 = 0"))
   run_profile("lion", x, reader = "lion_read() (centerlines, default columns)", files = rel(nyc_latest("lion")),
-              notes = paste("LION street segments in EPSG 2263; 57 quarterly releases in streets/lion (lion_releases(), nyc_lion_for_date()).",
+              notes = paste("LION street segments in EPSG 2263; 57 quarterly releases in street_layout/lion (lion_releases(), nyc_lion_for_date()).",
                             "All columns of the lion layer:", paste(all_cols, collapse = " ")))
 }
 sources$lion_releases <- function() {

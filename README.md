@@ -175,7 +175,7 @@ nyc_traffic_data/
     reference/             NYC_vehicle_lookup_table.csv: vehicle type code -> class (Car, SUV, Taxi, Van, Truck,
                            Bus, Motorcycle, Scooter, Bike, Other, Unknown) for every code in the data; Source hand (2020)
                            or rule (scripts/31_vehicle_lookup.R); the 2020 table as *.superseded_20261016.csv
-  streets/
+  street_layout/           (raw current-state street layout; renamed from streets/ 2026-10-23)
     lion/                  quarterly releases nyc_lion12a.zip ... nyc_lion16d.zip, nyclion_17a.zip ...
                            nyclion_26c.zip; current snapshot nyclion_YYYYMMDD.zip;
                            nyc_lion15b.corrupt_20200630.zip (a damaged download, kept). Read the zips

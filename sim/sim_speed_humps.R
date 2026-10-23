@@ -1,6 +1,6 @@
 # Simulated speed humps
 #
-# Real data: streets/calming/VZV_Speed_Humps_20261014.geojson, read with
+# Real data: street_layout/calming/VZV_Speed_Humps_20261014.geojson, read with
 # sf::st_read(nyc_latest('speed_humps')); 4,383 rows, returned as sf with MULTILINESTRING
 # geometry (EPSG 4326).
 # Vision Zero speed humps: one line per hump segment with street and install date.
